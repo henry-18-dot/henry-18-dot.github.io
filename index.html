@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f5fa">
+  <meta name="description" content="以听记为例，从账号、部署、数据流、费用、管理到维护，讲清怎样用 AI 从零上线网站。">
+  <title>从零用 AI 上线一个网站</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow">开发者一站式指南 · 2026-09-13</p>
+      <h1>从零用 AI 上线一个网站</h1>
+      <p class="lead">以课堂录音笔记网站“听记”为例，串起账号、部署、数据、费用、管理和长期维护。代码可以交给 AI，账号、验证和付款仍由项目负责人掌握。</p>
+      <div class="hero-actions">
+        <a class="download-link" href="从零用AI上线网站-公开版.md" download>下载公开版 Markdown</a>
+        <p class="online-note">正文离线可读；外部平台与价格来源链接需联网打开。</p>
+      </div>
+      <nav class="toc" aria-label="章节目录">
+        <h2>章节目录</h2>
+        <ol><li><a href="#section-1">1. 需要哪些账号，钱充在哪里</a></li>
+<li><a href="#section-2">2. 让 AI 按什么顺序搭建</a></li>
+<li><a href="#section-3">3. 一次录音怎样流动，哪里开始扣费</a></li>
+<li><a href="#section-4">4. 看懂一笔费用</a></li>
+<li><a href="#section-5">5. 做到什么程度才交给朋友</a></li>
+<li><a href="#section-6">6. 作为管理者，去哪里看整个网站</a></li>
+<li><a href="#section-7">7. 用户数据怎样管</a></li>
+<li><a href="#section-8">8. 出问题时，按链路定位</a></li>
+<li><a href="#section-9">9. 从开发到长期维护，还要想清楚什么</a></li>
+<li><a href="#section-10">10. 换一个 AI 继续开发</a></li></ol>
+      </nav>
+    </div>
+  </header>
+  <main class="page-shell">
+    <article class="article"><p>以「听记」为例：用户上传课堂录音，网站调用火山引擎转写、DeepSeek 整理，最后下载笔记。代码和部署可以交给 AI；账号归你，验证和付款由你完成。上线后，服务运行在云端，不依赖你的电脑。</p>
+<p>本文按 2026-09-13 的项目和价格说明。现有网站是 <a href="https://tingji-henry.vercel.app">听记</a>，修改它时，项目交接说明随代码保存。</p>
+<h2 id="section-1">1. 需要哪些账号，钱充在哪里</h2>
+<div class="table-wrap" role="region" aria-label="表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>账号</th>
+<th>用来做什么</th>
+<th>开通、付款与设置</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AI 编程工具</td>
+<td>写代码、调试、部署</td>
+<td>使用你选择的工具及套餐。这笔开发费用与网站运行时的 API 费用分开。</td>
+</tr>
+<tr>
+<td><a href="https://vercel.com/">Vercel</a></td>
+<td>发布网页，提供访问网址</td>
+<td>创建项目；本例使用免费 Hobby。需要付费升级时，在团队的 Settings → Billing 操作。</td>
+</tr>
+<tr>
+<td><a href="https://console.volcengine.com/">火山引擎</a></td>
+<td>云服务器 ECS、文件桶 TOS、语音识别 ASR</td>
+<td>一个账号，分别开通三个产品；按平台要求完成实名。在费用中心充值、看余额和账单；在对应产品控制台购买、续费或查看资源包。</td>
+</tr>
+<tr>
+<td><a href="https://platform.deepseek.com/">DeepSeek 开放平台</a></td>
+<td>把转写文字整理成笔记</td>
+<td>创建 API Key，在开放平台充值并查看用量。聊天网页或其他 AI 工具的会员不能代替这里的 API 余额。</td>
+</tr>
+<tr>
+<td>发信邮箱</td>
+<td>发送注册验证和找回密码邮件</td>
+<td>本例复用学校邮箱，开启 SMTP，并生成客户端专用密码。朋友只需能接收邮件。</td>
+</tr>
+<tr>
+<td><a href="https://github.com/">GitHub</a>（可选）</td>
+<td>保存代码版本，方便回退和协作</td>
+<td>可从私有仓库开始。本项目当前由本地代码通过 CLI 发布，尚未接入 GitHub 自动部署。</td>
+</tr>
+</tbody></table></div>
+<p>Hobby 适用于个人、非商业用途，免费额度也有上限；超限可能暂停相关功能，商业用途应另选合适套餐。<a href="https://vercel.com/docs/plans/hobby">Vercel 方案说明</a></p>
+<p>目前不用另外买域名，也不用租 GPU。网页使用 Vercel 提供的网址，AI 运算由 API 服务商完成。朋友无需注册火山、DeepSeek 或 Vercel，也无需拿到你的密钥。</p>
+<p><strong>充值不等于购买服务。</strong> 火山账户现金余额用于付款；语音资源包只抵扣它指定的服务。DeepSeek 是另一套余额。忘记钱充到哪里时，查账户余额、订单和资源包，不要重复充值。</p>
+<h2 id="section-2">2. 让 AI 按什么顺序搭建</h2>
+<p>先说清用户、流程、费用承担者和完成条件。例如：</p>
+<blockquote>
+<p>做一个学生录音笔记网站。学校邮箱验证后注册，每人有独立课程、提示词和笔记。上传后由云端继续转写、整理，支持下载。所有费用由站长承担。先用短录音跑通注册到下载，再完善界面。提供部署说明和下一位 AI 能接手的项目文件。</p>
+</blockquote>
+<p>接着按下表完成配置。AI 可以准备配置、执行部署和检查；你负责登录、扫码、动态验证码及付款。</p>
+<div class="table-wrap" role="region" aria-label="表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>环节</th>
+<th>需要设置什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>云服务器</td>
+<td>选地区和配置；本例是香港 Ubuntu、2 核 4 GB。AI 安装 Docker，部署后端、后台任务、数据库和 HTTPS；开放网页端口，限制管理入口，数据库不开放公网。</td>
+</tr>
+<tr>
+<td>TOS 文件桶</td>
+<td>创建私有桶，配置访问凭据；跨域规则只允许正式网站上传。浏览器领取短时上传许可，不能拿到桶密钥。</td>
+</tr>
+<tr>
+<td>火山语音</td>
+<td>开通代码实际调用的语音产品，配置对应凭据、服务权限和可用额度；标准版、极速版和不同资源包不能混用。</td>
+</tr>
+<tr>
+<td>DeepSeek</td>
+<td>把 API Key 和模型名交给服务器运行配置；确认开放平台有余额。</td>
+</tr>
+<tr>
+<td>邮箱</td>
+<td>设置 SMTP 地址、端口、发件账号和客户端专用密码；本例为 <code>smtp.exmail.qq.com:465</code>，使用加密连接。</td>
+</tr>
+<tr>
+<td>网站连接</td>
+<td>Vercel 发布前端，把 <code>/api/</code> 请求转发到云服务器；正式网址、后端允许的网址、邮箱验证链接和 TOS 跨域设置保持一致。</td>
+</tr>
+<tr>
+<td>数据与维护</td>
+<td>数据库存账号、课程、笔记和任务；TOS 存录音。分别设置备份、保留时间、续费和余额提醒。</td>
+</tr>
+</tbody></table></div>
+<p>密钥留在服务器的运行配置中，不写进网页、公开仓库或操作文档。看到 Vercel 的 <strong>Authorize Device</strong>，是在给部署工具登录授权；核对当前 AI 提供的代码后操作，它本身不是购买服务器。</p>
+<p>本例邮箱曾出现「登录成功，但发信被拒绝」：学校要求微信安全登录，改用生成的客户端专用密码后才恢复。判断邮件能否发出，要实际发送并确认收到，不能只看配置已保存或邮箱登录成功。</p>
+<h2 id="section-3">3. 一次录音怎样流动，哪里开始扣费</h2>
+<p><strong>浏览器上传 → TOS 存录音 → 云端后台处理 → 火山返回文字 → DeepSeek 返回笔记 → 网页查看、下载。</strong></p>
+
+<figure class="flow-figure" aria-labelledby="flow-title">
+  <h3 id="flow-title">数据与费用流转</h3>
+  <p class="flow-intro">数据沿箭头向右流动；浅棕标签标出主要计费位置。</p>
+  <div class="flow-grid">
+    <div class="flow-step"><span class="flow-number">01</span><strong>浏览器</strong><p>登录、选择课程并领取短时上传许可。</p><span class="cost-tag">网页与服务器</span></div>
+    <div class="flow-step"><span class="flow-number">02</span><strong>TOS</strong><p>浏览器把录音直接上传到私有文件桶。</p><span class="cost-tag">存储、请求、流量</span></div>
+    <div class="flow-step"><span class="flow-number">03</span><strong>云端 worker</strong><p>确认文件、转换音频并保存后台任务。</p><span class="cost-tag">服务器运行</span></div>
+    <div class="flow-step"><span class="flow-number">04</span><strong>火山 ASR</strong><p>同一个异步任务持续查询，返回转写原文。</p><span class="cost-tag">按音频时长</span></div>
+    <div class="flow-step"><span class="flow-number">05</span><strong>DeepSeek</strong><p>原文与提示词生成结构化课堂笔记。</p><span class="cost-tag">输入、输出 token</span></div>
+    <div class="flow-step"><span class="flow-number">06</span><strong>数据库与网页</strong><p>保存原文和笔记，供查看与下载。</p><span class="cost-tag">存储与访问流量</span></div>
+  </div>
+  <figcaption>网页确认任务进入队列后可以关闭浏览器；重新整理只再次产生大模型费用，不会重复转写。</figcaption>
+</figure>
+<div class="table-wrap" role="region" aria-label="表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>步骤</th>
+<th>实际发生的事</th>
+<th>费用归属</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. 登录、选课程</td>
+<td>浏览器打开 Vercel 网页，后端核验账号并读取课程</td>
+<td>网页与服务器用量；尚未调用语音或大模型。</td>
+</tr>
+<tr>
+<td>2. 上传录音</td>
+<td>后端发放短时许可，浏览器直接把录音传到 TOS</td>
+<td>TOS 存储和请求费；大文件不经过 Vercel 中转。</td>
+</tr>
+<tr>
+<td>3. 确认上传</td>
+<td>后端检查文件并保存后台任务；worker 下载录音、转换音频，再存入 TOS</td>
+<td>服务器运行、对象存储与相关网络流量。网页确认任务已进入队列后，可关闭浏览器和自己的电脑。</td>
+</tr>
+<tr>
+<td>4. 转写</td>
+<td>worker 提交火山标准异步 ASR，持续查询同一个任务，拿到文字</td>
+<td>按对应语音产品的音频时长计费，从适用资源包或火山账户扣款。</td>
+</tr>
+<tr>
+<td>5. 整理</td>
+<td>把原文、课程提示词发给 DeepSeek，得到笔记；长文可能拆成多次调用</td>
+<td>输入和输出 token 分别计费，从 DeepSeek 余额扣款。</td>
+</tr>
+<tr>
+<td>6. 保存、下载</td>
+<td>原文与笔记存入数据库，用户可下载 MD、TXT、HTML</td>
+<td>存储和访问流量；读取已有笔记不会再次调用 AI。重新整理会再次产生 DeepSeek 费用。</td>
+</tr>
+</tbody></table></div>
+<p>后台任务会保存服务商请求编号。遇到超时，先查原任务，不能直接重交一份，否则可能重复扣费。</p>
+<p>香港服务器读取其他地区的 TOS 文件不能按免费内网流量计算。TOS 的存储、请求和外网流量，与服务器公网流量分别看账单。<a href="https://www.volcengine.com/docs/6349/78456?lang=zh">TOS 计费说明</a></p>
+<h2 id="section-4">4. 看懂一笔费用</h2>
+<p>月成本主要是：<strong>服务器租金 + 语音时长费 + 大模型 token 费 + 文件存储、请求及网络费</strong>。AI 编程工具和自购域名另算。</p>
+<p>本例服务器首月已支付 <strong>87.68 元</strong>，有效期至 <strong>2026-10-13 23:59:59</strong>，自动续费关闭；下次续费以控制台报价为准。公网出口按 <strong>1 元/GB</strong> 配置。没人上传时，已租服务器和保留的文件仍占用资源。<a href="https://www.volcengine.com/docs/6396/69812?lang=zh">服务器计费说明</a> · <a href="https://www.volcengine.com/docs/6402/68415?lang=zh">公网流量说明</a></p>
+<p>举一个只用于理解算法的例子：</p>
+<ul>
+<li>一小时录音，<strong>假设</strong>对应 ASR 单价是 0.8 元/小时，转写费就是 0.8 元。</li>
+<li>所有整理调用合计输入 12,000 token、输出 3,000 token，且输入未命中缓存。按查询日 <code>deepseek-flash</code> 的官方价格，空闲时段约 <strong>0.024 元</strong>，高峰时段约 <strong>0.048 元</strong>；token 是模型计量文本的单位，不等同于字数。</li>
+<li>这次 AI 处理合计约 <strong>0.824～0.848 元</strong>，再加存储、网络和服务器成本。录音长度、提示词、输出长度、多次整理都会改变结果。</li>
+</ul>
+<p>DeepSeek 输入未命中缓存的价格为 1／2 元每百万 token，输出为 4／8 元每百万 token，分别对应空闲／高峰时段；扣费优先使用赠送余额。价格会调整，实际按调用时的模型、时段、缓存和用量结算。<a href="https://api-docs.deepseek.com/zh-cn/quick_start/pricing/">DeepSeek 官方价格与扣费规则</a></p>
+<p>听记页面的「10 元」只是体验用量参考，超过也不收费、不停用。站长承担真实账单，供应商余额不足仍会影响任务。网站自己的估算单价需要随供应商调整，不能拿页面数字代替平台账单。</p>
+<h2 id="section-5">5. 做到什么程度才交给朋友</h2>
+<p>用正式网址和一段短录音走完：<strong>注册收信 → 验证登录 → 建课程、改提示词 → 上传 → 得到原文和笔记 → 下载并打开文件</strong>。再用另一个账号确认看不到前一个人的资料；检查手机页面，并确认关闭自己的电脑后云端仍能处理。</p>
+<p>之后每次修改，让 AI 说明改了哪里、发布了前端还是后端、实际检查了什么，并更新交接文件。前端发布成功不代表后端也已更新；修改服务器环境配置后，需要重新创建相应容器。</p>
+<h2 id="section-6">6. 作为管理者，去哪里看整个网站</h2>
+<p>先分清三层：<strong>云控制台看机器和账单，网站管理页看业务，数据库与日志用于定位具体问题。</strong> 不必自己读全部日志，可以让 AI 查完给出数字、原因和建议。</p>
+<div class="table-wrap" role="region" aria-label="表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>想知道什么</th>
+<th>去哪里看</th>
+<th>重点看什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>网页是否上线</td>
+<td>Vercel → 对应项目 → Deployments；再打开正式网址</td>
+<td>当前生产版本、发布是否成功、页面实际能否操作。</td>
+</tr>
+<tr>
+<td>服务器是否吃紧</td>
+<td>火山 ECS → 香港地区 → 实例 → 监控；细节由 AI 登录服务器查看</td>
+<td>CPU、内存、磁盘剩余、网络和容器状态；API、worker、数据库、HTTPS 服务分别是否运行。</td>
+</tr>
+<tr>
+<td>请求为什么失败</td>
+<td>Vercel 的请求信息；云服务器 API、worker、Caddy 日志</td>
+<td>发生时间、接口、任务编号、失败阶段和错误码。前端成功发布不会修好后端故障。</td>
+</tr>
+<tr>
+<td>有多少人使用</td>
+<td>网站管理入口；必要时让 AI 对数据库做只读统计</td>
+<td>注册与验证人数、完成笔记数、任务成功率。注册人数不等于活跃人数。</td>
+</tr>
+<tr>
+<td>录音卡在哪一步</td>
+<td>后台任务数据、worker 日志、火山语音任务状态</td>
+<td>排队数、最老任务等待时间、当前阶段、服务商请求编号。</td>
+</tr>
+<tr>
+<td>钱花在哪里</td>
+<td>火山费用中心、语音资源包、DeepSeek 用量页、Vercel Usage</td>
+<td>按产品看每日变化；把真实账单与网站估算分开。</td>
+</tr>
+<tr>
+<td>数据会不会丢</td>
+<td>数据库备份目录、异地副本、TOS 桶设置</td>
+<td>最近成功备份时间、大小、保留天数、是否做过恢复演练。</td>
+</tr>
+<tr>
+<td>服务会不会到期</td>
+<td>ECS 续费管理、域名管理、云平台通知</td>
+<td>服务器到期日、余额、证书续期；当前没有自购域名费用。</td>
+</tr>
+</tbody></table></div>
+<p><strong>听记当前的入口：</strong> 管理员登录后，打开「我的账号」→「站点用量」，可看总用户数、总笔记数、累计估算用量，以及每个用户的笔记数与用量。笔记统计目前包含软删除条目。普通账号不显示该入口；如果负责人看不到，让 AI 核对现有账号角色，不必重新注册。</p>
+<p>目前没有任务管理、封禁用户或角色管理按钮，也没有服务商余额与账单接入。任务细节由 AI 只读查询数据库和日志；日常管理先看这些汇总，再按需要补界面。</p>
+<p>云控制台没有内存或系统磁盘使用率数据时，先核对监控插件，不能把空白理解为零占用。<a href="https://developer.volcengine.com/articles/7270815822627471416">火山监控说明</a></p>
+<p>火山的余额提醒可在费用中心 → 账户总览设置；资源包余量提醒在资源包管理设置，并在消息中心确认接收人。提醒应发给实际负责维护的人。<a href="https://www.volcengine.com/docs/6269/1412604?lang=zh">余额提醒</a> · <a href="https://www.volcengine.com/docs/6269/165226?lang=zh">资源包提醒</a></p>
+<p>日常可以直接对 AI 说：</p>
+<blockquote>
+<p>只读检查听记：当前线上版本，服务器 CPU、内存、磁盘，四个服务状态，注册与验证人数，最近任务成功/失败数、最长等待时间，最近备份时间与续费日期。只返回汇总和异常，不输出邮箱、录音正文或密钥。查不到的项目注明原因，不自动重提任务或扩容。</p>
+</blockquote>
+<p>API 健康检查正常，只能说明它检查到的部分正常；<code>mailConfigured=true</code> 只表示填了邮箱配置，不能证明邮件已投递，后台 worker 也可能单独故障。</p>
+<h2 id="section-7">7. 用户数据怎样管</h2>
+<div class="table-wrap" role="region" aria-label="表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>数据</th>
+<th>存放位置</th>
+<th>管理原则</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>账号、课程、提示词、原文、笔记版本、任务与用量</td>
+<td>服务器 PostgreSQL</td>
+<td>日常看汇总；定位问题再查指定任务。密码只存哈希，不应能查看原密码。</td>
+</tr>
+<tr>
+<td>原始录音、转换后的音频</td>
+<td>私有 TOS 桶</td>
+<td>明确保留多久、谁能下载、用户删除后何时清理；上传链接和下载链接短时有效。</td>
+</tr>
+<tr>
+<td>数据库备份</td>
+<td>备份文件及另一处受控存储</td>
+<td>备份不放在公开网页，也不只留在同一块服务器磁盘。数据库备份不包含 TOS 音频。</td>
+</tr>
+<tr>
+<td>API 凭据、邮箱授权密码、服务器登录密钥</td>
+<td>受限配置与凭据存储</td>
+<td>按用途分开授权；人员退出或凭据泄露时撤销并替换。</td>
+</tr>
+</tbody></table></div>
+<p>用户应知道录音交给谁处理、保存多久、如何导出和删除。验证学校邮箱只能证明控制该邮箱；若产品以后要求核验在校身份，那是另一项需求。维护者排障通常只需任务编号、时间和错误，不必翻阅全部课堂内容。</p>
+<p><strong>备份要能恢复。</strong> 例如先设定可接受丢失一天数据、几小时内恢复，再决定频率；在隔离环境恢复一份副本，确认账号、课程、笔记能读取。删除或覆盖生产数据前，核对目标并保留备份。备份中的旧数据也要纳入保留政策。</p>
+<p><strong>听记当前的边界：</strong> 删除课程会保留笔记；删除笔记只是隐藏记录、取消本地任务，原文和 TOS 音频仍保留。本地取消不等于撤销服务商已受理的任务。目前没有账号注销、回收站或永久清理入口。已有手动数据库备份脚本，自动调度与异地副本尚需安排，恢复流程也需要演练；服务器配置和凭据另留受控恢复渠道。</p>
+<h2 id="section-8">8. 出问题时，按链路定位</h2>
+<div class="table-wrap" role="region" aria-label="表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>现象</th>
+<th>先查什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>网站打不开</td>
+<td>正式网址、Vercel 发布、访问网络；再查后端 HTTPS 和 ECS。</td>
+</tr>
+<tr>
+<td>页面能开，登录或保存失败</td>
+<td><code>/api/health</code>、API 日志、数据库、正式域名与跨域/会话配置。</td>
+</tr>
+<tr>
+<td>收不到验证邮件</td>
+<td>注册请求是否成功、SMTP 发信返回码、收件箱与垃圾箱；不要先连续重发。</td>
+</tr>
+<tr>
+<td>录音上传不了</td>
+<td>文件大小、TOS 跨域规则、短时上传许可是否过期、网络是否中断。</td>
+</tr>
+<tr>
+<td>一直排队或转写中</td>
+<td>worker 是否运行、最老任务、语音权限与余额、已有服务商任务编号。</td>
+</tr>
+<tr>
+<td>已有原文却没有总结</td>
+<td>DeepSeek 余额、限流、输入长度、整理阶段错误；保留原文，避免重复转写。</td>
+</tr>
+<tr>
+<td>费用突然升高</td>
+<td>哪个产品、哪个时间段开始增长，再看重复任务、长音频、下载流量或异常访问。</td>
+</tr>
+</tbody></table></div>
+<p>先保存时间和错误，再做有针对性的修复。程序升级失败可以回退程序；数据库结构或数据已改变时，不能假定回退代码就能恢复。</p>
+<h2 id="section-9">9. 从开发到长期维护，还要想清楚什么</h2>
+<div class="table-wrap" role="region" aria-label="表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>问题</th>
+<th>最小可行做法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>谁拥有并接管项目</td>
+<td>云账号、代码和账单归项目负责人；留交接说明与恢复入口。新 AI 不应依赖旧聊天里的密码或记忆。</td>
+</tr>
+<tr>
+<td>怎样发布而不影响用户</td>
+<td>区分本地、测试与生产；保存可回退版本，检查正在处理的任务，前后端分别发布；数据库变更另做迁移与备份。</td>
+</tr>
+<tr>
+<td>免费服务怎样避免失控</td>
+<td>监控异常调用，限制重复提交、上传大小和不合理并发；这些防滥用措施与正常用户超过 10 元仍免费是两回事。</td>
+</tr>
+<tr>
+<td>用户变多是否要扩容</td>
+<td>先看排队时间、CPU、内存、磁盘和网络，找到瓶颈再调整。API 限流造成的等待不一定能靠加服务器解决。</td>
+</tr>
+<tr>
+<td>单台服务器坏了怎么办</td>
+<td>当前 API、worker、数据库同机；需要备份和重建流程。只有业务确实要求更高可用性时，再考虑数据库托管、多副本等额外成本。</td>
+</tr>
+<tr>
+<td>AI 结果是否可靠</td>
+<td>保存原文、提示词版本和笔记版本；允许重做；用代表性录音检查术语、公式和遗漏。录音中的文字不能变成执行系统操作的指令。</td>
+</tr>
+<tr>
+<td>文件和账户是否安全</td>
+<td>检查账号间数据隔离、下载权限、上传类型和大小；管理权限单独授予，云账号开启可用的多因素验证。</td>
+</tr>
+<tr>
+<td>第三方接口变了怎么办</td>
+<td>记录模型名、接口和价格日期；升级前小样本测试，保留原始数据与请求编号，避免重复计费。</td>
+</tr>
+<tr>
+<td>用户怎样求助和退出</td>
+<td>提供错误提示、联系方式、密码找回、数据导出和删除渠道；维护、停服或价格政策变化要提前说明。</td>
+</tr>
+<tr>
+<td>将来迁到别家怎么办</td>
+<td>能导出代码、数据库与文件；域名和云账号自己掌握；文档记录依赖，不只留一个部署按钮。</td>
+</tr>
+</tbody></table></div>
+<p>小规模试用阶段，先把完整业务流程、账号隔离、费用提醒、备份恢复和故障定位做好；其余按真实使用量增加。这里列的是管理工作，不代表网站已具备所有后台按钮。</p>
+<p>管理节奏可以很简单：试用期间每天看失败任务、排队和费用；每周看备份新鲜度、磁盘与录音存储增长；每次发布保留版本和回退方法；到期前续费，定期演练恢复。把这些做成提醒或自动检查，需要另外实际配置，写在文档里不会自动生效。</p>
+<h2 id="section-10">10. 换一个 AI 继续开发</h2>
+<p>新对话打开同一项目后，可以这样开始：</p>
+<blockquote>
+<p>继续修改听记网站。先阅读随代码保存的项目交接说明，检查当前实现和线上状态，再处理我接下来提出的改动。沿用已有账号、服务器和桶。</p>
+</blockquote>
+</article>
+    <footer class="page-footer">内容按 2026-09-13 的项目状态与公开价格说明整理。<a href="#top">回到顶部 ↑</a></footer>
+  </main>
+</body>
+</html>
