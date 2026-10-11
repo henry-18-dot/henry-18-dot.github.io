@@ -1,0 +1,13 @@
+import type {Settings} from './types';
+type Mood='entrance'|'discovery'|'thought'|'macondo';
+// 原创短循环。两个增益通道交叉渐变，单个音频时钟避免叠播。
+class Music {
+  context?:AudioContext; gain?:GainNode; timer?:ReturnType<typeof setInterval>; current?:Mood; tick=0; settings?:Settings; paused=false;
+  async unlock(){this.context??=new AudioContext();if(this.context.state==='suspended')await this.context.resume();}
+  sync(mode:Mood,s:Settings){this.settings=s;const enabled=mode==='entrance'?s.entranceMusic:s.readingMusic;if(!enabled||this.paused){this.stop();return;}if(!this.context||this.context.state!=='running')return;if(this.current===mode)return;this.stop();this.current=mode;const ctx=this.context;const gain=ctx.createGain();gain.connect(ctx.destination);gain.gain.setValueAtTime(0,ctx.currentTime);gain.gain.linearRampToValueAtTime(mode==='entrance'?.11:.055,ctx.currentTime+1.5);this.gain=gain;this.tick=0;this.playBeat();this.timer=setInterval(()=>this.playBeat(),mode==='entrance'?240:mode==='macondo'?420:mode==='discovery'?480:650);}
+  stop(){if(this.timer)clearInterval(this.timer);this.timer=undefined;this.current=undefined;if(this.gain&&this.context){const old=this.gain;old.gain.cancelScheduledValues(this.context.currentTime);old.gain.setValueAtTime(old.gain.value,this.context.currentTime);old.gain.linearRampToValueAtTime(0,this.context.currentTime+1.5);setTimeout(()=>old.disconnect(),1700);}this.gain=undefined;}
+  private tone(freq:number,delay:number,duration:number,type:OscillatorType,volume:number){const ctx=this.context!,out=this.gain!;const osc=ctx.createOscillator();const g=ctx.createGain();osc.type=type;osc.frequency.value=freq;osc.connect(g);g.connect(out);const t=ctx.currentTime+delay;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(volume,t+.02);g.gain.exponentialRampToValueAtTime(.001,t+duration);osc.start(t);osc.stop(t+duration+.02);osc.onended=()=>{osc.disconnect();g.disconnect();};}
+  private playBeat(){if(!this.context||!this.gain)return;const sequences:Record<Mood,number[]>={entrance:[146.83,146.83,174.61,220,196,174.61,220,293.66],discovery:[130.81,196,261.63,293.66,329.63,293.66,196,164.81],thought:[110,164.81,220,246.94,196,164.81,146.83,164.81],macondo:[146.83,220,293.66,261.63,174.61,220,261.63,196]};const mode=this.current!;const notes=sequences[mode];const i=this.tick++%16;const freq=notes[i%8];this.tone(freq*2,0,mode==='entrance'?.3:1.5,'sine',.4);if(i%4===0){this.tone(freq/2,0,1.8,'sine',.45);this.tone(freq*1.5,.06,1.8,'triangle',.14);}if(mode==='entrance'||mode==='macondo')this.tone(i%2?900:65,0,.12,i%2?'triangle':'sine',.18);}
+}
+export const music=new Music();
+document.addEventListener('visibilitychange',()=>{music.paused=document.hidden;if(document.hidden)music.stop();});

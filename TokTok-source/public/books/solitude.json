@@ -1,0 +1,5104 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-11-v1",
+  "book": {
+    "id": "solitude",
+    "title": "百年孤独",
+    "subtitle": "布恩迪亚家族与马孔多",
+    "authors": [
+      "marquez"
+    ],
+    "headline": [
+      "这个家族",
+      "为什么总在重演"
+    ],
+    "tags": [
+      "小说",
+      "拉丁美洲",
+      "家族",
+      "记忆"
+    ],
+    "overview": "一个家族在河岸建立马孔多。发明、爱情、内战和商业接连进入日常，姓名与记忆在几代人之间反复。沿二十章慢慢认识每个人，观察他们怎样相遇、隐瞒、离开，又怎样理解自己的过去。",
+    "theme": {
+      "bg": "#15241d",
+      "paper": "#eee2c8",
+      "ink": "#233427",
+      "accent": "#c09243"
+    },
+    "music": "macondo"
+  },
+  "authors": [
+    {
+      "id": "marquez",
+      "name": "加西亚·马尔克斯",
+      "years": "1927–2014",
+      "bio": "哥伦比亚小说家。《百年孤独》把家族记忆、加勒比生活和历史暴力写进马孔多。",
+      "initial": "马",
+      "color": "#d4a951",
+      "tags": [
+        "小说",
+        "拉丁美洲"
+      ]
+    },
+    {
+      "id": "arendt",
+      "name": "汉娜·阿伦特",
+      "years": "1906–1975",
+      "bio": "政治思想家，关注行动、公共生活与现代社会。《人的境况》区分劳动、工作和行动。",
+      "initial": "阿",
+      "color": "#b8a987",
+      "tags": [
+        "政治",
+        "行动"
+      ]
+    },
+    {
+      "id": "stanley",
+      "name": "肯尼斯·斯坦利",
+      "bio": "人工智能研究者，与乔尔·雷曼合著《为什么伟大不能被计划》，讨论开放探索与目标的局限。",
+      "initial": "斯",
+      "color": "#8fa58c",
+      "tags": [
+        "人工智能",
+        "探索"
+      ]
+    },
+    {
+      "id": "lehman",
+      "name": "乔尔·雷曼",
+      "bio": "人工智能研究者，与肯尼斯·斯坦利共同研究新颖性搜索，并合著《为什么伟大不能被计划》。",
+      "initial": "雷",
+      "color": "#9aaf9b",
+      "tags": [
+        "人工智能",
+        "新颖性"
+      ]
+    },
+    {
+      "id": "borges",
+      "name": "豪尔赫·路易斯·博尔赫斯",
+      "years": "1899–1986",
+      "bio": "阿根廷作家，以迷宫、时间、无限和虚构文献构成独特的短篇世界。",
+      "initial": "博",
+      "color": "#a8a1c2",
+      "tags": [
+        "小说",
+        "时间"
+      ]
+    },
+    {
+      "id": "nietzsche",
+      "name": "弗里德里希·尼采",
+      "years": "1844–1900",
+      "bio": "德国哲学家，讨论价值、生命与道德谱系，写作常用格言和鲜明的意象。",
+      "initial": "尼",
+      "color": "#a9a484",
+      "tags": [
+        "哲学",
+        "价值"
+      ]
+    },
+    {
+      "id": "montaigne",
+      "name": "米歇尔·德·蒙田",
+      "years": "1533–1592",
+      "bio": "法国随笔作家，以个人经验审视习惯、判断与人性的复杂。",
+      "initial": "蒙",
+      "color": "#bea07e",
+      "tags": [
+        "随笔",
+        "判断"
+      ]
+    },
+    {
+      "id": "vargas-llosa",
+      "name": "马里奥·巴尔加斯·略萨",
+      "years": "1936–2025",
+      "bio": "秘鲁小说家，长期研究叙事结构，曾从材料与形式分析《百年孤独》的总体小说特征。",
+      "initial": "略",
+      "color": "#a79676",
+      "tags": [
+        "小说",
+        "叙事"
+      ]
+    },
+    {
+      "id": "carlos-fuentes",
+      "name": "卡洛斯·富恩特斯",
+      "years": "1928–2012",
+      "bio": "墨西哥小说家，关注拉丁美洲历史与身份，曾讨论马尔克斯如何为美洲经验命名。",
+      "initial": "富",
+      "color": "#ad997d",
+      "tags": [
+        "小说",
+        "历史"
+      ]
+    },
+    {
+      "id": "alvaro-mutis",
+      "name": "阿尔瓦罗·穆蒂斯",
+      "years": "1923–2013",
+      "bio": "哥伦比亚诗人和小说家，也是马尔克斯的朋友，曾回顾其写作与《百年孤独》的阅读震动。",
+      "initial": "穆",
+      "color": "#aaaf91",
+      "tags": [
+        "诗歌",
+        "小说"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "solitude-review-01",
+      "authorId": "alvaro-mutis",
+      "title": "一本让熟识作者的人仍感震动的书",
+      "markdown": "穆蒂斯与马尔克斯长期相识，也读过作品发表前的手稿。他更偏爱《[没有人给他写信的上校](entity:solitude-colonel-nobody)》的完成度，谈到《[百年孤独](entity:solitude-book)》却强调另一种经验：阅读触动了美洲集体经验的深层，使他难以保持平静的评论距离。\n\n他看重作品中的神话力量，以及不同世代仍会从中发现东西的可能。这份评价先记录一个读者的震动，再让人回到小说的具体叙述。好奇的不必只是故事有多奇异，也包括熟悉的生活为何会以这样的方式被重新看见。",
+      "source": {
+        "label": "Álvaro Mutis · Lo que sé de Gabriel · RAE纪念版文章",
+        "url": "https://www.rae.es/sites/default/files/Alvaro_Mutis_Lo_que_se_de_Gabriel.pdf"
+      },
+      "entityIds": [
+        "solitude-alvaro-mutis",
+        "solitude-marquez",
+        "solitude-book",
+        "solitude-colonel-nobody",
+        "solitude-magic-realism"
+      ],
+      "questions": [
+        {
+          "id": "solitude-review-01-q01",
+          "text": "穆蒂斯为何能偏爱另一部小说，同时被《百年孤独》震动？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-alvaro-mutis",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-colonel-nobody",
+            "solitude-magic-realism"
+          ]
+        },
+        {
+          "id": "solitude-review-01-q02",
+          "text": "什么具体场景会让个人经验接近集体记忆？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-alvaro-mutis",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-colonel-nobody",
+            "solitude-magic-realism"
+          ]
+        },
+        {
+          "id": "solitude-review-01-q03",
+          "text": "文学判断需要平静距离，还是也能从震动开始？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-alvaro-mutis",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-colonel-nobody",
+            "solitude-magic-realism"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-review-02",
+      "authorId": "carlos-fuentes",
+      "title": "用小说给美洲经验命名",
+      "markdown": "富恩特斯回忆结识马尔克斯，也把《[百年孤独](entity:solitude-book)》放回他早期小说和短篇构成的创作世界。先前作品里出现的地方、生活与叙述，在这部长篇里获得了新的展开。\n\n他用“为美洲命名”来理解这种写作：读者借助名字与故事认识一个此前难被完整表达的世界。这是富恩特斯对文学作用的判断。阅读时可以顺着具体事物追问，冰块、火车和家族姓名怎样使地方经验可见，又怎样让命名本身与记忆、占有和遗忘发生关系。",
+      "source": {
+        "label": "Carlos Fuentes · Para darle nombre a América · RAE纪念版文章",
+        "url": "https://www.rae.es/sites/default/files/Carlos_Fuentes_Homenaje_Para_darle_nombre_a_America_2.pdf"
+      },
+      "entityIds": [
+        "solitude-carlos-fuentes",
+        "solitude-marquez",
+        "solitude-book",
+        "solitude-macondo"
+      ],
+      "questions": [
+        {
+          "id": "solitude-review-02-q01",
+          "text": "文学里的命名与地图上的命名有什么差别？",
+          "kind": "比较",
+          "entityIds": [
+            "solitude-carlos-fuentes",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-macondo"
+          ]
+        },
+        {
+          "id": "solitude-review-02-q02",
+          "text": "冰块和火车为何在小说里像第一次被看见？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-carlos-fuentes",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-macondo"
+          ]
+        },
+        {
+          "id": "solitude-review-02-q03",
+          "text": "早期作品构成一个世界，与反复使用题材有什么区别？",
+          "kind": "比较",
+          "entityIds": [
+            "solitude-carlos-fuentes",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-macondo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-review-03",
+      "authorId": "vargas-llosa",
+      "title": "一个世界怎样被材料和形式共同建成",
+      "markdown": "巴尔加斯·略萨用“[总体小说](entity:solitude-total-novel)”分析《[百年孤独](entity:solitude-book)》。他关注的完整性包括一个世界的生长与结束，也包括个人、集体、日常、神话和历史等层面怎样进入同一叙述。\n\n他的判断同时指向形式。材料丰富仍需要时间安排、语言和结构把它们组织起来，小说才能形成自足的世界。这个角度适合陪读，读者可以沿每章观察，小小的物件如何接上社会变化，家族的重复怎样与新的事件并存。概念的价值在于帮助看见作品的组织方式。",
+      "source": {
+        "label": "Mario Vargas Llosa · Realidad total, novela total · RAE纪念版文章",
+        "url": "https://www.rae.es/sites/default/files/Mario_Vargas_Llosa_Cien_anos_de_soledad._Realidad_total_novela_total.pdf"
+      },
+      "entityIds": [
+        "solitude-vargas-llosa",
+        "solitude-marquez",
+        "solitude-book",
+        "solitude-total-novel"
+      ],
+      "questions": [
+        {
+          "id": "solitude-review-03-q01",
+          "text": "总体小说为何同时要求丰富材料与独特结构？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-vargas-llosa",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-total-novel"
+          ]
+        },
+        {
+          "id": "solitude-review-03-q02",
+          "text": "一件家庭物品怎样把个人生活接到社会变化上？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-vargas-llosa",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-total-novel"
+          ]
+        },
+        {
+          "id": "solitude-review-03-q03",
+          "text": "作品构成完整世界，是否就只允许一种解释？",
+          "kind": "反驳",
+          "entityIds": [
+            "solitude-vargas-llosa",
+            "solitude-marquez",
+            "solitude-book",
+            "solitude-total-novel"
+          ]
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "solitude-c01",
+      "number": 1,
+      "title": "第一章",
+      "overview": "马孔多刚刚建立，吉卜赛人的发明让父亲接连投入磁铁、太阳武器和炼金实验。乌尔苏拉维持家业，两个儿子在冰块前留下各自的反应，未来的行刑场景从这个童年下午展开。",
+      "pages": [
+        {
+          "id": "solitude-c01-p01",
+          "title": "先记住这个下午",
+          "markdown": "故事从一个尚未展开的行刑时刻，折回[奥雷里亚诺](entity:solitude-aureliano-colonel)的童年。父亲带他看冰块，那份陌生感比多年后的危险更先进入读者记忆。马孔多刚建立不久，事物连名字都不齐全。吉卜赛人带来磁铁、望远镜和放大镜，村民用惊奇认识外界。\n\n[何塞·阿尔卡蒂奥·布恩迪亚](entity:solitude-jose-arcadio-founder)立刻为发明安排用途。他拿牲口换磁铁，想挖出黄金，又拿妻子的积蓄换放大镜，想把阳光变成武器。实验造成伤害，政府也没有回应。新知识每次来到，他都从头燃起希望，上一回付出的成本却留给家人承受。\n\n开头把童年和未来并排放置，读者知道这个孩子将成为上校，却还不知道怎样走到那里。沿途每件寻常东西都获得第一次被看见的重量。先保留这种观看方式，再追问人物的结局，能读到小说叙述时间的力量。\n\n| 读到的位置 | 叙述时间 |\n| --- | --- |\n| 开头的行刑队 | 被提前提及的未来 |\n| 父亲展示发明 | 童年里的过去 |\n| 见识冰块 | 未来回望的一个下午 |",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c01-p01-q01",
+              "text": "开头为什么先提行刑，再写父亲和冰块？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-aureliano-colonel",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c01-p01-q02",
+              "text": "磁铁和放大镜的用途为何总被父亲改写？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-aureliano-colonel",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c01-p01-q03",
+              "text": "冰在马孔多人眼里为何比飞毯还值得惊叹？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-aureliano-colonel",
+                "solitude-melquiades"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-aureliano-colonel",
+            "solitude-melquiades"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第一章",
+            "startLine": 77,
+            "endLine": 262
+          }
+        },
+        {
+          "id": "solitude-c01-p02",
+          "title": "谁在支撑发明家的生活",
+          "markdown": "父亲在小屋里计算航海和天体，[乌尔苏拉](entity:solitude-ursula)带孩子在菜园里劳作。金币原本能扩大家业，经过炼金实验却成了锅底的残渣。小说把宏大的探求和厨房、牲口、零钱摆在一起，让求知的热情带着具体的家庭代价。\n\n他曾是能和众人一起建设村庄的组织者。房屋靠近河岸，街道安排得让各家承受相近的日晒。这些细节说明他具备实际能力，也使后来的沉迷更复杂。读者无法用一个疯人标签解释他的所有行为。\n\n[乌尔苏拉](entity:solitude-ursula)坚决反对迁村，理由是孩子已在这里出生，她愿意在这里生活。丈夫认为墓地才能让人属于一个地方，两人对归属有着不同尺度。她让他看见被忽略的孩子，于是他重新拆开装好的实验器具，开始教儿子读写。关系暂时修复，靠的是日常责任重新进入他的视野。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c01-p02-q01",
+              "text": "父亲早期的村庄规划说明了怎样的能力？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c01-p02-q02",
+              "text": "乌尔苏拉为何愿意留下，即使外面有更多发明？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c01-p02-q03",
+              "text": "出生与埋葬怎样构成两种关于家园的想法？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第一章",
+            "startLine": 77,
+            "endLine": 262
+          }
+        },
+        {
+          "id": "solitude-c01-p03",
+          "title": "两兄弟站在同一块冰前",
+          "markdown": "[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-son)体格强壮，已经开始显出父亲式的固执。弟弟[奥雷里亚诺](entity:solitude-aureliano-colonel)沉默而敏感，曾预感到汤锅掉落。父亲此前把童年视为尚未成熟的阶段，直到[乌尔苏拉](entity:solitude-ursula)提醒，才把时间留给他们。这段共同经历因此也是迟到的父子接触。\n\n寻找外界的远征遇到沼泽和森林，发现停在陆地里的西班牙大帆船。船把过往时代留在新生村落的附近，地理空间里已经沉积着历史。父亲失望归来，将困难画进地图，甚至相信村庄被水围困。\n\n冰块的出现暂时打断了这些挫败。哥哥拒绝触摸，弟弟碰过就缩回手，父亲却不断付钱再试。他们站在同一件东西面前，各自建立不同的经验。叙述把这份差异保存下来。家族里的人共享姓名、血缘和屋子，理解世界的方式从最初便已经分岔。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c01-p03-q01",
+              "text": "兄弟面对冰块的不同反应意味着什么？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-jose-arcadio-son",
+                "solitude-aureliano-colonel",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c01-p03-q02",
+              "text": "森林里的大帆船怎样改变了村庄的新生印象？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-jose-arcadio-son",
+                "solitude-aureliano-colonel",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c01-p03-q03",
+              "text": "父亲的地图为什么会带着情绪？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-jose-arcadio-son",
+                "solitude-aureliano-colonel",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第一章",
+            "startLine": 77,
+            "endLine": 262
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c01-q01",
+          "text": "科学热情在什么条件下会失去对生活的注意？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-aureliano-colonel",
+            "solitude-melquiades",
+            "solitude-ursula",
+            "solitude-jose-arcadio-son"
+          ]
+        },
+        {
+          "id": "solitude-c01-q02",
+          "text": "小说提前说出未来，会怎样改变读者的期待？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-aureliano-colonel",
+            "solitude-melquiades",
+            "solitude-ursula",
+            "solitude-jose-arcadio-son"
+          ]
+        },
+        {
+          "id": "solitude-c01-q03",
+          "text": "一个家园是由出生、劳动还是共同记忆形成的？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-aureliano-colonel",
+            "solitude-melquiades",
+            "solitude-ursula",
+            "solitude-jose-arcadio-son"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c02",
+      "number": 2,
+      "title": "第二章",
+      "overview": "一桩斗鸡争执中的命案迫使夫妻离开故乡，翻山越岭建起马孔多。长子随马戏团出走，乌尔苏拉追寻儿子，意外找到村庄通向贸易与外界的道路。",
+      "pages": [
+        {
+          "id": "solitude-c02-p01",
+          "title": "他们为何翻越山脉",
+          "markdown": "本章退回马孔多诞生以前。[乌尔苏拉](entity:solitude-ursula)和[何塞·阿尔卡蒂奥·布恩迪亚](entity:solitude-jose-arcadio-founder)来自亲缘相近的家庭，长辈用猪尾巴的往事警告这桩婚姻。[乌尔苏拉](entity:solitude-ursula)害怕孩子出现异样，丈夫却把这种担忧感受到的压力转向了自己的名誉。\n\n斗鸡比赛后，[普鲁邓希奥·阿基拉尔](entity:solitude-prudencio)当众嘲讽夫妻生活。[何塞·阿尔卡蒂奥·布恩迪亚](entity:solitude-jose-arcadio-founder)拿长矛杀了他。村民接受决斗的说法，夫妻仍不断看见死者寻找清水清洗伤口。亡灵的痛苦迫使他们面对无法被公共认可抹掉的私人负担。\n\n出走因此有两股动力。年轻同行者想探索，夫妻想远离命案。翻山越岭没有抵达海边，他们最终在河岸停下，建起马孔多。创始故事带着逃离的痕迹。第一章看似全新的世界，如今显出旧世界遗留的恐惧、亲缘禁忌和愧疚。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c02-p01-q01",
+              "text": "命案为何在被认作公平决斗后仍困扰夫妻？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula",
+                "solitude-prudencio"
+              ]
+            },
+            {
+              "id": "solitude-c02-p01-q02",
+              "text": "亡灵寻找清水的动作怎样表现他的孤独？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula",
+                "solitude-prudencio"
+              ]
+            },
+            {
+              "id": "solitude-c02-p01-q03",
+              "text": "探险与逃离在马孔多的建立中各占什么位置？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula",
+                "solitude-prudencio"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-ursula",
+            "solitude-prudencio"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第二章",
+            "startLine": 266,
+            "endLine": 391
+          }
+        },
+        {
+          "id": "solitude-c02-p02",
+          "title": "儿子向外走，父亲留在屋里",
+          "markdown": "长子[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-son)与[庇拉尔·特尔内拉](entity:solitude-pilar)发生关系。亲密带来欲望、羞耻和逃跑的念头，他对父亲的炼金事业也失去兴趣。弟弟听他讲述，在想象里分享同样的焦灼。家人把两人的疲惫解释为寄生虫，身体病症遮住了他们无法说出的变化。\n\n[庇拉尔](entity:solitude-pilar)宣布怀孕，长子随即躲回实验室。父亲以为儿子重新热爱知识，实际并没有理解他的处境。吉卜赛人的表演提供了另一个出口，长子与年轻女郎相遇，最终跟着马戏团离开村庄。\n\n这一出走和父亲当年的远征相互照应，却没有同一个目标。父亲想把世界带进马孔多，儿子想离开家里的注视。小说让男性的冒险叙述旁边出现女性的身体和等待。[庇拉尔](entity:solitude-pilar)独自面对孕期，[乌尔苏拉](entity:solitude-ursula)又要面对失踪者留下的空位，迁移从来不会平均分配代价。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c02-p02-q01",
+              "text": "父亲为何误读儿子重回实验室的原因？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-son",
+                "solitude-aureliano-colonel",
+                "solitude-pilar",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c02-p02-q02",
+              "text": "两代人的出走在动机上有什么差别？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-jose-arcadio-son",
+                "solitude-aureliano-colonel",
+                "solitude-pilar",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c02-p02-q03",
+              "text": "家人把心事解释成身体疾病，有什么叙述效果？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-son",
+                "solitude-aureliano-colonel",
+                "solitude-pilar",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-pilar",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第二章",
+            "startLine": 266,
+            "endLine": 391
+          }
+        },
+        {
+          "id": "solitude-c02-p03",
+          "title": "真正通向外面的路",
+          "markdown": "[乌尔苏拉](entity:solitude-ursula)追赶失踪的儿子，沿陌生路线越走越远。丈夫和弟弟寻找她三天无果，回家后父亲承担照看新生[阿玛兰妲](entity:solitude-amaranta)的责任。他给孩子换洗、送去哺乳，甚至唱起妻子从不唱的摇篮曲。此前被实验隔开的家庭劳动，突然成为他必须亲手完成的生活。\n\n几个月后[乌尔苏拉](entity:solitude-ursula)归来，身后跟着贩卖日用品的外乡人。她没有找到儿子，却发现大沼泽另一侧的村镇离这里只有两天路程。丈夫费力开辟通道仍失败，她的寻人行动使马孔多接入邮件、货物和真实的贸易。\n\n这场意外发现改变了村庄的封闭状态，也修正了父亲满怀失望绘出的地理图景。道路出现时没有伟大的宣告，先听见的是普通商人的叫卖。小说把一次没有达到原目标的行走，写成公共生活的新开端，同时保留了母亲仍未寻到孩子的遗憾。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c02-p03-q01",
+              "text": "寻人行动为何能找到探险队没有找到的路？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder",
+                "solitude-amaranta"
+              ]
+            },
+            {
+              "id": "solitude-c02-p03-q02",
+              "text": "父亲照看婴儿时发生了怎样的变化？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder",
+                "solitude-amaranta"
+              ]
+            },
+            {
+              "id": "solitude-c02-p03-q03",
+              "text": "贸易进入村庄和吉卜赛表演进入村庄有何不同？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder",
+                "solitude-amaranta"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-jose-arcadio-founder",
+            "solitude-amaranta"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第二章",
+            "startLine": 266,
+            "endLine": 391
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c02-q01",
+          "text": "家族怎样把未解决的恐惧带到新地方？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-ursula",
+            "solitude-prudencio",
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-pilar",
+            "solitude-amaranta"
+          ]
+        },
+        {
+          "id": "solitude-c02-q02",
+          "text": "羞耻会怎样推动一个人离开，而非解释自己？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-ursula",
+            "solitude-prudencio",
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-pilar",
+            "solitude-amaranta"
+          ]
+        },
+        {
+          "id": "solitude-c02-q03",
+          "text": "一次行动没有达到原目标，能否仍改变共同生活？",
+          "kind": "反驳",
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-ursula",
+            "solitude-prudencio",
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-pilar",
+            "solitude-amaranta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c03",
+      "number": 3,
+      "title": "第三章",
+      "overview": "阿尔卡蒂奥与丽贝卡进入家中，失眠症随后使全镇逐渐失忆。人们用标签保存事物意义，梅尔基亚德斯带来药物，政府里正又用漆墙命令打破村庄的自治习惯。",
+      "pages": [
+        {
+          "id": "solitude-c03-p01",
+          "title": "一个女孩带来的记忆危机",
+          "markdown": "[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-son)与[庇拉尔](entity:solitude-pilar)的儿子进入祖父母家，被叫作[阿尔卡蒂奥](entity:solitude-arcadio)。家人收留血脉，同时隐瞒他的身世。接着，陌生女孩[丽贝卡](entity:solitude-rebeca)带着父母的骨殖和一封身份难明的信来到这里。两个孩子都进入家庭，也都被置于缺乏完整来历的位置。\n\n[丽贝卡](entity:solitude-rebeca)有吃土和吸吮手指的习惯，逐渐适应后又被发现患失眠症。比西塔西翁认识这种病的危险，家人起初却只想到省下睡觉时间。病经糖果传遍镇子，清醒先显得便利，随后名字、用途和自身过去开始消失。\n\n记忆危机改变了对勤勉的理解。居民依旧能工作，日常秩序却失去保证其意义的背景。村庄开始隔离外来者，不让他们食用本地食物。这里的传染病带着小说的奇异设定，同时把一个具体问题推到眼前：人能继续动作，不等于还能理解自己为何这样生活。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "solitude-c03-p01-q01",
+              "text": "家人为什么同时接纳阿尔卡蒂奥并隐瞒其身世？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-rebeca",
+                "solitude-pilar",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c03-p01-q02",
+              "text": "失眠症最初的便利为何容易遮住危险？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-rebeca",
+                "solitude-pilar",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c03-p01-q03",
+              "text": "失忆后仍能工作，为什么不能说明生活正常？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-rebeca",
+                "solitude-pilar",
+                "solitude-jose-arcadio-son"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-rebeca",
+            "solitude-pilar",
+            "solitude-jose-arcadio-son"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第三章",
+            "startLine": 395,
+            "endLine": 507
+          }
+        },
+        {
+          "id": "solitude-c03-p02",
+          "title": "给奶牛贴标签还不够",
+          "markdown": "[奥雷里亚诺](entity:solitude-aureliano-colonel)忘记铁砧的名字，想出写标签的办法。父亲把它推广到桌椅、植物和牲口。很快他意识到，能认出奶牛的名称仍不够，还要记录挤奶、煮沸和配咖啡的程序。标签逐步变长，试图替代已经松动的生活经验。\n\n这套方法需要持续警醒。有人选择纸牌提供的过去，接受更安慰自己的故事。父亲又计划制造记忆机器，把个人知识和发明保存起来。工具越多，危机越显明。文字要发挥作用，仍需要读者记得文字怎样通向世界。\n\n[梅尔基亚德斯](entity:solitude-melquiades)回来，带来的药让父亲认出房间，也认出自己的眼泪。他曾死去，却因无法忍受孤独重新来到人间。恢复记忆被写成友情恢复的时刻。村民庆祝康复时，老吉卜赛人决定留下，还把照相术带进马孔多，另一种保存形象的技术紧接着出现。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c03-p02-q01",
+              "text": "为什么物品名称不能单独抵抗失忆？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-jose-arcadio-founder",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c03-p02-q02",
+              "text": "纸牌提供的过去为何比标签更能安慰人？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-jose-arcadio-founder",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c03-p02-q03",
+              "text": "梅尔基亚德斯的归来怎样联系记忆与友情？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-jose-arcadio-founder",
+                "solitude-melquiades"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-jose-arcadio-founder",
+            "solitude-melquiades"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第三章",
+            "startLine": 395,
+            "endLine": 507
+          }
+        },
+        {
+          "id": "solitude-c03-p03",
+          "title": "一纸命令进入自治村庄",
+          "markdown": "[堂阿波利纳尔·摩斯科特](entity:solitude-moscote)带着任命书来到马孔多，要求房屋漆成蓝色。父亲回顾村庄的土地划分、道路与秩序，强调这些事一直由居民自己完成。政府的第一道要求落在墙面颜色上，公共权力先以一种看似微小的统一标识出现。\n\n父亲把里正赶走，对方随后带着士兵和家人返回。见到他的妻女，父亲决定谈判，允许一家人留下，但要求士兵离开，各家自行选择颜色。双方把敌对关系暂时收进共同生活，制度冲突没有因此消失。\n\n[奥雷里亚诺](entity:solitude-aureliano-colonel)陪父亲前去，却注意到里正年幼的女儿[蕾梅黛丝](entity:solitude-remedios-moscote)。政治来访和个人欲望在同一场景中交错。读者刚见过失忆使名字与用途分离，如今又看见公文为一个已有秩序的村庄重新命名职权。谁能解释现实、谁能要求他人服从，成为下一段生活里的新问题。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c03-p03-q01",
+              "text": "漆墙颜色为什么会成为权力冲突？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-aureliano-colonel",
+                "solitude-moscote",
+                "solitude-remedios-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c03-p03-q02",
+              "text": "父亲为何在看见里正家人后改用谈判？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-aureliano-colonel",
+                "solitude-moscote",
+                "solitude-remedios-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c03-p03-q03",
+              "text": "自治村庄与政府任命书分别依靠什么获得正当性？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-founder",
+                "solitude-aureliano-colonel",
+                "solitude-moscote",
+                "solitude-remedios-moscote"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-founder",
+            "solitude-aureliano-colonel",
+            "solitude-moscote",
+            "solitude-remedios-moscote"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第三章",
+            "startLine": 395,
+            "endLine": 507
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c03-q01",
+          "text": "一个人遗忘身世与一个村庄遗忘历史有何联系？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-rebeca",
+            "solitude-pilar",
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-jose-arcadio-founder",
+            "solitude-melquiades",
+            "solitude-moscote",
+            "solitude-remedios-moscote"
+          ]
+        },
+        {
+          "id": "solitude-c03-q02",
+          "text": "外部记忆工具依赖哪些还必须存在的能力？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-rebeca",
+            "solitude-pilar",
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-jose-arcadio-founder",
+            "solitude-melquiades",
+            "solitude-moscote",
+            "solitude-remedios-moscote"
+          ]
+        },
+        {
+          "id": "solitude-c03-q03",
+          "text": "日常审美何时会成为政治服从的标志？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-rebeca",
+            "solitude-pilar",
+            "solitude-jose-arcadio-son",
+            "solitude-aureliano-colonel",
+            "solitude-jose-arcadio-founder",
+            "solitude-melquiades",
+            "solitude-moscote",
+            "solitude-remedios-moscote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c04",
+      "number": 4,
+      "title": "第四章",
+      "overview": "新房子和自动钢琴使姑娘们接触新的礼仪与爱情，丽贝卡和阿玛兰妲围绕克雷斯皮产生冲突。奥雷里亚诺求婚，梅尔基亚德斯死亡，父亲却越来越无法确认时间的流逝。",
+      "pages": [
+        {
+          "id": "solitude-c04-p01",
+          "title": "新房子容不下两份爱",
+          "markdown": "[乌尔苏拉](entity:solitude-ursula)扩建房子，希望长大的姑娘能体面地接待访客。家具和自动钢琴把远方的生活方式带进客厅，安装乐器的[皮埃特罗·克雷斯皮](entity:solitude-pietro)又带来礼仪、舞步和爱情。房屋的开放使[丽贝卡](entity:solitude-rebeca)与[阿玛兰妲](entity:solitude-amaranta)第一次在同一个人身上看见自己的愿望。\n\n[丽贝卡](entity:solitude-rebeca)得到回信，把书信和干花藏起来。[阿玛兰妲](entity:solitude-amaranta)没有回应，只能在浴室里一封封写信。[乌尔苏拉](entity:solitude-ursula)收走这些私人物件，仍低估了两人感情中的竞争。后来[丽贝卡](entity:solitude-rebeca)订婚，[阿玛兰妲](entity:solitude-amaranta)被带去旅行，怨恨随她一同上路。\n\n自动钢琴本应让聚会流畅，父亲拆开研究后却弄乱了音乐。这个小插曲和情感冲突并置。物件进入家庭会被改造，爱情进入家庭也会被礼法、嫉妒与管理重新安排。[乌尔苏拉](entity:solitude-ursula)擅长维持生活，却无法凭借房间大小和接待规矩消除每个人心里的封闭。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c04-p01-q01",
+              "text": "扩建客厅怎样改变了姑娘们的生活？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-rebeca",
+                "solitude-amaranta",
+                "solitude-pietro"
+              ]
+            },
+            {
+              "id": "solitude-c04-p01-q02",
+              "text": "阿玛兰妲的旅行为何无法使怨恨结束？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-rebeca",
+                "solitude-amaranta",
+                "solitude-pietro"
+              ]
+            },
+            {
+              "id": "solitude-c04-p01-q03",
+              "text": "自动钢琴的错乱与家庭情感有何照应？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-rebeca",
+                "solitude-amaranta",
+                "solitude-pietro"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-amaranta",
+            "solitude-pietro"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第四章",
+            "startLine": 511,
+            "endLine": 630
+          }
+        },
+        {
+          "id": "solitude-c04-p02",
+          "title": "奥雷里亚诺的两种亲密",
+          "markdown": "[奥雷里亚诺](entity:solitude-aureliano-colonel)爱上[蕾梅黛丝](entity:solitude-remedios-moscote)，想见她却又无法自然交谈。他把名字写进诗里，把作坊里的小金鱼变成接近她的机会。女孩依旧以面对长辈的方式称呼他，两人的年龄和经验差距始终在场，求婚需要由家人协商。\n\n他醉后走到[庇拉尔·特尔内拉](entity:solitude-pilar)门前。她让他脱去污衣，也听见他的心事，答应为他传达愿望。后来她告知怀孕，他承认孩子，并希望孩子沿用自己的名字。[庇拉尔](entity:solitude-pilar)又一次连接布恩迪亚家族，却没有因此获得与其他成员相同的位置。\n\n这段叙述让浪漫的等待和身体关系同时存在，不能仅凭诗歌推定人物温柔，也不能仅凭沉默推定他没有行动。父亲郑重向[摩斯科特](entity:solitude-moscote)家提亲，少女却还在童年。读者需要保留这种不对等，才能理解后续婚姻里家庭认可与个人选择的距离。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c04-p02-q01",
+              "text": "小金鱼为什么会成为奥雷里亚诺接近蕾梅黛丝的媒介？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-remedios-moscote",
+                "solitude-pilar",
+                "solitude-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c04-p02-q02",
+              "text": "庇拉尔在家族里承担了什么连接作用？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-remedios-moscote",
+                "solitude-pilar",
+                "solitude-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c04-p02-q03",
+              "text": "求婚获得家人同意后，年龄差距带来的问题消失了吗？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-remedios-moscote",
+                "solitude-pilar",
+                "solitude-moscote"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-pilar",
+            "solitude-moscote"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第四章",
+            "startLine": 511,
+            "endLine": 630
+          }
+        },
+        {
+          "id": "solitude-c04-p03",
+          "title": "父亲看不见时间继续走",
+          "markdown": "[梅尔基亚德斯](entity:solitude-melquiades)再度衰老死亡，成为村庄第一个下葬的人。死亡给马孔多标出了位置，也让父亲和[丽贝卡](entity:solitude-rebeca)各自面对被忽略的过去。父亲替[丽贝卡](entity:solitude-rebeca)找到藏在墙里的骨殖，安置她父母的遗骸，亲缘记忆由物件重新回到日常。\n\n此后[普鲁邓希奥](entity:solitude-prudencio)的亡灵又找到父亲，两个昔日仇人交谈到天亮。死人同样会衰老，同样害怕孤独。父亲却开始怀疑日历，每天都觉得还是星期一。他观察天空、墙壁和花朵，找不到能说服自己的变化。\n\n这种时间困境最终转为破坏。他砸毁实验设备，被众人按住，绑在栗树上。家人听不懂他流利的言语，只能把他安置在屋外。前几章里不断带来新知识的人，如今陷入无法分享经验的孤独。村庄继续发展，父亲却无法将自己的时间同他人的时间重新接上。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "solitude-c04-p03-q01",
+              "text": "梅尔基亚德斯的下葬为什么改变了村庄与亡灵的关系？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-melquiades",
+                "solitude-prudencio",
+                "solitude-jose-arcadio-founder",
+                "solitude-rebeca"
+              ]
+            },
+            {
+              "id": "solitude-c04-p03-q02",
+              "text": "父亲反复观察事物，为何仍不能确认日期？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-melquiades",
+                "solitude-prudencio",
+                "solitude-jose-arcadio-founder",
+                "solitude-rebeca"
+              ]
+            },
+            {
+              "id": "solitude-c04-p03-q03",
+              "text": "他被绑在栗树后，家庭怎样处理无法理解的人？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-melquiades",
+                "solitude-prudencio",
+                "solitude-jose-arcadio-founder",
+                "solitude-rebeca"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-melquiades",
+            "solitude-prudencio",
+            "solitude-jose-arcadio-founder",
+            "solitude-rebeca"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第四章",
+            "startLine": 511,
+            "endLine": 630
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c04-q01",
+          "text": "共同生活能理解一个人的欲望到什么程度？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-amaranta",
+            "solitude-pietro",
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-pilar",
+            "solitude-moscote",
+            "solitude-melquiades",
+            "solitude-prudencio",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c04-q02",
+          "text": "承认孩子与给予母亲家庭位置为何可能分离？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-amaranta",
+            "solitude-pietro",
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-pilar",
+            "solitude-moscote",
+            "solitude-melquiades",
+            "solitude-prudencio",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c04-q03",
+          "text": "没有变化感的时间会怎样改变人的行动？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-amaranta",
+            "solitude-pietro",
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-pilar",
+            "solitude-moscote",
+            "solitude-melquiades",
+            "solitude-prudencio",
+            "solitude-jose-arcadio-founder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c05",
+      "number": 5,
+      "title": "第五章",
+      "overview": "奥雷里亚诺结婚后很快失去妻子，长子的归来又改变了丽贝卡的婚约。选票欺诈、暗杀提议和驻军暴力逐步逼近，金匠最终率同伴出征，要求别人称自己为上校。",
+      "pages": [
+        {
+          "id": "solitude-c05-p01",
+          "title": "巧克力能证明什么",
+          "markdown": "[奥雷里亚诺](entity:solitude-aureliano-colonel)与[蕾梅黛丝](entity:solitude-remedios-moscote)结婚。女孩努力学习成人礼仪，也开始照顾栗树下的父亲，让家庭短暂获得和缓。主持婚礼的尼卡诺尔神甫留在镇上，决定修建教堂。他饮下热巧克力，悬空给居民看，以奇迹募集捐款。\n\n父亲用拉丁语回应这场展示，神甫才发现众人一直听不懂的语言有其规则。神甫认为悬浮证明上帝存在，父亲想得到银版照片这样的直接凭据，两人讨论同一事件，却无法接受对方的解释标准。\n\n教堂的建设又成为[丽贝卡](entity:solitude-rebeca)婚礼的新条件。[阿玛兰妲](entity:solitude-amaranta)借工程期限拖延婚期，让公共建筑嵌入私人竞争。信仰、证明和婚姻规则在这一章相互牵连。神甫能吸引捐款，仍无法说服一个被看作疯人的求知者，奇迹也没有让家里的情感争夺停止。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c05-p01-q01",
+              "text": "神甫与父亲为何给悬浮事件不同解释？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-remedios-moscote",
+                "solitude-jose-arcadio-founder",
+                "solitude-rebeca",
+                "solitude-amaranta"
+              ]
+            },
+            {
+              "id": "solitude-c05-p01-q02",
+              "text": "发现父亲说拉丁语后，疯人的印象发生了什么变化？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-remedios-moscote",
+                "solitude-jose-arcadio-founder",
+                "solitude-rebeca",
+                "solitude-amaranta"
+              ]
+            },
+            {
+              "id": "solitude-c05-p01-q03",
+              "text": "教堂工程为什么会影响丽贝卡的婚期？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-remedios-moscote",
+                "solitude-jose-arcadio-founder",
+                "solitude-rebeca",
+                "solitude-amaranta"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-jose-arcadio-founder",
+            "solitude-rebeca",
+            "solitude-amaranta"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第五章",
+            "startLine": 634,
+            "endLine": 797
+          }
+        },
+        {
+          "id": "solitude-c05-p02",
+          "title": "归来的长子改变了婚约",
+          "markdown": "[蕾梅黛丝](entity:solitude-remedios-moscote)因妊娠中的急症死去，家里陷入守丧。[阿玛兰妲](entity:solitude-amaranta)曾计划毒害[丽贝卡](entity:solitude-rebeca)，如今把自己的恶念和另一人的死亡联在一起，负罪感随之加重。这里需要区分人物的心理联系与事件原因，愿望本身并不能证明她造成了死亡。\n\n多年未见的[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-son)突然归来。他带着刺青、巨大的体格和夸张的航海故事，打破家里的安静。[丽贝卡](entity:solitude-rebeca)被他的身体和气质吸引，很快与他结婚。神甫说明两人没有血缘关系，[乌尔苏拉](entity:solitude-ursula)仍无法接受这桩结合，把他们逐出家门。\n\n皮埃特罗的漫长等待由此失去对象。[阿玛兰妲](entity:solitude-amaranta)开始接受他的接近，却要求再等。家庭规矩曾不断阻挡[丽贝卡](entity:solitude-rebeca)的婚期，最后真正决定去向的是她突如其来的选择。[克雷斯皮](entity:solitude-pietro)依赖的礼仪和耐心无法保证回报，[乌尔苏拉](entity:solitude-ursula)的愤怒也无法使已经发生的婚姻撤回。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c05-p02-q01",
+              "text": "阿玛兰妲为何把蕾梅黛丝之死与自己的恶念联系起来？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-moscote",
+                "solitude-amaranta",
+                "solitude-jose-arcadio-son",
+                "solitude-rebeca",
+                "solitude-pietro",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c05-p02-q02",
+              "text": "没有血缘关系，为什么仍不能消除乌尔苏拉的反对？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-moscote",
+                "solitude-amaranta",
+                "solitude-jose-arcadio-son",
+                "solitude-rebeca",
+                "solitude-pietro",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c05-p02-q03",
+              "text": "长子的归来怎样改变了克雷斯皮的等待？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-moscote",
+                "solitude-amaranta",
+                "solitude-jose-arcadio-son",
+                "solitude-rebeca",
+                "solitude-pietro",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-remedios-moscote",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-son",
+            "solitude-rebeca",
+            "solitude-pietro",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第五章",
+            "startLine": 634,
+            "endLine": 797
+          }
+        },
+        {
+          "id": "solitude-c05-p03",
+          "title": "金匠变成了上校",
+          "markdown": "[奥雷里亚诺](entity:solitude-aureliano-colonel)从岳父那里听到自由派与保守派的解释，随后亲眼看见选票被调换。居民更直接的不满来自被军队收缴的菜刀，生活工具迟迟不归还。政治不再仅仅是称谓，已经进入厨房和日常劳动。\n\n诺格拉医生想用暗杀清除保守派，名单甚至包括[摩斯科特](entity:solitude-moscote)的妻女。[奥雷里亚诺](entity:solitude-aureliano-colonel)拒绝这种计划，仍把岳父视为可以保护的人。真正促使他行动的，是驻军公开暴力和一名妇女被杀。他与年轻同伴夜袭军营，掌握武器，随后离开村庄。\n\n临走时，[阿尔卡蒂奥](entity:solitude-arcadio)获任镇上的军政首领。[奥雷里亚诺](entity:solitude-aureliano-colonel)要求岳父不再用亲昵的小名叫自己，改称上校。这次身份变化发生得迅速，个人判断却经历了选举、暗杀提议和暴力见闻。关注这些门槛，才能看见普通金匠怎样进入战争，而不把军装当成早已写好的命运。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c05-p03-q01",
+              "text": "被扣押的菜刀为何比选举结果更直接激起不满？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-moscote",
+                "solitude-arcadio"
+              ]
+            },
+            {
+              "id": "solitude-c05-p03-q02",
+              "text": "奥雷里亚诺怎样区分抵抗与暗杀？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-moscote",
+                "solitude-arcadio"
+              ]
+            },
+            {
+              "id": "solitude-c05-p03-q03",
+              "text": "他要求更换称呼时，哪些亲密关系被改变了？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-moscote",
+                "solitude-arcadio"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-moscote",
+            "solitude-arcadio"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第五章",
+            "startLine": 634,
+            "endLine": 797
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c05-q01",
+          "text": "恶念与真实责任应如何区分？",
+          "kind": "应用",
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-jose-arcadio-founder",
+            "solitude-rebeca",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-son",
+            "solitude-pietro",
+            "solitude-ursula",
+            "solitude-moscote",
+            "solitude-arcadio"
+          ]
+        },
+        {
+          "id": "solitude-c05-q02",
+          "text": "家庭承认之外，个人还能凭什么做决定？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-jose-arcadio-founder",
+            "solitude-rebeca",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-son",
+            "solitude-pietro",
+            "solitude-ursula",
+            "solitude-moscote",
+            "solitude-arcadio"
+          ]
+        },
+        {
+          "id": "solitude-c05-q03",
+          "text": "一个人跨进战争的门槛通常由哪些具体事件构成？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-remedios-moscote",
+            "solitude-jose-arcadio-founder",
+            "solitude-rebeca",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-son",
+            "solitude-pietro",
+            "solitude-ursula",
+            "solitude-moscote",
+            "solitude-arcadio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c06",
+      "number": 6,
+      "title": "第六章",
+      "overview": "阿尔卡蒂奥把军政职位变成恐吓与获利的工具，乌尔苏拉试图限制他的权力。克雷斯皮自杀，亲缘秘密造成误认，战争终于打进镇子，阿尔卡蒂奥在临刑时重新看见家人。",
+      "pages": [
+        {
+          "id": "solitude-c06-p01",
+          "title": "军装不能替代治理",
+          "markdown": "[阿尔卡蒂奥](entity:solitude-arcadio)接管马孔多，给自己设计华丽的制服，用鼓点发布命令，要求成年男子佩戴红袖章。他把叔辈留下的自治空间改造成服从自己的场所。童年里缺少亲密与身份说明的青年，终于能让别人注意他，却选择了恐吓。\n\n里正一家成为他处罚的对象。[乌尔苏拉](entity:solitude-ursula)拿鞭子闯入军营，阻止处决，把[摩斯科特](entity:solitude-moscote)带回家，也放走其他囚犯。她废掉无理条令，恢复弥撒。家庭长辈凭直接行动限制了新权力，命令的威严在她面前突然显出脆弱。\n\n[阿尔卡蒂奥](entity:solitude-arcadio)仍参与土地与税费交易。他替父亲[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-son)强占的田地提供法律保护，从地租和埋葬费里获利，又建起自己的房屋。宏大的革命名义与具体财富积累并排出现。本章让权力的失控落在每一条规矩、每一块土地和每一笔钱上，无法只用性格暴躁概括。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c06-p01-q01",
+              "text": "制服、鼓点和红袖章各在怎样制造服从？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-ursula",
+                "solitude-moscote",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c06-p01-q02",
+              "text": "乌尔苏拉能阻止处决，说明权力仍受什么约束？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-ursula",
+                "solitude-moscote",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c06-p01-q03",
+              "text": "阿尔卡蒂奥怎样把公共职位变成私人收益？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-ursula",
+                "solitude-moscote",
+                "solitude-jose-arcadio-son"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-ursula",
+            "solitude-moscote",
+            "solitude-jose-arcadio-son"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第六章",
+            "startLine": 801,
+            "endLine": 895
+          }
+        },
+        {
+          "id": "solitude-c06-p02",
+          "title": "被拒绝的爱与隐藏的母亲",
+          "markdown": "[克雷斯皮](entity:solitude-pietro)向[阿玛兰妲](entity:solitude-amaranta)求婚，她突然拒绝，甚至不为他的绝望退让。他最终自杀。乌尔苏拉坚持为他守灵并安葬，[阿玛兰妲](entity:solitude-amaranta)把手放进火里烧伤，此后缠上黑纱。伤口把情感责任留在身体上，却没有替她解释为何先接近再排斥。\n\n[阿尔卡蒂奥](entity:solitude-arcadio)不知道[庇拉尔](entity:solitude-pilar)是自己的母亲，对她产生欲望。家里保守身世秘密的选择，如今造成危险的误认。[庇拉尔](entity:solitude-pilar)无法直接说出真相，只得安排[桑塔索菲亚·德拉·彼达](entity:solitude-santa-sofia)去见他，两人后来共同生活并生下女儿。\n\n两条感情线都与沉默有关。[阿玛兰妲](entity:solitude-amaranta)不说明自己的矛盾，[阿尔卡蒂奥](entity:solitude-arcadio)没有被告知最基本的亲缘。隐瞒可能在开始时被用来保护体面，后果却由具体的人承担。[桑塔索菲亚](entity:solitude-santa-sofia)的温顺和低调被众人忽视，她仍是让这段生活继续下去的劳动者与母亲。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c06-p02-q01",
+              "text": "阿玛兰妲烧伤自己后，哪些问题仍没有得到解释？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-pietro",
+                "solitude-amaranta",
+                "solitude-arcadio",
+                "solitude-pilar",
+                "solitude-santa-sofia"
+              ]
+            },
+            {
+              "id": "solitude-c06-p02-q02",
+              "text": "隐瞒阿尔卡蒂奥身世为什么会造成亲缘误认？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-pietro",
+                "solitude-amaranta",
+                "solitude-arcadio",
+                "solitude-pilar",
+                "solitude-santa-sofia"
+              ]
+            },
+            {
+              "id": "solitude-c06-p02-q03",
+              "text": "桑塔索菲亚的低调怎样影响读者对家务劳动的注意？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-pietro",
+                "solitude-amaranta",
+                "solitude-arcadio",
+                "solitude-pilar",
+                "solitude-santa-sofia"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-pietro",
+            "solitude-amaranta",
+            "solitude-arcadio",
+            "solitude-pilar",
+            "solitude-santa-sofia"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第六章",
+            "startLine": 801,
+            "endLine": 895
+          }
+        },
+        {
+          "id": "solitude-c06-p03",
+          "title": "行刑前终于看见的东西",
+          "markdown": "前线不断传来失败消息，信使带着上校的小金鱼，要求[阿尔卡蒂奥](entity:solitude-arcadio)放弃抵抗以保全居民。他不接受凭据，坚持守卫马孔多。军队进攻时，他的部下大多缺乏武器与训练，抵抗很快被摧毁，镇子的日常生活直接变成战场。\n\n[乌尔苏拉](entity:solitude-ursula)试图用身体把他拉回家，他仍走出去投降。军事审判决定枪决。直到生命只剩两小时，他才清楚感到对[桑塔索菲亚](entity:solitude-santa-sofia)、女儿和未出生孩子的留恋，童年就有的恐惧反倒消失了。他最后要求为孩子取名，把亲缘延续留给活人。\n\n读者因此得到两种不同尺度。治理过程揭示专横与腐败，临终内心又让同一个人显示依恋和好奇。后一种感受不能取消前一种责任。小说容许读者接近他最后的时刻，同时保留其他人为其决定付出的损失，这让人物无法被英雄或暴君的单一标签完全收纳。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c06-p03-q01",
+              "text": "阿尔卡蒂奥为什么拒绝带着小金鱼的信使？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-ursula",
+                "solitude-santa-sofia",
+                "solitude-aureliano-colonel"
+              ]
+            },
+            {
+              "id": "solitude-c06-p03-q02",
+              "text": "临刑时不再恐惧，与真正留恋生命有何关系？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-ursula",
+                "solitude-santa-sofia",
+                "solitude-aureliano-colonel"
+              ]
+            },
+            {
+              "id": "solitude-c06-p03-q03",
+              "text": "亲近人物的临终内心，是否等于替他免除治理责任？",
+              "kind": "反驳",
+              "entityIds": [
+                "solitude-arcadio",
+                "solitude-ursula",
+                "solitude-santa-sofia",
+                "solitude-aureliano-colonel"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-ursula",
+            "solitude-santa-sofia",
+            "solitude-aureliano-colonel"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第六章",
+            "startLine": 801,
+            "endLine": 895
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c06-q01",
+          "text": "长期被忽视的人获得权力后，会怎样寻求承认？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-ursula",
+            "solitude-moscote",
+            "solitude-jose-arcadio-son",
+            "solitude-pietro",
+            "solitude-amaranta",
+            "solitude-pilar",
+            "solitude-santa-sofia",
+            "solitude-aureliano-colonel"
+          ]
+        },
+        {
+          "id": "solitude-c06-q02",
+          "text": "家庭为了体面保守秘密时，代价会落在谁身上？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-ursula",
+            "solitude-moscote",
+            "solitude-jose-arcadio-son",
+            "solitude-pietro",
+            "solitude-amaranta",
+            "solitude-pilar",
+            "solitude-santa-sofia",
+            "solitude-aureliano-colonel"
+          ]
+        },
+        {
+          "id": "solitude-c06-q03",
+          "text": "理解一个人的痛苦，怎样与追究其责任同时成立？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-arcadio",
+            "solitude-ursula",
+            "solitude-moscote",
+            "solitude-jose-arcadio-son",
+            "solitude-pietro",
+            "solitude-amaranta",
+            "solitude-pilar",
+            "solitude-santa-sofia",
+            "solitude-aureliano-colonel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c07",
+      "number": 7,
+      "title": "第七章",
+      "overview": "上校被俘押回马孔多，哥哥阻止行刑，又一场战争随即开始。家中迎来双胞胎，也经历长子的神秘死亡与创建者离世，上校开始怀疑自己究竟为何作战。",
+      "pages": [
+        {
+          "id": "solitude-c07-p01",
+          "title": "行刑队终于来到开头",
+          "markdown": "[奥雷里亚诺](entity:solitude-aureliano-colonel)被俘后押回马孔多。[乌尔苏拉](entity:solitude-ursula)强行争取探视，带来结婚时的靴子、干净衣服和奶味甜食。两人原本准备过许多问题，见面却讲起家里的近况。命令称他是死囚，母亲仍把他作为离家许久的孩子照料。\n\n军队迟迟不敢行刑，担心触怒当地居民。[丽贝卡](entity:solitude-rebeca)每天守着窗户，终于看见他被押向墓地。[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-son)拿猎枪冲出家门，行刑队首领举手，随即与士兵一起加入上校。第一章的未来场景到这里获得经过，死亡门槛又成了下一场战争的起点。\n\n这次获救说明上校的命运同时依靠家人、地方关系和军人的判断，预感没有独自决定结果。开头先让读者记住冰块，如今才交代枪口前的变化，叙述把童年记忆和政治危机交叉接合。一个场景的意义会随着后来读到的细节发生改变。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c07-p01-q01",
+              "text": "探监为什么变成家常聊天？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c07-p01-q02",
+              "text": "行刑队的迟疑来自哪些政治和地方因素？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c07-p01-q03",
+              "text": "开头那句未来叙述在这里获得了怎样的新意义？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-son"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第七章",
+            "startLine": 899,
+            "endLine": 1020
+          }
+        },
+        {
+          "id": "solitude-c07-p02",
+          "title": "一股血穿过了半个镇子",
+          "markdown": "上校离开后，[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-son)与[丽贝卡](entity:solitude-rebeca)住进新房。某天，他回到卧室，枪声响起，血沿街道流向母亲的厨房。血避开地毯，转过路口，像认得归家路线。[乌尔苏拉](entity:solitude-ursula)循着它走去，找到死亡的儿子。\n\n叙述详细交代了血怎样行进，却没有给出死亡原因。尸体带着无法消除的火药气味，[丽贝卡](entity:solitude-rebeca)后来把自己关在屋里，与镇上的日常联系渐渐消失。这份强烈的感官确定性和因果空白并存，读者很难仅凭奇异细节完成判断。\n\n同一时期，[桑塔索菲亚](entity:solitude-santa-sofia)与孩子进入祖宅，女儿被取名蕾梅黛丝，双胞胎叫[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)和[奥雷里亚诺第二](entity:solitude-aureliano-second)。新生命和旧死亡交叠，屋子继续承载重复的姓名。血将母亲与死者连接起来，活着的[丽贝卡](entity:solitude-rebeca)却远离所有人，亲缘联系并不能保证持续沟通。\n\n```mermaid\nflowchart TD\n  S[何塞·阿尔卡蒂奥：长子] --> A[阿尔卡蒂奥]\n  P[庇拉尔] --> A\n  A --> R[美人儿蕾梅黛丝]\n  F[桑塔索菲亚] --> R\n  A --> J[何塞·阿尔卡蒂奥第二]\n  F --> J\n  A --> U[奥雷里亚诺第二]\n  F --> U\n```",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c07-p02-q01",
+              "text": "血的路线为何被写得清楚，死因却没有说明？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-son",
+                "solitude-rebeca",
+                "solitude-ursula",
+                "solitude-santa-sofia",
+                "solitude-remedios-beauty",
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-arcadio",
+                "solitude-pilar"
+              ]
+            },
+            {
+              "id": "solitude-c07-p02-q02",
+              "text": "丽贝卡的封闭生活会怎样改变家族记忆？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-son",
+                "solitude-rebeca",
+                "solitude-ursula",
+                "solitude-santa-sofia",
+                "solitude-remedios-beauty",
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-arcadio",
+                "solitude-pilar"
+              ]
+            },
+            {
+              "id": "solitude-c07-p02-q03",
+              "text": "新生儿重复旧名字时，读者需要区分哪些人物？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-son",
+                "solitude-rebeca",
+                "solitude-ursula",
+                "solitude-santa-sofia",
+                "solitude-remedios-beauty",
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-arcadio",
+                "solitude-pilar"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-son",
+            "solitude-rebeca",
+            "solitude-ursula",
+            "solitude-santa-sofia",
+            "solitude-remedios-beauty",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-arcadio",
+            "solitude-pilar"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第七章",
+            "startLine": 899,
+            "endLine": 1020
+          }
+        },
+        {
+          "id": "solitude-c07-p03",
+          "title": "上校开始怀疑自己为何打仗",
+          "markdown": "战争没有让上校获得预期的清晰。他遭遇毒咖啡，幸存后的休养给他时间反思。他向[赫里内勒多](entity:solitude-gerineldo)询问作战理由，朋友仍相信自由党，上校却发现自己的动力已经变成自尊。共同军服下面的信念并不一致。\n\n为了冲出战局的循环，他放下与党内领导的名誉争执，出发联系内陆武装。[赫里内勒多](entity:solitude-gerineldo)留任马孔多，继续追求[阿玛兰妲](entity:solitude-amaranta)。她渴望他的来访，却又拒绝结婚，延续了接近与退缩的矛盾。战争和爱情都在继续，参与者越来越难说明怎样才算抵达。\n\n父亲在家中去世，黄花雨落满街道。上校通过远方的预感提前让母亲知道，随后缺席了家中的告别。曾想连接外界的父亲，最后留在栗树下。想改变国家的儿子不断奔走，和家人的距离也随之扩大，个人行动的规模越大，生活里的空位越明显。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c07-p03-q01",
+              "text": "自尊作为战争动力，与政治信念有什么差别？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-amaranta",
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c07-p03-q02",
+              "text": "上校为什么最终愿意放下名誉争执？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-amaranta",
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c07-p03-q03",
+              "text": "黄花雨和上校缺席并置，让父亲的死亡具有怎样的意味？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-amaranta",
+                "solitude-jose-arcadio-founder",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-gerineldo",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-founder",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第七章",
+            "startLine": 899,
+            "endLine": 1020
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c07-q01",
+          "text": "传奇如何同时由真实行动和叙述顺序构成？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son",
+            "solitude-santa-sofia",
+            "solitude-remedios-beauty",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-arcadio",
+            "solitude-pilar",
+            "solitude-gerineldo",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c07-q02",
+          "text": "同一个家族能共享血缘却失去哪些交流？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son",
+            "solitude-santa-sofia",
+            "solitude-remedios-beauty",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-arcadio",
+            "solitude-pilar",
+            "solitude-gerineldo",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c07-q03",
+          "text": "当行动只剩自尊推动时，还能怎样判断它是否该继续？",
+          "kind": "应用",
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son",
+            "solitude-santa-sofia",
+            "solitude-remedios-beauty",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-arcadio",
+            "solitude-pilar",
+            "solitude-gerineldo",
+            "solitude-amaranta",
+            "solitude-jose-arcadio-founder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c08",
+      "number": 8,
+      "title": "第八章",
+      "overview": "奥雷里亚诺·何塞因亲缘欲望回乡，最后在军事搜查中死亡。上校攻占马孔多，将曾保护居民的蒙卡达送上军事法庭，个人友情与革命名义正面冲突。",
+      "pages": [
+        {
+          "id": "solitude-c08-p01",
+          "title": "一个儿子想回到姑妈身边",
+          "markdown": "[奥雷里亚诺·何塞](entity:solitude-aureliano-jose)由[阿玛兰妲](entity:solitude-amaranta)抚养长大。他逐渐把依恋转成欲望，跟父亲出征又中途返回，认定自己可以娶她。[阿玛兰妲](entity:solitude-amaranta)曾在亲密中得到慰藉，最终明确拒绝，并关闭卧室。这段关系同时带着照护、年龄与亲缘边界，难以仅用爱情解释。\n\n他后来在剧院入口拒绝军事搜查，逃离时被军官射中。[庇拉尔](entity:solitude-pilar)此前为他安排了另一个可能的夜晚，纸牌预示也没能阻止死亡。小说并置原本可能的生活和已经发生的结果，使偶然选择显出残酷的重量。\n\n本章又有上校的其他儿子陆续登门。[乌尔苏拉](entity:solitude-ursula)登记名字与住址，给他们施洗，试图将战争中分散的血脉收进可记录的家庭。名单增加，母亲们仍各自带孩子离开。家族通过名字扩大，实际共同生活的时间却十分短暂。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c08-p01-q01",
+              "text": "阿玛兰妲与奥雷里亚诺·何塞的关系有哪些不对等？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-jose",
+                "solitude-amaranta",
+                "solitude-pilar",
+                "solitude-aureliano-colonel",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c08-p01-q02",
+              "text": "剧院入口的搜查怎样把私人夜晚变成政治事件？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-jose",
+                "solitude-amaranta",
+                "solitude-pilar",
+                "solitude-aureliano-colonel",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c08-p01-q03",
+              "text": "登记儿子名单能建立怎样的联系，又不能建立什么？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-jose",
+                "solitude-amaranta",
+                "solitude-pilar",
+                "solitude-aureliano-colonel",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-jose",
+            "solitude-amaranta",
+            "solitude-pilar",
+            "solitude-aureliano-colonel",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第八章",
+            "startLine": 1024,
+            "endLine": 1152
+          }
+        },
+        {
+          "id": "solitude-c08-p02",
+          "title": "敌人也可能维护日常秩序",
+          "markdown": "战后管理马孔多的[蒙卡达](entity:solitude-moncada)将军属于保守派，却努力限制军人的横暴。他关心教育和地方生活，与[乌尔苏拉](entity:solitude-ursula)关系亲近，也和上校讨论过让战争更人道的愿望。党派阵线并没有让两人在所有问题上对立。\n\n战事重新逼近，驻军暴力破坏了他的调停。上校率兵攻占马孔多，[蒙卡达](entity:solitude-moncada)成为俘虏。[乌尔苏拉](entity:solitude-ursula)联合其他军官的母亲到法庭陈述，提醒众人这名敌将曾保护他们的家庭。她们用具体相处抵抗抽象的敌我分类。\n\n军事法庭仍判他死刑。上校没有推翻决定，胜利开始以牺牲旧有私人判断为代价。读者能看见一个地方的秩序怎样被两党军队反复接管，也能看见战时标签如何压倒实际行为。[蒙卡达](entity:solitude-moncada)的政治身份真实存在，他对居民的照顾也同样存在，小说要求这两件事同时进入判断。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c08-p02-q01",
+              "text": "蒙卡达属于保守派，为何仍得到乌尔苏拉支持？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-moncada",
+                "solitude-ursula",
+                "solitude-aureliano-colonel"
+              ]
+            },
+            {
+              "id": "solitude-c08-p02-q02",
+              "text": "母亲们的证言与军事法庭的逻辑有何冲突？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-moncada",
+                "solitude-ursula",
+                "solitude-aureliano-colonel"
+              ]
+            },
+            {
+              "id": "solitude-c08-p02-q03",
+              "text": "党派身份为什么不足以概括一个人的具体行为？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-moncada",
+                "solitude-ursula",
+                "solitude-aureliano-colonel"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-moncada",
+            "solitude-ursula",
+            "solitude-aureliano-colonel"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第八章",
+            "startLine": 1024,
+            "endLine": 1152
+          }
+        },
+        {
+          "id": "solitude-c08-p03",
+          "title": "革命的名义藏不住个人决定",
+          "markdown": "临刑前，上校去探望[蒙卡达](entity:solitude-moncada)，把处决归于革命的要求。他也承认军事法庭带着表演性质，希望战争不惜代价赢得胜利。[蒙卡达](entity:solitude-moncada)担心的重点落在另一处：当胜利覆盖一切，军人的专横会同样作用于自己的亲友。\n\n[蒙卡达](entity:solitude-moncada)托上校把眼镜、怀表、戒指和徽章送给妻子。遗物把判决中的敌人重新放回丈夫的位置，也使执行者无法完全躲进抽象的名义。上校收下物件，个人关系与政治命令在一个房间里短暂相遇，仍未改变结果。\n\n这场谈话构成上校形象的重要转折。早先他拒绝伤害[摩斯科特](entity:solitude-moscote)一家，如今面对曾共存的朋友接受枪决。变化不能只由战争次数计算，还要看他怎样处理认识的人。回到院里的晨雾中，他已经受到国家元首般的敬礼，权威上升与内在距离在同一时刻扩大。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c08-p03-q01",
+              "text": "上校把决定归给革命，会改变他的个人责任吗？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-moncada",
+                "solitude-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c08-p03-q02",
+              "text": "眼镜和戒指为什么比政治称号更难被忽略？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-moncada",
+                "solitude-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c08-p03-q03",
+              "text": "处决蒙卡达与保护摩斯科特一家之间，上校发生了什么变化？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-moncada",
+                "solitude-moscote"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-moncada",
+            "solitude-moscote"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第八章",
+            "startLine": 1024,
+            "endLine": 1152
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c08-q01",
+          "text": "政治标签怎样覆盖人们已有的共同生活？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-jose",
+            "solitude-amaranta",
+            "solitude-pilar",
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-moncada",
+            "solitude-moscote"
+          ]
+        },
+        {
+          "id": "solitude-c08-q02",
+          "text": "战时规则由谁承担，能否被个人判断修正？",
+          "kind": "反驳",
+          "entityIds": [
+            "solitude-aureliano-jose",
+            "solitude-amaranta",
+            "solitude-pilar",
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-moncada",
+            "solitude-moscote"
+          ]
+        },
+        {
+          "id": "solitude-c08-q03",
+          "text": "胜利若要求放弃原先的原则，还能怎样判断其价值？",
+          "kind": "应用",
+          "entityIds": [
+            "solitude-aureliano-jose",
+            "solitude-amaranta",
+            "solitude-pilar",
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-moncada",
+            "solitude-moscote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c09",
+      "number": 9,
+      "title": "第九章",
+      "overview": "战争原则被律师团逐项放弃，赫里内勒多提出异议却被判死刑。乌尔苏拉逼儿子停下，上校艰难促成停战，又在自杀未遂和公共赞颂之间回到家庭。",
+      "pages": [
+        {
+          "id": "solitude-c09-p01",
+          "title": "电报里只剩下雨的消息",
+          "markdown": "[赫里内勒多](entity:solitude-gerineldo)最先感觉战争失去意义。和上校的电报从重要决定变成平常消息，距离越来越长，真正能分享的东西越来越少。他说马孔多下雨，上校冷淡地回应八月下雨很正常。技术仍连接线路，关系已经变得难以接通。\n\n上校的权力增长，身边出现必须保持距离的圈线，旁人的建议还会把他未说出口的残忍想法先说出来。他对[蒙卡达](entity:solitude-moncada)遗孀的拒绝感到羞辱，卫队烧毁她的家后才恢复平静。名誉和自尊需要越来越多外部暴力来维护。\n\n律师团要求放弃土地审查、限制教会权力和私生子权利等主张，以换取更广泛支持。上校接受，承认如今只为权力作战。[赫里内勒多](entity:solitude-gerineldo)质疑这些条件，反被判处死刑。最忠诚的朋友突然成了叛徒，战场的敌我划分已经伸进共同阵营内部。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c09-p01-q01",
+              "text": "通电报为什么不能保证真实交流？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-gerineldo",
+                "solitude-aureliano-colonel",
+                "solitude-moncada"
+              ]
+            },
+            {
+              "id": "solitude-c09-p01-q02",
+              "text": "律师团的条件怎样改变了战争原有的理由？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-gerineldo",
+                "solitude-aureliano-colonel",
+                "solitude-moncada"
+              ]
+            },
+            {
+              "id": "solitude-c09-p01-q03",
+              "text": "忠诚的朋友为何会在提出原则问题后成为叛徒？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-gerineldo",
+                "solitude-aureliano-colonel",
+                "solitude-moncada"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-gerineldo",
+            "solitude-aureliano-colonel",
+            "solitude-moncada"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第九章",
+            "startLine": 1156,
+            "endLine": 1330
+          }
+        },
+        {
+          "id": "solitude-c09-p02",
+          "title": "乌尔苏拉逼他停下",
+          "markdown": "[乌尔苏拉](entity:solitude-ursula)明确告诉儿子，如果处决[赫里内勒多](entity:solitude-gerineldo)，她会亲手杀他。母亲的威胁突破了卫队和命令设下的距离。上校彻夜清醒，开始看见多年争夺荣誉的荒谬，天亮后到牢房释放朋友，请他一起结束战争。\n\n停战没有立刻到来。上校先迫使政府接受条件，再迫使自己的军官交出武器，甚至借助旧敌压制不肯结束的部下。为退出暴力，他仍使用暴力。持续作战已经创造出独立利益，无法随着领袖改变想法自然消失。\n\n回家后，他难以认出熟悉的情感。[乌尔苏拉](entity:solitude-ursula)期待儿子在婚房养老，他却开始烧毁诗稿、送走衣物、清除个人痕迹。结束外部战争和恢复私人生活是两项不同的困难。曾为[蕾梅黛丝](entity:solitude-remedios-moscote)写诗的青年仍属于他的过去，他如今却找不到通向那些感受的路径。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c09-p02-q01",
+              "text": "乌尔苏拉的威胁为何比许多求情更能触动上校？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-remedios-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c09-p02-q02",
+              "text": "退出战争为什么还需要和自己的部下作战？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-remedios-moscote"
+              ]
+            },
+            {
+              "id": "solitude-c09-p02-q03",
+              "text": "烧毁诗稿怎样表现上校与过去的关系？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-remedios-moscote"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-aureliano-colonel",
+            "solitude-gerineldo",
+            "solitude-remedios-moscote"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第九章",
+            "startLine": 1156,
+            "endLine": 1330
+          }
+        },
+        {
+          "id": "solitude-c09-p03",
+          "title": "签字以后并没有平静",
+          "markdown": "尼兰迪亚停战仪式简短而贫乏，忠诚军官围在旧马戏帐篷中的桌边。上校放弃盛大礼仪，也拒绝留下照片，签完协定后向自己开枪。医生先前标出的心脏位置让子弹穿过身体却避开要害，他活了下来。\n\n自杀未遂迅速改变公共评价。刚指责他出卖革命的人，转而称赞其悲壮，要求他重开战事。失败、耻辱和荣誉可以围绕同一个举动重新排列。舆论赋给他新的角色，与他试图结束一切的愿望形成距离。\n\n[乌尔苏拉](entity:solitude-ursula)在家里重新油漆、种花、开门接客，还教守卫读写。上校从长廊看见这场恢复，终于放弃再开战争的念头。停战没有让他重新快乐，但生活在他周围重新展开。家人的修补与接待，比胜负的语言更具体，也为这一长段战争留下一个暂时出口。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c09-p03-q01",
+              "text": "自杀未遂为什么会使公众评价迅速翻转？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-gerineldo"
+              ]
+            },
+            {
+              "id": "solitude-c09-p03-q02",
+              "text": "停战协议能结束哪些事，不能结束哪些事？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-gerineldo"
+              ]
+            },
+            {
+              "id": "solitude-c09-p03-q03",
+              "text": "乌尔苏拉重新开门、种花和教人读写有什么作用？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-gerineldo"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-gerineldo"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第九章",
+            "startLine": 1156,
+            "endLine": 1330
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c09-q01",
+          "text": "当手段继续复制旧暴力，退出如何才可能？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-gerineldo",
+            "solitude-aureliano-colonel",
+            "solitude-moncada",
+            "solitude-ursula",
+            "solitude-remedios-moscote"
+          ]
+        },
+        {
+          "id": "solitude-c09-q02",
+          "text": "公共荣誉为何可能与个人经验相反？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-gerineldo",
+            "solitude-aureliano-colonel",
+            "solitude-moncada",
+            "solitude-ursula",
+            "solitude-remedios-moscote"
+          ]
+        },
+        {
+          "id": "solitude-c09-q03",
+          "text": "战争结束后，恢复生活需要哪些并不宏大的行动？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-gerineldo",
+            "solitude-aureliano-colonel",
+            "solitude-moncada",
+            "solitude-ursula",
+            "solitude-remedios-moscote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c10",
+      "number": 10,
+      "title": "第十章",
+      "overview": "双胞胎的成长使姓名与性格的家族规律变得可疑，佩特拉与奥雷里亚诺第二的亲密带来牲畜和财富膨胀。狂欢节突然发生血案，费尔南达由此进入家族。",
+      "pages": [
+        {
+          "id": "solitude-c10-p01",
+          "title": "名字能预测性格吗",
+          "markdown": "双胞胎小时候交换衣服和身份，连[乌尔苏拉](entity:solitude-ursula)也怀疑他们最终留下了彼此的名字。她从家族历史总结两条规律：奥雷里亚诺们敏感而孤僻，[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-seminary)们冲动且易遇悲剧。双胞胎的交错让这一解释出现难题。\n\n[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)要求观看枪决，死者的微笑使他害怕有人被活埋，也使他厌恶军演。[奥雷里亚诺第二](entity:solitude-aureliano-second)则进入[梅尔基亚德斯](entity:solitude-melquiades)的房间，阅读残缺故事和羊皮卷，见到老吉卜赛人的身影。两人的分化从具体经验开始，并不只由姓名决定。\n\n[乌尔苏拉](entity:solitude-ursula)希望新生的[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-seminary)成为神甫，甚至教皇，远离战争、斗鸡和放荡。取名与教育一起承载她对修复家族的愿望。读者需要把家长归纳的模式留在人物的判断里，继续观察每个人实际做了什么，才能分清重复、误认和新的选择。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c10-p01-q01",
+              "text": "双胞胎互换身份后，姓名规律还可靠吗？",
+              "kind": "反驳",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-melquiades",
+                "solitude-jose-arcadio-seminary"
+              ]
+            },
+            {
+              "id": "solitude-c10-p01-q02",
+              "text": "观看枪决怎样影响何塞·阿尔卡蒂奥第二？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-melquiades",
+                "solitude-jose-arcadio-seminary"
+              ]
+            },
+            {
+              "id": "solitude-c10-p01-q03",
+              "text": "乌尔苏拉培养教皇的想法想解决哪些家族问题？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-melquiades",
+                "solitude-jose-arcadio-seminary"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-ursula",
+            "solitude-melquiades",
+            "solitude-jose-arcadio-seminary"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十章",
+            "startLine": 1334,
+            "endLine": 1427
+          }
+        },
+        {
+          "id": "solitude-c10-p02",
+          "title": "牲畜替欲望繁殖",
+          "markdown": "[佩特拉·科特斯](entity:solitude-petra)起初分不清双胞胎，后来与[奥雷里亚诺第二](entity:solitude-aureliano-second)共同生活。兔子一夜挤满院子，换来的奶牛又生三胞胎。两人相信亲密能使牲口旺盛繁殖，财富因此以不可思议的速度增长，几乎没有经营过程。\n\n[奥雷里亚诺第二](entity:solitude-aureliano-second)把钱用于宴会，宰牛给全镇，甚至用钞票裱糊房屋。[乌尔苏拉](entity:solitude-ursula)让人揭掉纸币，重新刷白墙面。奢侈的展示揭落墙皮，也碰碎圣约瑟石膏像，露出别人寄存的金币。钱在家里不断出现，归属与用途反而难以安顿。\n\n这段繁盛既快乐又不稳定。[佩特拉](entity:solitude-petra)的劳动与情感被写成财富源头，法律婚姻却属于另一个女人。财富使人相信生活可以没有限制，[乌尔苏拉](entity:solitude-ursula)仍以曾经的贫穷衡量浪费。家族开始面对另一种危险：丰裕让旧的责任感松动，也让人忘记供给可能中断。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "solitude-c10-p02-q01",
+              "text": "牲畜繁殖的奇异设定怎样连接欲望与财富？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-petra",
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-fernanda"
+              ]
+            },
+            {
+              "id": "solitude-c10-p02-q02",
+              "text": "用钞票裱糊房屋是在显示什么？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-petra",
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-fernanda"
+              ]
+            },
+            {
+              "id": "solitude-c10-p02-q03",
+              "text": "金币突然出现为何也会成为乌尔苏拉的烦扰？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-petra",
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-fernanda"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-petra",
+            "solitude-aureliano-second",
+            "solitude-ursula",
+            "solitude-fernanda"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十章",
+            "startLine": 1334,
+            "endLine": 1427
+          }
+        },
+        {
+          "id": "solitude-c10-p03",
+          "title": "狂欢节留下了一位妻子",
+          "markdown": "[美人儿蕾梅黛丝](entity:solitude-remedios-beauty)被选为狂欢节女王。男人把她的微笑看作许诺，她却常常只是在回应眼前的人，并不理解对方安排的爱情故事。上校认为她有看穿表象的能力，[乌尔苏拉](entity:solitude-ursula)担心她的美貌会带来危险。\n\n另一队外来者带着[费尔南达](entity:solitude-fernanda)来到广场，声称她是马达加斯加女王。两位女王同时出现，狂欢达到顶点，枪声突然盖过烟火。事后有人认为化装的卫队其实是政府军，当局否认，真相一直未获澄清。欢庆的表演和武装暴力可以在同一服装里切换。\n\n双胞胎分别救出两位女性，[奥雷里亚诺第二](entity:solitude-aureliano-second)后来寻找[费尔南达](entity:solitude-fernanda)，与她结婚。家族的新婚姻由一场身份混杂、原因不明的血案引出。盛典让陌生人相遇，也让市镇再度受到外部力量冲击，繁荣的日子并没有把战争彻底留在过去。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c10-p03-q01",
+              "text": "男人怎样误读美人儿蕾梅黛丝的微笑？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-beauty",
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-jose-arcadio-second"
+              ]
+            },
+            {
+              "id": "solitude-c10-p03-q02",
+              "text": "化装卫队的身份不明，对狂欢场景有什么影响？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-beauty",
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-jose-arcadio-second"
+              ]
+            },
+            {
+              "id": "solitude-c10-p03-q03",
+              "text": "婚姻为何会在一场无法澄清的血案后开始？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-beauty",
+                "solitude-aureliano-colonel",
+                "solitude-ursula",
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-jose-arcadio-second"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-remedios-beauty",
+            "solitude-aureliano-colonel",
+            "solitude-ursula",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-jose-arcadio-second"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十章",
+            "startLine": 1334,
+            "endLine": 1427
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c10-q01",
+          "text": "家族规律是在发现模式，还是在塑造后来的人？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-ursula",
+            "solitude-melquiades",
+            "solitude-jose-arcadio-seminary",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-remedios-beauty",
+            "solitude-aureliano-colonel"
+          ]
+        },
+        {
+          "id": "solitude-c10-q02",
+          "text": "财富没有可见来路时，人们怎样理解责任和限制？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-ursula",
+            "solitude-melquiades",
+            "solitude-jose-arcadio-seminary",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-remedios-beauty",
+            "solitude-aureliano-colonel"
+          ]
+        },
+        {
+          "id": "solitude-c10-q03",
+          "text": "公共欢庆为什么可能同时遮蔽暴力？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-ursula",
+            "solitude-melquiades",
+            "solitude-jose-arcadio-seminary",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-remedios-beauty",
+            "solitude-aureliano-colonel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c11",
+      "number": 11,
+      "title": "第十一章",
+      "overview": "费尔南达用贵族礼仪和宗教规矩重排家庭生活，上校拒绝官方纪念，却迎来十七个儿子的团聚。冰厂把童年奇观变成商品，铁路终于将马孔多接入更大的世界。",
+      "pages": [
+        {
+          "id": "solitude-c11-p01",
+          "title": "费尔南达带来另一套时间",
+          "markdown": "[费尔南达](entity:solitude-fernanda)出身衰败的贵族家庭，童年住在幽暗宅院里，被告知将成为女王。银器和家族称号掩饰贫困，礼仪又限制她对外界的认识。来到布恩迪亚家后，她用宗教历书划定夫妻生活，用繁复衣物保留自己的体面。\n\n[奥雷里亚诺第二](entity:solitude-aureliano-second)回到[佩特拉](entity:solitude-petra)身边，声称牲畜繁殖离不开两人的关系。妻子接受这个荒唐解释，只要求他不要死在情人的床上。三人形成能维持生活的安排，怨恨和距离仍然存在，婚姻稳定并不等于彼此理解。\n\n[费尔南达](entity:solitude-fernanda)逐渐控制用餐、祈祷和接待方式，让原本敞开的房子变得严肃。[阿玛兰妲](entity:solitude-amaranta)用粗俗黑话反击她的婉转，两人从此不再正常交谈。女儿出生，母亲坚持正式姓名，家人却叫她[梅梅](entity:solitude-meme)。同一屋子里连名字都有两种用法，体现两套生活秩序难以完全相容。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c11-p01-q01",
+              "text": "费尔南达为何用贵族礼仪维持已经衰落的生活？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-amaranta",
+                "solitude-meme"
+              ]
+            },
+            {
+              "id": "solitude-c11-p01-q02",
+              "text": "三人的婚姻安排解决了什么，又保留了什么？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-amaranta",
+                "solitude-meme"
+              ]
+            },
+            {
+              "id": "solitude-c11-p01-q03",
+              "text": "正式姓名与梅梅这个昵称怎样体现家中的两套秩序？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-amaranta",
+                "solitude-meme"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-amaranta",
+            "solitude-meme"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十一章",
+            "startLine": 1431,
+            "endLine": 1535
+          }
+        },
+        {
+          "id": "solitude-c11-p02",
+          "title": "纪念英雄，也可能抹去他",
+          "markdown": "政府准备纪念尼兰迪亚协定，上校拒绝勋章和庆典。来人想让他出席，把过去的敌对转成国家统一的象征，他仍关在作坊里。官方仪式可以在主人公缺席时举行，公众得到的纪念未必包含本人对历史的理解。\n\n十七个儿子却同时来到家里，带着不同体貌和共同的孤僻。他们陪[阿玛兰妲](entity:solitude-amaranta)去教堂，额上的圣灰十字随后洗不掉。这本是一次热闹的家族相聚，身体却留下永久的共同标记。与容易改写的称号相比，标记显得更加牢固。\n\n[奥雷里亚诺](entity:solitude-aureliano-colonel)·特里斯特留下开冰厂，又误闯[丽贝卡](entity:solitude-rebeca)长久关闭的屋子。他的身形让她一度看见死去的丈夫。家人这才惊觉仍有人被遗忘在广场另一角。纪念活动声势浩大，近在身边的亲人却缺少问候，公共记忆与实际照料之间出现鲜明的距离。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c11-p02-q01",
+              "text": "上校为何拒绝为停战举行的纪念活动？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-amaranta",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c11-p02-q02",
+              "text": "洗不掉的圣灰十字怎样改变了家族相聚的意味？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-amaranta",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-son"
+              ]
+            },
+            {
+              "id": "solitude-c11-p02-q03",
+              "text": "家人忘记丽贝卡还活着，说明共同记忆有哪些盲点？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-amaranta",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-son"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-amaranta",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十一章",
+            "startLine": 1431,
+            "endLine": 1535
+          }
+        },
+        {
+          "id": "solitude-c11-p03",
+          "title": "冰块终于成了日常商品",
+          "markdown": "奥雷里亚诺·特里斯特让冰厂运转，再计划修铁路，将产品送到外面。他在饭桌上画图，祖辈曾为太阳战绘图，如今后代把技术用于运输和经营。第一次被当作奇迹观看的冰块，终于变成可以制造、出售的日用品。\n\n[奥雷里亚诺第二](entity:solitude-aureliano-second)出钱支持，[乌尔苏拉](entity:solitude-ursula)看见丈夫未完成的愿望在后代身上重现。工程进行时，居民并没有马上理解轨道的意义，直到火车出现，汽笛和蒸汽才让他们重新认识街边的施工。道路从寻人时发现的小路，变成固定而快速的连接。\n\n本章停在黄色列车抵达的时刻，尚未说明它会把什么人和制度带来。叙述把喜悦、疑惑和不安放在同一个入口。铁路确实扩展马孔多的行动范围，也使远方更容易进入村庄。连接带来的可能与代价，需要在之后具体来访者的行为里逐一看清。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c11-p03-q01",
+              "text": "冰厂怎样回应第一章父亲对冰块的惊叹？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder"
+              ]
+            },
+            {
+              "id": "solitude-c11-p03-q02",
+              "text": "铁路图纸与太阳战图纸有哪些相似和差别？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder"
+              ]
+            },
+            {
+              "id": "solitude-c11-p03-q03",
+              "text": "交通便利为什么会同时扩大机会与外部影响？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-ursula",
+            "solitude-jose-arcadio-founder"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十一章",
+            "startLine": 1431,
+            "endLine": 1535
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c11-q01",
+          "text": "稳定的家庭安排为何仍可能缺少理解？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-amaranta",
+            "solitude-meme",
+            "solitude-aureliano-colonel",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son",
+            "solitude-ursula",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c11-q02",
+          "text": "官方纪念与私人记忆怎样出现分歧？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-amaranta",
+            "solitude-meme",
+            "solitude-aureliano-colonel",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son",
+            "solitude-ursula",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c11-q03",
+          "text": "一种技术从奇观变成基础设施后，会改变哪些关系？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-amaranta",
+            "solitude-meme",
+            "solitude-aureliano-colonel",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-son",
+            "solitude-ursula",
+            "solitude-jose-arcadio-founder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c12",
+      "number": 12,
+      "title": "第十二章",
+      "overview": "电灯和电影改变居民对真实的判断，一次香蕉宴请又引来公司与新的空间秩序。美人儿蕾梅黛丝升天，上校的儿子被共同标记出卖，繁荣与暴力在同一时期进入家族。",
+      "pages": [
+        {
+          "id": "solitude-c12-p01",
+          "title": "新发明改变的不只有工具",
+          "markdown": "电灯、电影、留声机和电话来到[马孔多](entity:solitude-macondo)。观众看见刚死去的演员在另一部影片里复活，觉得商人欺骗感情。机器复制声音同样让人困惑，电话里的真实对话却又使判断动摇。居民需要学习辨认表演、记录与远方的现实。\n\n赫伯特在家里吃香蕉，随后仔细测量，带来工程师和测绘人员。看似普通的待客，把本地物产引入全球商业的计算。[香蕉公司](entity:solitude-banana-company)很快建立设施，美国人住进铁路另一侧设有电网的区域，空间在繁荣中开始分层。\n\n[奥雷里亚诺第二](entity:solitude-aureliano-second)喜欢不断来访的客人，扩大饭桌和卧室，上校则烦恼变化太快。两人的态度各有经验背景：一个在丰裕中享受开放，一个记得外部力量如何进入日常。公司重组土地和城镇时，居民只能每天重新辨认家乡，熟悉地方的权利并未随财富一同增长。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c12-p01-q01",
+              "text": "电影中人物复活为何被马孔多人理解为欺骗？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-aureliano-colonel",
+                "solitude-banana-company",
+                "solitude-macondo"
+              ]
+            },
+            {
+              "id": "solitude-c12-p01-q02",
+              "text": "一次吃香蕉的拜访怎样连接消费与商业调查？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-aureliano-colonel",
+                "solitude-banana-company",
+                "solitude-macondo"
+              ]
+            },
+            {
+              "id": "solitude-c12-p01-q03",
+              "text": "铁路两侧的居住安排说明繁荣怎样分配空间？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-aureliano-colonel",
+                "solitude-banana-company",
+                "solitude-macondo"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-aureliano-colonel",
+            "solitude-banana-company",
+            "solitude-macondo"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十二章",
+            "startLine": 1539,
+            "endLine": 1657
+          }
+        },
+        {
+          "id": "solitude-c12-p02",
+          "title": "她离开了别人替她写好的故事",
+          "markdown": "[美人儿蕾梅黛丝](entity:solitude-remedios-beauty)对社交规矩、衣服和爱情许诺缺乏兴趣，男人却不断把自己的欲望投向她。她把求婚理解成奇怪的要求，把偷窥者视为可能摔破屋瓦的人。对方的执念与她的理解始终没有处在同一层面。\n\n数人因追逐她死亡，外乡人认定她具有致命力量。这种说法把男性行为的后果收进女性身体，家里人也开始担忧。某个下午，她与女性长辈收床单，微风扬起织物，她连同床单升空，逐渐消失。\n\n家人接受升天，外乡人猜测她私奔，[费尔南达](entity:solitude-fernanda)尤其惦记丢失的床单。叙述没有替这几种反应建立唯一解释。离开成为一场开放的观看：有人坚持名誉故事，有人记挂家务，有人承认无法追回的轻盈。读者若只寻找隐藏原因，容易错过各人的解释怎样暴露自己的关注。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c12-p02-q01",
+              "text": "追逐者死亡为何被归因于她的美貌？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-beauty",
+                "solitude-fernanda",
+                "solitude-amaranta",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c12-p02-q02",
+              "text": "费尔南达惦记床单，在升天场景里产生什么效果？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-remedios-beauty",
+                "solitude-fernanda",
+                "solitude-amaranta",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c12-p02-q03",
+              "text": "家人和外乡人为何对同一离开给出不同故事？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-remedios-beauty",
+                "solitude-fernanda",
+                "solitude-amaranta",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-remedios-beauty",
+            "solitude-fernanda",
+            "solitude-amaranta",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十二章",
+            "startLine": 1539,
+            "endLine": 1657
+          }
+        },
+        {
+          "id": "solitude-c12-p03",
+          "title": "永久标记变成了猎杀的目标",
+          "markdown": "[香蕉公司](entity:solitude-banana-company)的警察杀害一名孩子和试图救他的老人。上校的愤怒再次燃起，扬言用儿子们赶走外来者。随后的一个星期，凶手在沿海各地瞄准额上的圣灰十字，逐个杀害他的儿子，只有一人逃进山里失去消息。\n\n先前象征共同血脉的标记，如今成为追踪依据。总统发来唁电，市長承诺调查，又安排花圈与葬礼。礼仪迅速出现，责任却无法落实。上校把家人送来的花圈退回，禁止这个姓氏再参加圣灰仪式。\n\n他想找出家中的金币，重新发动战争，[赫里内勒多](entity:solitude-gerineldo)却看出他的衰老。多年过去，抵抗意愿仍在，能够组织行动的条件已经改变。这一章让家族遭受的暴力与公司制度并行，繁荣没有保护旧英雄的后代。被国家纪念的人，也无法因此得到对亲人的有效保障。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c12-p03-q01",
+              "text": "圣灰十字怎样从家庭标记变成暴力工具？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-banana-company"
+              ]
+            },
+            {
+              "id": "solitude-c12-p03-q02",
+              "text": "唁电与调查承诺为什么不足以平息上校？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-banana-company"
+              ]
+            },
+            {
+              "id": "solitude-c12-p03-q03",
+              "text": "衰老的上校想重开战争时，哪些条件已经改变？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-gerineldo",
+                "solitude-banana-company"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-gerineldo",
+            "solitude-banana-company"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十二章",
+            "startLine": 1539,
+            "endLine": 1657
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c12-q01",
+          "text": "新媒介要求观众建立哪些关于真实的判断？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-aureliano-colonel",
+            "solitude-banana-company",
+            "solitude-macondo",
+            "solitude-remedios-beauty",
+            "solitude-fernanda",
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-gerineldo"
+          ]
+        },
+        {
+          "id": "solitude-c12-q02",
+          "text": "一个人会怎样被他人的解释包围？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-aureliano-colonel",
+            "solitude-banana-company",
+            "solitude-macondo",
+            "solitude-remedios-beauty",
+            "solitude-fernanda",
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-gerineldo"
+          ]
+        },
+        {
+          "id": "solitude-c12-q03",
+          "text": "共同身份标记在不同制度下可能获得什么相反用途？",
+          "kind": "比较",
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-aureliano-colonel",
+            "solitude-banana-company",
+            "solitude-macondo",
+            "solitude-remedios-beauty",
+            "solitude-fernanda",
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-gerineldo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c13",
+      "number": 13,
+      "title": "第十三章",
+      "overview": "失明的乌尔苏拉靠经验维持行动，也开始修正对家人的旧判断。丰裕宴会和严格礼仪都显出极限，上校在小金鱼的循环劳动中度日，最后的下午又遇见马戏团。",
+      "pages": [
+        {
+          "id": "solitude-c13-p01",
+          "title": "乌尔苏拉用习惯重新认识房子",
+          "markdown": "[乌尔苏拉](entity:solitude-ursula)几乎失明，却没有让家人察觉。她记住声音、气味和日常路线，利用曾孙描述圣像的颜色，再凭衣料质地辨认。经验让她维持行动，但太阳位置随季节变化，[阿玛兰妲](entity:solitude-amaranta)也跟着挪座，她于是撞上意料之外的人。\n\n发现偏差后，她重新校准身体与环境。家人把异常动作当成衰老失常，仍不知道她已经失去视力。能力的维持依赖大量隐蔽劳动，旁观者只看见表面结果，容易将帮助与理解都安排在错误的位置。\n\n回顾家族，她开始修正旧判断，看到上校的高傲、[阿玛兰妲](entity:solitude-amaranta)对爱情的恐惧，也重新理解[丽贝卡](entity:solitude-rebeca)的勇气。活得足够久没有让她得到全知，反而让早先的解释一次次松动。她希望培养新后代来挽救家族，身体和时间却越来越难支撑这份计划。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "solitude-c13-p01-q01",
+              "text": "乌尔苏拉怎样用触觉和习惯弥补视力？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-amaranta",
+                "solitude-aureliano-colonel",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-seminary"
+              ]
+            },
+            {
+              "id": "solitude-c13-p01-q02",
+              "text": "太阳位置变化为什么会打破她对家中的掌握？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-amaranta",
+                "solitude-aureliano-colonel",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-seminary"
+              ]
+            },
+            {
+              "id": "solitude-c13-p01-q03",
+              "text": "她晚年的判断为何与早先的人物分类不同？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-amaranta",
+                "solitude-aureliano-colonel",
+                "solitude-rebeca",
+                "solitude-jose-arcadio-seminary"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-amaranta",
+            "solitude-aureliano-colonel",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-seminary"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十三章",
+            "startLine": 1661,
+            "endLine": 1766
+          }
+        },
+        {
+          "id": "solitude-c13-p02",
+          "title": "宴会和守规矩都走到了尽头",
+          "markdown": "[费尔南达](entity:solitude-fernanda)送儿女外出学习，用书信维持体面的家族形象，信里避开真实生活。[奥雷里亚诺第二](entity:solitude-aureliano-second)更多留在[佩特拉](entity:solitude-petra)家，宴会和牲畜繁殖继续扩张。两处生活各自完整，却依靠同一家庭财富相连，彼此之间缺少坦诚的叙述。\n\n一场比食量的比赛让[奥雷里亚诺第二](entity:solitude-aureliano-second)几乎丧命。多年被当作欢乐源头的过量消费，终于显露身体极限。[佩特拉](entity:solitude-petra)准备漆皮靴，他却活下来，改变了在妻子与情人两边停留的时间。誓言和现实被一场滑稽又危险的比赛重新安排。\n\n[梅梅](entity:solitude-meme)回家时，带来修女和几十名同学。[费尔南达](entity:solitude-fernanda)严格的接待秩序被食宿、洗澡和便盆问题打乱。家里的庞大建筑曾承载开放，如今接待又像难以完成的工程。庄重礼仪与热闹宴会都需要具体劳动维持，笑料让那些被体面遮住的需要重新出现。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c13-p02-q01",
+              "text": "暴食比赛怎样暴露丰裕生活的极限？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-meme"
+              ]
+            },
+            {
+              "id": "solitude-c13-p02-q02",
+              "text": "费尔南达的书信为什么维持体面却减少真实交流？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-meme"
+              ]
+            },
+            {
+              "id": "solitude-c13-p02-q03",
+              "text": "学生来访的笑料如何让家务劳动重新显形？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-meme"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-meme"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十三章",
+            "startLine": 1661,
+            "endLine": 1766
+          }
+        },
+        {
+          "id": "solitude-c13-p03",
+          "title": "小金鱼把日子围成一个圈",
+          "markdown": "上校停止出售小金鱼，做满一批后熔掉，再从头制作。精细的手艺仍在，交换和积累却已经退出。他用相同过程填充每一天，正如[阿玛兰妲](entity:solitude-amaranta)织了又拆，用劳动守住自己的孤独。活动持续进行，生活却不再因此拓展。\n\n[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)试着与他谈话，两人都记得枪决留下的恐惧。[乌尔苏拉](entity:solitude-ursula)听出他们有相似的内在经验，但这种接近依旧无法打破上校的幽闭。他不再留意许多家事，连过去写下的诗和妻子的娃娃也已经焚毁。\n\n某天下午，马戏团经过门前。他终于走出去观看金光闪闪的女人、动物和游行，童年见识新奇事物的感受短暂返回。随后他到栗树旁小便，靠着父亲停留过的树死去。英雄的最后一日由吃饭、午睡、看游行构成，传奇在普通动作中收束。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c13-p03-q01",
+              "text": "小金鱼从出售变成循环熔铸后，劳动意义怎样改变？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-jose-arcadio-second",
+                "solitude-amaranta",
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder"
+              ]
+            },
+            {
+              "id": "solitude-c13-p03-q02",
+              "text": "相似的枪决经验为什么仍不能打破上校的孤独？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-jose-arcadio-second",
+                "solitude-amaranta",
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder"
+              ]
+            },
+            {
+              "id": "solitude-c13-p03-q03",
+              "text": "马戏团和栗树如何使上校的最后一日回应童年？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-colonel",
+                "solitude-jose-arcadio-second",
+                "solitude-amaranta",
+                "solitude-ursula",
+                "solitude-jose-arcadio-founder"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-colonel",
+            "solitude-jose-arcadio-second",
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-jose-arcadio-founder"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十三章",
+            "startLine": 1661,
+            "endLine": 1766
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c13-q01",
+          "text": "经验丰富为什么仍需要不断修正判断？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-amaranta",
+            "solitude-aureliano-colonel",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-seminary",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-meme",
+            "solitude-jose-arcadio-second",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c13-q02",
+          "text": "体面与享乐背后有哪些相同的劳动基础？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-amaranta",
+            "solitude-aureliano-colonel",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-seminary",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-meme",
+            "solitude-jose-arcadio-second",
+            "solitude-jose-arcadio-founder"
+          ]
+        },
+        {
+          "id": "solitude-c13-q03",
+          "text": "一种活动持续重复时，怎样区分安稳与封闭？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-amaranta",
+            "solitude-aureliano-colonel",
+            "solitude-rebeca",
+            "solitude-jose-arcadio-seminary",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-meme",
+            "solitude-jose-arcadio-second",
+            "solitude-jose-arcadio-founder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c14",
+      "number": 14,
+      "title": "第十四章",
+      "overview": "梅梅在音乐、朋友和母亲的规矩之间成长，阿玛兰妲完成寿衣并离世。黄蝴蝶标记了梅梅与汽修学徒的爱情，母亲为维护声誉设置监视，最终让枪声进入后院。",
+      "pages": [
+        {
+          "id": "solitude-c14-p01",
+          "title": "梅梅把音乐放在两种生活之间",
+          "markdown": "[梅梅](entity:solitude-meme)完成古钢琴学业，以精湛演奏回应母亲的教育安排。她没有像家人想象的那样把所有热情交给音乐，更多时间喜欢谈笑、电影和朋友。[奥雷里亚诺第二](entity:solitude-aureliano-second)支持她接触外面的生活，父女因相处建立了比礼仪更轻松的联系。\n\n她与美国女孩交友，进入[香蕉公司](entity:solitude-banana-company)铁路另一侧的生活，学习新的娱乐与语言。[费尔南达](entity:solitude-fernanda)仍把这些交往放在体面与禁令的框架里。[梅梅](entity:solitude-meme)暂时在两边来往，用服从掩护自己的选择，却也逐渐练习隐瞒。\n\n小妹妹[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)在这一时期出生，家族再次重复熟悉的名字。[梅梅](entity:solitude-meme)的生命经验已经与前几代不同，新的姓名却仍来自旧家庭。父母想把孩子放进各自期望的生活里，孩子接受一部分安排，又在朋友与欲望中另找方向，冲突从细小的日常选择逐渐累积。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c14-p01-q01",
+              "text": "梅梅演奏出色，为何仍不能说明音乐是她的主要愿望？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-amaranta-ursula",
+                "solitude-banana-company"
+              ]
+            },
+            {
+              "id": "solitude-c14-p01-q02",
+              "text": "父亲怎样参与了她与母亲不同的生活？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-amaranta-ursula",
+                "solitude-banana-company"
+              ]
+            },
+            {
+              "id": "solitude-c14-p01-q03",
+              "text": "接触美国女孩之后，她获得了哪些新的选择？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-amaranta-ursula",
+                "solitude-banana-company"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-meme",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-banana-company"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十四章",
+            "startLine": 1770,
+            "endLine": 1832
+          }
+        },
+        {
+          "id": "solitude-c14-p02",
+          "title": "阿玛兰妲最后一次为别人做事",
+          "markdown": "[阿玛兰妲](entity:solitude-amaranta)长期缝制自己的寿衣，知道它完成时死亡将到来。她控制针脚与进度，最后接受结束。临走前，她答应替居民向死者带信，客厅里很快放满书信，没有写信的人也托口头消息。\n\n这个动作把一生拒绝亲密的人暂时变成连接活人与死者的使者。她准确知道许多逝者的去处，能够安慰来访者，却仍拒绝忏悔，坚持让[乌尔苏拉](entity:solitude-ursula)证明自己的贞洁。身体的纯洁被她用来回应家中长期存在的猜疑，情感里的伤害并未因此消失。\n\n她躺下等候死亡，[梅梅](entity:solitude-meme)仍在演出，消息传来后音乐中断。两个女性的时间在此交叉：一个已决定不再改变人生，一个正要奔向新的关系。寿衣既是对终点的准备，也是多年重复劳动的完成。信箱让她的最后一天开放，随后又把家带回守丧的封闭。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c14-p02-q01",
+              "text": "替死者带信怎样改变了阿玛兰妲最后一天的角色？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-amaranta",
+                "solitude-ursula",
+                "solitude-meme"
+              ]
+            },
+            {
+              "id": "solitude-c14-p02-q02",
+              "text": "她强调贞洁时，哪些情感问题仍无法回答？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-amaranta",
+                "solitude-ursula",
+                "solitude-meme"
+              ]
+            },
+            {
+              "id": "solitude-c14-p02-q03",
+              "text": "寿衣完成与梅梅演奏中断怎样构成两种时间的交叉？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-amaranta",
+                "solitude-ursula",
+                "solitude-meme"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-meme"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十四章",
+            "startLine": 1770,
+            "endLine": 1832
+          }
+        },
+        {
+          "id": "solitude-c14-p03",
+          "title": "守卫瞄准了一个被叫作偷鸡贼的人",
+          "markdown": "[梅梅](entity:solitude-meme)爱上[香蕉公司](entity:solitude-banana-company)汽修学徒[马乌里肖·巴比伦](entity:solitude-mauricio)。他带着机油气味，黄蝴蝶总随着他出现，让秘密在家里留下无法清扫的痕迹。[费尔南达](entity:solitude-fernanda)在剧院撞见两人接吻，把女儿锁起，又拒绝青年正式来访。\n\n[马乌里肖](entity:solitude-mauricio)夜里从浴室接近[梅梅](entity:solitude-meme)，蝴蝶和洗澡时间的变化泄露了路线。母亲让人相信有偷鸡贼出没，请来守卫，最后枪声击中他的脊柱。他终身瘫痪，背负偷鸡的污名。一个通过劳动谋生的青年，被保护家族体面的手段改写了身份。\n\n[梅梅](entity:solitude-meme)先前能用谎话争取自由，暴力出现后，她的语言失去作用。爱情的线索从电影与玩笑变成禁闭和枪击。黄蝴蝶让欲望看得见，也让监视更容易进行。读者应分别判断秘密、名誉和伤害，避免把猛烈的感情自动理解成能够克服一切限制的力量。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c14-p03-q01",
+              "text": "黄蝴蝶为什么既浪漫又会暴露秘密？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-mauricio",
+                "solitude-fernanda",
+                "solitude-banana-company"
+              ]
+            },
+            {
+              "id": "solitude-c14-p03-q02",
+              "text": "偷鸡贼这个标签怎样掩盖了枪击的真实原因？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-mauricio",
+                "solitude-fernanda",
+                "solitude-banana-company"
+              ]
+            },
+            {
+              "id": "solitude-c14-p03-q03",
+              "text": "家庭声誉为什么在这里转化成对他人身体的控制？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-mauricio",
+                "solitude-fernanda",
+                "solitude-banana-company"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-fernanda",
+            "solitude-banana-company"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十四章",
+            "startLine": 1770,
+            "endLine": 1832
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c14-q01",
+          "text": "父母认可的才能能否代表孩子想过的生活？",
+          "kind": "反驳",
+          "entityIds": [
+            "solitude-meme",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-banana-company",
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-mauricio"
+          ]
+        },
+        {
+          "id": "solitude-c14-q02",
+          "text": "公开的贞洁如何与隐蔽的情感伤害并存？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-meme",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-banana-company",
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-mauricio"
+          ]
+        },
+        {
+          "id": "solitude-c14-q03",
+          "text": "保护名誉的说法何时会遮蔽对人的暴力？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-meme",
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-banana-company",
+            "solitude-amaranta",
+            "solitude-ursula",
+            "solitude-mauricio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c15",
+      "number": 15,
+      "title": "第十五章",
+      "overview": "梅梅被送进修道院，孩子回到祖宅却被称作弃婴。香蕉工人为生活条件和劳动权利罢工，军队在车站开火，幸存者回镇后面对的是一套否认死亡的公共叙述。",
+      "pages": [
+        {
+          "id": "solitude-c15-p01",
+          "title": "被隐藏的孩子",
+          "markdown": "枪击后[梅梅](entity:solitude-meme)不再说话。[费尔南达](entity:solitude-fernanda)带她坐火车离开，送进远方修道院，没有解释未来安排。[梅梅](entity:solitude-meme)握住修女的手走过铁门，始终想念[马乌里肖](entity:solitude-mauricio)。母亲可以改变女儿的位置，无法令她内心的关系消失。\n\n一年多后，修女带来[梅梅](entity:solitude-meme)的孩子。[费尔南达](entity:solitude-fernanda)把新生[奥雷里亚诺](entity:solitude-aureliano-babilonia)藏在作坊，宣布他是篮中捡来的弃婴。宗教机构守住秘密，祖母又用一个可公开的故事遮盖血缘。他进入同一家庭，却被剥夺了认识自身来历的入口。\n\n家族的私人隐瞒与公共冲突同时加剧。[费尔南达](entity:solitude-fernanda)从旅途中的武装保护和紧张神情看见异样，回家后仍专注处理耻辱。她将事件区分成体面与不体面，读者则能看到同一种改写现实的动作：无法公开的人和关系，被安排进不会伤及权威的说法里。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c15-p01-q01",
+              "text": "梅梅的沉默与顺从是否代表她认同母亲的安排？",
+              "kind": "反驳",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-mauricio",
+                "solitude-fernanda",
+                "solitude-aureliano-babilonia"
+              ]
+            },
+            {
+              "id": "solitude-c15-p01-q02",
+              "text": "弃婴故事怎样影响孩子认识自己的可能？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-mauricio",
+                "solitude-fernanda",
+                "solitude-aureliano-babilonia"
+              ]
+            },
+            {
+              "id": "solitude-c15-p01-q03",
+              "text": "费尔南达为什么更注意私人丑闻而非公共紧张？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-mauricio",
+                "solitude-fernanda",
+                "solitude-aureliano-babilonia"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-fernanda",
+            "solitude-aureliano-babilonia"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十五章",
+            "startLine": 1836,
+            "endLine": 1953
+          }
+        },
+        {
+          "id": "solitude-c15-p02",
+          "title": "工资之外还有卫生、债务和承认",
+          "markdown": "[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)参与香蕉工人的组织。工人提出医疗、厕所和工资支付问题，公司商店的兑换券又使收入留在同一体系内。诉求涉及生活条件，也涉及劳动者能否被当作拥有权利的人。\n\n公司的律师用合同和承包关系逃避责任，法庭最终宣布公司没有工人。日复一日的劳动真实发生，法律文字却否认了劳动关系。军队进入后亲自采摘香蕉，帮助恢复运输，所谓维持秩序实际上已经改变谈判双方的力量。\n\n当局通知群众到车站等待调解，工人、妇女和孩子聚集。屋顶上的军官宣读新法令，把罢工者称为不法分子，要求几分钟内离开。群众以为仍可能谈判，机枪已在四周布置。叙述一步步呈现名称转换：工人被说成不存在，再被说成可以射击的对象，暴力因此获得文件上的入口。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c15-p02-q01",
+              "text": "兑换券工资为什么使公司商店成为劳动关系的一部分？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-banana-company",
+                "solitude-banana-strike"
+              ]
+            },
+            {
+              "id": "solitude-c15-p02-q02",
+              "text": "法律否认工人的存在后，劳动者失去了什么？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-banana-company",
+                "solitude-banana-strike"
+              ]
+            },
+            {
+              "id": "solitude-c15-p02-q03",
+              "text": "调解通知和军事撤离命令怎样制造了危险的期待差？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-banana-company",
+                "solitude-banana-strike"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-second",
+            "solitude-banana-company",
+            "solitude-banana-strike"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十五章",
+            "startLine": 1836,
+            "endLine": 1953
+          }
+        },
+        {
+          "id": "solitude-c15-p03",
+          "title": "一名幸存者对着整个镇子",
+          "markdown": "车站机枪开火，人群互相挤压。[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)先举起一个孩子，后来醒在运送尸体的火车里。他爬过车厢跳下，沿相反方向走回马孔多。数字、尸体触感和黑暗列车成为无法从身体里移走的记忆。\n\n他向人说死了三千多人，得到的回答却是这里没有死人。官方叙述说工人已经各回各家，市镇也跟着接受。士兵继续追捕组织者，搜查者走进[梅尔基亚德斯](entity:solitude-melquiades)的房间，却看不见藏在里面的他。幸存者在屋里被保存，也被隔绝。\n\n三千多人的数字来自[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)的见闻与确信，小说把它放在目击证言和公共否认之间。作品在此展示记忆被压制的经验：当公共渠道重复同一个说法，幸存者仍能知道发生过什么，却越来越难让别人一起承认，经验的确定也无法独自换来共同的事实。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c15-p03-q01",
+              "text": "运尸火车怎样改变了此前铁路带来的新奇感？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-banana-strike",
+                "solitude-banana-company",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c15-p03-q02",
+              "text": "镇民接受没有死人，可能受到哪些力量影响？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-banana-strike",
+                "solitude-banana-company",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c15-p03-q03",
+              "text": "分析小说的记忆经验与查证历史伤亡时，需要使用什么不同材料？",
+              "kind": "背景",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-banana-strike",
+                "solitude-banana-company",
+                "solitude-melquiades"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-second",
+            "solitude-banana-strike",
+            "solitude-banana-company",
+            "solitude-melquiades"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十五章",
+            "startLine": 1836,
+            "endLine": 1953
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c15-q01",
+          "text": "私人秘密与公共否认有哪些相似的运作方式？",
+          "kind": "比较",
+          "entityIds": [
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-fernanda",
+            "solitude-aureliano-babilonia",
+            "solitude-jose-arcadio-second",
+            "solitude-banana-company",
+            "solitude-banana-strike",
+            "solitude-melquiades"
+          ]
+        },
+        {
+          "id": "solitude-c15-q02",
+          "text": "劳动明明发生，制度为什么仍能否认劳动者？",
+          "kind": "反驳",
+          "entityIds": [
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-fernanda",
+            "solitude-aureliano-babilonia",
+            "solitude-jose-arcadio-second",
+            "solitude-banana-company",
+            "solitude-banana-strike",
+            "solitude-melquiades"
+          ]
+        },
+        {
+          "id": "solitude-c15-q03",
+          "text": "只有一个人坚持记忆时，证言如何继续存在？",
+          "kind": "应用",
+          "entityIds": [
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-fernanda",
+            "solitude-aureliano-babilonia",
+            "solitude-jose-arcadio-second",
+            "solitude-banana-company",
+            "solitude-banana-strike",
+            "solitude-melquiades"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c16",
+      "number": 16,
+      "title": "第十六章",
+      "overview": "近五年的雨使马孔多陷入缓慢衰败，孩子却把其中一部分记成快乐童年。粮食、病痛与金币加深家庭争执，公司撤走设施后，佩特拉与奥雷里亚诺第二只能从小生意重建生活。",
+      "pages": [
+        {
+          "id": "solitude-c16-p01",
+          "title": "日常生活被迫慢下来",
+          "markdown": "雨持续四年十一个月零两天。人们最初穿盛装等待天晴，后来把细雨当作短暂间歇，整个市镇学会在潮湿中继续生活。精确得异常的时长，使漫长灾难既像神话，又像可以记入日历的日常事实。\n\n[奥雷里亚诺第二](entity:solitude-aureliano-second)留在家中，修家具、修门锁，给孩子看百科全书。他看不懂全部文字，便根据图片编出姓名和传说。[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)与[小奥雷里亚诺](entity:solitude-aureliano-babilonia)把雨天记成美好童年，成年人却在衰败、饥饿和等待中度日。\n\n[赫里内勒多](entity:solitude-gerineldo)的葬车陷在泥里，[乌尔苏拉](entity:solitude-ursula)向他告别，说等雨停就能再见家人。时间在不同世代之间分裂。相同天气给孩子提供游戏空间，给老人带来死亡预备。叙述没有用单一悲伤覆盖所有经验，迫使读者看见一段集体灾难怎样被年龄、关系和照料方式分成不同的记忆。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c16-p01-q01",
+              "text": "精确到两天的雨季时长带来怎样的叙述感觉？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia",
+                "solitude-gerineldo",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c16-p01-q02",
+              "text": "为什么孩子和成年人对同一雨季有不同记忆？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia",
+                "solitude-gerineldo",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c16-p01-q03",
+              "text": "父亲根据百科全书编故事，与前几代教育孩子有何照应？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia",
+                "solitude-gerineldo",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-gerineldo",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十六章",
+            "startLine": 1957,
+            "endLine": 2031
+          }
+        },
+        {
+          "id": "solitude-c16-p02",
+          "title": "谷仓空了，名誉还在说话",
+          "markdown": "[费尔南达](entity:solitude-fernanda)患病，却羞于向家人直说，依赖从未见面的医生通信。长雨使回复和治疗安排更困难，身体不适被复杂礼法遮盖。她仍坚持贵族出身与家庭尊严，实际的食物储备却不断减少。\n\n丈夫一再等待天晴，她终于用长篇指责宣泄怨恨，把婚姻、身世和贫穷缠在一起。[奥雷里亚诺第二](entity:solitude-aureliano-second)起初只听，后来砸碎家里的物件，外出带回食物。食物解决了饥饿，破坏没有解决关系，争执也并非可以用最后一项行动全部抵消。\n\n他随后试图寻找[乌尔苏拉](entity:solitude-ursula)保存的金币，借开挖排水沟翻遍院子。外部财富来源已坏，隐藏宝藏成为恢复旧生活的想象。家人围着病痛、记忆和钱反复打转，能够坦诚协作的空间越来越小。雨把人关在同一栋屋里，仍没有让他们自然成为能互相解释的共同体。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c16-p02-q01",
+              "text": "费尔南达为何宁愿依赖远方医生，也难向家人说明病痛？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c16-p02-q02",
+              "text": "带回食物怎样解决一个问题，却不能修复全部关系？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c16-p02-q03",
+              "text": "挖掘金币为何在贫困时成为强烈愿望？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-aureliano-second",
+                "solitude-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-fernanda",
+            "solitude-aureliano-second",
+            "solitude-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十六章",
+            "startLine": 1957,
+            "endLine": 2031
+          }
+        },
+        {
+          "id": "solitude-c16-p03",
+          "title": "公司离去后留下了什么",
+          "markdown": "雨停时，街上是烂家具、动物骨骸和泥潭。[香蕉公司](entity:solitude-banana-company)的设施已经拆走，铁路另一侧的住区荒废，外来的人潮大多消散。原先迅速改变家乡的繁荣，同样迅速退出，居民必须继续面对它留下的地方。\n\n[奥雷里亚诺第二](entity:solitude-aureliano-second)到[佩特拉](entity:solitude-petra)家，看见一头瘦而有精神的母骡。昔日牲畜无休止繁殖的奇迹消失，她仍维持生活，养活家中的人。两人决定回到售卖彩票的小生意，用最后的牲畜重建收入，行动尺度与过去的宴会完全不同。\n\n[马孔多](entity:solitude-macondo)没有因雨停自动复原。公司离开只是灾难的一个阶段，遗忘、贫困和建筑损坏继续作用。叙述把财富繁盛后的残留拍得很近，也给坚持生活的普通能力留下位置。读者可以沿母骡、粮食和小额交易观察恢复，看到重建需要具体供给，并不依靠又一次盛大的奇迹。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c16-p03-q01",
+              "text": "公司撤离后，居民为什么仍承担长期后果？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-banana-company",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-macondo"
+              ]
+            },
+            {
+              "id": "solitude-c16-p03-q02",
+              "text": "母骡怎样回应早先牲畜疯狂繁殖的情节？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-banana-company",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-macondo"
+              ]
+            },
+            {
+              "id": "solitude-c16-p03-q03",
+              "text": "雨停与生活复原之间，还隔着哪些具体工作？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-banana-company",
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-macondo"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-banana-company",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-macondo"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十六章",
+            "startLine": 1957,
+            "endLine": 2031
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c16-q01",
+          "text": "集体灾难为何不会形成完全相同的个人记忆？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-gerineldo",
+            "solitude-ursula",
+            "solitude-fernanda",
+            "solitude-banana-company",
+            "solitude-petra",
+            "solitude-macondo"
+          ]
+        },
+        {
+          "id": "solitude-c16-q02",
+          "text": "共同住在一处为何仍可能无法互相解释？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-gerineldo",
+            "solitude-ursula",
+            "solitude-fernanda",
+            "solitude-banana-company",
+            "solitude-petra",
+            "solitude-macondo"
+          ]
+        },
+        {
+          "id": "solitude-c16-q03",
+          "text": "繁荣撤走后，应怎样衡量留下来的生活能力？",
+          "kind": "应用",
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-gerineldo",
+            "solitude-ursula",
+            "solitude-fernanda",
+            "solitude-banana-company",
+            "solitude-petra",
+            "solitude-macondo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c17",
+      "number": 17,
+      "title": "第十七章",
+      "overview": "乌尔苏拉去世，家族失去最持久的记忆与照料者。奥雷里亚诺第二在贫困中筹女儿学费，兄弟保存车站证言，两人同时死亡，相同棺材又把他们的名字错放进墓地。",
+      "pages": [
+        {
+          "id": "solitude-c17-p01",
+          "title": "乌尔苏拉最后的整理",
+          "markdown": "雨停后，[乌尔苏拉](entity:solitude-ursula)短暂清醒，试着打扫、恢复家中的规矩。她走到[梅尔基亚德斯](entity:solitude-melquiades)的房间，听见[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)重复自己早年说过的话，再次感到时间在原地旋转。屋子保存了几代人的动作，也保存了仍未解决的痛苦。\n\n后来她不能分清面前的孩子，把[奥雷里亚诺](entity:solitude-aureliano-babilonia)当成自己的儿子。孩子们以游戏方式搬动已经缩小的身体，说她像蟋蟀一样死去，她甚至接受了这种说法。照料与嬉闹在这里靠得很近，读者也能看见家里失去认识老人的能力。\n\n她终于在圣星期四清晨去世。没人能给出唯一年龄，漫长寿命以一个区间收束，家中最持久的记忆节点退出生活。死鸟不断撞进房间，神甫另给出怪异解释。村庄试图为异常找原因，维持秩序的那个人已经不在，房屋重新荒废起来。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "solitude-c17-p01-q01",
+              "text": "熟悉话语再次出现，为何使乌尔苏拉感到时间旋转？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-babilonia",
+                "solitude-amaranta-ursula",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c17-p01-q02",
+              "text": "孩子把老人当作游戏对象时，照料关系发生了什么变化？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-babilonia",
+                "solitude-amaranta-ursula",
+                "solitude-melquiades"
+              ]
+            },
+            {
+              "id": "solitude-c17-p01-q03",
+              "text": "无法确定年龄与她承担的家族记忆有什么关系？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-ursula",
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-babilonia",
+                "solitude-amaranta-ursula",
+                "solitude-melquiades"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-babilonia",
+            "solitude-amaranta-ursula",
+            "solitude-melquiades"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十七章",
+            "startLine": 2035,
+            "endLine": 2121
+          }
+        },
+        {
+          "id": "solitude-c17-p02",
+          "title": "贫困让两个人重新接近",
+          "markdown": "[奥雷里亚诺第二](entity:solitude-aureliano-second)与[佩特拉](entity:solitude-petra)用牲畜彩票维持收入。两人计算饭钱、药钱和家用，再把更好的食物留给[费尔南达](entity:solitude-fernanda)与孩子。曾经靠宴会和奢侈表现的关系，如今通过节省、分配与共同担忧建立新的亲密。\n\n上校的英雄记忆也被遗忘侵蚀。总统特使来找家属做周年纪念，镇上人怀疑那个传奇人物是否真的存在。家族姓氏仍留在房屋和街上，公共故事却失去能够回应的活人。衰败不仅减少物品，也减少可共同谈论的过去。\n\n[奥雷里亚诺第二](entity:solitude-aureliano-second)患病，难以吞咽，仍努力为[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)筹齐出国学习的钱。他用昂贵奖品的彩票搏取最后收入，把自身已衰落的能力用在一个离开的机会里。父亲不能恢复马孔多的繁荣，却能让女儿拥有不同路径，责任的尺度由全镇狂欢缩到一次送行。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c17-p02-q01",
+              "text": "贫困如何改变奥雷里亚诺第二与佩特拉的亲密？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-fernanda",
+                "solitude-aureliano-colonel",
+                "solitude-amaranta-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c17-p02-q02",
+              "text": "镇民怀疑上校存在，与日常遗忘有什么关系？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-fernanda",
+                "solitude-aureliano-colonel",
+                "solitude-amaranta-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c17-p02-q03",
+              "text": "父亲为女儿筹学费，与早先挥霍财富有何差别？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-second",
+                "solitude-petra",
+                "solitude-fernanda",
+                "solitude-aureliano-colonel",
+                "solitude-amaranta-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-aureliano-colonel",
+            "solitude-amaranta-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十七章",
+            "startLine": 2035,
+            "endLine": 2121
+          }
+        },
+        {
+          "id": "solitude-c17-p03",
+          "title": "双胞胎的名字又一次互换",
+          "markdown": "[何塞·阿尔卡蒂奥第二](entity:solitude-jose-arcadio-second)一直留在房间里，坚持讲述车站的死亡。他教[小奥雷里亚诺](entity:solitude-aureliano-babilonia)读写，把羊皮卷和目击记忆一起交给下一代。房间既是隔绝空间，也成为小说里少数能够保存被否认事件的地方。\n\n[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)赴布鲁塞尔后，双胞胎在同一天、同一时刻去世。一个伏在羊皮卷上，另一个结束喉咙病痛。[佩特拉](entity:solitude-petra)想最后看情人，[费尔南达](entity:solitude-fernanda)拒绝她进入。死者生前接受的婚姻安排，没有在葬礼中换来同等的告别资格。\n\n[桑塔索菲亚](entity:solitude-santa-sofia)按儿子的要求确保他不会被活埋，接着相同棺材被抬错，两人葬进对方坟墓。童年的身份游戏在死亡中再次出现。名字曾被用来预测性格，如今连最后位置也错开。两人留下的经验不同，外在标签却难以保住区别，读者需要凭具体经历认识他们。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c17-p03-q01",
+              "text": "房间为何能同时隔绝人并保存记忆？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-aureliano-babilonia",
+                "solitude-petra",
+                "solitude-fernanda",
+                "solitude-santa-sofia",
+                "solitude-amaranta-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c17-p03-q02",
+              "text": "葬礼为何会否认佩特拉最后的告别？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-aureliano-babilonia",
+                "solitude-petra",
+                "solitude-fernanda",
+                "solitude-santa-sofia",
+                "solitude-amaranta-ursula"
+              ]
+            },
+            {
+              "id": "solitude-c17-p03-q03",
+              "text": "棺材被抬错怎样回应双胞胎童年的身份游戏？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-second",
+                "solitude-aureliano-second",
+                "solitude-aureliano-babilonia",
+                "solitude-petra",
+                "solitude-fernanda",
+                "solitude-santa-sofia",
+                "solitude-amaranta-ursula"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-second",
+            "solitude-aureliano-babilonia",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-santa-sofia",
+            "solitude-amaranta-ursula"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十七章",
+            "startLine": 2035,
+            "endLine": 2121
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c17-q01",
+          "text": "记忆依赖的长辈消失后，家庭怎样继续认识自己？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-babilonia",
+            "solitude-amaranta-ursula",
+            "solitude-melquiades",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-aureliano-colonel",
+            "solitude-santa-sofia"
+          ]
+        },
+        {
+          "id": "solitude-c17-q02",
+          "text": "承担责任的行动为何可能随着资源减少变得更清晰？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-babilonia",
+            "solitude-amaranta-ursula",
+            "solitude-melquiades",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-aureliano-colonel",
+            "solitude-santa-sofia"
+          ]
+        },
+        {
+          "id": "solitude-c17-q03",
+          "text": "同名人物的区别究竟由姓名还是经历保存？",
+          "kind": "比较",
+          "entityIds": [
+            "solitude-ursula",
+            "solitude-jose-arcadio-second",
+            "solitude-aureliano-babilonia",
+            "solitude-amaranta-ursula",
+            "solitude-melquiades",
+            "solitude-aureliano-second",
+            "solitude-petra",
+            "solitude-fernanda",
+            "solitude-aureliano-colonel",
+            "solitude-santa-sofia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c18",
+      "number": 18,
+      "title": "第十八章",
+      "overview": "奥雷里亚诺学习梵文，桑塔索菲亚却无法继续抵抗房屋的荒废。费尔南达死后，罗马归来的儿子戳破教皇计划，在金币和少年群体之间丧命，短暂建立的亲近再次断裂。",
+      "pages": [
+        {
+          "id": "solitude-c18-p01",
+          "title": "知道很多，却不认识自己的时代",
+          "markdown": "[奥雷里亚诺](entity:solitude-aureliano-babilonia)长期在[梅尔基亚德斯](entity:solitude-melquiades)的房间学习，读懂炼金、鬼魔和古代故事，进入青年时仍不了解当下社会。他识别出羊皮卷的梵文，却还需要语法工具继续解读。知识积累很多，能够行动的关系与环境经验仍然很少。\n\n[桑塔索菲亚](entity:solitude-santa-sofia)不识字，记住复杂的书架指引，到[加泰罗尼亚智者](entity:solitude-catalan-scholar)的书店替他买书。她卖掉小金鱼，让一代人的手工制品换成另一代人的阅读材料。学问看似发生在独处中，实际依赖有人提供食物、寻书和钱。\n\n[梅尔基亚德斯](entity:solitude-melquiades)的影子逐渐消失，房间失去对尘埃和虫蚁的保护。[桑塔索菲亚](entity:solitude-santa-sofia)再也无法独自抵抗整座房子的侵蚀，收拾少量衣物离开。她劳动了半个世纪，离去时仍被[费尔南达](entity:solitude-fernanda)怀疑拿走财物。长期被当成自然供给的人，只有停止劳动才显出不可替代的位置。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "solitude-c18-p01-q01",
+              "text": "奥雷里亚诺的古代知识为什么不能替代当代生活经验？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-melquiades",
+                "solitude-santa-sofia",
+                "solitude-fernanda",
+                "solitude-catalan-scholar"
+              ]
+            },
+            {
+              "id": "solitude-c18-p01-q02",
+              "text": "一条小金鱼换来的语法书连接了哪些世代？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-melquiades",
+                "solitude-santa-sofia",
+                "solitude-fernanda",
+                "solitude-catalan-scholar"
+              ]
+            },
+            {
+              "id": "solitude-c18-p01-q03",
+              "text": "桑塔索菲亚离开时，哪些一直被忽略的劳动显现出来？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-melquiades",
+                "solitude-santa-sofia",
+                "solitude-fernanda",
+                "solitude-catalan-scholar"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-babilonia",
+            "solitude-melquiades",
+            "solitude-santa-sofia",
+            "solitude-fernanda",
+            "solitude-catalan-scholar"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十八章",
+            "startLine": 2125,
+            "endLine": 2226
+          }
+        },
+        {
+          "id": "solitude-c18-p02",
+          "title": "教皇计划没有成为人生",
+          "markdown": "[费尔南达](entity:solitude-fernanda)靠儿女来信维护远方家庭的想象，却把自身病痛、贫困与孤单写成另一种生活。她死后，[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-seminary)从罗马归来，读到真实遗嘱。这位被培养成教皇的儿子早已放弃神职，曾靠虚构学业安慰母亲。\n\n他重回祖宅，先排斥陌生的[奥雷里亚诺](entity:solitude-aureliano-babilonia)，再把房屋修成自己记忆中的样子。他和街上的少年聚在浴室，寻找失去的享乐与照护。[乌尔苏拉](entity:solitude-ursula)当年的教育期望与他的真实愿望分开很久，书信让两边无需正面相遇。\n\n少年发现地板下的金币，他获得巨额财富，却没有立刻回罗马，而是在家中挥霍。多年来寻找的宝藏终于出现，仍不能自动修复他与外界的关系。[费尔南达](entity:solitude-fernanda)保存的贵族器物也大多不值预想的钱，物件和幻想在清算中共同失去旧光彩。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c18-p02-q01",
+              "text": "母子怎样通过书信共同维持一个虚假的未来？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-jose-arcadio-seminary",
+                "solitude-ursula",
+                "solitude-aureliano-babilonia"
+              ]
+            },
+            {
+              "id": "solitude-c18-p02-q02",
+              "text": "教皇培养计划为何没有说明他的真实愿望？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-jose-arcadio-seminary",
+                "solitude-ursula",
+                "solitude-aureliano-babilonia"
+              ]
+            },
+            {
+              "id": "solitude-c18-p02-q03",
+              "text": "找到金币后，他为什么仍没有离开马孔多？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-fernanda",
+                "solitude-jose-arcadio-seminary",
+                "solitude-ursula",
+                "solitude-aureliano-babilonia"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-fernanda",
+            "solitude-jose-arcadio-seminary",
+            "solitude-ursula",
+            "solitude-aureliano-babilonia"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十八章",
+            "startLine": 2125,
+            "endLine": 2226
+          }
+        },
+        {
+          "id": "solitude-c18-p03",
+          "title": "短暂的亲近被暴力打断",
+          "markdown": "[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-seminary)后来给[奥雷里亚诺](entity:solitude-aureliano-babilonia)送食物，允许他自由外出，两人在同一屋子里终于形成有限的亲近。[奥雷里亚诺](entity:solitude-aureliano-babilonia)坚持读羊皮卷，也开始去书店。离开封闭房间的许可，来得晚却具体改变了他的生活。\n\n上校最后幸存的儿子带着灰烬十字求救，两人不认识他的来历，将他挡在门外，警察随即枪杀他。家族既有血缘又缺少辨认能力，过去的共同标记也无法换来及时保护。历史断裂在一场敲门中变成生命损失。\n\n不久，曾被赶走的少年返回，按住洗澡的[何塞·阿尔卡蒂奥](entity:solitude-jose-arcadio-seminary)，将他溺死，偷走金币。[奥雷里亚诺](entity:solitude-aureliano-babilonia)找到尸体，才意识到自己已经爱这个亲人。宝藏没有为家庭带来安稳，新的信任也尚未长成就被夺走。章末留下一个读书者，同时失去照护与解释身世的人。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c18-p03-q01",
+              "text": "允许自由外出为何会成为两人关系的关键变化？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-seminary",
+                "solitude-aureliano-babilonia",
+                "solitude-aureliano-colonel"
+              ]
+            },
+            {
+              "id": "solitude-c18-p03-q02",
+              "text": "无法辨认求救的亲人，说明血缘记忆中断了什么？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-seminary",
+                "solitude-aureliano-babilonia",
+                "solitude-aureliano-colonel"
+              ]
+            },
+            {
+              "id": "solitude-c18-p03-q03",
+              "text": "奥雷里亚诺为何在找到尸体后才意识到亲近？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-jose-arcadio-seminary",
+                "solitude-aureliano-babilonia",
+                "solitude-aureliano-colonel"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-jose-arcadio-seminary",
+            "solitude-aureliano-babilonia",
+            "solitude-aureliano-colonel"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十八章",
+            "startLine": 2125,
+            "endLine": 2226
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c18-q01",
+          "text": "独自获得知识的背后有哪些并不孤独的劳动？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-babilonia",
+            "solitude-melquiades",
+            "solitude-santa-sofia",
+            "solitude-fernanda",
+            "solitude-catalan-scholar",
+            "solitude-jose-arcadio-seminary",
+            "solitude-ursula",
+            "solitude-aureliano-colonel"
+          ]
+        },
+        {
+          "id": "solitude-c18-q02",
+          "text": "家长规划的未来如何在书信中被长期伪装？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-babilonia",
+            "solitude-melquiades",
+            "solitude-santa-sofia",
+            "solitude-fernanda",
+            "solitude-catalan-scholar",
+            "solitude-jose-arcadio-seminary",
+            "solitude-ursula",
+            "solitude-aureliano-colonel"
+          ]
+        },
+        {
+          "id": "solitude-c18-q03",
+          "text": "当家族失去辨认自己成员的能力，会发生什么？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-aureliano-babilonia",
+            "solitude-melquiades",
+            "solitude-santa-sofia",
+            "solitude-fernanda",
+            "solitude-catalan-scholar",
+            "solitude-jose-arcadio-seminary",
+            "solitude-ursula",
+            "solitude-aureliano-colonel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c19",
+      "number": 19,
+      "title": "第十九章",
+      "overview": "阿玛兰妲·乌尔苏拉携丈夫回乡，修屋、养鸟，试图重建日常。奥雷里亚诺从书店获得朋友和历史的共同承认，同时陷入对姑妈的欲望，亲密与身体强迫成为新的冲突。",
+      "pages": [
+        {
+          "id": "solitude-c19-p01",
+          "title": "阿玛兰妲·乌尔苏拉的修复计划",
+          "markdown": "[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)携丈夫[加斯通](entity:solitude-gaston)回乡，带着衣箱、时装和五十只金丝雀。她拆掉陈旧物件，修屋、清虫、种花，行动方式令人想起家族最初的[乌尔苏拉](entity:solitude-ursula)。接受外部教育后的归来，并没有使她放弃对家乡的感情。\n\n她想用金丝雀重新填满天空，鸟一出笼却飞走。村庄空了，她难以交到朋友，也办不成聚会，仍相信能够救活[马孔多](entity:solitude-macondo)。房屋可以修理，已经流失的人口和共同生活却无法凭热情立刻补回。\n\n[加斯通](entity:solitude-gaston)耐心陪伴，随后计划航空邮政，等远方寄来飞机。他把新的连接技术带进这个早已失去铁路繁荣的地方。两个人分别从家务与交通下手，努力让生活再展开。叙述保留他们的能力，也让空街、飞走的鸟和迟迟不来的飞机说明，个人努力需要可以接住它的环境。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "solitude-c19-p01-q01",
+              "text": "飞走的金丝雀怎样说明修复计划的局限？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-amaranta-ursula",
+                "solitude-gaston",
+                "solitude-ursula",
+                "solitude-macondo"
+              ]
+            },
+            {
+              "id": "solitude-c19-p01-q02",
+              "text": "回乡后的阿玛兰妲·乌尔苏拉和老乌尔苏拉有哪些相似？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-amaranta-ursula",
+                "solitude-gaston",
+                "solitude-ursula",
+                "solitude-macondo"
+              ]
+            },
+            {
+              "id": "solitude-c19-p01-q03",
+              "text": "修屋与航空邮政分别想修复哪一层生活？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-amaranta-ursula",
+                "solitude-gaston",
+                "solitude-ursula",
+                "solitude-macondo"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-amaranta-ursula",
+            "solitude-gaston",
+            "solitude-ursula",
+            "solitude-macondo"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十九章",
+            "startLine": 2230,
+            "endLine": 2306
+          }
+        },
+        {
+          "id": "solitude-c19-p02",
+          "title": "书店让孤独的人获得朋友",
+          "markdown": "[奥雷里亚诺](entity:solitude-aureliano-babilonia)成了[加泰罗尼亚智者](entity:solitude-catalan-scholar)书店的常客，与阿尔瓦罗、赫尔曼、阿尔丰索和加布列尔相识。一场关于蟑螂的争论让冷僻知识进入玩笑和交流，原本只面对手稿的学问终于得到别人回应。\n\n他尤其亲近加布列尔，因为两人都承认上校和[香蕉工人事件](entity:solitude-banana-strike)确实存在。多数镇民否认往事，朋友从另一家族的记忆里给出回应。共同承认历史成为信任来源，读书和谈笑由此不只是消遣，也为个人经验提供公共空间。\n\n几人一起散步、讨论和出游，智者鼓励他们写作，又提醒知识需要进入生活。[奥雷里亚诺](entity:solitude-aureliano-babilonia)仍回房间研究，但不再完全没有同伴。此前由照护者默默维持的生活，如今加入平辈友情。关系扩展使他暂时有了另一条路，却没有直接解决被隐瞒的身世与越来越强的欲望。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "solitude-c19-p02-q01",
+              "text": "关于蟑螂的争论为何能成为友情的开端？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-catalan-scholar",
+                "solitude-aureliano-colonel",
+                "solitude-banana-strike"
+              ]
+            },
+            {
+              "id": "solitude-c19-p02-q02",
+              "text": "承认同一段历史怎样使奥雷里亚诺与加布列尔更亲近？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-catalan-scholar",
+                "solitude-aureliano-colonel",
+                "solitude-banana-strike"
+              ]
+            },
+            {
+              "id": "solitude-c19-p02-q03",
+              "text": "书店交流怎样改变了他原本封闭的知识生活？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-catalan-scholar",
+                "solitude-aureliano-colonel",
+                "solitude-banana-strike"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-babilonia",
+            "solitude-catalan-scholar",
+            "solitude-aureliano-colonel",
+            "solitude-banana-strike"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十九章",
+            "startLine": 2230,
+            "endLine": 2306
+          }
+        },
+        {
+          "id": "solitude-c19-p03",
+          "title": "亲密冲动不等于相互理解",
+          "markdown": "[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)回家，改变了[奥雷里亚诺](entity:solitude-aureliano-babilonia)的日常。他把与[尼格罗曼妲](entity:solitude-nigromanta)的关系变成倾诉欲望的场所，又在姑妈面前逐渐暴露自己的激情。她最初惊怒，明确拒绝，准备离开。读者需要看到她的回应，不能只沿他的内心把行动叫作爱。\n\n[奥雷里亚诺](entity:solitude-aureliano-babilonia)去见[庇拉尔·特尔内拉](entity:solitude-pilar)。她活得极久，熟悉布恩迪亚男人的痛苦，认出过去反复出现的形象。她用家族循环理解他的欲望，提供安慰，却没有把两人的血缘来历讲清。\n\n章末，[奥雷里亚诺](entity:solitude-aureliano-babilonia)强行抱起[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)，剥去浴衣，在她反抗时继续推进。后来关系如何发展，不能抹去这个时刻的身体强迫。叙述强烈描写欲望，阅读仍须分别辨认冲动、同意与伤害，才能避免让所谓命运替具体行为免除责任。",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c19-p03-q01",
+              "text": "姑妈最初的拒绝为什么不能从分析里省去？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia",
+                "solitude-pilar",
+                "solitude-nigromanta"
+              ]
+            },
+            {
+              "id": "solitude-c19-p03-q02",
+              "text": "庇拉尔用家族循环解释欲望，有什么理解力和盲点？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia",
+                "solitude-pilar",
+                "solitude-nigromanta"
+              ]
+            },
+            {
+              "id": "solitude-c19-p03-q03",
+              "text": "强烈的叙述感受会怎样影响读者对同意与伤害的判断？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia",
+                "solitude-pilar",
+                "solitude-nigromanta"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-pilar",
+            "solitude-nigromanta"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第十九章",
+            "startLine": 2230,
+            "endLine": 2306
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c19-q01",
+          "text": "修复一座房子与修复共同生活有哪些不同条件？",
+          "kind": "比较",
+          "entityIds": [
+            "solitude-amaranta-ursula",
+            "solitude-gaston",
+            "solitude-ursula",
+            "solitude-macondo",
+            "solitude-aureliano-babilonia",
+            "solitude-catalan-scholar",
+            "solitude-aureliano-colonel",
+            "solitude-banana-strike",
+            "solitude-pilar",
+            "solitude-nigromanta"
+          ]
+        },
+        {
+          "id": "solitude-c19-q02",
+          "text": "朋友的承认怎样帮助一个人保存被否认的历史？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-amaranta-ursula",
+            "solitude-gaston",
+            "solitude-ursula",
+            "solitude-macondo",
+            "solitude-aureliano-babilonia",
+            "solitude-catalan-scholar",
+            "solitude-aureliano-colonel",
+            "solitude-banana-strike",
+            "solitude-pilar",
+            "solitude-nigromanta"
+          ]
+        },
+        {
+          "id": "solitude-c19-q03",
+          "text": "命运的解释能否替代对具体行为的责任判断？",
+          "kind": "反驳",
+          "entityIds": [
+            "solitude-amaranta-ursula",
+            "solitude-gaston",
+            "solitude-ursula",
+            "solitude-macondo",
+            "solitude-aureliano-babilonia",
+            "solitude-catalan-scholar",
+            "solitude-aureliano-colonel",
+            "solitude-banana-strike",
+            "solitude-pilar",
+            "solitude-nigromanta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solitude-c20",
+      "number": 20,
+      "title": "第二十章",
+      "overview": "朋友离去，最后一对情侣逐渐与外界隔绝，却仍无法查清自己的血缘。生产、死亡和照护中断使家族走到末端，奥雷里亚诺终于读懂手稿，阅读与马孔多的毁灭重合。",
+      "pages": [
+        {
+          "id": "solitude-c20-p01",
+          "title": "最后的朋友离开了",
+          "markdown": "[庇拉尔](entity:solitude-pilar)死后，家族最早一代的见证者消失。[加泰罗尼亚智者](entity:solitude-catalan-scholar)回故乡，来信逐渐被两地怀念撕扯，他劝年轻人离开马孔多。阿尔瓦罗乘车远行，其他朋友也相继走出，书店形成的公共生活再次散开。\n\n[加斯通](entity:solitude-gaston)返回欧洲，等待飞机的计划失败，后来得知妻子与[奥雷里亚诺](entity:solitude-aureliano-babilonia)的关系，选择不再回来。两人把衰败屋子当作爱的世界，在蚂蚁与杂草间共同生活。快乐是真实的，食物、劳动与人际网络的缩减也同时发生。\n\n他们与外界的联系越来越少，信件减少，收入也难以维持。读者看到亲密既能让人短暂抵抗荒废，也可能使人忽视共同生活赖以存在的条件。家族不断重复的孤独到这里呈现新的形态：两个人紧密结合，仍可能和整个世界隔绝，失去灾难来时能够接应的人。",
+          "layout": "timeline",
+          "questions": [
+            {
+              "id": "solitude-c20-p01-q01",
+              "text": "智者在两地怀念之间为何劝年轻人离开？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-pilar",
+                "solitude-catalan-scholar",
+                "solitude-gaston",
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia"
+              ]
+            },
+            {
+              "id": "solitude-c20-p01-q02",
+              "text": "情侣的快乐为何不能替代食物和社会联系？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-pilar",
+                "solitude-catalan-scholar",
+                "solitude-gaston",
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia"
+              ]
+            },
+            {
+              "id": "solitude-c20-p01-q03",
+              "text": "两个人相爱时，还可能以什么方式陷入孤独？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-pilar",
+                "solitude-catalan-scholar",
+                "solitude-gaston",
+                "solitude-amaranta-ursula",
+                "solitude-aureliano-babilonia"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-pilar",
+            "solitude-catalan-scholar",
+            "solitude-gaston",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第二十章",
+            "startLine": 2310,
+            "endLine": 2426
+          }
+        },
+        {
+          "id": "solitude-c20-p02",
+          "title": "他们找不到自己的来历",
+          "markdown": "怀孕使两人开始追问血缘。[奥雷里亚诺](entity:solitude-aureliano-babilonia)去查教堂档案，神甫已经不信上校和工人屠杀的旧事，名字被解释成街名流行。他们怀疑彼此可能是兄妹，却最后接受篮中弃婴的说法，用能减轻恐惧的故事替代无法获得的真相。\n\n实际关系可以沿母系追溯：[梅梅](entity:solitude-meme)是[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)的姐姐，[奥雷里亚诺](entity:solitude-aureliano-babilonia)是[梅梅](entity:solitude-meme)与[马乌里肖](entity:solitude-mauricio)的儿子。多年的隐瞒使这个近在家中的关系无法被本人认识。家族警告曾反复围绕猪尾巴出现，能够解释警告的人此时已经不在。\n\n孩子出生后长着猪尾巴，父母并不了解往事。[阿玛兰妲·乌尔苏拉](entity:solitude-amaranta-ursula)因产后大出血死去，[奥雷里亚诺](entity:solitude-aureliano-babilonia)去寻找安慰，婴儿却在无人照看的屋里被蚂蚁吞噬。悲剧把亲缘禁忌、照护缺失与社会联系中断放在一起，无法只归结为一个象征或一条血统规则。\n\n```mermaid\nflowchart TD\n  O[奥雷里亚诺第二] --> M[梅梅]\n  F[费尔南达] --> M\n  O --> U[阿玛兰妲·乌尔苏拉]\n  F --> U\n  M --> A[奥雷里亚诺：梅梅之子]\n  B[马乌里肖] --> A\n  U --> C[最后一个奥雷里亚诺]\n  A --> C\n```",
+          "layout": "relations",
+          "questions": [
+            {
+              "id": "solitude-c20-p02-q01",
+              "text": "隐瞒梅梅的孩子怎样导致最后的亲缘误认？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-amaranta-ursula",
+                "solitude-mauricio",
+                "solitude-aureliano-babilonia",
+                "solitude-aureliano-last",
+                "solitude-aureliano-second",
+                "solitude-fernanda"
+              ]
+            },
+            {
+              "id": "solitude-c20-p02-q02",
+              "text": "神甫不相信家族历史，会怎样影响身份查证？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-amaranta-ursula",
+                "solitude-mauricio",
+                "solitude-aureliano-babilonia",
+                "solitude-aureliano-last",
+                "solitude-aureliano-second",
+                "solitude-fernanda"
+              ]
+            },
+            {
+              "id": "solitude-c20-p02-q03",
+              "text": "婴儿的死亡除了猪尾巴，还涉及哪些具体照护条件？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-meme",
+                "solitude-amaranta-ursula",
+                "solitude-mauricio",
+                "solitude-aureliano-babilonia",
+                "solitude-aureliano-last",
+                "solitude-aureliano-second",
+                "solitude-fernanda"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-meme",
+            "solitude-amaranta-ursula",
+            "solitude-mauricio",
+            "solitude-aureliano-babilonia",
+            "solitude-aureliano-last",
+            "solitude-aureliano-second",
+            "solitude-fernanda"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第二十章",
+            "startLine": 2310,
+            "endLine": 2426
+          }
+        },
+        {
+          "id": "solitude-c20-p03",
+          "title": "阅读和发生重合的那一刻",
+          "markdown": "看见婴儿被蚂蚁吞噬后，[奥雷里亚诺](entity:solitude-aureliano-babilonia)记起羊皮卷的线索，终于读懂其中的家族历史。手稿把一个世纪的事件安排在同一时间里，姓名、秘密和过去的预告得到联系。他继续读，逐渐到达自己的当下。\n\n叙述不再在回忆、现在与未来之间切换，读书的动作和正在发生的毁灭重合。[奥雷里亚诺](entity:solitude-aureliano-babilonia)想提前看结尾，却发现被写下的时间已经把自己包括在内。第一章让未来的行刑回望童年，末章则让阅读直接触及未来，两个端点构成一场关于认识与命运的闭合。\n\n飓风消除[马孔多](entity:solitude-macondo)，故事在家族的末端结束。羊皮卷能解释已经发生的一切，却没让人物提前建立互相理解和照护。完成阅读带来清醒，行动机会同时耗尽。留给读者的问题也因此具体：我们怎样在尚有关系、资源和时间时听见他人，而非只在失去之后把来龙去脉全部拼好。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "solitude-c20-p03-q01",
+              "text": "羊皮卷把百年事件放在同一时间中，有什么结构作用？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-melquiades",
+                "solitude-macondo",
+                "solitude-aureliano-last"
+              ]
+            },
+            {
+              "id": "solitude-c20-p03-q02",
+              "text": "第一章的未来回望与最后一章的阅读当下怎样呼应？",
+              "kind": "比较",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-melquiades",
+                "solitude-macondo",
+                "solitude-aureliano-last"
+              ]
+            },
+            {
+              "id": "solitude-c20-p03-q03",
+              "text": "理解全部来历为何没有给人物带来改变的机会？",
+              "kind": "理解",
+              "entityIds": [
+                "solitude-aureliano-babilonia",
+                "solitude-melquiades",
+                "solitude-macondo",
+                "solitude-aureliano-last"
+              ]
+            }
+          ],
+          "entityIds": [
+            "solitude-aureliano-babilonia",
+            "solitude-melquiades",
+            "solitude-macondo",
+            "solitude-aureliano-last"
+          ],
+          "source": {
+            "label": "本地范晔译本 · 第二十章",
+            "startLine": 2310,
+            "endLine": 2426
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "solitude-c20-q01",
+          "text": "亲密能抵抗哪些孤独，又可能加深哪些孤独？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-pilar",
+            "solitude-catalan-scholar",
+            "solitude-gaston",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-aureliano-last",
+            "solitude-aureliano-second",
+            "solitude-fernanda",
+            "solitude-melquiades",
+            "solitude-macondo"
+          ]
+        },
+        {
+          "id": "solitude-c20-q02",
+          "text": "身份秘密如何跨代影响不知情者的选择？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-pilar",
+            "solitude-catalan-scholar",
+            "solitude-gaston",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-aureliano-last",
+            "solitude-aureliano-second",
+            "solitude-fernanda",
+            "solitude-melquiades",
+            "solitude-macondo"
+          ]
+        },
+        {
+          "id": "solitude-c20-q03",
+          "text": "认识来得太迟时，文学还能让读者重新注意什么？",
+          "kind": "理解",
+          "entityIds": [
+            "solitude-pilar",
+            "solitude-catalan-scholar",
+            "solitude-gaston",
+            "solitude-amaranta-ursula",
+            "solitude-aureliano-babilonia",
+            "solitude-meme",
+            "solitude-mauricio",
+            "solitude-aureliano-last",
+            "solitude-aureliano-second",
+            "solitude-fernanda",
+            "solitude-melquiades",
+            "solitude-macondo"
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "solitude-jose-arcadio-founder",
+      "name": "何塞·阿尔卡蒂奥·布恩迪亚",
+      "kind": "person",
+      "description": "马孔多创建者，与乌尔苏拉共同建立家庭，热衷发明和实验。",
+      "aliases": [],
+      "firstChapter": 1
+    },
+    {
+      "id": "solitude-ursula",
+      "name": "乌尔苏拉·伊瓜兰",
+      "kind": "person",
+      "description": "家族最初的母亲，长期经营家业并维护共同生活。",
+      "aliases": [
+        "乌尔苏拉"
+      ],
+      "firstChapter": 1
+    },
+    {
+      "id": "solitude-jose-arcadio-son",
+      "name": "何塞·阿尔卡蒂奥",
+      "kind": "person",
+      "description": "创建者的长子，奥雷里亚诺的哥哥。",
+      "aliases": [
+        "小何塞·阿尔卡蒂奥"
+      ],
+      "firstChapter": 1
+    },
+    {
+      "id": "solitude-aureliano-colonel",
+      "name": "奥雷里亚诺·布恩迪亚上校",
+      "kind": "person",
+      "description": "创建者的次子，开篇从童年经历进入叙述。",
+      "aliases": [
+        "奥雷里亚诺",
+        "上校"
+      ],
+      "firstChapter": 1
+    },
+    {
+      "id": "solitude-melquiades",
+      "name": "梅尔基亚德斯",
+      "kind": "person",
+      "description": "带来知识与奇异发明的吉卜赛人，和创建者建立友情。",
+      "aliases": [],
+      "firstChapter": 1
+    },
+    {
+      "id": "solitude-prudencio",
+      "name": "普鲁邓希奥·阿基拉尔",
+      "kind": "person",
+      "description": "曾与创建者发生斗鸡争执，他的命案影响马孔多的创建。",
+      "aliases": [
+        "普鲁邓希奥"
+      ],
+      "firstChapter": 2
+    },
+    {
+      "id": "solitude-amaranta",
+      "name": "阿玛兰妲",
+      "kind": "person",
+      "description": "创建者与乌尔苏拉的女儿，丽贝卡的姐妹。",
+      "aliases": [],
+      "firstChapter": 2
+    },
+    {
+      "id": "solitude-pilar",
+      "name": "庇拉尔·特尔内拉",
+      "kind": "person",
+      "description": "参与建立马孔多的女性，以纸牌占卜，也连接家族数代人的生活。",
+      "aliases": [
+        "庇拉尔"
+      ],
+      "firstChapter": 2
+    },
+    {
+      "id": "solitude-arcadio",
+      "name": "阿尔卡蒂奥",
+      "kind": "person",
+      "description": "何塞·阿尔卡蒂奥与庇拉尔的儿子，在祖父母家长大。",
+      "aliases": [],
+      "firstChapter": 3
+    },
+    {
+      "id": "solitude-rebeca",
+      "name": "丽贝卡",
+      "kind": "person",
+      "description": "携父母骨殖来到布恩迪亚家的女孩，被家人收留。",
+      "aliases": [
+        "丽贝卡·布恩迪亚"
+      ],
+      "firstChapter": 3
+    },
+    {
+      "id": "solitude-moscote",
+      "name": "堂阿波利纳尔·摩斯科特",
+      "kind": "person",
+      "description": "政府任命的里正，蕾梅黛丝的父亲。",
+      "aliases": [
+        "摩斯科特"
+      ],
+      "firstChapter": 3
+    },
+    {
+      "id": "solitude-remedios-moscote",
+      "name": "蕾梅黛丝·摩斯科特",
+      "kind": "person",
+      "description": "里正的小女儿，后与奥雷里亚诺结婚。",
+      "aliases": [
+        "蕾梅黛丝"
+      ],
+      "firstChapter": 3
+    },
+    {
+      "id": "solitude-pietro",
+      "name": "皮埃特罗·克雷斯皮",
+      "kind": "person",
+      "description": "来安装自动钢琴的意大利青年，与丽贝卡和阿玛兰妲的感情相关。",
+      "aliases": [
+        "克雷斯皮"
+      ],
+      "firstChapter": 4
+    },
+    {
+      "id": "solitude-gerineldo",
+      "name": "赫里内勒多·马尔克斯",
+      "kind": "person",
+      "description": "奥雷里亚诺的朋友与战友，在战争和家庭之间维持个人情感。",
+      "aliases": [
+        "赫里内勒多"
+      ],
+      "firstChapter": 4
+    },
+    {
+      "id": "solitude-aureliano-jose",
+      "name": "奥雷里亚诺·何塞",
+      "kind": "person",
+      "description": "奥雷里亚诺与庇拉尔的儿子，由阿玛兰妲抚养。",
+      "aliases": [],
+      "firstChapter": 5
+    },
+    {
+      "id": "solitude-santa-sofia",
+      "name": "桑塔索菲亚·德拉·彼达",
+      "kind": "person",
+      "description": "与阿尔卡蒂奥共同生活的女性，长期承担家族照护与家务。",
+      "aliases": [
+        "桑塔索菲亚"
+      ],
+      "firstChapter": 6
+    },
+    {
+      "id": "solitude-remedios-beauty",
+      "name": "美人儿蕾梅黛丝",
+      "kind": "person",
+      "description": "阿尔卡蒂奥与桑塔索菲亚的女儿。",
+      "aliases": [],
+      "firstChapter": 7
+    },
+    {
+      "id": "solitude-jose-arcadio-second",
+      "name": "何塞·阿尔卡蒂奥第二",
+      "kind": "person",
+      "description": "阿尔卡蒂奥与桑塔索菲亚的双胞胎儿子之一。",
+      "aliases": [],
+      "firstChapter": 7
+    },
+    {
+      "id": "solitude-aureliano-second",
+      "name": "奥雷里亚诺第二",
+      "kind": "person",
+      "description": "阿尔卡蒂奥与桑塔索菲亚的双胞胎儿子之一。",
+      "aliases": [],
+      "firstChapter": 7
+    },
+    {
+      "id": "solitude-moncada",
+      "name": "何塞·拉克尔·蒙卡达",
+      "kind": "person",
+      "description": "保守派将军，战后曾治理马孔多，也与上校保持个人往来。",
+      "aliases": [
+        "蒙卡达"
+      ],
+      "firstChapter": 8
+    },
+    {
+      "id": "solitude-fernanda",
+      "name": "费尔南达·德尔·卡皮奥",
+      "kind": "person",
+      "description": "来自衰败贵族家庭的女性，与奥雷里亚诺第二结婚。",
+      "aliases": [
+        "费尔南达"
+      ],
+      "firstChapter": 10
+    },
+    {
+      "id": "solitude-petra",
+      "name": "佩特拉·科特斯",
+      "kind": "person",
+      "description": "与奥雷里亚诺第二共同生活，以经营和照护维持两人的关系。",
+      "aliases": [
+        "佩特拉"
+      ],
+      "firstChapter": 10
+    },
+    {
+      "id": "solitude-jose-arcadio-seminary",
+      "name": "何塞·阿尔卡蒂奥",
+      "kind": "person",
+      "description": "奥雷里亚诺第二与费尔南达的长子，小时候被家人计划培养成教皇。",
+      "aliases": [],
+      "firstChapter": 10
+    },
+    {
+      "id": "solitude-meme",
+      "name": "蕾纳塔·蕾梅黛丝",
+      "kind": "person",
+      "description": "奥雷里亚诺第二与费尔南达的女儿，家人叫她梅梅。",
+      "aliases": [
+        "梅梅"
+      ],
+      "firstChapter": 11
+    },
+    {
+      "id": "solitude-amaranta-ursula",
+      "name": "阿玛兰妲·乌尔苏拉",
+      "kind": "person",
+      "description": "奥雷里亚诺第二与费尔南达的小女儿。",
+      "aliases": [],
+      "firstChapter": 14
+    },
+    {
+      "id": "solitude-mauricio",
+      "name": "马乌里肖·巴比伦",
+      "kind": "person",
+      "description": "香蕉公司的汽修学徒，梅梅的恋人，黄蝴蝶总伴随他。",
+      "aliases": [
+        "马乌里肖"
+      ],
+      "firstChapter": 14
+    },
+    {
+      "id": "solitude-aureliano-babilonia",
+      "name": "奥雷里亚诺",
+      "kind": "person",
+      "description": "梅梅与马乌里肖的儿子，在祖宅里长大，身世被隐瞒。",
+      "aliases": [
+        "小奥雷里亚诺"
+      ],
+      "firstChapter": 15
+    },
+    {
+      "id": "solitude-catalan-scholar",
+      "name": "加泰罗尼亚智者",
+      "kind": "person",
+      "description": "经营书店的读书人，与奥雷里亚诺和几名青年建立交流。",
+      "aliases": [
+        "智者"
+      ],
+      "firstChapter": 18
+    },
+    {
+      "id": "solitude-gaston",
+      "name": "加斯通",
+      "kind": "person",
+      "description": "阿玛兰妲·乌尔苏拉的丈夫，随她回乡并计划航空邮政。",
+      "aliases": [],
+      "firstChapter": 19
+    },
+    {
+      "id": "solitude-nigromanta",
+      "name": "尼格罗曼妲",
+      "kind": "person",
+      "description": "奥雷里亚诺在镇上认识的女性，也在他痛苦时给予照料。",
+      "aliases": [],
+      "firstChapter": 19
+    },
+    {
+      "id": "solitude-aureliano-last",
+      "name": "最后一个奥雷里亚诺",
+      "kind": "person",
+      "description": "阿玛兰妲·乌尔苏拉与奥雷里亚诺的孩子。",
+      "aliases": [
+        "婴儿"
+      ],
+      "firstChapter": 20
+    },
+    {
+      "id": "solitude-macondo",
+      "name": "马孔多",
+      "kind": "event",
+      "description": "小说中的虚构城镇，家族与公共生活在这里展开。",
+      "firstChapter": 1
+    },
+    {
+      "id": "solitude-banana-company",
+      "name": "香蕉公司",
+      "kind": "event",
+      "description": "进入小说城镇的商业机构，改变土地、劳动与公共秩序。",
+      "firstChapter": 12
+    },
+    {
+      "id": "solitude-banana-strike",
+      "name": "香蕉工人罢工",
+      "kind": "event",
+      "description": "小说第十五章中的劳工冲突与记忆事件，历史背景可另行对照。",
+      "aliases": [
+        "工人屠杀",
+        "香蕉工人事件"
+      ],
+      "firstChapter": 15
+    },
+    {
+      "id": "solitude-magic-realism",
+      "name": "魔幻现实主义",
+      "kind": "concept",
+      "description": "以日常叙述呈现奇异事件的一种文学讨论框架，不能替代对具体场景的分析。"
+    },
+    {
+      "id": "solitude-total-novel",
+      "name": "总体小说",
+      "kind": "concept",
+      "description": "巴尔加斯·略萨用来分析小说材料和形式如何构成完整世界的概念。"
+    },
+    {
+      "id": "solitude-book",
+      "name": "百年孤独",
+      "kind": "book",
+      "description": "马尔克斯1967年出版的小说，围绕布恩迪亚家族与马孔多展开。",
+      "bookId": "solitude"
+    },
+    {
+      "id": "solitude-colonel-nobody",
+      "name": "没有人给他写信的上校",
+      "kind": "book",
+      "description": "马尔克斯的另一部小说，穆蒂斯在评论中给予很高评价。"
+    },
+    {
+      "id": "solitude-marquez",
+      "name": "加西亚·马尔克斯",
+      "kind": "author",
+      "description": "哥伦比亚小说家。《百年孤独》把家族记忆、加勒比生活和历史暴力写进马孔多。",
+      "authorId": "marquez"
+    },
+    {
+      "id": "solitude-arendt",
+      "name": "汉娜·阿伦特",
+      "kind": "author",
+      "description": "政治思想家，关注行动、公共生活与现代社会。《人的境况》区分劳动、工作和行动。",
+      "authorId": "arendt"
+    },
+    {
+      "id": "solitude-stanley",
+      "name": "肯尼斯·斯坦利",
+      "kind": "author",
+      "description": "人工智能研究者，与乔尔·雷曼合著《为什么伟大不能被计划》，讨论开放探索与目标的局限。",
+      "authorId": "stanley"
+    },
+    {
+      "id": "solitude-lehman",
+      "name": "乔尔·雷曼",
+      "kind": "author",
+      "description": "人工智能研究者，与肯尼斯·斯坦利共同研究新颖性搜索，并合著《为什么伟大不能被计划》。",
+      "authorId": "lehman"
+    },
+    {
+      "id": "solitude-borges",
+      "name": "豪尔赫·路易斯·博尔赫斯",
+      "kind": "author",
+      "description": "阿根廷作家，以迷宫、时间、无限和虚构文献构成独特的短篇世界。",
+      "authorId": "borges"
+    },
+    {
+      "id": "solitude-nietzsche",
+      "name": "弗里德里希·尼采",
+      "kind": "author",
+      "description": "德国哲学家，讨论价值、生命与道德谱系，写作常用格言和鲜明的意象。",
+      "authorId": "nietzsche"
+    },
+    {
+      "id": "solitude-montaigne",
+      "name": "米歇尔·德·蒙田",
+      "kind": "author",
+      "description": "法国随笔作家，以个人经验审视习惯、判断与人性的复杂。",
+      "authorId": "montaigne"
+    },
+    {
+      "id": "solitude-vargas-llosa",
+      "name": "马里奥·巴尔加斯·略萨",
+      "kind": "author",
+      "description": "秘鲁小说家，长期研究叙事结构，曾从材料与形式分析《百年孤独》的总体小说特征。",
+      "authorId": "vargas-llosa"
+    },
+    {
+      "id": "solitude-carlos-fuentes",
+      "name": "卡洛斯·富恩特斯",
+      "kind": "author",
+      "description": "墨西哥小说家，关注拉丁美洲历史与身份，曾讨论马尔克斯如何为美洲经验命名。",
+      "authorId": "carlos-fuentes"
+    },
+    {
+      "id": "solitude-alvaro-mutis",
+      "name": "阿尔瓦罗·穆蒂斯",
+      "kind": "author",
+      "description": "哥伦比亚诗人和小说家，也是马尔克斯的朋友，曾回顾其写作与《百年孤独》的阅读震动。",
+      "authorId": "alvaro-mutis"
+    }
+  ],
+  "comments": [
+    {
+      "id": "solitude-comment-01",
+      "authorId": "borges",
+      "body": "羊皮卷里的人正在读羊皮卷。我想先问：读者此刻站在哪一层？",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "solitude-comment-02",
+      "authorId": "arendt",
+      "body": "车站事件之后，共同的事实消失了。一个人记得，还需要有别人愿意听。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "solitude-comment-03",
+      "authorId": "stanley",
+      "body": "父亲找大海失败，乌尔苏拉寻人却找到了路。探索的所得，常常没有按出发时的名字出现。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "solitude-comment-04",
+      "authorId": "montaigne",
+      "body": "先别急着给这家人判一种性格。同一个名字下面，欲望与害怕差得很远。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "solitude-comment-05",
+      "authorId": "nietzsche",
+      "body": "他们反复说起命运。我倒想追问，每次重复里是谁又作了同一个选择。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "solitude-comment-06",
+      "authorId": "carlos-fuentes",
+      "body": "火车进站时，远方像来了一位客人。客人坐下以后，整座镇子的桌椅都要改位置。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    }
+  ]
+}

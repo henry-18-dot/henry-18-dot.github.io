@@ -1,0 +1,3269 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-11-v1",
+  "book": {
+    "id": "human-condition",
+    "title": "人的境况",
+    "subtitle": "汉娜·阿伦特 · 劳动、工作与行动",
+    "authors": [
+      "arendt"
+    ],
+    "headline": [
+      "你在忙什么？",
+      "《人的境况》速览"
+    ],
+    "tags": [
+      "政治哲学",
+      "公共生活",
+      "现代性"
+    ],
+    "overview": "忙着维持生活，忙着建造东西，或忙着和别人共同改变事情，三种活动回应不同的条件。阿伦特用劳动、工作与行动分析人在世界中的位置，追问公共生活如何存在，技术与财富增长如何改变它。全书的主线是思考我们正在做什么，也看清我们还能够开始什么。",
+    "theme": {
+      "bg": "#252920",
+      "paper": "#eee6d2",
+      "ink": "#2b3228",
+      "accent": "#b98552"
+    },
+    "music": "thought"
+  },
+  "authors": [
+    {
+      "id": "arendt",
+      "name": "汉娜·阿伦特",
+      "years": "1906—1975",
+      "bio": "政治思想家。研究极权主义、革命、公共生活，以及人在言说和行动中开启新事的能力。",
+      "initial": "阿",
+      "color": "#b98552",
+      "tags": [
+        "政治思想",
+        "公共生活"
+      ]
+    },
+    {
+      "id": "stanley",
+      "name": "肯尼斯·斯坦利",
+      "bio": "计算机科学家。研究神经进化、开放式探索和创造过程，与乔尔·雷曼合著《为什么伟大不能被计划》。",
+      "initial": "斯",
+      "color": "#ab7554",
+      "tags": [
+        "人工智能",
+        "开放式探索"
+      ]
+    },
+    {
+      "id": "lehman",
+      "name": "乔尔·雷曼",
+      "bio": "人工智能研究者。参与新奇性搜索和开放式进化研究，与肯尼斯·斯坦利合著《为什么伟大不能被计划》。",
+      "initial": "雷",
+      "color": "#6c947a",
+      "tags": [
+        "进化计算",
+        "创造性"
+      ]
+    },
+    {
+      "id": "marquez",
+      "name": "加夫列尔·加西亚·马尔克斯",
+      "years": "1927—2014",
+      "bio": "哥伦比亚小说家。《百年孤独》把家族、历史、记忆与神异经验织进马孔多的生活。",
+      "initial": "马",
+      "color": "#a1844d",
+      "tags": [
+        "小说",
+        "拉丁美洲文学"
+      ]
+    },
+    {
+      "id": "borges",
+      "name": "豪尔赫·路易斯·博尔赫斯",
+      "years": "1899—1986",
+      "bio": "阿根廷作家。以短篇、诗和随笔探索迷宫、无限、时间、书籍与虚构的边界。",
+      "initial": "博",
+      "color": "#827aa2",
+      "tags": [
+        "小说",
+        "时间"
+      ]
+    },
+    {
+      "id": "nietzsche",
+      "name": "弗里德里希·尼采",
+      "years": "1844—1900",
+      "bio": "德国哲学家。以格言、论辩和文学形式追问道德、价值、生命与文化。",
+      "initial": "尼",
+      "color": "#957564",
+      "tags": [
+        "哲学",
+        "价值"
+      ]
+    },
+    {
+      "id": "montaigne",
+      "name": "米歇尔·德·蒙田",
+      "years": "1533—1592",
+      "bio": "法国作家。《随笔集》从自己的经验出发，讨论判断、习惯、友谊及人的局限。",
+      "initial": "蒙",
+      "color": "#8b9372",
+      "tags": [
+        "随笔",
+        "自我观察"
+      ]
+    },
+    {
+      "id": "mary-mccarthy",
+      "name": "玛丽·麦卡锡",
+      "years": "1912—1989",
+      "bio": "美国小说家和评论家。1958 年在《纽约客》发表《Philosophy at Work》，评论《人的境况》。",
+      "initial": "麦",
+      "color": "#9b7771",
+      "tags": [
+        "小说",
+        "书评"
+      ]
+    },
+    {
+      "id": "canovan",
+      "name": "玛格丽特·加诺芬",
+      "years": "1939—2018",
+      "bio": "英国政治思想研究者。研究民粹主义与阿伦特，为《人的境况》第二版撰写导言。",
+      "initial": "加",
+      "color": "#6f8574",
+      "tags": [
+        "政治思想",
+        "阿伦特研究"
+      ]
+    },
+    {
+      "id": "danielle-allen",
+      "name": "Danielle Allen",
+      "bio": "政治理论研究者。研究民主、公民教育与平等，为《人的境况》六十周年版撰写序言。",
+      "initial": "艾",
+      "color": "#94806c",
+      "tags": [
+        "民主",
+        "公民教育"
+      ]
+    },
+    {
+      "id": "marx",
+      "name": "卡尔·马克思",
+      "years": "1818—1883",
+      "bio": "哲学家、政治经济学研究者。《资本论》分析资本主义生产与劳动力。阿伦特在本书中与他的劳动观展开对话。",
+      "initial": "马",
+      "color": "#91675b",
+      "tags": [
+        "政治经济学",
+        "劳动"
+      ]
+    },
+    {
+      "id": "locke",
+      "name": "约翰·洛克",
+      "years": "1632—1704",
+      "bio": "英国哲学家。《政府论》讨论政治权力与财产，其劳动和占有的关系是本书的重要讨论对象。",
+      "initial": "洛",
+      "color": "#8b8469",
+      "tags": [
+        "政治思想",
+        "财产"
+      ]
+    },
+    {
+      "id": "smith",
+      "name": "亚当·斯密",
+      "years": "1723—1790",
+      "bio": "苏格兰思想家。研究道德、交换与社会财富，《国富论》讨论分工与生产性劳动。",
+      "initial": "斯",
+      "color": "#7b927f",
+      "tags": [
+        "政治经济学",
+        "分工"
+      ]
+    },
+    {
+      "id": "aristotle",
+      "name": "亚里士多德",
+      "bio": "古希腊哲学家。研究政治、伦理、逻辑和自然。阿伦特借其政治动物与生活方式的区分重读城邦经验。",
+      "initial": "亚",
+      "color": "#94896c",
+      "tags": [
+        "古希腊",
+        "政治"
+      ]
+    },
+    {
+      "id": "plato",
+      "name": "柏拉图",
+      "bio": "古希腊哲学家。以对话录讨论知识、正义与城邦，本书考察其以制作模型理解政治的路径。",
+      "initial": "柏",
+      "color": "#748393",
+      "tags": [
+        "古希腊",
+        "哲学"
+      ]
+    },
+    {
+      "id": "socrates",
+      "name": "苏格拉底",
+      "bio": "古雅典思想者。通过交谈追问伦理与知识，没有留下自己的著作，其生平由他人记述。",
+      "initial": "苏",
+      "color": "#8b9174",
+      "tags": [
+        "对话",
+        "伦理"
+      ]
+    },
+    {
+      "id": "machiavelli",
+      "name": "尼科洛·马基雅维利",
+      "years": "1469—1527",
+      "bio": "佛罗伦萨政治思想家。讨论共和政治、统治与公共行动，《君主论》《论李维》是其主要著作。",
+      "initial": "马",
+      "color": "#90755f",
+      "tags": [
+        "共和政治",
+        "政治思想"
+      ]
+    },
+    {
+      "id": "homer",
+      "name": "荷马",
+      "bio": "古希腊史诗传统中的诗人，《伊利亚特》和《奥德赛》归于其名下。本书借史诗中的言辞与业绩讨论行动。",
+      "initial": "荷",
+      "color": "#a68b63",
+      "tags": [
+        "史诗",
+        "古希腊"
+      ]
+    },
+    {
+      "id": "hobbes",
+      "name": "托马斯·霍布斯",
+      "years": "1588—1679",
+      "bio": "英国哲学家。《利维坦》讨论共同体与主权，阿伦特考察其构造国家的模型。",
+      "initial": "霍",
+      "color": "#8b737b",
+      "tags": [
+        "政治思想",
+        "主权"
+      ]
+    },
+    {
+      "id": "vico",
+      "name": "詹巴蒂斯塔·维科",
+      "years": "1668—1744",
+      "bio": "意大利思想家。《新科学》探索历史、语言与人类制度，重视人对自己所造之物的认识。",
+      "initial": "维",
+      "color": "#a08965",
+      "tags": [
+        "历史",
+        "知识"
+      ]
+    },
+    {
+      "id": "bentham",
+      "name": "杰里米·边沁",
+      "years": "1748—1832",
+      "bio": "英国思想家。发展功利主义，以快乐与痛苦讨论行为和制度的评价标准。",
+      "initial": "边",
+      "color": "#7b8990",
+      "tags": [
+        "功利主义",
+        "伦理"
+      ]
+    },
+    {
+      "id": "descartes",
+      "name": "勒内·笛卡尔",
+      "years": "1596—1650",
+      "bio": "法国哲学家和数学家。以方法怀疑与意识的确定性探索知识基础。",
+      "initial": "笛",
+      "color": "#8a7795",
+      "tags": [
+        "认识论",
+        "数学"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "human-condition-review01",
+      "authorId": "mary-mccarthy",
+      "title": "熟悉的事物，重新清晰起来",
+      "markdown": "玛丽·麦卡锡在 1958 年的书评中，注意到阿伦特能把人们早已习惯的观念重新打开。阅读先带来惊讶，随后那些区别变得清楚，仿佛一直就在眼前。\n\n劳动与工作的区分是她选出的关键例子。食物被消费，桌子留在世界中供人使用。重复的维持活动与相对持久的作品，不能只按辛苦程度区别。麦卡锡认为，阿伦特正借这些古老词语照见现代人的生活。",
+      "source": {
+        "label": "Mary McCarthy，《Philosophy at Work》，《纽约客》，1958 年",
+        "url": "https://www.newyorker.com/magazine/1958/10/18/1958-10-18-198-tny-cards-000059912"
+      },
+      "entityIds": [
+        "mary-mccarthy",
+        "arendt",
+        "human-condition-labor",
+        "human-condition-work"
+      ],
+      "questions": [
+        {
+          "id": "human-condition-review01-q01",
+          "text": "为什么熟悉的生活需要重新作概念区分？",
+          "kind": "理解",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work"
+          ]
+        },
+        {
+          "id": "human-condition-review01-q02",
+          "text": "麦卡锡为什么用面包和桌子解释劳动与工作？",
+          "kind": "理解",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work"
+          ]
+        },
+        {
+          "id": "human-condition-review01-q03",
+          "text": "一个活动很辛苦，就一定属于劳动吗？",
+          "kind": "反驳",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-condition-review02",
+      "authorId": "canovan",
+      "title": "开端带来希望，也带来失控",
+      "markdown": "加诺芬在导言中把阿伦特读作开端的思想家。新人能够开始新事，人类事务因此始终保留意外。但一个人的开端会与他人的行动纠缠，结果常常越出最初意图。\n\n她提醒读者同时看见希望与危险。公共生活能让人共同开启改变，也需要承诺和宽恕来处理不可预测与不可逆的后果。劳动、工作、行动的区分帮助人认识自己的能力，并不提供一张可按图施工的社会蓝图。",
+      "source": {
+        "label": "Margaret Canovan，《人的境况》第二版导言，本地译本第 104—175 行",
+        "url": "https://press.uchicago.edu/dam/ucp/books/pdf/course_intro/978-0-226-58660-1-introduction.pdf",
+        "startLine": 104,
+        "endLine": 175
+      },
+      "entityIds": [
+        "canovan",
+        "arendt",
+        "human-condition-natality",
+        "human-condition-action",
+        "human-condition-promise",
+        "human-condition-forgiveness"
+      ],
+      "questions": [
+        {
+          "id": "human-condition-review02-q01",
+          "text": "行动为什么同时带来希望与危险？",
+          "kind": "理解",
+          "entityIds": [
+            "human-condition-action",
+            "human-condition-natality"
+          ]
+        },
+        {
+          "id": "human-condition-review02-q02",
+          "text": "社会蓝图为什么可能压制人的复数性？",
+          "kind": "反驳",
+          "entityIds": [
+            "human-condition-plurality",
+            "human-condition-fabrication"
+          ]
+        },
+        {
+          "id": "human-condition-review02-q03",
+          "text": "承诺与宽恕分别回应行动的哪一种困难？",
+          "kind": "比较",
+          "entityIds": [
+            "human-condition-promise",
+            "human-condition-forgiveness"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-condition-review03",
+      "authorId": "danielle-allen",
+      "title": "技术能力增长，判断由谁来做",
+      "markdown": "Danielle Allen 在六十周年版序言中，把本书的问题带回技术统治。计算能够回答原因与结果，却无法单独决定共同体应当追求什么、承担怎样的代价。公共判断需要人们在共享语言中讨论理由。\n\n她用刑事司法、气候变化和经济政策说明这个缺口。科学知识应当进入公共讨论，公民也需要能够诊断生活条件、比较不同判断。技术的力量越大，劳动、工作和行动的区分越能提醒人们，还有哪些决定需要共同作出。",
+      "source": {
+        "label": "Danielle Allen，2018 年序言，本地译本第 48—103 行",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/H/bo29137972.html",
+        "startLine": 48,
+        "endLine": 103
+      },
+      "entityIds": [
+        "danielle-allen",
+        "arendt",
+        "human-condition-public",
+        "human-condition-action",
+        "human-condition-plurality"
+      ],
+      "questions": [
+        {
+          "id": "human-condition-review03-q01",
+          "text": "经验数据为什么不能独自给出政策应追求的目标？",
+          "kind": "理解",
+          "entityIds": [
+            "human-condition-public"
+          ]
+        },
+        {
+          "id": "human-condition-review03-q02",
+          "text": "专业知识怎样支持公民判断，又不替代公共讨论？",
+          "kind": "应用",
+          "entityIds": [
+            "human-condition-public",
+            "human-condition-plurality"
+          ]
+        },
+        {
+          "id": "human-condition-review03-q03",
+          "text": "把政治问题都当成技术问题，会遗漏哪些分歧？",
+          "kind": "反驳",
+          "entityIds": [
+            "human-condition-action",
+            "human-condition-public"
+          ]
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "human-condition-c01",
+      "number": 1,
+      "title": "人的条件",
+      "overview": "人的活动要在给定的条件中展开，也会改变这些条件。劳动维持生命，工作建造相对持久的世界，行动发生在彼此不同的人之间。阿伦特先分清这些活动，再追问传统为何把它们都放到沉思之下。个体生命会结束，人留下的作品和言行却可能继续被记住。这里的区分将为后面五章提供坐标。",
+      "pages": [
+        {
+          "id": "human-condition-c01-p01",
+          "title": "人活着，还要有一个世界",
+          "layout": "comparison",
+          "markdown": "做饭、造桌子、和别人商量一项公共决定，都可以叫“做事”，但它们回应的条件不同。阿伦特把积极生活分成劳动、工作、行动。这里的“工作”有专门含义，不能直接套上“上班”的意思。\n\n| 活动 | 回应的条件 | 典型结果 |\n| --- | --- | --- |\n| 劳动 | 身体必须持续活着 | 做出的食物又被吃掉 |\n| 工作 | 人需要相对持久的居所 | 一张桌子留下来供人使用 |\n| 行动 | 世上有许多不同的人 | 言行开启一段共同经历 |\n\n劳动随着需要不断重来。工作给短暂的生命一个比较稳固的背景。行动让人通过言说和参与显露自己的独特性，因为任何人都无法预先替所有人发言。\n\n这些是人的条件，也包括出生、死亡和地球环境。条件会影响我们，却不能直接给出一个人的本质。人制造的建筑、制度和工具，随后也会限制人的下一步行动。诞生性尤其关联行动：新人来到世界，新的开端也随之成为可能。",
+          "sectionId": "human-condition-s01",
+          "sectionTitle": "积极生活与人的条件",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第1节",
+            "startLine": 208,
+            "endLine": 226
+          },
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work",
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-natality",
+            "human-condition-world",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c01-p01-q01",
+              "text": "同一个人做饭、设计餐桌、参加社区会议，分别涉及哪种活动？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-work",
+                "human-condition-action"
+              ]
+            },
+            {
+              "id": "human-condition-c01-p01-q02",
+              "text": "人的条件为什么不能直接等同于人的本性？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-plurality"
+              ]
+            },
+            {
+              "id": "human-condition-c01-p01-q03",
+              "text": "诞生性怎样解释人能够开启新的事情？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-natality",
+                "human-condition-action"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c01-p02",
+          "title": "忙碌为何曾经低于沉思",
+          "layout": "timeline",
+          "markdown": "“积极生活”在思想史中换过含义。它早先指向公民参与公共事务的生活，后来逐渐涵盖一切现世活动。词的范围扩大，活动之间的差别却变得模糊了。\n\n| 思想阶段 | 积极生活的位置 |\n| --- | --- |\n| 希腊城邦经验 | 言说和行动构成政治生活 |\n| 哲学传统 | 沉思的宁静被置于活动之上 |\n| 中世纪思想 | 现世活动为沉思和彼世生活服务 |\n| 现代的倒转 | 活动被抬高，原有共同尺度仍保留 |\n\n如果判断只问某种活动会不会打扰沉思，做饭、制作器物、处理公共事务便都成了“不得安宁”。劳动、工作和行动各自的目的消失在这个尺度下。马克思和尼采倒转传统等级，也可能继续沿用一个原则统摄全部活动的做法。\n\n阿伦特要恢复各类活动本身的关切。生命的维持、世界的建造、人与人的共同行动，都有需要单独说明的性质。她保留沉思经验的问题，同时拒绝让它预先决定其他活动的高低。",
+          "sectionId": "human-condition-s02",
+          "sectionTitle": "积极生活的术语",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第2节",
+            "startLine": 228,
+            "endLine": 248
+          },
+          "entityIds": [
+            "human-condition-contemplation",
+            "human-condition-public",
+            "human-condition-action",
+            "arendt",
+            "nietzsche",
+            "marx"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c01-p02-q01",
+              "text": "把所有活动都放在“是否打扰沉思”的尺度下，会遗漏什么？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-contemplation",
+                "human-condition-labor",
+                "human-condition-action"
+              ]
+            },
+            {
+              "id": "human-condition-c01-p02-q02",
+              "text": "倒转一套等级为什么仍可能保留原来的思想框架？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-contemplation"
+              ]
+            },
+            {
+              "id": "human-condition-c01-p02-q03",
+              "text": "参与公共事务与“忙了一整天”的差别在哪里？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-public",
+                "human-condition-action"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c01-p03",
+          "title": "被记住与超越时间",
+          "layout": "concept",
+          "markdown": "不朽与永恒指向两种不同的关切。希腊人的不朽愿望仍留在这个世界里：一个人的生命结束了，他的作品、业绩和言辞继续存在。自然以循环延续，个人的一生却有开端和终结，留下值得记忆的痕迹便成为一种回应。\n\n永恒经验试图越出时间和人类事务。哲学家在沉思中追求它，任何动作甚至内在的言语都可能打断这种宁静。于是，投身城邦并赢得身后声名，和离开人群体验永恒，出现了紧张关系。\n\n写书提供了一个微妙例子。思想家可以关心永恒，但把思想写下来时，他已选择让一个作品留在世界。这一步需要工作的帮助，也回应了持久的愿望。\n\n罗马帝国的覆灭让尘世作品的脆弱暴露出来。基督教把永生赋予个体，又改变了对公共功业的期待。阿伦特追问的是：当人不再关心共同世界能否超越自己的寿命，政治生活会失去怎样的动力？",
+          "sectionId": "human-condition-s03",
+          "sectionTitle": "永恒对不朽",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第3节",
+            "startLine": 250,
+            "endLine": 262
+          },
+          "entityIds": [
+            "human-condition-contemplation",
+            "human-condition-world",
+            "human-condition-work",
+            "human-condition-public",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c01-p03-q01",
+              "text": "永恒和不朽在时间关系上有什么差别？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-contemplation",
+                "human-condition-world"
+              ]
+            },
+            {
+              "id": "human-condition-c01-p03-q02",
+              "text": "思想家把思想写成书，为什么重新进入了积极生活？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-work",
+                "human-condition-contemplation"
+              ]
+            },
+            {
+              "id": "human-condition-c01-p03-q03",
+              "text": "为后人保存一座公共建筑，是否体现对尘世不朽的关切？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-public"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "human-condition-c01-reflect01",
+          "text": "人的条件会制约活动，也由活动改变，怎样理解这个往返关系？",
+          "kind": "理解",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-action"
+          ]
+        },
+        {
+          "id": "human-condition-c01-reflect02",
+          "text": "劳动、工作、行动各自的关切，能否用效率这一条尺度比较？",
+          "kind": "反驳",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work",
+            "human-condition-action"
+          ]
+        },
+        {
+          "id": "human-condition-c01-reflect03",
+          "text": "如果一个社会只关心当代人的需要，它如何为后来者保存世界？",
+          "kind": "应用",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-natality"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "human-condition-s01",
+          "number": 1,
+          "title": "积极生活与人的条件",
+          "pageId": "human-condition-c01-p01"
+        },
+        {
+          "id": "human-condition-s02",
+          "number": 2,
+          "title": "积极生活的术语",
+          "pageId": "human-condition-c01-p02"
+        },
+        {
+          "id": "human-condition-s03",
+          "number": 3,
+          "title": "永恒对不朽",
+          "pageId": "human-condition-c01-p03"
+        }
+      ]
+    },
+    {
+      "id": "human-condition-c02",
+      "number": 2,
+      "title": "公共和私人领域",
+      "overview": "公共生活让不同的人围绕共同事物相见，私人生活提供遮蔽和休息。阿伦特借城邦与家庭的历史区分，追问现代“社会”的出现怎样改变两者。公开可见不等于已有公共领域，许多私人经历被大量展示也未必形成共同世界。财产、财富和亲密性各有不同作用，活动需要与其性质相称的位置。",
+      "pages": [
+        {
+          "id": "human-condition-c02-p01",
+          "title": "在一起生活与共同议事",
+          "layout": "concept",
+          "markdown": "人依赖他人生活，动物也有群居和合作。仅仅承认相互依赖，还不足以说明政治。阿伦特认为，把亚里士多德的“政治动物”译成“社会动物”，掩盖了希腊人关心的特殊生活方式。\n\n行动与言说共同建立人类事务的空间。在城邦的自我理解中，公共决定靠彼此说服。命令与强迫则属于另一套关系，在家庭和对外统治中常见。一个人能发声，仍可能没有让他的言语真正参与公共事务的机会。\n\n荷马把伟大的言辞与业绩放在一起。恰当的话语可以回应处境、改变人际关系，本身就具有行动性。后来言说越来越被看成说服技术，言与行才逐步分开。\n\n这一区分把问题带回共同生活的质量：人们究竟只是因需要而聚在一起，还是能以不同立场共同决定事情？劳动可以独自进行，制作也能独自完成。行动始终需要他人的在场与回应，谁都不能一个人建立这种关系。",
+          "sectionId": "human-condition-s04",
+          "sectionTitle": "人：一种社会的或政治的动物",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第4节",
+            "startLine": 318,
+            "endLine": 334
+          },
+          "entityIds": [
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-public",
+            "arendt",
+            "aristotle",
+            "homer"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c02-p01-q01",
+              "text": "群居为什么不能充分解释阿伦特所说的政治？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-plurality",
+                "human-condition-action"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p01-q02",
+              "text": "一句话在什么条件下本身构成行动？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-action",
+                "human-condition-public"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p01-q03",
+              "text": "一个人能说话却没有公共发言的位置，缺少的是什么？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-public"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c02-p02",
+          "title": "自由的空间由谁承担代价",
+          "layout": "comparison",
+          "markdown": "在古希腊经验中，家庭处理维生和繁衍，城邦提供公民相见的自由空间。这个自由有具体条件：生活必需先得到照料，公民才可能离开家庭。两种场所按不同关系组织。\n\n| 家庭 | 城邦 |\n| --- | --- |\n| 生存需要推动活动 | 公民以言行参与公共事务 |\n| 家长统治家人和奴隶 | 被承认为同侪的人相见 |\n| 严格的不平等关系 | 公民间追求不统治也不被统治 |\n\n这种城邦平等以大量被排除的人为前提。妇女、奴隶和许多劳动者承担必要活动，无法分享同样的公共资格。读到古代自由时，必须把这笔代价一起读进去。\n\n现代国家常被理解成一个巨型家庭，公共事务趋向统一的生计管理。古代的界线因而难以直接套用。阿伦特借它追问：当政治只负责保护生产和生活，公民共同参与的自由会放在哪里？离开私人庇护并在众人面前行动，还涉及暴露自己和承担风险的勇气。",
+          "sectionId": "human-condition-s05",
+          "sectionTitle": "城邦与家庭",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第5节",
+            "startLine": 336,
+            "endLine": 366
+          },
+          "entityIds": [
+            "human-condition-public",
+            "human-condition-private",
+            "human-condition-action",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c02-p02-q01",
+              "text": "古希腊城邦的平等为什么依赖大量不平等者？",
+              "kind": "背景",
+              "entityIds": [
+                "human-condition-public",
+                "human-condition-private"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p02-q02",
+              "text": "把国家看成巨型家庭，会怎样改变政治的任务？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-public",
+                "human-condition-private"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p02-q03",
+              "text": "离开私人生活进入公共事务，为什么需要勇气？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-action",
+                "human-condition-public"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c02-p03",
+          "title": "规则可以让谁来统治",
+          "layout": "relations",
+          "markdown": "现代社会把原先隐藏在家庭中的经济活动带到公开场合。人口的生计被统一组织，家庭逐渐融入更大的管理体系。于是，公共与私人之间出现了阿伦特称为“社会”的领域。\n\n社会期待成员遵守可预期的行为。规则、角色和统计规律让整体容易管理，也可能挤压自发行动的空间。在这样的关系里，个人首先按职位和功能被理解，独特言行则被视为偏差。\n\n官僚制让这一问题更尖锐。找不到一个亲自下令的统治者，规则仍然能够持续支配人。无人统治甚至可能使人更难追问谁对决定负责。统计模型可以描述重复行为，却容易把改变历史的罕见事件放进噪声。\n\n阿伦特同时看到，劳动进入公开组织后，分工和生产力获得巨大增长。问题在于，增长是否成了所有公共事务的共同尺度。需要可预测的运行，也需要允许不同的人开启新事。两者怎样共存，不能只靠提高管理精度回答。",
+          "sectionId": "human-condition-s06",
+          "sectionTitle": "社会的兴起",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第6节",
+            "startLine": 368,
+            "endLine": 408
+          },
+          "entityIds": [
+            "human-condition-public",
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-labor",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c02-p03-q01",
+              "text": "官僚制的“无人统治”怎样让责任更难追问？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-public",
+                "human-condition-action"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p03-q02",
+              "text": "统计上的异常事件为何可能具有政治意义？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-action",
+                "human-condition-plurality"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p03-q03",
+              "text": "社会需要可预测的行为，怎样给自发行动留下空间？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-action",
+                "human-condition-public"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c02-p04",
+          "title": "桌子让人相聚，也隔开人",
+          "layout": "concept",
+          "markdown": "公共有两层相连的意思。一个事物能被众人看到和听到，它获得公开性。人们还需要一个共同世界，让不同位置的人围绕同一件事相见。这一世界包括器物、制度和共同经历，地球只是它得以存在的一般环境。\n\n阿伦特以桌子作比喻。桌子把围坐的人聚拢，也保持他们之间的距离。每个人看见不同的侧面，却知道正在讨论同一张桌子。共同世界由这种多样视角支撑，要求所有人复制一个观点会破坏它。\n\n疼痛和爱情显示公开性的边界。某些体验对个人极重要，却难以原样呈现给众人。把私人经历反复展示，并不会自动建立公共领域。\n\n共同世界还需要超越个人寿命。它承接前人的痕迹，也为后来者留下位置。公众赞赏若只是被迅速消费的满足感，就难以完成这个任务。公共生活要保存事物的持久性，也要保存看待它们的不同角度。",
+          "sectionId": "human-condition-s07",
+          "sectionTitle": "公共领域：共同",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第7节",
+            "startLine": 410,
+            "endLine": 438
+          },
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-public",
+            "human-condition-private",
+            "human-condition-plurality",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c02-p04-q01",
+              "text": "桌子的比喻怎样说明共同世界既联系又分开人？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-public"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p04-q02",
+              "text": "一个私人体验被很多人观看，为什么仍可能缺少公共性？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-private",
+                "human-condition-public"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p04-q03",
+              "text": "观点完全一致为何可能破坏共同世界？",
+              "kind": "反驳",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-plurality"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c02-p05",
+          "title": "财富与世界中的一席之地",
+          "layout": "comparison",
+          "markdown": "财产和财富在现代语言中常常重叠，阿伦特却用它们拆开两种关系。财富是可以积累、流动和消费的资源。财产原先意味着一个人在世界中有属于自己的处所，由这个处所获得共同体中的位置。\n\n| 关注对象 | 主要作用 |\n| --- | --- |\n| 财富 | 支持生活，免受贫困的紧迫需要 |\n| 财产的处所 | 提供遮蔽，标出一个人属于世界的位置 |\n\n在古代，一个富裕的外邦人或奴隶也可能没有公民的处所。相反，拥有处所的家长即使贫穷，仍可能保有其身份。房屋边界与城市法律都带有把私人和公共领域分开、同时保护两者的含义。\n\n私人生活因缺少他人的观看而有被剥夺的一面，但它同样能提供公共世界无法替代的庇护。没有可以退回的地方，人也难以稳定地出现在公共生活中。因而，保护个人财富增长与保护私人处所，可能走向不同方向。这里的历史区分解释两种功能，不能直接转换成今天按财产分配政治资格的主张。",
+          "sectionId": "human-condition-s08",
+          "sectionTitle": "私人领域：财产",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第8节",
+            "startLine": 440,
+            "endLine": 462
+          },
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-private",
+            "human-condition-public",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c02-p05-q01",
+              "text": "财产作为处所，怎样区别于可流动的财富？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-private",
+                "human-condition-world"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p05-q02",
+              "text": "私人庇护为什么也是公共生活的条件？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-private",
+                "human-condition-public"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p05-q03",
+              "text": "有收入却缺少稳定居所的人，怎样体现这个区分？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-private"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c02-p06",
+          "title": "每件事都公开，生活会怎样",
+          "layout": "prose",
+          "markdown": "当公共事务围绕私人财富的积累组织起来，政府与共同世界的关系会发生变化。财富的持久靠过程不停增长，公共世界的持久则靠相对稳固的事物留存。过程与结构有不同的时间方式。\n\n土地、房屋和器物一旦只按可交换价值理解，它们所在的位置与私人使用的意义就容易变弱。阿伦特沿着这个变化追问：一个人能依靠的是世界中的处所，还是仅剩身体的力量和出售它的能力？\n\n亲密关系让私人体验更丰富，却未必能替代一个实际的庇护空间。持续处在他人的观看之下，生活会失去隐藏的深度。人需要见面和被看见，也需要能够退回去，让某些事情免受公共注视。\n\n同样，生存需要得到满足也不会自动产生自由。减少必然性的压力只提供条件，人们还要建立能共同参与的场所。这一节关心的界线由活动的性质决定：哪些东西需要公开，哪些东西必须受到遮蔽。",
+          "sectionId": "human-condition-s09",
+          "sectionTitle": "社会的和私人的",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第9节",
+            "startLine": 464,
+            "endLine": 482
+          },
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-private",
+            "human-condition-public",
+            "human-condition-process",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c02-p06-q01",
+              "text": "资本增长的持久与共同世界的持久，有什么不同？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-process"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p06-q02",
+              "text": "亲密关系为什么不能完全代替真实的私人处所？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-private",
+                "human-condition-world"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p06-q03",
+              "text": "生活必需得到满足后，公共自由还需要什么条件？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-public",
+                "human-condition-action"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c02-p07",
+          "title": "善行为什么抵触公开展示",
+          "layout": "quote",
+          "markdown": "阿伦特用基督教的善行讨论活动的位置。善行只关心他人的需要，一旦行善者开始观看、记住自己的善，活动就可能混入自我评价和公众认可。公开慈善仍可以有益，却和绝对意义上的善有了不同性质。\n\n这是一种极端例子：善行连施予者自己的见证都要避开。思想则能够在独处中与自己对话，还能经过记忆和书写留成作品。二者都可能远离公共事务，和世界相处的方式却并不相同。\n\n这一分析也解释马基雅维利对政治与宗教的紧张感。政治判断涉及可见的公共后果，不能只靠行动者内心是否纯洁来裁定。用隐藏的善意担任公共角色，可能破坏行善自身，也可能让公共决定失去可讨论的依据。\n\n这一节并不提供“所有善都应隐藏”的通用处方。阿伦特讨论的是善行的特定宗教含义，并借它提出更一般的问题：给不同活动安排同一个曝光方式，会不会改变活动本身？",
+          "sectionId": "human-condition-s10",
+          "sectionTitle": "人类活动的定位",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第10节",
+            "startLine": 484,
+            "endLine": 504
+          },
+          "entityIds": [
+            "human-condition-public",
+            "human-condition-private",
+            "human-condition-contemplation",
+            "human-condition-work",
+            "arendt",
+            "machiavelli"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c02-p07-q01",
+              "text": "公开慈善与阿伦特讨论的绝对善行，差别在哪里？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-public",
+                "human-condition-private"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p07-q02",
+              "text": "独处的思想为什么还能成为世界中的作品？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-contemplation",
+                "human-condition-work"
+              ]
+            },
+            {
+              "id": "human-condition-c02-p07-q03",
+              "text": "公共决定能否只由作决定者的善意来辩护？",
+              "kind": "反驳",
+              "entityIds": [
+                "human-condition-action",
+                "human-condition-public"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "human-condition-c02-reflect01",
+          "text": "展示私人生活与建设公共领域，各自需要什么条件？",
+          "kind": "比较",
+          "entityIds": [
+            "human-condition-private",
+            "human-condition-public"
+          ]
+        },
+        {
+          "id": "human-condition-c02-reflect02",
+          "text": "规则稳定运行时，谁负责听见那些无法被规则处理的意见？",
+          "kind": "应用",
+          "entityIds": [
+            "human-condition-plurality",
+            "human-condition-action"
+          ]
+        },
+        {
+          "id": "human-condition-c02-reflect03",
+          "text": "怎样同时保住私人庇护与公共参与，避免其中一方吞没另一方？",
+          "kind": "应用",
+          "entityIds": [
+            "human-condition-private",
+            "human-condition-public"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "human-condition-s04",
+          "number": 4,
+          "title": "人：一种社会的或政治的动物",
+          "pageId": "human-condition-c02-p01"
+        },
+        {
+          "id": "human-condition-s05",
+          "number": 5,
+          "title": "城邦与家庭",
+          "pageId": "human-condition-c02-p02"
+        },
+        {
+          "id": "human-condition-s06",
+          "number": 6,
+          "title": "社会的兴起",
+          "pageId": "human-condition-c02-p03"
+        },
+        {
+          "id": "human-condition-s07",
+          "number": 7,
+          "title": "公共领域：共同",
+          "pageId": "human-condition-c02-p04"
+        },
+        {
+          "id": "human-condition-s08",
+          "number": 8,
+          "title": "私人领域：财产",
+          "pageId": "human-condition-c02-p05"
+        },
+        {
+          "id": "human-condition-s09",
+          "number": 9,
+          "title": "社会的和私人的",
+          "pageId": "human-condition-c02-p06"
+        },
+        {
+          "id": "human-condition-s10",
+          "number": 10,
+          "title": "人类活动的定位",
+          "pageId": "human-condition-c02-p07"
+        }
+      ]
+    },
+    {
+      "id": "human-condition-c03",
+      "number": 3,
+      "title": "劳动",
+      "overview": "劳动回应生命反复出现的需要，产物往往随着消费迅速消失。工作产物能够相对持久，两种活动不能只按难度、收入或是否用脑划分。阿伦特在这一章与洛克、斯密、马克思对话，肯定劳动力的增殖能力，也追问生产和消费的循环怎样变成社会的共同尺度。工具能减轻辛苦，公共自由与共同世界仍须另外建立。",
+      "pages": [
+        {
+          "id": "human-condition-c03-p01",
+          "title": "区别要看留下什么",
+          "layout": "comparison",
+          "markdown": "劳动和工作常被当成同义词，阿伦特先从欧洲语言里保留的差别入手。劳动关联持续的辛劳与需要，工作还能指一个完成的作品。古代对生存必然性的轻视，以及后来沉思高于一切活动的传统，都遮蔽了这个区分。\n\n现代赞扬劳动的生产力，也容易把所有活动放在“创造价值”这一条尺度下。阿伦特另问：活动结束以后，留下来的东西具有怎样的世界关系？\n\n| 常用区分 | 它无法充分说明的事 |\n| --- | --- |\n| 脑力与体力 | 思想要进入世界，仍需要书写和制作 |\n| 熟练与不熟练 | 烧饭和造屋都可能需要很高技能 |\n| 生产与非生产 | 维持生命的服务也有不可替代的作用 |\n\n劳动力还具有超出自身生存需要的余力，能够为他人生产生活资料。阿伦特重视马克思对这个剩余的分析，同时坚持把生命的再生产与世界中新增持久物分开。同一个职业可能包含两类活动，职业名称无法代替判断。",
+          "sectionId": "human-condition-s11",
+          "sectionTitle": "“我们身体的劳动和我们双手的工作”",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第11节",
+            "startLine": 710,
+            "endLine": 740
+          },
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work",
+            "human-condition-world",
+            "arendt",
+            "marx"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c03-p01-q01",
+              "text": "为什么脑力与体力不能代替劳动与工作的区分？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-work"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p01-q02",
+              "text": "劳动力的剩余为什么与成品是否持久是两个问题？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-world"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p01-q03",
+              "text": "照护服务没有留下器物，它的必要性应怎样描述？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-labor"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c03-p02",
+          "title": "面包和桌子有不同寿命",
+          "layout": "concept",
+          "markdown": "面包师与木匠的辛苦程度无法说明面包与桌子的根本差别。面包很快进入身体的生命过程，桌子却可以陪伴几代人。判断产物的处所、用途和留存时间，劳动与工作的区分才真正清楚。\n\n消费品不断出现和消失，使用物让环境变得熟悉，给日常交往一个相对稳定的背景。世界的物性由这些能够在活动结束后留下的东西支撑。耐久程度各不相同，共同点是物与制造活动可以分离。\n\n言说、行动和思想也会消失。一次公开发言需要他人的观看、倾听和记忆，才成为共同经历。若要更长久地存在，还需要转成记录、诗、图像或纪念物。思想成为书稿，也经历了类似转换。\n\n因此，活动之间存在相互依赖。工作为其他活动提供留存的载体，却不能把活的经历原样保存。纸上的文字延长记忆，也替代了现场的语气和回应。记录的持久与经历的鲜活之间，总会留有距离。",
+          "sectionId": "human-condition-s12",
+          "sectionTitle": "世界的物性",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第12节",
+            "startLine": 742,
+            "endLine": 752
+          },
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-work",
+            "human-condition-labor",
+            "human-condition-action"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c03-p02-q01",
+              "text": "面包与桌子的区别为什么比面包师与木匠的区别更关键？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-work",
+                "human-condition-world"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p02-q02",
+              "text": "一次公开发言怎样成为可以留存的共同记忆？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-action",
+                "human-condition-work"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p02-q03",
+              "text": "文字保存言行时，会增加什么，也会失去什么？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-work",
+                "human-condition-action"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c03-p03",
+          "title": "做完之后，又得再做",
+          "layout": "relations",
+          "markdown": "身体需要食物，食物使人恢复力量，恢复的力量又投入劳动。劳动和消费构成同一生命循环的两个阶段。需要一再出现，活动也一再重来，单次完成无法终结它。\n\n劳动 → 生活资料 → 消费 → 生命恢复 → 劳动\n\n制作一张桌子有可辨认的终点，维持生活却没有同样的完成时刻。人与自然的新陈代谢会一直持续到个体死亡。相对稳固的世界，让一个人的出生、经历和死亡能够显示为有开端、有终点的生活故事。\n\n劳动还有维护世界的一面。打扫房屋、清理废物、阻挡自然侵蚀，都帮助器物继续存在，却要日复一日进行。赫拉克勒斯清扫牛圈在神话中是一次伟大任务，现实里的清扫不会一劳永逸。\n\n循环与线性各自说明不同对象。身体的生命循环维持我们，个人在世界中的故事具有不可重复性。把全部生活只当作重复的维持过程，会遗漏那些使一个人被辨认、被记住的事件。",
+          "sectionId": "human-condition-s13",
+          "sectionTitle": "劳动和生命",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第13节",
+            "startLine": 754,
+            "endLine": 768
+          },
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work",
+            "human-condition-process",
+            "human-condition-world",
+            "human-condition-action",
+            "human-condition-heracles"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c03-p03-q01",
+              "text": "劳动与消费怎样互相接续，为什么没有最终完成的时刻？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-process"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p03-q02",
+              "text": "维护一栋房屋的清扫，与制造这栋房屋有什么不同？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-work"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p03-q03",
+              "text": "人的生命循环与可讲述的生活故事，时间结构有何差别？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-action"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c03-p04",
+          "title": "劳动力为什么能带来剩余",
+          "layout": "concept",
+          "markdown": "一个人生产出供自己恢复生命的资料后，力量未必耗尽。多余的力量还可以养活他人，这使劳动具有增殖能力。阿伦特认为，马克思用活的劳动力解释生产力，抓住了劳动与生命繁殖之间的关联。\n\n这份富余与物的耐久性没有必然联系。更多面包能够供养更多人，但面包不会因此像桌子一样留下。生命过程关心产物是否丰富，世界的建造还要关心它们能否持存。\n\n劳动的愉悦也有特定节律。辛苦之后进食、休息和恢复，能带来活着的满足。它不同于完成作品后的成就感。贫困让消耗没有充分恢复，过度闲散也可能破坏这种循环的平衡。\n\n阿伦特还指出马克思思想中的张力：劳动被视为最具人性的生产能力，自由的目标又被放在摆脱必要劳动之后。这个张力指向一个实质问题。人如果主要靠劳动解释自己，当必要劳动缩减时，他还能怎样理解自由活动和共同生活？",
+          "sectionId": "human-condition-s14",
+          "sectionTitle": "劳动与繁殖",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第14节",
+            "startLine": 770,
+            "endLine": 792
+          },
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work",
+            "human-condition-world",
+            "arendt",
+            "marx"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c03-p04-q01",
+              "text": "劳动力的增殖能力为什么无法保证产品更耐久？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-work"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p04-q02",
+              "text": "辛劳后恢复的喜悦与作品完成的成就感，有何差别？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-work"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p04-q03",
+              "text": "把劳动放在人性中心，又追求摆脱劳动，会产生什么张力？",
+              "kind": "反驳",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-action"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c03-p05",
+          "title": "身体为何成了占有的起点",
+          "layout": "prose",
+          "markdown": "洛克从一个人对身体的拥有，说明劳动为什么能够支持私人占有。身体和身体的痛苦无法由他人直接分担，这个起点让占有具有强烈的私人性。劳动把自然提供的东西带进生命过程，私人占有也随之取得理由。\n\n阿伦特追问，这种占有关系怎样区别于人在世界中拥有一个稳定处所。前者落在身体的机能，后者与共同世界的边界相连。即使财产从劳动取得，它也能限制财富增长，使一部分事物被保存下来。\n\n财富积累则可能借社会整体延长生命。个人会死，集体的积累过程却不断继续。土地、住宅和其他固定之物被转换成可流动的资源，原先保护个人位置的边界便容易被冲开。\n\n疼痛提供了一个极端经验。强烈疼痛会把人拉回身体，使外部世界退远。阿伦特借此说明：私人经验确实强烈，但不能单靠它建立共同世界。物品丰裕和劳动时间缩短，也不能替代人与人共同观看、讨论和行动的空间。",
+          "sectionId": "human-condition-s15",
+          "sectionTitle": "财产的私人性和财富",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第15节",
+            "startLine": 794,
+            "endLine": 818
+          },
+          "entityIds": [
+            "human-condition-private",
+            "human-condition-world",
+            "human-condition-labor",
+            "human-condition-process",
+            "arendt",
+            "locke"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c03-p05-q01",
+              "text": "洛克为什么从身体的私人性解释占有？",
+              "kind": "背景",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-private"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p05-q02",
+              "text": "稳定处所怎样限制无限财富积累的过程？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-process"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p05-q03",
+              "text": "疼痛为何既十分真实，又难以支撑共同世界？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-private",
+                "human-condition-world"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c03-p06",
+          "title": "机器减轻辛苦，改变了什么",
+          "layout": "comparison",
+          "markdown": "工具是工作的产物，可以增强身体力量、减轻劳动辛苦。它们改变人的负担和产出数量，身体持续需要生活资料这一条件仍在。制作的完成点由成品规定，维持生活的服务却不断被消耗。\n\n| 工作的专门化 | 劳动分工 |\n| --- | --- |\n| 成品需要不同的技术配合 | 过程被拆成可接续的环节 |\n| 技能以其差异互相补充 | 劳动力以可相加的数量组织 |\n| 产品完成意味着制作结束 | 整体过程可以继续运转 |\n\n这组区分解释了工业生产的一种变化。即使制造的是桌椅，生产也可能以不停重复的劳动方式组织。为了让过程持续，耐用的使用物又被当作必须迅速替换的消费品。\n\n阿伦特因而把器具问题连到消费能力。产出不断增加，个人能够消费的东西却有限，社会就推动更快的消耗。技术减轻了痛苦，仍须追问生产究竟服务于什么。一个更轻松的循环，也可能让人更难察觉自己仍受这个循环支配。",
+          "sectionId": "human-condition-s16",
+          "sectionTitle": "工作器具与劳动分工",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第16节",
+            "startLine": 820,
+            "endLine": 850
+          },
+          "entityIds": [
+            "human-condition-work",
+            "human-condition-labor",
+            "human-condition-process",
+            "human-condition-public",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c03-p06-q01",
+              "text": "工作的专门化为什么强调技能差异，劳动分工又强调什么？",
+              "kind": "比较",
+              "entityIds": [
+                "human-condition-work",
+                "human-condition-labor"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p06-q02",
+              "text": "制造耐用品的工厂为何也可能具有劳动的过程性质？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-process",
+                "human-condition-work"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p06-q03",
+              "text": "机器减轻辛苦之后，自由还缺少什么条件？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-public"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "human-condition-c03-p07",
+          "title": "闲暇会自动带来自由吗",
+          "layout": "prose",
+          "markdown": "消费者社会也是劳动者社会，因为劳动与消费接续同一生命过程。它把严肃活动普遍解释成谋生，把不为谋生的活动归入爱好。建筑的目标是房屋，医疗的目标是健康，这些实际内容容易被收入与购买力遮住。\n\n自动化能够缩短必要劳动，但剩下的时间不会自行转成公共行动或持久的创造。更多闲暇可能只扩大消费。阿伦特质疑的是这条自动推论：劳动力减少消耗，便会像储存的能量一样流向其他活动。\n\n当桌椅、房屋甚至文化作品都以更快的消耗来理解，生产越丰富，世界反而越难留下稳固的东西。消费品支持生命，耐用品提供居所，两者都重要，但社会若只保留前一种尺度，就会把共同世界磨成连续的更换过程。\n\n这一批判落在社会的理想上。生活更轻松、物品更丰富，未必让人发现还有别的生活关系。自由需要人能共同发言、开始行动，也需要一个值得长期照料的世界。它不能由消费的轻便程度直接推出。",
+          "sectionId": "human-condition-s17",
+          "sectionTitle": "一个消费者社会",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第17节",
+            "startLine": 852,
+            "endLine": 874
+          },
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-process",
+            "human-condition-world",
+            "human-condition-work",
+            "human-condition-public",
+            "human-condition-action",
+            "arendt"
+          ],
+          "questions": [
+            {
+              "id": "human-condition-c03-p07-q01",
+              "text": "劳动者社会和消费者社会为什么是同一过程的两面？",
+              "kind": "理解",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-process"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p07-q02",
+              "text": "必要劳动减少，为什么不能自动推出公共自由增加？",
+              "kind": "反驳",
+              "entityIds": [
+                "human-condition-labor",
+                "human-condition-public",
+                "human-condition-action"
+              ]
+            },
+            {
+              "id": "human-condition-c03-p07-q03",
+              "text": "怎样判断一件文化作品被当作消费品，还是被保存为世界之物？",
+              "kind": "应用",
+              "entityIds": [
+                "human-condition-world",
+                "human-condition-work"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "human-condition-c03-reflect01",
+          "text": "同一职业中的活动，如何按生命维持与世界建造重新区分？",
+          "kind": "应用",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work"
+          ]
+        },
+        {
+          "id": "human-condition-c03-reflect02",
+          "text": "减轻必要劳动后，怎样建立公共行动的机会而非继续扩大消费？",
+          "kind": "应用",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-action",
+            "human-condition-public"
+          ]
+        },
+        {
+          "id": "human-condition-c03-reflect03",
+          "text": "一种产品越丰富、替换越快，是否可能让共同世界更脆弱？",
+          "kind": "反驳",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-process"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "human-condition-s11",
+          "number": 11,
+          "title": "“我们身体的劳动和我们双手的工作”",
+          "pageId": "human-condition-c03-p01"
+        },
+        {
+          "id": "human-condition-s12",
+          "number": 12,
+          "title": "世界的物性",
+          "pageId": "human-condition-c03-p02"
+        },
+        {
+          "id": "human-condition-s13",
+          "number": 13,
+          "title": "劳动和生命",
+          "pageId": "human-condition-c03-p03"
+        },
+        {
+          "id": "human-condition-s14",
+          "number": 14,
+          "title": "劳动与繁殖",
+          "pageId": "human-condition-c03-p04"
+        },
+        {
+          "id": "human-condition-s15",
+          "number": 15,
+          "title": "财产的私人性和财富",
+          "pageId": "human-condition-c03-p05"
+        },
+        {
+          "id": "human-condition-s16",
+          "number": 16,
+          "title": "工作器具与劳动分工",
+          "pageId": "human-condition-c03-p06"
+        },
+        {
+          "id": "human-condition-s17",
+          "number": 17,
+          "title": "一个消费者社会",
+          "pageId": "human-condition-c03-p07"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "human-condition-c04",
+      "title": "工作",
+      "pages": [
+        {
+          "questions": [
+            {
+              "id": "human-condition-c04-p01-q01",
+              "kind": "理解",
+              "text": "为什么鞋子的磨损不足以证明使用就是较慢的消费？"
+            },
+            {
+              "id": "human-condition-c04-p01-q02",
+              "kind": "比较",
+              "text": "农田与一张制作完成的桌子，各自如何保持存在？"
+            },
+            {
+              "id": "human-condition-c04-p01-q03",
+              "kind": "应用",
+              "text": "一栋持续维修的房屋应如何区分工作成果与维持性劳动？"
+            }
+          ],
+          "title": "世界的持存",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-work",
+            "human-condition-labor",
+            "arendt"
+          ],
+          "markdown": "工作把材料制成能够留存的物，使人的生活有了相对稳定的环境。同一张桌子可以经历多位使用者，也可以在人的情绪和需要改变时仍然存在。阿伦特所说的客观性，首先指这种抵抗个人变化的独立性。它让人的生命与自然循环之间多出一个可栖居的世界。\n\n| 区分 | 使用 | 消费 |\n| --- | --- | --- |\n| 与物的关系 | 在物留存时发挥功能 | 通过消失满足需要 |\n| 损耗的位置 | 使用的附带结果 | 消费的内在过程 |\n| 例子 | 穿鞋、坐椅子 | 吃面包 |\n\n鞋也会磨坏，但暂时不穿仍可保存。面包进入消费，便被吸收到身体的生命过程。耐用程度有高低，这一区别却不能缩成快慢之差。农田是一个边界例子。它看似留下持久成果，却需要不断耕作来保持可耕状态，不能像完工的椅子那样获得相对独立的存在。劳动与工作可以交织，仍应按活动与产物的关系加以区分。",
+          "id": "human-condition-c04-p01",
+          "layout": "comparison",
+          "sectionTitle": "世界的持存",
+          "source": {
+            "startLine": 1070,
+            "endLine": 1081,
+            "label": "《人的境况》王寅丽译本，第18节"
+          },
+          "sectionId": "human-condition-s18"
+        },
+        {
+          "questions": [
+            {
+              "id": "human-condition-c04-p02-q01",
+              "kind": "理解",
+              "text": "物化如何让产品获得对制作过程的独立性？"
+            },
+            {
+              "id": "human-condition-c04-p02-q02",
+              "kind": "比较",
+              "text": "模型的复制与饥饿推动的劳动重复有什么区别？"
+            },
+            {
+              "id": "human-condition-c04-p02-q03",
+              "kind": "反驳",
+              "text": "把一项公共改革比作按图加工，会漏掉什么条件？"
+            }
+          ],
+          "title": "物化",
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-work",
+            "human-condition-world"
+          ],
+          "markdown": "物化使一个形象成为可独立存在的物。制作从获得材料开始，砍树、采石会打断原有的自然过程。这里的暴力指制作对材料的切割和改造，并不自动给政治暴力提供理由。制作者依照模型组织步骤，完成后，产品可以脱离制作过程而存在。\n\n**模型 → 加工材料 → 完成品。** 模型先于这次制作，也能在完成后保留。因此，同一模型可用于制造许多张椅子，这叫复制。劳动的重复则由需要再次出现所推动，今天吃饱不能解除明天的饥饿。两种活动都可能反复发生，反复的原因却不同。\n\n制作有可辨认的开始和预定的终点。成品成为目的，也使此前的加工成为实现目的的手段。工匠能够停工，也能够拆毁自己做坏的物。行动一旦进入他人的生活，后果便无法像废品一样收回。这个差别解释了制作为什么容易带来掌控感，也提示我们，不宜把制作的可控性推定给所有人类事务。",
+          "id": "human-condition-c04-p02",
+          "layout": "concept",
+          "sectionTitle": "物化",
+          "source": {
+            "startLine": 1082,
+            "endLine": 1095,
+            "label": "《人的境况》王寅丽译本，第19节"
+          },
+          "sectionId": "human-condition-s19"
+        },
+        {
+          "questions": [
+            {
+              "id": "human-condition-c04-p03-q01",
+              "kind": "理解",
+              "text": "手工具与机器对身体运动提出了怎样不同的要求？"
+            },
+            {
+              "id": "human-condition-c04-p03-q02",
+              "kind": "理解",
+              "text": "为什么自动化可能同时改善供给并削弱世界的持存性？"
+            },
+            {
+              "id": "human-condition-c04-p03-q03",
+              "kind": "比较",
+              "text": "以机器能力决定产品形态，与以产品要求设计机器有什么差别？"
+            }
+          ],
+          "title": "工具性和劳动动物",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-fabrication",
+            "human-condition-process",
+            "human-condition-world",
+            "arendt"
+          ],
+          "markdown": "同一件工具进入不同活动，会发生不同关系。工匠根据要做的物选择工具，劳动者则把工具纳入重复的身体运动。手工具通常跟随人手，机器运行时，人要配合机器的节奏。阿伦特关心的范围由此超出了工具能否减轻辛苦。\n\n| 技术转变 | 本节关注的变化 |\n| --- | --- |\n| 蒸汽动力 | 放大对已有自然力的利用 |\n| 电力与流水线 | 把自然过程引入连续生产 |\n| 自动化 | 过程可持续自行运转 |\n\n这些阶段构成作者对技术发展的概括，关键是产品与过程的关系。若先确定椅子的用途和形状，再设计设备，物仍引导生产。若首先根据机器能持续产出什么来决定物的形态，过程就取得了优先位置。\n\n自动化能够更充分地供给生活资料，同时可能削弱物的独立性和持存性。由此需要追问机器是否帮助形成可居住的世界，还是让所有物都卷入不断更新的流动。便利和产量能够说明生命需要获得满足，却不能单独说明世界是否稳定。",
+          "id": "human-condition-c04-p03",
+          "layout": "timeline",
+          "sectionTitle": "工具性和劳动动物",
+          "source": {
+            "startLine": 1096,
+            "endLine": 1121,
+            "label": "《人的境况》王寅丽译本，第20节"
+          },
+          "sectionId": "human-condition-s20"
+        },
+        {
+          "questions": [
+            {
+              "id": "human-condition-c04-p04-q01",
+              "kind": "理解",
+              "text": "为什么达到一个目的并不能终止手段和目的的链条？"
+            },
+            {
+              "id": "human-condition-c04-p04-q02",
+              "kind": "比较",
+              "text": "有限工具性与无限工具化的边界在哪里？"
+            },
+            {
+              "id": "human-condition-c04-p04-q03",
+              "kind": "应用",
+              "text": "只凭使用效率评价一处公共空间，会忽略哪些问题？"
+            }
+          ],
+          "title": "工具性和技艺人",
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-world",
+            "human-condition-work",
+            "arendt"
+          ],
+          "markdown": "在制作内部，目的帮助组织手段。想做一张桌子，便需要选择木材、工具和加工步骤。但桌子完成后又可成为舒适生活或交换的手段，于是出现一条链：**木材 → 桌子 → 使用或出售 → 下一个目的。** 每个已达到的目的，都能被下一次需要重新工具化。\n\n有用性能够回答怎样达到目标，却无法独自说明这个目标为什么值得追求。若有用成为世界的最终尺度，仍会遇到一个问题：不断增加用途，究竟为了什么缘故？把人规定为最终目的，可以限制把他人当工具，却也可能使自然和世界之物失去独立价值。\n\n阿伦特因此区分制作所需的有限工具性与扩展到万物的工具化。前者以完成一个物为界，后者要求每个现存者持续证明自己的用处。建成的世界若仍完全受生产标准支配，便只是一座可随意调用的材料库。工作提供世界的物质条件，但共同生活的意义不能仅凭工匠的手段和目的推导出来。",
+          "id": "human-condition-c04-p04",
+          "layout": "relations",
+          "sectionTitle": "工具性和技艺人",
+          "source": {
+            "startLine": 1122,
+            "endLine": 1143,
+            "label": "《人的境况》王寅丽译本，第21节"
+          },
+          "sectionId": "human-condition-s21"
+        },
+        {
+          "questions": [
+            {
+              "id": "human-condition-c04-p05-q01",
+              "kind": "理解",
+              "text": "一张桌子的市场价格下降，为什么不必意味着它的合用程度下降？"
+            },
+            {
+              "id": "human-condition-c04-p05-q02",
+              "kind": "比较",
+              "text": "交换市场的公共性与共同言说的公共性有什么不同？"
+            },
+            {
+              "id": "human-condition-c04-p05-q03",
+              "kind": "反驳",
+              "text": "艺术品价格上涨能否直接证明它更有世界意义？"
+            }
+          ],
+          "title": "交换市场",
+          "entityIds": [
+            "human-condition-work",
+            "human-condition-public",
+            "human-condition-world",
+            "human-condition-fabrication",
+            "arendt"
+          ],
+          "markdown": "工匠可以独自制作，却需要一个展示和交换产品的场所。交换市场由此形成技艺人的公共领域。人们能够在这里观看、评判并交换物，市场使孤立的生产者发生联系，但参与者首先以商品所有者的身份相遇。\n\n| 衡量对象 | 根据 | 如何变化 |\n| --- | --- | --- |\n| 物的所值 | 物的性质和合用程度 | 桌腿损坏会改变它 |\n| 交换价值 | 与其他商品的交换关系 | 供求变化即可改变它 |\n\n一张完整的桌子即使无人购买，仍能承重和供人使用。市场价格却依赖它出现于何种交换关系。阿伦特借这一差别说明，价值无法由一个孤立制造者独自产出，也没有脱离交换关系的绝对市场尺度。\n\n市场的公共性并不充分等同于政治公共性。展示作品可以显出技艺，却未必让参与者作为独特的人彼此言说和行动。若一切东西都只按可交换程度来理解，物便成为可替代的份额，制作者也可能被缩减为劳动力的所有者。世界中的持存物与市场中的相对价格，应分别考察。",
+          "id": "human-condition-c04-p05",
+          "layout": "comparison",
+          "sectionTitle": "交换市场",
+          "source": {
+            "startLine": 1144,
+            "endLine": 1167,
+            "label": "《人的境况》王寅丽译本，第22节"
+          },
+          "sectionId": "human-condition-s22"
+        },
+        {
+          "questions": [
+            {
+              "id": "human-condition-c04-p06-q01",
+              "kind": "理解",
+              "text": "为什么艺术品的持存能揭示世界超出个体寿命的性质？"
+            },
+            {
+              "id": "human-condition-c04-p06-q02",
+              "kind": "比较",
+              "text": "思想、以目标为导向的认识、规则计算有何不同？"
+            },
+            {
+              "id": "human-condition-c04-p06-q03",
+              "kind": "应用",
+              "text": "一个行动被写成历史后，哪些东西获得留存，哪些仍依赖理解？"
+            }
+          ],
+          "title": "世界的恒久性及艺术品",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-work",
+            "human-condition-action",
+            "human-condition-contemplation",
+            "arendt"
+          ],
+          "markdown": "艺术品使工作创造世界的能力表现得格外清楚。它们通常被保存在日常消耗之外，能够经过许多代人而留存。雕塑、绘画和书籍给有死者提供一种超出个人寿命的连续性，世界的持存由此获得可见形态。\n\n思想本身不会自动变成物。写下文字、塑造形象或谱写乐曲，需要制作的技艺，也会把活的思想固定在材料中。文字的留存还需要后来的读者重新理解，诗歌则把语言的锤炼、节律和记忆联系起来。物化提供延续的条件，并未让一次鲜活经验原样冻结。\n\n阿伦特进一步区分思想、认识和计算。认识追求可以达到的目标，计算遵循可重复的规则，思想则不以获得一个可交付结果为终点。艺术受到思想激发，又必须经过制作才能进入世界。行动和言说同样需要诗人、史家及纪念物帮助保存故事。工作建成的物质环境，因此要能够容纳那些无法仅用生存需要或使用效率衡量的活动。",
+          "id": "human-condition-c04-p06",
+          "layout": "concept",
+          "sectionTitle": "世界的恒久性及艺术品",
+          "source": {
+            "startLine": 1168,
+            "endLine": 1188,
+            "label": "《人的境况》王寅丽译本，第23节"
+          },
+          "sectionId": "human-condition-s23"
+        }
+      ],
+      "sections": [
+        {
+          "number": 18,
+          "id": "human-condition-s18",
+          "pageId": "human-condition-c04-p01",
+          "title": "世界的持存"
+        },
+        {
+          "number": 19,
+          "id": "human-condition-s19",
+          "pageId": "human-condition-c04-p02",
+          "title": "物化"
+        },
+        {
+          "number": 20,
+          "id": "human-condition-s20",
+          "pageId": "human-condition-c04-p03",
+          "title": "工具性和劳动动物"
+        },
+        {
+          "number": 21,
+          "id": "human-condition-s21",
+          "pageId": "human-condition-c04-p04",
+          "title": "工具性和技艺人"
+        },
+        {
+          "number": 22,
+          "id": "human-condition-s22",
+          "pageId": "human-condition-c04-p05",
+          "title": "交换市场"
+        },
+        {
+          "number": 23,
+          "id": "human-condition-s23",
+          "pageId": "human-condition-c04-p06",
+          "title": "世界的恒久性及艺术品"
+        }
+      ],
+      "questions": [
+        {
+          "id": "human-condition-c04-reflect01",
+          "kind": "比较",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-work"
+          ],
+          "text": "劳动与工作都可能反复进行，怎样依据它们与产物的关系来区分？"
+        },
+        {
+          "id": "human-condition-c04-reflect02",
+          "kind": "理解",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-process"
+          ],
+          "text": "自动化、交换市场与无限工具化，分别如何改变持存物的地位？"
+        },
+        {
+          "id": "human-condition-c04-reflect03",
+          "kind": "反驳",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-action"
+          ],
+          "text": "为什么共同世界需要超出便利、产量和有用性的衡量尺度？"
+        }
+      ],
+      "overview": "工作制造能够留存的物，为不断变化的生命提供共同世界。本章从使用与消费的差别出发，分析物化、模型和制作的终点，再考察工具、自动化与市场如何改变物的地位。艺术品显出世界跨越世代的能力，也让工作与行动发生联系。有用性可以指导制作，却不足以成为共同生活的最终尺度。"
+    },
+    {
+      "id": "human-condition-c05",
+      "sections": [
+        {
+          "pageId": "human-condition-c05-p01",
+          "title": "行动者在言行中的彰显",
+          "number": 24,
+          "id": "human-condition-s24"
+        },
+        {
+          "pageId": "human-condition-c05-p02",
+          "title": "关系网和被实现的故事",
+          "number": 25,
+          "id": "human-condition-s25"
+        },
+        {
+          "pageId": "human-condition-c05-p03",
+          "title": "人类事务的脆弱性",
+          "number": 26,
+          "id": "human-condition-s26"
+        },
+        {
+          "pageId": "human-condition-c05-p04",
+          "title": "希腊的解救之道",
+          "number": 27,
+          "id": "human-condition-s27"
+        },
+        {
+          "pageId": "human-condition-c05-p05",
+          "title": "权力与显现空间",
+          "number": 28,
+          "id": "human-condition-s28"
+        },
+        {
+          "pageId": "human-condition-c05-p06",
+          "title": "技艺人与显现空间",
+          "number": 29,
+          "id": "human-condition-s29"
+        },
+        {
+          "pageId": "human-condition-c05-p07",
+          "title": "劳工运动",
+          "number": 30,
+          "id": "human-condition-s30"
+        },
+        {
+          "pageId": "human-condition-c05-p08",
+          "title": "制造对行动的传统替代",
+          "number": 31,
+          "id": "human-condition-s31"
+        },
+        {
+          "pageId": "human-condition-c05-p09",
+          "title": "行动的过程性质",
+          "number": 32,
+          "id": "human-condition-s32"
+        },
+        {
+          "pageId": "human-condition-c05-p10",
+          "title": "不可逆性和宽恕的力量",
+          "number": 33,
+          "id": "human-condition-s33"
+        },
+        {
+          "pageId": "human-condition-c05-p11",
+          "title": "不可预见性和承诺的权力",
+          "number": 34,
+          "id": "human-condition-s34"
+        }
+      ],
+      "overview": "行动与言说让独特的人进入共同世界，也使新的开始卷入既有关系网。没有人能独自制造自己的生活故事，权力由协同行动生成。本章考察城邦如何保存言行，制造模型为何遮蔽政治，再以宽恕和承诺回应不可逆与不可预见。自由包含开始的能力，持续共同生活则需要承受相互依赖。",
+      "questions": [
+        {
+          "entityIds": [
+            "human-condition-plurality",
+            "human-condition-natality",
+            "human-condition-action"
+          ],
+          "text": "复数性、诞生性与行动者是谁的彰显，如何构成同一条论证？",
+          "kind": "理解",
+          "id": "human-condition-c05-reflect01"
+        },
+        {
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-power",
+            "human-condition-public"
+          ],
+          "text": "制作社会、共同生成权力与公开交换产品，对他人的角色有何不同设定？",
+          "kind": "比较",
+          "id": "human-condition-c05-reflect02"
+        },
+        {
+          "entityIds": [
+            "human-condition-forgiveness",
+            "human-condition-promise",
+            "human-condition-action"
+          ],
+          "text": "宽恕和承诺为什么能够维护自由，却不能给予行动者全面自主？",
+          "kind": "反驳",
+          "id": "human-condition-c05-reflect03"
+        }
+      ],
+      "title": "行动",
+      "pages": [
+        {
+          "markdown": "复数性包含平等与差异。平等让人能够互相理解，差异使每个人需要以言行显出自己的独特存在。仅有不同的身体和嗓音还不够，行动者要进入他人的世界，表明自己正在做什么，也让他人认识他是谁。\n\n**谁**与**什么**应分开。职业、才能和性格可以列成属性，其他人也可能拥有同样属性。一个人的谁，则在他如何回应、开始和承担事情的过程中显现。这种显现不能像履历一样完全由本人设计，有时他人反而看得更清楚。\n\n行动的开端根源于诞生性。每个新来者都能够开启此前过程无法充分预测的事情。言说让这个开端与行动者相联系，因此不能把言语仅看成传达指令的工具。若目的只剩下战胜对手，言语很容易退化为宣传或欺骗，人的彰显便被遮蔽。阿伦特在这里追问的，是与他人共处时，独特的人怎样获得可见性，以及新的开始怎样进入共同世界。",
+          "layout": "concept",
+          "id": "human-condition-c05-p01",
+          "questions": [
+            {
+              "text": "人的复数性为什么同时需要平等与差异？",
+              "kind": "理解",
+              "id": "human-condition-c05-p01-q01"
+            },
+            {
+              "text": "介绍某人的职业和才能，与讲述他如何行动有什么不同？",
+              "kind": "比较",
+              "id": "human-condition-c05-p01-q02"
+            },
+            {
+              "text": "为什么精心设计自我形象不能完全控制自己向他人显现的谁？",
+              "kind": "反驳",
+              "id": "human-condition-c05-p01-q03"
+            }
+          ],
+          "sectionTitle": "行动者在言行中的彰显",
+          "entityIds": [
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-natality",
+            "human-condition-public",
+            "arendt"
+          ],
+          "source": {
+            "endLine": 1315,
+            "startLine": 1292,
+            "label": "《人的境况》王寅丽译本，第24节"
+          },
+          "sectionId": "human-condition-s24",
+          "title": "行动者在言行中的彰显"
+        },
+        {
+          "markdown": "人们之间同时存在两种联系。一种围绕共同的物和利益，例如一片土地、一项设施及其用途。另一种由言说与行动形成，包含彼此的期待、冲突和回应。后者没有固定的物质形状，却与可见的物同样真实。\n\n```mermaid\nflowchart LR\n    A[既有关系网] --> B[某人发起行动]\n    B --> C[他人回应和行动]\n    C --> B\n    B --> D[新关系与故事]\n    C --> D\n```\n\n 新来者总是在这张已有的网中开始，无法先清空他人的意愿。一个人可以发动故事，也会遭受其他人的行动。因此，故事有主人公，却没有像制作椅子那样控制全部过程的制造者。\n\n阿伦特用苏格拉底说明这一区别。了解他的生活故事，可以让人接近他是谁，即使他没有留下自己的著作。作品和见解则更容易告诉我们作者具有哪些能力。故事必须经过事后讲述才逐渐显示意义，但讲述者也不能因此被当成原有事件的操控者。把历史解释成某个幕后意志编排的剧本，会把真实行动中多人的相互作用抹去。",
+          "layout": "relations",
+          "id": "human-condition-c05-p02",
+          "questions": [
+            {
+              "text": "围绕事物的共同利益与无形的人际关系网如何相互联系？",
+              "kind": "理解",
+              "id": "human-condition-c05-p02-q01"
+            },
+            {
+              "text": "为什么一个故事可以有主人公，却没有制造者？",
+              "kind": "理解",
+              "id": "human-condition-c05-p02-q02"
+            },
+            {
+              "text": "把历史解释为单一幕后意志的安排，会丢失什么？",
+              "kind": "反驳",
+              "id": "human-condition-c05-p02-q03"
+            }
+          ],
+          "sectionTitle": "关系网和被实现的故事",
+          "entityIds": [
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-world",
+            "arendt",
+            "socrates"
+          ],
+          "source": {
+            "endLine": 1337,
+            "startLine": 1316,
+            "label": "《人的境况》王寅丽译本，第25节"
+          },
+          "sectionId": "human-condition-s25",
+          "title": "关系网和被实现的故事"
+        },
+        {
+          "markdown": "行动必须得到他人的回应和接续。一个人能够提出开端，事业如何展开却取决于许多人。把发起者称作唯一作者，容易把众人的成果归给一人，并产生孤立强者能够支配人类事务的幻觉。\n\n行动 → 他人的回应 → 新行动 → 更远的后果。这里每个回应者都有开始的能力，所以后果不会停在最初的两个人之间。即使一句话发生在一个很小的团体内，也可能改变其他关系。行动的生产力与它突破边界的倾向相伴，法律和制度能够提供框架，却无法预先封闭一切新的开始。\n\n脆弱性还表现为意义的延迟。工匠可根据预先的模型检验成品，行动者在过程中只能说出意图，完整故事的意义往往要到后来才显出。节制因此成为重要的政治品质，它承认行动会进入自己无法全面掌控的关系。这里的脆弱性来自复数性和诞生性这些条件，不能简单归咎于人的品性软弱或组织技术不够先进。",
+          "layout": "relations",
+          "id": "human-condition-c05-p03",
+          "questions": [
+            {
+              "text": "一个很小范围的行动为什么也可能产生超出原范围的后果？",
+              "kind": "理解",
+              "id": "human-condition-c05-p03-q01"
+            },
+            {
+              "text": "评价制作的模型与理解行动故事的回顾，各在什么时刻起作用？",
+              "kind": "比较",
+              "id": "human-condition-c05-p03-q02"
+            },
+            {
+              "text": "更详细的规则能否完全消除人类事务的脆弱性？",
+              "kind": "反驳",
+              "id": "human-condition-c05-p03-q03"
+            }
+          ],
+          "sectionTitle": "人类事务的脆弱性",
+          "entityIds": [
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-natality",
+            "human-condition-process"
+          ],
+          "source": {
+            "endLine": 1351,
+            "startLine": 1338,
+            "label": "《人的境况》王寅丽译本，第26节"
+          },
+          "sectionId": "human-condition-s26",
+          "title": "人类事务的脆弱性"
+        },
+        {
+          "markdown": "希腊人面对言行稍纵即逝的问题，形成了城邦这条解救之道。城邦为持续行动提供场所，也让参与者成为彼此的见证。它把原本偶然出现的非凡事迹带入日常共同生活，并组织保存有关事迹的记忆。\n\n城墙和法律提供空间及结构，城邦的政治内容则存在于公民共享的言与行。由此，显现空间不能简单等同于一座建筑或一片领土。人们在哪里共同言说和行动，这个空间便可能在哪里产生。它使某人的出现得到他人的看见和听闻，让世界的现实性受到多人的确认。\n\n哲学家对脆弱性的另一种回应，是偏爱立法和建城等较可靠的制作活动。这能增加确定性，却也可能把活的人际关系改写成成品。阿伦特区分这两条路径：城邦使行动得以延续，以制作代替行动则试图消除它的困难。组织化的记忆需要物质支撑，但仅有城墙、法律或纪念物，并不能保证人们继续拥有相互显现的共同生活。",
+          "layout": "concept",
+          "id": "human-condition-c05-p04",
+          "questions": [
+            {
+              "text": "城邦的组织化记忆怎样补救言行的短暂性？",
+              "kind": "理解",
+              "id": "human-condition-c05-p04-q01"
+            },
+            {
+              "text": "作为建筑和法律结构的城市，与显现空间有何区别？",
+              "kind": "比较",
+              "id": "human-condition-c05-p04-q02"
+            },
+            {
+              "text": "为什么更可靠的立法活动未必能够代替公民的言说和行动？",
+              "kind": "反驳",
+              "id": "human-condition-c05-p04-q03"
+            }
+          ],
+          "sectionTitle": "希腊的解救之道",
+          "entityIds": [
+            "human-condition-public",
+            "human-condition-action",
+            "human-condition-world",
+            "human-condition-plurality",
+            "arendt"
+          ],
+          "source": {
+            "endLine": 1373,
+            "startLine": 1352,
+            "label": "《人的境况》王寅丽译本，第27节"
+          },
+          "sectionId": "human-condition-s27",
+          "title": "希腊的解救之道"
+        },
+        {
+          "markdown": "权力生发于人们共同言说和行动的关系，并使显现空间保持存在。它需要不断实现，不能像器械一样储存在仓库里。人们即使仍有财产和武器，若彼此孤立、共同活动中断，权力也可能消失。\n\n| 区分 | 所依赖的条件 | 能否由个人独自保有 |\n| --- | --- | --- |\n| 体力 | 身体与个人禀赋 | 可以 |\n| 权力 | 多人共处和协同行动 | 无法独自保有 |\n| 暴力手段 | 可掌握的工具与强制能力 | 可以集中占有 |\n\n暴力能够打散关系，摧毁权力，却不能单靠破坏生成共同活动。专制的问题由此不仅在残酷，还在使统治者和被统治者都陷入孤立，让权力难以形成。反过来，相互制衡若仍保有活的共同作用，也可能增加权力。\n\n行动的意义就在其实现中显出，不能只等最后的产品来证明。物的世界为共同活动提供居所，权力使这个居所成为人们真正能够谈论、居住并开始新事的公共世界。两者互相需要，不能用财富和设施的数量直接替代对权力的判断。",
+          "layout": "comparison",
+          "id": "human-condition-c05-p05",
+          "questions": [
+            {
+              "text": "权力为什么不能像武器一样被储存？",
+              "kind": "理解",
+              "id": "human-condition-c05-p05-q01"
+            },
+            {
+              "text": "体力、权力与暴力手段的条件有什么不同？",
+              "kind": "比较",
+              "id": "human-condition-c05-p05-q02"
+            },
+            {
+              "text": "一个组织资源充足，却无人愿意共同言说和行动时，还拥有何种力量？",
+              "kind": "应用",
+              "id": "human-condition-c05-p05-q03"
+            }
+          ],
+          "sectionTitle": "权力与显现空间",
+          "entityIds": [
+            "human-condition-power",
+            "human-condition-public",
+            "human-condition-plurality",
+            "human-condition-action"
+          ],
+          "source": {
+            "endLine": 1401,
+            "startLine": 1374,
+            "label": "《人的境况》王寅丽译本，第28节"
+          },
+          "sectionId": "human-condition-s28",
+          "title": "权力与显现空间"
+        },
+        {
+          "markdown": "技艺人重视作品的持久，劳动动物重视生命的延续，这两种立场容易按外部目的评价公共活动。它们会分别追问活动是否让物更有用、更美，或者让生命更轻松、更长久，却难以仅凭这些尺度理解人的自我显现。\n\n工匠在独处时仍与材料、模型和已有的物质世界发生关系。完成品让他与其他制造者间接联系，因此工作与公共世界保有纽带。交换市场也提供显现机会，但展示的重心在产品，个人的谁未必充分出现。\n\n天才崇拜把这种困难推得更远。作品的风格和独特性仿佛足以替代活的作者，甚至让作者被自己的作品遮住。然而，鉴定一件作品属于谁，与了解那个人如何生活和行动，仍是两件事。共同感同样需要一个由多人共享的世界，才能让私人感觉获得现实方向。作品的卓越无法独自承担人际显现的全部功能，承认这一点，才不会把人缩减为他的生产能力或成品总和。",
+          "layout": "comparison",
+          "id": "human-condition-c05-p06",
+          "questions": [
+            {
+              "text": "工匠独处时，为什么仍保有与世界和他人的间接联系？",
+              "kind": "理解",
+              "id": "human-condition-c05-p06-q01"
+            },
+            {
+              "text": "识别作者的风格，与认识作者是谁有什么差别？",
+              "kind": "比较",
+              "id": "human-condition-c05-p06-q02"
+            },
+            {
+              "text": "以作品的卓越完全评价一个人，会造成什么遗漏？",
+              "kind": "反驳",
+              "id": "human-condition-c05-p06-q03"
+            }
+          ],
+          "sectionTitle": "技艺人与显现空间",
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-public",
+            "human-condition-world",
+            "human-condition-action"
+          ],
+          "source": {
+            "endLine": 1419,
+            "startLine": 1402,
+            "label": "《人的境况》王寅丽译本，第29节"
+          },
+          "sectionId": "human-condition-s29",
+          "title": "技艺人与显现空间"
+        },
+        {
+          "markdown": "一起劳动能够减轻辛苦，却未必显出每个人的独特身份。相同节奏使许多人像一个身体那样运转，政治平等则让原本不同的人能够平等参与。群集中的同一性与公民之间形成的平等，需要分开理解。\n\n| 本节涉及的变化 | 政治含义 |\n| --- | --- |\n| 劳动者取得公民资格 | 一个原先被排除的阶层进入公共领域 |\n| 1848年至1956年的革命经验 | 工人参与提出新的公共组织形式 |\n| 工会逐渐融入社会 | 经济利益的争取与政治创新分出不同任务 |\n\n劳工运动因此并未推翻劳动分析。劳动者以公民身份言说和行动时，正在使用超出劳动活动的能力。工会改善工资和保障，政治运动则可能提出人民委员会等政府形式，两者不能只按要求激烈程度区分。\n\n阿伦特以她所处时代的欧洲经验讨论这条历史，并把工人进入社会后运动转为利益团体视为重要变化。应把这项判断放回其历史范围，理解她如何区分劳动者的社会身份与其行动能力。",
+          "layout": "timeline",
+          "id": "human-condition-c05-p07",
+          "questions": [
+            {
+              "text": "劳动中的同一性与公共领域的政治平等如何区分？",
+              "kind": "比较",
+              "id": "human-condition-c05-p07-q01"
+            },
+            {
+              "text": "劳动者能够开展政治运动，为什么不等于劳动活动自身就是行动？",
+              "kind": "理解",
+              "id": "human-condition-c05-p07-q02"
+            },
+            {
+              "text": "工会与政治运动的差别为何不能仅按诉求激烈程度划分？",
+              "kind": "理解",
+              "id": "human-condition-c05-p07-q03"
+            }
+          ],
+          "sectionTitle": "劳工运动",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-public",
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-power",
+            "arendt"
+          ],
+          "source": {
+            "endLine": 1443,
+            "startLine": 1420,
+            "label": "《人的境况》王寅丽译本，第30节"
+          },
+          "sectionId": "human-condition-s30",
+          "title": "劳工运动"
+        },
+        {
+          "markdown": "行动的不可预见、不可逆转，以及故事没有单一作者，长期引起人们的不安。制作提供了一种诱人的替代模型：先掌握计划，再组织材料，最后获得可控的成品。若把这一模型用于政治，就容易将多人的活动划为少数人发令和其他人执行。\n\n**知道与开始 → 统治者，执行与完成 → 被统治者。** 柏拉图把原本相互依赖的行动环节拉开，让开始者保持在实际行动之外。家庭治理中的主奴结构，也因此被用于说明公共事务。公民虽可承担任务，共同言说和各自开始的能力却被压缩。\n\n当社会被当作待加工的材料，暴力就很容易取得制作工具的地位，而预定结果成为手段的理由。只在这种框架内加上较温和的限制，难以解除根本问题，因为目的仍被理解为一个需要造成的产品。阿伦特追问的是这个类比本身：人能够回应、改变方向并开启新事，始终无法如木材般被加工。消除复数性以求确定，也就消除了政治显现的条件。",
+          "layout": "relations",
+          "id": "human-condition-c05-p08",
+          "questions": [
+            {
+              "text": "把开始与完成划成命令和服从，改变了行动中的何种关系？",
+              "kind": "理解",
+              "id": "human-condition-c05-p08-q01"
+            },
+            {
+              "text": "为什么按蓝图制作社会的类比容易把暴力纳入其中？",
+              "kind": "理解",
+              "id": "human-condition-c05-p08-q02"
+            },
+            {
+              "text": "只要给政治制作加上温和手段限制，就能保留行动吗？",
+              "kind": "反驳",
+              "id": "human-condition-c05-p08-q03"
+            }
+          ],
+          "sectionTitle": "制造对行动的传统替代",
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-public",
+            "arendt",
+            "plato"
+          ],
+          "source": {
+            "endLine": 1469,
+            "startLine": 1444,
+            "label": "《人的境况》王寅丽译本，第31节"
+          },
+          "sectionId": "human-condition-s31",
+          "title": "制造对行动的传统替代"
+        },
+        {
+          "markdown": "行动开启一个过程，力量会在他人的回应中延伸，无法在某个成品里完全耗尽。制造的过程结束后，产品可以留下，行动的后果却能跨越个人寿命，也能在原有物消失后继续发生。因此，脆弱的言行与顽强持续的过程同时存在。\n\n现代实验把这种能力带入自然。实验者设定条件、激发过程，甚至发动自然原本不会在地球上自行发生的事件。它超出了观察规律和加工材料的旧范围，也把不可逆与不可预见带到了自然领域。发起过程的知识越强，未必意味着对全部后果的掌控越完整。\n\n这引出自由与自主的区别。自由包含开始新事的能力，自主却要求无条件的自足和全面支配。多人共同生活，使后一种要求难以成立。不能控制结果并不足以取消开始的自由，企图通过退出关系来保持绝对掌控，也会失去行动的现实场所。应考察行动内部怎样容纳非自主性，而不能直接把人际依赖当作自由的失败。",
+          "layout": "relations",
+          "id": "human-condition-c05-p09",
+          "questions": [
+            {
+              "text": "言行短暂与行动过程持久，为什么可以同时成立？",
+              "kind": "理解",
+              "id": "human-condition-c05-p09-q01"
+            },
+            {
+              "text": "对自然发动过程，与按材料制作一个物有什么不同？",
+              "kind": "比较",
+              "id": "human-condition-c05-p09-q02"
+            },
+            {
+              "text": "一个人无法控制行动的全部后果，是否足以证明他不自由？",
+              "kind": "反驳",
+              "id": "human-condition-c05-p09-q03"
+            }
+          ],
+          "sectionTitle": "行动的过程性质",
+          "entityIds": [
+            "human-condition-action",
+            "human-condition-process",
+            "human-condition-plurality",
+            "human-condition-fabrication"
+          ],
+          "source": {
+            "endLine": 1491,
+            "startLine": 1470,
+            "label": "《人的境况》王寅丽译本，第32节"
+          },
+          "sectionId": "human-condition-s32",
+          "title": "行动的过程性质"
+        },
+        {
+          "markdown": "宽恕回应已经发生的行为，帮助行动者与遭受者解除某些持续的束缚。它不会把历史事实删除，也无法让造成的损失从未发生。它能改变人们对过去行为的关系，让未来不必继续被同一过失支配。\n\n**过失 → 报复 → 新伤害 → 再报复。** 报复沿着原有反应继续展开，宽恕则可能打断这条链。它虽然回应过去，却保有开启新事的性质。惩罚也可能终止一个过程，因此与宽恕存在功能上的联系，不能简单排成互相否定的两端。\n\n宽恕需要他人的在场。行动者无法独自决定别人受到的伤害已经解除。阿伦特从耶稣关于宽恕的教导中提取人类事务的经验，也寻找公共生活的条件。亲密的爱可以促成宽恕，人与人保持距离的尊重同样提供可能。其对象关乎做出事情的谁，不能仅凭对某个行为的计算来推导。她对极端恶提出的界限，也说明宽恕不能被当成适用于所有伤害的自动程序。",
+          "layout": "relations",
+          "id": "human-condition-c05-p10",
+          "questions": [
+            {
+              "text": "宽恕如何改变过去行为的后果，却不删除已经发生的事实？",
+              "kind": "理解",
+              "id": "human-condition-c05-p10-q01"
+            },
+            {
+              "text": "宽恕、报复与惩罚各如何影响一个行动过程？",
+              "kind": "比较",
+              "id": "human-condition-c05-p10-q02"
+            },
+            {
+              "text": "公共生活中的宽恕为什么可以依靠尊重，而不必以亲密关系为前提？",
+              "kind": "理解",
+              "id": "human-condition-c05-p10-q03"
+            }
+          ],
+          "sectionTitle": "不可逆性和宽恕的力量",
+          "entityIds": [
+            "human-condition-forgiveness",
+            "human-condition-action",
+            "human-condition-plurality",
+            "human-condition-process",
+            "arendt",
+            "human-condition-jesus"
+          ],
+          "source": {
+            "endLine": 1515,
+            "startLine": 1492,
+            "label": "《人的境况》王寅丽译本，第33节"
+          },
+          "sectionId": "human-condition-s33",
+          "title": "不可逆性和宽恕的力量"
+        },
+        {
+          "markdown": "未来的不确定有两个来源：人会改变，其他人的行动也会带来无法预先掌握的后果。承诺在这种条件中建立局部的可靠关系。它让人们可以共同确定一些目标和义务，同时保留继续行动的空间。\n\n| 能力 | 面向的时间 | 提供的作用 |\n| --- | --- | --- |\n| 宽恕 | 已发生的过去 | 松开某些行为持续施加的束缚 |\n| 承诺 | 尚未到来的未来 | 形成有限的可靠预期 |\n\n承诺的力量依赖相互约定与守约，无法由孤立个人的意志独自建立。多人通过契约保持联系，也使协同行动生成的权力得以延续。有限的承诺像不确定中的可落脚之处，若试图把整个未来都规定完，它反而失去可靠的边界。\n\n宽恕和承诺均来自行动本身，帮助人们承受行动的风险，并未要求消灭复数性。诞生性则让新的开端持续可能。一个共同体可以在约定中维持连续，也可以接纳后来者带来的变化，这种双重能力构成阿伦特对人类事务仍有希望的理由。",
+          "layout": "comparison",
+          "id": "human-condition-c05-p11",
+          "questions": [
+            {
+              "text": "未来的不确定为什么同时来自自身变化和他人的行动？",
+              "kind": "理解",
+              "id": "human-condition-c05-p11-q01"
+            },
+            {
+              "text": "承诺与全面规划未来，在约束的范围上有什么不同？",
+              "kind": "比较",
+              "id": "human-condition-c05-p11-q02"
+            },
+            {
+              "text": "一个共同体怎样同时保持承诺与接纳新人的开始？",
+              "kind": "应用",
+              "id": "human-condition-c05-p11-q03"
+            }
+          ],
+          "sectionTitle": "不可预见性和承诺的权力",
+          "entityIds": [
+            "human-condition-promise",
+            "human-condition-forgiveness",
+            "human-condition-power",
+            "human-condition-natality",
+            "human-condition-action",
+            "arendt"
+          ],
+          "source": {
+            "endLine": 1530,
+            "startLine": 1516,
+            "label": "《人的境况》王寅丽译本，第34节"
+          },
+          "sectionId": "human-condition-s34",
+          "title": "不可预见性和承诺的权力"
+        }
+      ],
+      "number": 5
+    },
+    {
+      "overview": "现代事件改变了人与世界、地球及自身的关系。器具和实验扩大知识，也动摇感官与静观提供确定性的方式。制作起初取得优先地位，随后又因过程成为中心而改变，劳动与生命最终成为主要参照。本章追踪这些历史转变，并在结尾保留工作、行动和思想的可能，回到它们所需的现实条件。",
+      "id": "human-condition-c06",
+      "sections": [
+        {
+          "pageId": "human-condition-c06-p01",
+          "number": 35,
+          "title": "世界异化",
+          "id": "human-condition-s35"
+        },
+        {
+          "pageId": "human-condition-c06-p02",
+          "number": 36,
+          "title": "阿基米德点的发现",
+          "id": "human-condition-s36"
+        },
+        {
+          "pageId": "human-condition-c06-p03",
+          "number": 37,
+          "title": "普遍科学对自然科学",
+          "id": "human-condition-s37"
+        },
+        {
+          "pageId": "human-condition-c06-p04",
+          "number": 38,
+          "title": "笛卡尔式怀疑的兴起",
+          "id": "human-condition-s38"
+        },
+        {
+          "pageId": "human-condition-c06-p05",
+          "number": 39,
+          "title": "内省和共同感的丧失",
+          "id": "human-condition-s39"
+        },
+        {
+          "pageId": "human-condition-c06-p06",
+          "number": 40,
+          "title": "思想和现代世界观",
+          "id": "human-condition-s40"
+        },
+        {
+          "pageId": "human-condition-c06-p07",
+          "number": 41,
+          "title": "沉思与行动的倒转",
+          "id": "human-condition-s41"
+        },
+        {
+          "pageId": "human-condition-c06-p08",
+          "number": 42,
+          "title": "积极生活内的倒转和技艺人的胜利",
+          "id": "human-condition-s42"
+        },
+        {
+          "pageId": "human-condition-c06-p09",
+          "number": 43,
+          "title": "技艺人的失败和幸福原则",
+          "id": "human-condition-s43"
+        },
+        {
+          "pageId": "human-condition-c06-p10",
+          "number": 44,
+          "title": "生命作为至善",
+          "id": "human-condition-s44"
+        },
+        {
+          "pageId": "human-condition-c06-p11",
+          "number": 45,
+          "title": "劳动动物的胜利",
+          "id": "human-condition-s45"
+        }
+      ],
+      "number": 6,
+      "pages": [
+        {
+          "sectionTitle": "世界异化",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第35节",
+            "endLine": 1751,
+            "startLine": 1724
+          },
+          "sectionId": "human-condition-s35",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "三类现代开端事件为何不能被理解为一条预定的因果链？",
+              "id": "human-condition-c06-p01-q01"
+            },
+            {
+              "kind": "比较",
+              "text": "财富增加与在世界上拥有稳定位置有什么差别？",
+              "id": "human-condition-c06-p01-q02"
+            },
+            {
+              "kind": "反驳",
+              "text": "世俗化为什么不必自动带来对共同世界的关心？",
+              "id": "human-condition-c06-p01-q03"
+            }
+          ],
+          "id": "human-condition-c06-p01",
+          "title": "世界异化",
+          "markdown": "现代的门槛上，地理发现、宗教改革与望远镜这三类事件改变了人的处境。阿伦特没有把它们串成一个预定的因果链。它们起初的动机各不相同，后果却在拉开人与其生存条件的距离这一点上相遇。\n\n| 历史事件 | 本节追踪的变化 |\n| --- | --- |\n| 地理发现和测绘 | 地球进入可测量的整体，距离逐渐缩短 |\n| 宗教改革及财产剥夺 | 部分人失去家庭与财产的庇护，积累过程加速 |\n| 望远镜的使用 | 人开始以宇宙立场处理地球自然 |\n\n世界异化尤其涉及人丧失在世界上的稳定位置。财产在这里包含一个人能够安居的份额，不能仅与财富数量等同。被剥夺者暴露于生命必需，生产剩余又回馈到进一步积累之中。社会和民族国家提供新保护，却未必恢复原有的世界关系。\n\n世俗化也不会自动把人带回共同世界。一个人可以积极积累财富，同时只关心自身。公共与私人空间一同衰退时，人与世界的联系便可能随着经济活动的增长而削弱。",
+          "entityIds": [
+            "human-condition-alienation",
+            "human-condition-world",
+            "human-condition-private",
+            "human-condition-process",
+            "arendt"
+          ],
+          "layout": "timeline"
+        },
+        {
+          "sectionTitle": "阿基米德点的发现",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第36节",
+            "endLine": 1783,
+            "startLine": 1752
+          },
+          "sectionId": "human-condition-s36",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "阿基米德点为何不要求人实际站在地球之外？",
+              "id": "human-condition-c06-p02-q01"
+            },
+            {
+              "kind": "比较",
+              "text": "地球异化与世界异化分别涉及哪些人类条件？",
+              "id": "human-condition-c06-p02-q02"
+            },
+            {
+              "kind": "理解",
+              "text": "为什么望远镜的成功既能增加知识，又能动摇对感觉的信任？",
+              "id": "human-condition-c06-p02-q03"
+            }
+          ],
+          "id": "human-condition-c06-p02",
+          "title": "阿基米德点的发现",
+          "markdown": "阿基米德点指一个能够从外部处理地球的参照位置。望远镜使这一设想获得新的意义。人虽然仍在地球上，却能获得超出肉眼经验的证据，继而用宇宙的规律解释并干预地球上的事情。\n\n此前的日心说可以作为数学假设或哲学想象存在。器具带来的经验改变则构成事件，让可观察的证据挑战日常感知的确信。它扩大了知识与操作能力，也引起感觉究竟能否通达现实的怀疑。能力的增长与失去熟悉的立足点，源于同一次转变。\n\n现代数学进一步以符号关系处理空间和运动。它让人能够选择参照点、建立统一描述，却也把原先可见的形式转化为心智可以操作的数量。阿伦特所称地球异化，涉及这种从地球经验中抽离的立场，世界异化则涉及共同的人造世界和人在其中的位置。两者有关，但不能混用。这里应追踪人的条件与认识方式怎样变化，不能把它直接读成否定测量、数学或天文学的科学结论。",
+          "entityIds": [
+            "human-condition-alienation",
+            "human-condition-world",
+            "human-condition-fabrication",
+            "human-condition-contemplation",
+            "arendt",
+            "human-condition-earth-alienation",
+            "human-condition-archimedes"
+          ],
+          "layout": "concept"
+        },
+        {
+          "sectionTitle": "普遍科学对自然科学",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第37节",
+            "endLine": 1799,
+            "startLine": 1784
+          },
+          "sectionId": "human-condition-s37",
+          "questions": [
+            {
+              "kind": "比较",
+              "text": "从宇宙角度研究自然，与向自然导入宇宙过程有什么不同？",
+              "id": "human-condition-c06-p03-q01"
+            },
+            {
+              "kind": "理解",
+              "text": "为什么操作能力与日常经验中的理解可能分离？",
+              "id": "human-condition-c06-p03-q02"
+            },
+            {
+              "kind": "背景",
+              "text": "作者为什么把笛卡尔的哲学回应与具体科学事件相联系？",
+              "id": "human-condition-c06-p03-q03"
+            }
+          ],
+          "id": "human-condition-c06-p03",
+          "title": "普遍科学对自然科学",
+          "markdown": "以宇宙规律描述自然，与把宇宙过程实际导入地球，是两个不同层次的变化。前者改变观察和解释的位置，后者扩展能够发动的事情，并可能改变自然本身的条件。\n\n| 科学关系 | 人的活动 | 自然的地位 |\n| --- | --- | --- |\n| 从普遍立场研究自然 | 解释并掌握地球过程 | 被研究和处理的环境 |\n| 把宇宙过程引入自然 | 发动原本不会在地球自行出现的过程 | 可被新过程改变的条件 |\n\n阿伦特借核能、新元素和人造卫星讨论第二种变化。在她写作的时代，这些事例使创造力与破坏力同时显现。能够操作一种过程，与能够在日常经验中理解其意义，也可能拉开距离。\n\n哲学对新处境的回应较早出现，技术改变整体生活则经历更久。笛卡尔式怀疑因此不能只当作自主发展的观念，它与器具改变经验的事件相关。本节把认识史接回人类处境：新的参照位置如何成为实际行动的能力，又怎样使人面对自己的理解与操作之间的落差。",
+          "entityIds": [
+            "human-condition-process",
+            "human-condition-alienation",
+            "human-condition-action",
+            "human-condition-world",
+            "arendt",
+            "descartes"
+          ],
+          "layout": "comparison"
+        },
+        {
+          "sectionTitle": "笛卡尔式怀疑的兴起",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第38节",
+            "endLine": 1817,
+            "startLine": 1800
+          },
+          "sectionId": "human-condition-s38",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "普遍怀疑所动摇的确定性，与获取真理的能力有何区别？",
+              "id": "human-condition-c06-p04-q01"
+            },
+            {
+              "kind": "理解",
+              "text": "为什么怀疑感官也会影响对心灵之眼的信任？",
+              "id": "human-condition-c06-p04-q02"
+            },
+            {
+              "kind": "反驳",
+              "text": "意识过程的自我确定，是否已经证明外部世界存在？",
+              "id": "human-condition-c06-p04-q03"
+            }
+          ],
+          "id": "human-condition-c06-p04",
+          "title": "笛卡尔式怀疑的兴起",
+          "markdown": "笛卡尔式怀疑动摇的是感觉、理性和信仰曾共同依靠的确定性。望远镜显示，熟悉的现象可以长久地误导人。单靠肉眼观看不足以保证真知，心灵之眼能够直接接受真理的旧比喻也受到冲击，因为两者都信赖真实者可以自我显现。\n\n怀疑因此扩展为两个难题：我们当作现实的世界会不会只是梦，我们的认识能力会不会被一种持续的欺骗困住。丧失确定性不等于一切求真活动停止。相反，它可以促使人更努力地实验、检验，并建立可靠的共同研究。\n\n笛卡尔从怀疑自身寻找支点。即使某个所见对象是否存在仍成问题，正在发生的怀疑过程却不能同时被否认。意识由此获得一种自我确定。科学则把注意力转向假设是否在实验中起作用。两条路径分别寻找内在过程的确定与可重复的可靠，但它们尚未直接恢复一个由感觉和他人的在场共同确证的世界。新的知识方法与现实感的变化，需要放在一起理解。",
+          "entityIds": [
+            "human-condition-alienation",
+            "human-condition-contemplation",
+            "human-condition-fabrication",
+            "human-condition-world",
+            "descartes"
+          ],
+          "layout": "prose"
+        },
+        {
+          "sectionTitle": "内省和共同感的丧失",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第39节",
+            "endLine": 1831,
+            "startLine": 1818
+          },
+          "sectionId": "human-condition-s39",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "知道自己看见一棵树，为什么不等于证明那棵树实际存在？",
+              "id": "human-condition-c06-p05-q01"
+            },
+            {
+              "kind": "比较",
+              "text": "共同世界与相同心智结构分别如何支持一种共同性？",
+              "id": "human-condition-c06-p05-q02"
+            },
+            {
+              "kind": "反驳",
+              "text": "大家计算出同一答案，能否证明他们共享对同一事件的现实理解？",
+              "id": "human-condition-c06-p05-q03"
+            }
+          ],
+          "id": "human-condition-c06-p05",
+          "title": "内省和共同感的丧失",
+          "markdown": "内省把意识自身的内容变成认识对象。看到一棵树与知道自己有看树的经验，从这里分开。即使后一个过程确实发生，也不能仅凭它推出一棵具有形状和颜色、可由他人接近的树。梦中的树同样能够成为真实的意识内容。\n\n| 共同感的含义 | 共同的依据 |\n| --- | --- |\n| 让私人感觉适应共同世界 | 多人所面对的同一世界 |\n| 作为人人相似的推理机能 | 各人具有相同的心智结构 |\n\n第二种含义用同样的计算结果来保证一致，却削弱了与外部共同世界的关联。每个人都会算出二加二等于四，仍不能仅靠这种一致证明大家看见了同一现实。\n\n阿基米德点也由此移进人的心智。人以自身能够产生的形式和数学关系寻找确定，认识自己的产物获得优先地位。阿伦特关注的是这项移动的代价：独立对象被处理成意识过程的内容，人与他人的关系则可能被相同的推理结构替代。心智一致与共享世界应分别判断。",
+          "entityIds": [
+            "human-condition-alienation",
+            "human-condition-world",
+            "human-condition-plurality",
+            "human-condition-process",
+            "arendt",
+            "human-condition-archimedes"
+          ],
+          "layout": "comparison"
+        },
+        {
+          "sectionTitle": "思想和现代世界观",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第40节",
+            "endLine": 1843,
+            "startLine": 1832
+          },
+          "sectionId": "human-condition-s40",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "操作有效与把握自然最终本性，为何属于不同层次的主张？",
+              "id": "human-condition-c06-p06-q01"
+            },
+            {
+              "kind": "理解",
+              "text": "仪器、实验条件与解释模型之间如何形成相互依赖？",
+              "id": "human-condition-c06-p06-q02"
+            },
+            {
+              "kind": "反驳",
+              "text": "没有直观表象是否足以否定一个科学理论，本节更具体的问题是什么？",
+              "id": "human-condition-c06-p06-q03"
+            }
+          ],
+          "id": "human-condition-c06-p06",
+          "title": "思想和现代世界观",
+          "markdown": "数学模型能够引导成功的操作，却未必因此消除关于现实的怀疑。一套为解释观察结果而建立的关系，后来可以用于实际转换物质或能量，这既显出心智的力量，也使人追问模型与宇宙的关系究竟是什么。\n\n如果实验条件和仪器都按照某个模型建立，所得读数又用这个模型解释，成功便可能首先说明这套安排有效。由有效性进一步推到已经把握自然的最终本性，还需要不同层次的论证。阿伦特把现代困惑放在这道距离中，并未把每一个实验都判为无意义。\n\n困难也涉及可理解性。人能够处理某些关系，却无法在熟悉的感性经验中形成相应表象。思想始终与地球居民的经验条件相联，退回纯粹心智不一定能够摆脱这层联系。原先被用来抵挡普遍怀疑的数学化，在新的科学发展中又遇到怀疑。操作、表象与思想三者的分离，使知识增长不能自动恢复一个可共同理解的世界。",
+          "entityIds": [
+            "human-condition-alienation",
+            "human-condition-process",
+            "human-condition-world",
+            "human-condition-contemplation",
+            "arendt"
+          ],
+          "layout": "prose"
+        },
+        {
+          "sectionTitle": "沉思与行动的倒转",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第41节",
+            "endLine": 1865,
+            "startLine": 1844
+          },
+          "sectionId": "human-condition-s41",
+          "questions": [
+            {
+              "kind": "比较",
+              "text": "思想的内在对话与传统沉思的静观有什么差别？",
+              "id": "human-condition-c06-p07-q01"
+            },
+            {
+              "kind": "背景",
+              "text": "技术的实用效果为什么不足以解释现代科学的起点？",
+              "id": "human-condition-c06-p07-q02"
+            },
+            {
+              "kind": "理解",
+              "text": "本节的做为何不能直接等同于第五章所分析的政治行动？",
+              "id": "human-condition-c06-p07-q03"
+            }
+          ],
+          "id": "human-condition-c06-p07",
+          "title": "沉思与行动的倒转",
+          "markdown": "现代将认识的重心转向做。人借助自己制造的器具获得新证据，再通过新的操作检验知识。这个变化与现代技术后来带来的便利有关，但它的起点也可以是对无用之知的追求，不能仅由改善生活的实用需求来解释。\n\n| 关系的变化 | 对认识的影响 |\n| --- | --- |\n| 传统静观真理 | 真理被理解为向观看者显现 |\n| 制造器具并开展实验 | 通过介入取得和检验知识 |\n| 思为做服务 | 思想用于准备和解释操作 |\n\n思想与沉思还应区分。思想包含活跃的内在对话，沉思在传统意义上则指对真理的静观。因此，这场变化不只是在两个固定等级间交换位置，静观作为获得真理的道路也失去了原有基础。\n\n哲学于是更常解释认识过程，跟随科学的新发现重新理解人的处境。阿伦特所描述的是认识与活动关系的历史变化，不能据此把政治行动、实验操作和一切做事都当成同一种活动。它们的条件和意义仍需逐项辨认。",
+          "entityIds": [
+            "human-condition-contemplation",
+            "human-condition-fabrication",
+            "human-condition-alienation",
+            "human-condition-action",
+            "arendt"
+          ],
+          "layout": "timeline"
+        },
+        {
+          "sectionTitle": "积极生活内的倒转和技艺人的胜利",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第42节",
+            "endLine": 1899,
+            "startLine": 1866
+          },
+          "sectionId": "human-condition-s42",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "追问如何形成，为何会使过程取得优先地位？",
+              "id": "human-condition-c06-p08-q01"
+            },
+            {
+              "kind": "比较",
+              "text": "科学实验的产物与工匠的目的产品有何不同？",
+              "id": "human-condition-c06-p08-q02"
+            },
+            {
+              "kind": "反驳",
+              "text": "把共同体解释为按激情规律运转的机器，会如何处理意外的新事件？",
+              "id": "human-condition-c06-p08-q03"
+            }
+          ],
+          "id": "human-condition-c06-p08",
+          "title": "积极生活内的倒转和技艺人的胜利",
+          "markdown": "器具和实验让制作首先取得优先位置。人相信自己能够认识亲手造成的东西，因而把自然置于人为条件下，模拟它形成的过程。问题也逐渐由事物是什么、为什么存在，移向它如何形成。\n\n**制造器具 → 安排实验 → 追问形成过程 → 过程成为理解的中心。** 但这个发展没有让传统技艺人的世界完整延续。工匠以完成品为目的，科学实验中的物则可能只是研究过程的附带产物。当如何不断发展比形成何种持久对象更重要，过程就超出了有限制作的框架。\n\n这一模式也进入历史和政治。维科在人的历史中寻找可知的产物，霍布斯以构造机器的比喻解释共同体，并从内省推定人的激情。可真实人类事务总会出现无人预料的新事件，单凭制作和计算难以容纳。传统工匠观看模型时保有的沉思因素，也随着制作重心向过程转移而减弱。技艺人的胜利因此已经包含对工作本身的改变。",
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-process",
+            "human-condition-contemplation",
+            "human-condition-world",
+            "hobbes",
+            "vico"
+          ],
+          "layout": "relations"
+        },
+        {
+          "sectionTitle": "技艺人的失败和幸福原则",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第43节",
+            "endLine": 1925,
+            "startLine": 1900
+          },
+          "sectionId": "human-condition-s43",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "过程优先怎样改变工匠原先凭借的标准和尺度？",
+              "id": "human-condition-c06-p09-q01"
+            },
+            {
+              "kind": "比较",
+              "text": "使用物的功用与内在苦乐的计算，各以什么为参照？",
+              "id": "human-condition-c06-p09-q02"
+            },
+            {
+              "kind": "反驳",
+              "text": "为什么技艺人的失败不宜缩减为手工业受到机器竞争？",
+              "id": "human-condition-c06-p09-q03"
+            }
+          ],
+          "id": "human-condition-c06-p09",
+          "title": "技艺人的失败和幸福原则",
+          "markdown": "技艺人依靠模型和标准制作持久之物，但过程取得中心位置后，他最熟悉的判断依据逐渐失去优先性。产品被看成继续生产的环节，衡量它的重点由合于何种用途，转向能否推进更大的运转过程。\n\n**持久使用物 → 促进生产的环节 → 生产消费中的苦乐 → 生命的延续。** 本节沿这条变化说明，功利原则怎样被幸福原则取代。边沁把快乐和痛苦变成可计算的标准，判断的参照点于是进一步进入人的感受，外部物的独立地位变弱。\n\n这种计算仍与内省相关。痛苦尤其使人集中于自身，不必指向某个独立的世界对象。但阿伦特又追问苦乐最终服务于什么，指出现代的最高参照往往落到个人及种群的生存。钟表匠与成品的比喻，也被有机体发展的比喻取代。技艺人的失败因此涉及制作经验失去统领地位，不能简单理解成手工业被机器淘汰，或工匠谋生困难。",
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-process",
+            "human-condition-labor",
+            "human-condition-alienation",
+            "arendt",
+            "bentham"
+          ],
+          "layout": "relations"
+        },
+        {
+          "sectionTitle": "生命作为至善",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第44节",
+            "endLine": 1947,
+            "startLine": 1926
+          },
+          "sectionId": "human-condition-s44",
+          "questions": [
+            {
+              "kind": "比较",
+              "text": "生命神圣性为何不等于一套现代式的劳动赞美？",
+              "id": "human-condition-c06-p10-q01"
+            },
+            {
+              "kind": "理解",
+              "text": "沉思地位变化与生命仍为最高参照，如何共同影响劳动的地位？",
+              "id": "human-condition-c06-p10-q02"
+            },
+            {
+              "kind": "背景",
+              "text": "作者把现代劳动观联系到基督教时，保留了哪些历史区分？",
+              "id": "human-condition-c06-p10-q03"
+            }
+          ],
+          "id": "human-condition-c06-p10",
+          "title": "生命作为至善",
+          "markdown": "劳动获得优先地位，还需要解释生命为何成为最高参照。阿伦特把这条变化联系到基督教对个体生命不朽和神圣性的强调。古代更容易把不朽寄托于世界与政治共同体，基督教则把希望放在独特的个人生命上，尘世生活也由此获得新的重要性。\n\n| 关切的重心 | 不朽被寄托于 |\n| --- | --- |\n| 古代政治经验 | 持续的共同体、世界和声名 |\n| 基督教信仰 | 独特的个人生命 |\n| 现代的变化 | 信仰确定性减弱，生命优先仍延续 |\n\n但生命神圣并不直接等于赞美劳动。前现代基督教仍把沉思生活置于较高位置，劳动多作为谋生、救济或禁欲的手段。作者因此拒绝把现代劳动观直接投射回早期宗教传统。\n\n当沉思失去原有地位，生命又继续作为最终尺度，维持生命的新陈代谢才得以统领积极生活。理解这一历史条件，能够说明劳动地位上升的路径，也防止把生命关怀与全部活动都服从生命过程混成同一个判断。",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-world",
+            "human-condition-contemplation",
+            "human-condition-alienation",
+            "arendt"
+          ],
+          "layout": "comparison"
+        },
+        {
+          "sectionTitle": "劳动动物的胜利",
+          "source": {
+            "label": "《人的境况》王寅丽译本，第45节",
+            "endLine": 1964,
+            "startLine": 1948
+          },
+          "sectionId": "human-condition-s45",
+          "questions": [
+            {
+              "kind": "理解",
+              "text": "种群生命过程成为最终参照，怎样改变对工作和行动的解释？",
+              "id": "human-condition-c06-p11-q01"
+            },
+            {
+              "kind": "比较",
+              "text": "为什么科学家发动自然过程仍可能缺少行动的彰显性质？",
+              "id": "human-condition-c06-p11-q02"
+            },
+            {
+              "kind": "理解",
+              "text": "全书结尾保留了哪些人的能力，它们需要怎样的现实条件？",
+              "id": "human-condition-c06-p11-q03"
+            }
+          ],
+          "id": "human-condition-c06-p11",
+          "title": "劳动动物的胜利",
+          "markdown": "当个体生命不朽的确定性衰退，共同世界又缺乏稳定，持续的种群生命过程便容易成为最后的参照。劳动维持这个过程，工作和行动也被解释为更复杂的生命功能。人的活动差别逐渐退到后台，社会运转成为共同要求。\n\n职业者社会把这种倾向推进到功能化行为。成员只需顺应过程，自己的独特身份和开始新事的能力不再是核心。阿伦特对行为主义的忧虑在于，这种解释可能随着社会组织方式改变而越来越符合现实，而不仅是理论描写不够准确。\n\n全书并未以人已失去所有能力收束。艺术家仍制作世界之物，科学家仍能够协力发动新过程，思想也仍可能存在。只是这些经验的分布和公共条件发生了变化。科学对自然采取行动，未必同时具有人际言行彰显谁的性质，思想也需要政治自由的条件。结尾把问题留在人的现实活动上：当社会要求持续运转，人们还能怎样经验制作、行动和思想各自的活跃性。",
+          "entityIds": [
+            "human-condition-labor",
+            "human-condition-alienation",
+            "human-condition-world",
+            "human-condition-action",
+            "human-condition-process",
+            "human-condition-contemplation",
+            "arendt"
+          ],
+          "layout": "prose"
+        }
+      ],
+      "title": "积极生活与现代",
+      "questions": [
+        {
+          "kind": "比较",
+          "text": "世界异化、地球异化与内省各改变了人与哪一种条件的关系？",
+          "entityIds": [
+            "human-condition-alienation",
+            "human-condition-world"
+          ],
+          "id": "human-condition-c06-reflect01"
+        },
+        {
+          "kind": "理解",
+          "text": "技艺人的胜利为何会在过程优先的条件下转成失败，并让劳动取得优先地位？",
+          "entityIds": [
+            "human-condition-fabrication",
+            "human-condition-process",
+            "human-condition-labor"
+          ],
+          "id": "human-condition-c06-reflect02"
+        },
+        {
+          "kind": "反驳",
+          "text": "认识与技术的成功，为什么仍不足以独自保证共同世界和人的行动自由？",
+          "entityIds": [
+            "human-condition-world",
+            "human-condition-action",
+            "human-condition-contemplation"
+          ],
+          "id": "human-condition-c06-reflect03"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "human-condition-book",
+      "name": "人的境况",
+      "kind": "book",
+      "bookId": "human-condition",
+      "description": "汉娜·阿伦特于 1958 年出版的著作，分析劳动、工作、行动及现代人的活动条件。",
+      "question": "《人的境况》为什么需要区分劳动、工作和行动？"
+    },
+    {
+      "id": "arendt",
+      "name": "汉娜·阿伦特",
+      "kind": "author",
+      "authorId": "arendt",
+      "description": "政治思想家。研究极权主义、革命、公共生活，以及人在言说和行动中开启新事的能力。",
+      "aliases": [
+        "阿伦特"
+      ]
+    },
+    {
+      "id": "stanley",
+      "name": "肯尼斯·斯坦利",
+      "kind": "author",
+      "authorId": "stanley",
+      "description": "计算机科学家。研究神经进化、开放式探索和创造过程，与乔尔·雷曼合著《为什么伟大不能被计划》。",
+      "aliases": []
+    },
+    {
+      "id": "lehman",
+      "name": "乔尔·雷曼",
+      "kind": "author",
+      "authorId": "lehman",
+      "description": "人工智能研究者。参与新奇性搜索和开放式进化研究，与肯尼斯·斯坦利合著《为什么伟大不能被计划》。",
+      "aliases": []
+    },
+    {
+      "id": "marquez",
+      "name": "加夫列尔·加西亚·马尔克斯",
+      "kind": "author",
+      "authorId": "marquez",
+      "description": "哥伦比亚小说家。《百年孤独》把家族、历史、记忆与神异经验织进马孔多的生活。",
+      "aliases": []
+    },
+    {
+      "id": "borges",
+      "name": "豪尔赫·路易斯·博尔赫斯",
+      "kind": "author",
+      "authorId": "borges",
+      "description": "阿根廷作家。以短篇、诗和随笔探索迷宫、无限、时间、书籍与虚构的边界。",
+      "aliases": []
+    },
+    {
+      "id": "nietzsche",
+      "name": "弗里德里希·尼采",
+      "kind": "author",
+      "authorId": "nietzsche",
+      "description": "德国哲学家。以格言、论辩和文学形式追问道德、价值、生命与文化。",
+      "aliases": [
+        "尼采"
+      ]
+    },
+    {
+      "id": "montaigne",
+      "name": "米歇尔·德·蒙田",
+      "kind": "author",
+      "authorId": "montaigne",
+      "description": "法国作家。《随笔集》从自己的经验出发，讨论判断、习惯、友谊及人的局限。",
+      "aliases": []
+    },
+    {
+      "id": "mary-mccarthy",
+      "name": "玛丽·麦卡锡",
+      "kind": "author",
+      "authorId": "mary-mccarthy",
+      "description": "美国小说家和评论家。1958 年在《纽约客》发表《Philosophy at Work》，评论《人的境况》。",
+      "aliases": [
+        "麦卡锡"
+      ]
+    },
+    {
+      "id": "canovan",
+      "name": "玛格丽特·加诺芬",
+      "kind": "author",
+      "authorId": "canovan",
+      "description": "英国政治思想研究者。研究民粹主义与阿伦特，为《人的境况》第二版撰写导言。",
+      "aliases": [
+        "加诺芬"
+      ]
+    },
+    {
+      "id": "danielle-allen",
+      "name": "Danielle Allen",
+      "kind": "author",
+      "authorId": "danielle-allen",
+      "description": "政治理论研究者。研究民主、公民教育与平等，为《人的境况》六十周年版撰写序言。",
+      "aliases": []
+    },
+    {
+      "id": "marx",
+      "name": "卡尔·马克思",
+      "kind": "author",
+      "authorId": "marx",
+      "description": "哲学家、政治经济学研究者。《资本论》分析资本主义生产与劳动力。阿伦特在本书中与他的劳动观展开对话。",
+      "aliases": [
+        "马克思"
+      ]
+    },
+    {
+      "id": "locke",
+      "name": "约翰·洛克",
+      "kind": "author",
+      "authorId": "locke",
+      "description": "英国哲学家。《政府论》讨论政治权力与财产，其劳动和占有的关系是本书的重要讨论对象。",
+      "aliases": [
+        "洛克"
+      ]
+    },
+    {
+      "id": "smith",
+      "name": "亚当·斯密",
+      "kind": "author",
+      "authorId": "smith",
+      "description": "苏格兰思想家。研究道德、交换与社会财富，《国富论》讨论分工与生产性劳动。",
+      "aliases": [
+        "斯密"
+      ]
+    },
+    {
+      "id": "aristotle",
+      "name": "亚里士多德",
+      "kind": "author",
+      "authorId": "aristotle",
+      "description": "古希腊哲学家。研究政治、伦理、逻辑和自然。阿伦特借其政治动物与生活方式的区分重读城邦经验。",
+      "aliases": []
+    },
+    {
+      "id": "plato",
+      "name": "柏拉图",
+      "kind": "author",
+      "authorId": "plato",
+      "description": "古希腊哲学家。以对话录讨论知识、正义与城邦，本书考察其以制作模型理解政治的路径。",
+      "aliases": []
+    },
+    {
+      "id": "socrates",
+      "name": "苏格拉底",
+      "kind": "author",
+      "authorId": "socrates",
+      "description": "古雅典思想者。通过交谈追问伦理与知识，没有留下自己的著作，其生平由他人记述。",
+      "aliases": []
+    },
+    {
+      "id": "machiavelli",
+      "name": "尼科洛·马基雅维利",
+      "kind": "author",
+      "authorId": "machiavelli",
+      "description": "佛罗伦萨政治思想家。讨论共和政治、统治与公共行动，《君主论》《论李维》是其主要著作。",
+      "aliases": [
+        "马基雅维利"
+      ]
+    },
+    {
+      "id": "homer",
+      "name": "荷马",
+      "kind": "author",
+      "authorId": "homer",
+      "description": "古希腊史诗传统中的诗人，《伊利亚特》和《奥德赛》归于其名下。本书借史诗中的言辞与业绩讨论行动。",
+      "aliases": []
+    },
+    {
+      "id": "hobbes",
+      "name": "托马斯·霍布斯",
+      "kind": "author",
+      "authorId": "hobbes",
+      "description": "英国哲学家。《利维坦》讨论共同体与主权，阿伦特考察其构造国家的模型。",
+      "aliases": [
+        "霍布斯"
+      ]
+    },
+    {
+      "id": "vico",
+      "name": "詹巴蒂斯塔·维科",
+      "kind": "author",
+      "authorId": "vico",
+      "description": "意大利思想家。《新科学》探索历史、语言与人类制度，重视人对自己所造之物的认识。",
+      "aliases": [
+        "维科"
+      ]
+    },
+    {
+      "id": "bentham",
+      "name": "杰里米·边沁",
+      "kind": "author",
+      "authorId": "bentham",
+      "description": "英国思想家。发展功利主义，以快乐与痛苦讨论行为和制度的评价标准。",
+      "aliases": [
+        "边沁"
+      ]
+    },
+    {
+      "id": "descartes",
+      "name": "勒内·笛卡尔",
+      "kind": "author",
+      "authorId": "descartes",
+      "description": "法国哲学家和数学家。以方法怀疑与意识的确定性探索知识基础。",
+      "aliases": [
+        "笛卡尔"
+      ]
+    },
+    {
+      "id": "human-condition-labor",
+      "name": "劳动",
+      "kind": "concept",
+      "description": "维持生命及其再生产的活动，随着需要一再出现。",
+      "question": "劳动怎样区别于日常说的工作？",
+      "aliases": [
+        "labor",
+        "劳动动物"
+      ]
+    },
+    {
+      "id": "human-condition-work",
+      "name": "工作",
+      "kind": "concept",
+      "description": "制造相对持久的使用物，为人建立人造世界的活动。",
+      "question": "为什么造桌子与做饭被归为不同活动？",
+      "aliases": [
+        "work",
+        "技艺人"
+      ]
+    },
+    {
+      "id": "human-condition-action",
+      "name": "行动",
+      "kind": "concept",
+      "description": "不同的人在言说与参与中展开关系，能够开启新事的活动。",
+      "question": "阿伦特的行动与通常说的执行任务有什么差别？",
+      "aliases": [
+        "action"
+      ]
+    },
+    {
+      "id": "human-condition-public",
+      "name": "公共领域",
+      "kind": "concept",
+      "description": "人们能被看见和听见，并围绕共同世界相见的空间。",
+      "question": "公开可见为什么不一定构成公共领域？",
+      "aliases": [
+        "公共空间",
+        "显现空间"
+      ]
+    },
+    {
+      "id": "human-condition-private",
+      "name": "私人领域",
+      "kind": "concept",
+      "description": "为身体需要和需要隐藏的生活提供庇护的领域。",
+      "question": "私人庇护怎样支持公共参与？",
+      "aliases": [
+        "私域",
+        "私人生活"
+      ]
+    },
+    {
+      "id": "human-condition-plurality",
+      "name": "复数性",
+      "kind": "concept",
+      "description": "人们同为人却各不相同，每个人都能提供不同的视角和开端。",
+      "question": "复数性为什么是政治生活的条件？",
+      "aliases": [
+        "人的复数性"
+      ]
+    },
+    {
+      "id": "human-condition-natality",
+      "name": "诞生性",
+      "kind": "concept",
+      "description": "新人不断来到世界，由此关联人开启新事的能力。",
+      "question": "诞生性如何把出生与政治行动联系起来？",
+      "aliases": [
+        "新的开端",
+        "开端启新"
+      ]
+    },
+    {
+      "id": "human-condition-promise",
+      "name": "承诺",
+      "kind": "concept",
+      "description": "通过相互约束在不可预测的未来中建立有限的稳定关系。",
+      "question": "承诺怎样保留自由，又减轻不可预测性？",
+      "aliases": []
+    },
+    {
+      "id": "human-condition-forgiveness",
+      "name": "宽恕",
+      "kind": "concept",
+      "description": "让行动者不被过去的行为永远困住，打断后果与报复链条的能力。",
+      "question": "宽恕怎样区别于遗忘和取消责任？",
+      "aliases": []
+    },
+    {
+      "id": "human-condition-world",
+      "name": "世界",
+      "kind": "concept",
+      "description": "人与人共同居住的人造事物与关系背景，具有超越个体生命的持久性。",
+      "question": "地球与共同世界为什么需要分开理解？",
+      "aliases": [
+        "共同世界",
+        "世界性"
+      ]
+    },
+    {
+      "id": "human-condition-alienation",
+      "name": "世界异化",
+      "kind": "concept",
+      "description": "人与相对稳固的共同世界疏离，经验向自身或无尽过程回缩的变化。",
+      "question": "世界异化怎样联系财富流动与现代科学？",
+      "aliases": []
+    },
+    {
+      "id": "human-condition-earth-alienation",
+      "name": "地球异化",
+      "kind": "concept",
+      "description": "以超出地球居民日常经验的宇宙立场理解和介入地球自然的变化。",
+      "question": "地球异化与世界异化各涉及什么条件？",
+      "aliases": []
+    },
+    {
+      "id": "human-condition-power",
+      "name": "权力",
+      "kind": "concept",
+      "description": "人们协同行动时形成并维持的能力，依赖持续共同在场。",
+      "question": "权力怎样区别于个人力量和暴力？",
+      "aliases": []
+    },
+    {
+      "id": "human-condition-fabrication",
+      "name": "制造",
+      "kind": "concept",
+      "description": "依据预先模型加工材料并获得成品的活动，与工作的过程相关。",
+      "question": "为什么不能把人当作制造新社会的原材料？",
+      "aliases": [
+        "制作",
+        "物化"
+      ]
+    },
+    {
+      "id": "human-condition-process",
+      "name": "过程",
+      "kind": "concept",
+      "description": "可以连续展开并越出单次活动边界的运动，劳动与行动有不同的过程性质。",
+      "question": "劳动的循环过程与行动的连锁过程有何不同？",
+      "aliases": [
+        "生命过程"
+      ]
+    },
+    {
+      "id": "human-condition-contemplation",
+      "name": "沉思",
+      "kind": "concept",
+      "description": "传统中面向永恒并要求宁静的体验，区别于思想的内在对话。",
+      "question": "沉思和思考在阿伦特的分析中有什么差别？",
+      "aliases": [
+        "沉思生活",
+        "永恒"
+      ]
+    },
+    {
+      "id": "human-condition-heracles",
+      "name": "赫拉克勒斯",
+      "kind": "person",
+      "description": "希腊神话中的英雄。清扫奥吉阿斯牛圈是其十二项劳作之一，本书以此对照现实维护工作的反复性。",
+      "question": "赫拉克勒斯清扫牛圈与日常清扫有何区别？"
+    },
+    {
+      "id": "human-condition-jesus",
+      "name": "耶稣",
+      "kind": "person",
+      "description": "拿撒勒耶稣，基督教的核心人物。阿伦特从其善行与宽恕的教导中提取人类事务的经验。",
+      "question": "阿伦特怎样把宽恕的教导放进公共行动的讨论？"
+    },
+    {
+      "id": "human-condition-archimedes",
+      "name": "阿基米德",
+      "kind": "person",
+      "description": "古希腊数学家。阿伦特用阿基米德点指从地球之外理解和处理地球的参照立场。",
+      "question": "阿基米德点在本书中怎样由几何立场变成认识条件？"
+    }
+  ],
+  "comments": [
+    {
+      "id": "human-condition-comment01",
+      "authorId": "canovan",
+      "body": "记住开端，也记住开端的后果。行动的希望和危险，往往出自同一个地方。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "human-condition-comment02",
+      "authorId": "mary-mccarthy",
+      "body": "先看看桌子，再看看午饭。词典把它们挤在一起，生活没有。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "human-condition-comment03",
+      "authorId": "stanley",
+      "body": "无法预知的开端很熟悉。不过搜索的意外与公共行动的责任，值得分开谈。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "human-condition-comment04",
+      "authorId": "borges",
+      "body": "我想到一座每晚自动改写书籍的图书馆。藏书更多了，世界却未必更持久。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "human-condition-comment05",
+      "authorId": "nietzsche",
+      "body": "重复不是问题的终点。先问：这是谁肯定的生活，又是谁替他承受它？",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "human-condition-comment06",
+      "authorId": "montaigne",
+      "body": "我关上门写自己，也把书送到别人眼前。私人和公共这两扇门，看来都得留着。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    }
+  ]
+}

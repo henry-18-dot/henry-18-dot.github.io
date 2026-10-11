@@ -1,0 +1,13 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {move,recordProgress,parseHash,locationHash,validLocation} from '../src/reader.ts';
+import {importChapter,questionId,validatePackage} from '../src/importer.ts';
+import type {BookPackage,Location} from '../src/types.ts';
+const book={schemaVersion:1,revision:'test',book:{id:'test',title:'书',theme:{}},authors:[],entities:[],reviews:[{},{}],comments:[],chapters:[{id:'c1',number:1,title:'第一章',overview:'概述',questions:[],pages:[{id:'p1',title:'甲',markdown:'正文',layout:'prose',questions:[]},{id:'p2',title:'乙',markdown:'正文',layout:'prose',questions:[]}]},{id:'c2',number:2,title:'第二章',overview:'概述',questions:[],pages:[{id:'p3',title:'丙',markdown:'正文',layout:'prose',questions:[]}]}]} as unknown as BookPackage;
+test('跨章返回恢复上一章页码',()=>{const a:Location={bookId:'test',phase:'chapterPage',chapterId:'c1',pageId:'p2'};const p=recordProgress({chapters:{}},a);const next=move(book,a,'up',p);assert.equal(next.chapterId,'c2');assert.equal(next.phase,'chapterTitle');const body={...next,phase:'chapterPage' as const,pageId:'p3'};const result=move(book,body,'down',recordProgress(p,body));assert.deepEqual(result,a);});
+test('首张左滑概览，末张右滑问题',()=>{assert.equal(move(book,{bookId:'test',phase:'chapterPage',chapterId:'c1',pageId:'p1'},'left',{chapters:{}}).phase,'bookOverview');assert.equal(move(book,{bookId:'test',phase:'chapterPage',chapterId:'c1',pageId:'p2'},'right',{chapters:{}}).phase,'chapterQuestions');});
+test('章节边界不循环',()=>{const last:Location={bookId:'test',phase:'chapterPage',chapterId:'c2',pageId:'p3'};assert.deepEqual(move(book,last,'up',{chapters:{}}),last);assert.equal(move(book,{...last,chapterId:'c1',pageId:'p1'},'down',{chapters:{}}).phase,'bookOverview');});
+test('哈希路由可以还原，内容更新后旧页码安全恢复',()=>{const l:Location={bookId:'test',phase:'chapterPage',chapterId:'c1',pageId:'p2'};assert.deepEqual(parseHash(locationHash(l)),{...l,reviewIndex:undefined});assert.equal(validLocation(book,{...l,pageId:'removed'}).pageId,'p1');});
+test('导入保留概述、正文分页和沉淀问题',()=>{const c=importChapter(book,book.chapters[0],'# 第1章 机制\n## 本章概述\n新的概述\n---\n## 目标\n这是第一张。\n---\n## 搜索\n这是第二张。\n## 沉淀问题\n- 目标怎样影响搜索？');assert.equal(c.overview,'新的概述');assert.equal(c.pages.length,2);assert.equal(c.questions[0].text,'目标怎样影响搜索？');assert.equal(c.pages[1].markdown,'这是第二张。');});
+test('重复问题归一，不同书保留身份',()=>{assert.equal(questionId('a','为什么？'),questionId('a',' 为什么? '));assert.notEqual(questionId('a','为什么？'),questionId('b','为什么？'));});
+test('内容包拒绝破损结构',()=>{assert.throws(()=>validatePackage({schemaVersion:1,book:{id:'a'},chapters:[]}));});

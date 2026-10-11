@@ -1,0 +1,2583 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-11-v1",
+  "book": {
+    "id": "greatness",
+    "title": "为什么伟大不能被计划",
+    "subtitle": "目标神话与新奇性搜索",
+    "authors": [
+      "stanley",
+      "lehman"
+    ],
+    "headline": [
+      "盯紧目标",
+      "为什么也会迷路？"
+    ],
+    "tags": [
+      "创新",
+      "人工智能",
+      "教育",
+      "探索"
+    ],
+    "overview": "在未知领域，每一步更接近目标，未必能带你到达目标。斯坦利和雷曼借图像演化、迷宫与机器人实验，解释必要的踏脚石为何可能看起来像绕路。他们进一步讨论教育、科研、个人选择和自然进化。先看实验怎么搜索，再看这些思路怎样用于人。配方、图纸与已知规范依旧适合明确目标，探索陌生路线则需要给意外发现留下空间。",
+    "theme": {
+      "bg": "#071f22",
+      "paper": "#f0ead8",
+      "ink": "#132c30",
+      "accent": "#2dc1b0"
+    },
+    "music": "discovery"
+  },
+  "authors": [
+    {
+      "id": "stanley",
+      "name": "肯尼斯·斯坦利",
+      "bio": "人工智能研究者，研究神经进化、开放式探索与新奇性搜索。",
+      "initial": "斯",
+      "color": "#2dc1b0",
+      "tags": [
+        "人工智能",
+        "开放式探索"
+      ]
+    },
+    {
+      "id": "lehman",
+      "name": "乔尔·雷曼",
+      "bio": "人工智能研究者，与斯坦利共同提出新奇性搜索，合著本书。",
+      "initial": "雷",
+      "color": "#68a89f",
+      "tags": [
+        "新奇性搜索",
+        "神经进化"
+      ]
+    },
+    {
+      "id": "arendt",
+      "name": "汉娜·阿伦特",
+      "years": "1906–1975",
+      "bio": "政治思想家，著有《人的境况》，研究行动、公共世界与政治判断。",
+      "initial": "阿",
+      "color": "#9b8470",
+      "tags": [
+        "政治思想",
+        "行动"
+      ]
+    },
+    {
+      "id": "marquez",
+      "name": "加西亚·马尔克斯",
+      "years": "1927–2014",
+      "bio": "哥伦比亚作家，著有《百年孤独》，一九八二年获诺贝尔文学奖。",
+      "initial": "马",
+      "color": "#c5a953",
+      "tags": [
+        "小说",
+        "拉丁美洲"
+      ]
+    },
+    {
+      "id": "borges",
+      "name": "豪尔赫·路易斯·博尔赫斯",
+      "years": "1899–1986",
+      "bio": "阿根廷作家，以迷宫、无限、图书馆与虚构文本为小说主题。",
+      "initial": "博",
+      "color": "#8975af",
+      "tags": [
+        "迷宫",
+        "短篇小说"
+      ]
+    },
+    {
+      "id": "nietzsche",
+      "name": "弗里德里希·尼采",
+      "years": "1844–1900",
+      "bio": "德国哲学家，研究价值、道德与文化，著有《查拉图斯特拉如是说》。",
+      "initial": "尼",
+      "color": "#b07867",
+      "tags": [
+        "哲学",
+        "价值"
+      ]
+    },
+    {
+      "id": "montaigne",
+      "name": "米歇尔·德·蒙田",
+      "years": "1533–1592",
+      "bio": "法国作家与思想家，以《随笔集》探索经验、判断和自我。",
+      "initial": "蒙",
+      "color": "#789282",
+      "tags": [
+        "随笔",
+        "经验"
+      ]
+    },
+    {
+      "id": "wangweigan",
+      "name": "万维钢",
+      "bio": "科学作家，撰写本书中文版推荐序。",
+      "initial": "万",
+      "color": "#5c9e98",
+      "tags": [
+        "科学写作",
+        "创新"
+      ]
+    },
+    {
+      "id": "papadimitriou",
+      "name": "克里斯托斯·帕帕迪米特里乌",
+      "bio": "理论计算机科学家，《Logicomix》合著者，出版社收录其对本书的评价。",
+      "initial": "帕",
+      "color": "#9ca873",
+      "tags": [
+        "计算理论",
+        "科学写作"
+      ]
+    },
+    {
+      "id": "bongard",
+      "name": "乔什·邦加德",
+      "bio": "研究进化机器人与具身智能的科学家，出版社收录其对本书的评价。",
+      "initial": "邦",
+      "color": "#719ba9",
+      "tags": [
+        "机器人",
+        "人工智能"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "greatness-review01",
+      "authorId": "wangweigan",
+      "title": "有路可追，还是已到无人区？",
+      "markdown": "万维钢在二〇二三年四月的中文版推荐序中，把本书放到创新政策与个人成长的问题里读。他关心一个区别：已有成果可以追赶时，目标和资源集中能加速前进，进入无人区后，下一块踏脚石却很难预先指定。\n\n他借机器人行走、技术转用等例子讨论新奇性搜索，也提醒宽松探索需要时间与资源。他对本书的推荐，落在给分歧和新方向留下空间，减少无谓考核。\n\n读这篇序言，可以继续追问：[目标](entity:greatness-goals)什么时候帮助落实，什么时候开始过早筛掉[创新](entity:greatness-innovation)？",
+      "source": {
+        "label": "万维钢，中文版推荐序，2023 年 4 月；本地原书",
+        "startLine": 74,
+        "endLine": 279
+      },
+      "entityIds": [
+        "greatness-wangweigan",
+        "greatness-goals",
+        "greatness-innovation",
+        "greatness-novelty"
+      ],
+      "questions": [
+        {
+          "id": "greatness-review01-q01",
+          "text": "追赶已知技术和探索技术无人区，为什么需要不同的组织方式？",
+          "kind": "比较",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-innovation"
+          ]
+        },
+        {
+          "id": "greatness-review01-q02",
+          "text": "减少考核之后，怎样让科研探索仍然留下可复用的成果？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-innovation",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-review01-q03",
+          "text": "如果缺少时间和资源，个人该怎样为兴趣探索留出空间？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-serendipity",
+            "greatness-goals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-review02",
+      "authorId": "papadimitriou",
+      "title": "拿起一本书，未必先有终点",
+      "markdown": "帕帕迪米特里乌的评价从阅读动机出发。人拿起一本书，未必已经设定清楚的收益，也可能只是觉得它会改变自己看世界的方式。他认为作者对这种开放动机的理解可能有道理。\n\n这个角度也适合打开本书：先看看一个关于[搜索空间](entity:greatness-search-space)的想法，能让你重新提出什么问题。",
+      "source": {
+        "label": "Springer 出版社书页，Christos Papadimitriou 评介",
+        "url": "https://link.springer.com/book/10.1007/978-3-319-15524-1"
+      },
+      "entityIds": [
+        "greatness-papadimitriou",
+        "greatness-goals",
+        "greatness-search-space"
+      ],
+      "questions": [
+        {
+          "id": "greatness-review02-q01",
+          "text": "阅读时没有明确目标，会怎样改变你发现有趣问题的机会？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-serendipity"
+          ]
+        },
+        {
+          "id": "greatness-review02-q02",
+          "text": "带着问题读书与只按预定结论筛选内容，有什么差别？",
+          "kind": "比较",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-objective-deception"
+          ]
+        },
+        {
+          "id": "greatness-review02-q03",
+          "text": "一本书改变视角的价值，怎样在具体行动中体现？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-stepping-stones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-review03",
+      "authorId": "bongard",
+      "title": "机器实验，也能照见人的习惯",
+      "markdown": "乔什·邦加德看重本书把智能机器研究与人的生活联系起来。他认为，两位作者揭示了创造智能机器时的一种明显偏见，并发现这种偏见也在社会的许多方面发挥作用。\n\n这条评价提供一条阅读线索：在看机器人和[新奇性搜索](entity:greatness-novelty)时，同时留意我们如何判断人的探索与成就。",
+      "source": {
+        "label": "Springer 出版社书页，Josh Bongard 评介",
+        "url": "https://link.springer.com/book/10.1007/978-3-319-15524-1"
+      },
+      "entityIds": [
+        "greatness-bongard",
+        "greatness-artificial-intelligence",
+        "greatness-novelty",
+        "greatness-innovation"
+      ],
+      "questions": [
+        {
+          "id": "greatness-review03-q01",
+          "text": "机器人实验中的目标偏见，怎样转成教育评价中的具体问题？",
+          "kind": "比较",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-education",
+            "greatness-goals"
+          ]
+        },
+        {
+          "id": "greatness-review03-q02",
+          "text": "把计算机搜索的结果推广到个人生活，需要补上哪些条件？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-artificial-intelligence",
+            "greatness-serendipity"
+          ]
+        },
+        {
+          "id": "greatness-review03-q03",
+          "text": "你会如何设计一个允许出现意外结果的机器人学习实验？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-artificial-intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "greatness-c01",
+      "number": 1,
+      "title": "第一章 对目标的质疑",
+      "overview": "我们习惯先定目标，再用指标判断有没有进步。作者把创造看成搜索未知可能性的过程，指出遥远终点所需的中间条件常常无法预见。真空管、计算机与音乐流派的故事说明，关键踏脚石可能来自别人的兴趣。目标在路径清楚时仍然有用。",
+      "pages": [
+        {
+          "id": "greatness-c01-p01",
+          "title": "目标为什么让人安心",
+          "markdown": "目标给生活提供了一种熟悉的秩序：先说清想得到什么，再测量离它有多远，最后调整行动。学校用成绩衡量学习，企业用利润衡量经营，研究项目需要说明预期成果。每次看见数字改善，我们便觉得努力有了方向。\n\n作者把这种习惯比作儿童的寻宝游戏。其他人不断提示更冷或更热，寻宝者沿着越来越热的方向走，就能找到宝藏。这里有一个隐藏条件：提示必须可靠，眼前的改善确实要通向最后的成功。\n\n提高一些产能、完成一次已有产品的更新，通常有现成经验可用。治愈尚未解决的疾病、创造一种全新艺术，则需要发现目前还不知道的步骤。把两类任务都装进同一条进度条，会掩盖这种区别。目标能说明我们期待什么，却未必能说明今天该做什么。\n\n本章质疑的是对遥远成就的预先规划。目标带来的安全感，不能替代对真实路径的了解。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "greatness-c01-p01-q01",
+              "text": "为什么产能提升与创造全新艺术，不能使用同一种目标规划方式？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-innovation"
+              ]
+            },
+            {
+              "id": "greatness-c01-p01-q02",
+              "text": "更冷或更热的寻宝提示要满足什么条件，才能真正指向宝藏？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-objective-deception"
+              ]
+            },
+            {
+              "id": "greatness-c01-p01-q03",
+              "text": "怎样判断课程分数正在帮助学习，还是只在引导我提高分数？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-education"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-goals",
+            "greatness-education",
+            "greatness-innovation",
+            "greatness-objective-deception"
+          ],
+          "source": {
+            "label": "原书第1章",
+            "startLine": 366,
+            "endLine": 861
+          }
+        },
+        {
+          "id": "greatness-c01-p02",
+          "title": "搜索空间里有什么",
+          "markdown": "想象一间容纳所有可能画作的大房间。某些区域里是人脸，另一些区域里是夜空，大部分位置却只有杂乱斑点。艺术家创作时，依靠过去见过的作品与掌握的技巧，在这间房里寻找值得留下的东西。作者把这个可能性的集合叫作搜索空间。\n\n房间的比喻还可以用来理解发明。轮子、发动机和计算机各自占据一些位置，发现一种东西，可能打开通向另一种东西的路。所谓踏脚石，就是让下一步发现成为可能的已有成果。\n\n| 概念 | 它回答的问题 |\n| --- | --- |\n| 搜索空间 | 有哪些可能出现的成果？ |\n| 已有经验 | 我目前能探索哪些位置？ |\n| 踏脚石 | 什么成果能支持下一步？ |\n| 目标 | 我希望最后找到什么？ |\n\n知道目标所在的想象位置，未必知道通路。画家没有接触过水彩，就很难直接画出成熟的水彩作品。同样，探索越深入，人才越能发现此前看不见的机会。这个比喻强调经验和中间条件的作用，房间的排布并没有一张可提前拿到的地图。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "greatness-c01-p02-q01",
+              "text": "踏脚石与目标分别在搜索空间里起什么作用？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-search-space",
+                "greatness-stepping-stones",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c01-p02-q02",
+              "text": "为什么见过更多作品和掌握更多技巧，会改变创作时能探索的区域？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-search-space",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c01-p02-q03",
+              "text": "在机器人研究中，哪些已有工具可能是一块能通往多个方向的踏脚石？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-innovation",
+                "greatness-artificial-intelligence"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-search-space",
+            "greatness-stepping-stones",
+            "greatness-goals",
+            "greatness-innovation"
+          ],
+          "source": {
+            "label": "原书第1章",
+            "startLine": 366,
+            "endLine": 861
+          }
+        },
+        {
+          "id": "greatness-c01-p03",
+          "title": "真空管为何走进计算机",
+          "markdown": "如果你的目标是制造计算机，为什么要先研究真空管？对今天的人来说，两者的关系很容易理解。但书中回看早期电学和无线电研究时指出，研究真空管的人，并没有围绕未来计算机组织工作。后来，已有的真空管技术才成了早期电子计算机的关键条件。\n\n这让踏脚石显出一种麻烦的性质：它与最终成果可能很不相像。盯着计算机的外形寻找零件，未必会把真空管放进候选名单。作者还举了雷达部件与微波炉的例子。重要用途常在技术出现之后，才被别的人辨认出来。\n\n音乐也有类似过程。拉格泰姆、爵士乐等风格为后来摇滚乐提供了材料，但早期演奏者无法把尚未出现的摇滚乐当作创作要求。他们眼前值得尝试的声音，成为了别人继续探索的起点。\n\n作者据此提出，创造活动应给局部兴趣留下空间。每个人都在推进自己的尝试，群体才会积累多种未来可用的条件。这里的主张针对未知通路：距离成果很近、所需条件已经清楚时，设定具体目标依然可以指导工作。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "greatness-c01-p03-q01",
+              "text": "真空管与计算机的例子，为什么会挑战按最终成果筛选研究方向的做法？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-innovation",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c01-p03-q02",
+              "text": "技术用途在发明之后才被发现，与发明者预先规划用途有什么区别？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c01-p03-q03",
+              "text": "如果一个团队必须按期交付，它还能怎样给局部兴趣保留空间？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-diversity",
+                "greatness-stepping-stones"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-innovation",
+            "greatness-goals",
+            "greatness-serendipity",
+            "greatness-diversity"
+          ],
+          "source": {
+            "label": "原书第1章",
+            "startLine": 366,
+            "endLine": 861
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c01-reflect01",
+          "text": "我目前最重视的目标，离一条已知路径有多远？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-search-space"
+          ]
+        },
+        {
+          "id": "greatness-c01-reflect02",
+          "text": "有哪些暂时解释不清用途的学习，正在扩大我下一步可选的方向？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-diversity"
+          ]
+        },
+        {
+          "id": "greatness-c01-reflect03",
+          "text": "如果历史上也有靠明确目标成功的例子，怎样公平比较两种路径？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-innovation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c02",
+      "number": 2,
+      "title": "第二章 无目标者的胜利",
+      "overview": "职业、爱好和企业转向的故事展示了计划外的机会。一次数照片的实验则说明，紧盯任务可能让人漏掉有用线索。作者建议对兴趣和转折保持开放，同时承认选择有风险。成功者的经历提供可能路径，不能直接给出转向成功的概率。",
+      "pages": [
+        {
+          "id": "greatness-c02-p01",
+          "title": "任务之外的线索",
+          "markdown": "书中引用了理查德·怀斯曼的一个实验：受试者需要数出报纸里的照片。有人埋头逐张计数，有人注意到第二页已经写着照片总数为四十三张。后者更快完成任务。能节省时间的线索就在报纸上，但认真执行计数动作的人反而容易错过它。\n\n这个实验把注意力的代价摆到了眼前。目标让人知道该做哪项任务，也会缩小人愿意观察的范围。当我们默认只有某一种动作能够产生结果，其他信息就容易被当作无关背景。\n\n作者把这种现象联系到职业选择。人可以沿着会计专业走向会计工作，也可能在经历中发现原来计划没有包含的兴趣。我们能规划眼前可见的岗位，却很难预先列出所有值得投入的生活。\n\n数照片是一个局部实验，职业发展则跨越多年，受能力、关系和环境影响。两者的联系是作者提出的解释：开放的注意有助于看见意外机会。它支持我们检查目标遮住了什么，并没有给任何转行选择开出成功保证。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "greatness-c02-p01-q01",
+              "text": "数照片实验里，计数动作为什么会遮住能完成任务的信息？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c02-p01-q02",
+              "text": "把一次注意力实验用于解释多年职业选择，哪些条件需要重新考虑？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c02-p01-q03",
+              "text": "做实验或写代码时，我怎样发现自己一直忽略的旁边线索？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-serendipity",
+                "greatness-innovation"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-goals",
+            "greatness-serendipity",
+            "greatness-stepping-stones"
+          ],
+          "source": {
+            "label": "原书第2章",
+            "startLine": 862,
+            "endLine": 1155
+          }
+        },
+        {
+          "id": "greatness-c02-p02",
+          "title": "经历怎样变成踏脚石",
+          "markdown": "约翰·格里森姆学法律、做律师，原本没有按作家训练计划生活。一次听到的证言让他产生写小说的念头，法律经历又给写作提供了材料。村上春树经营咖啡馆和爵士乐酒吧，观察客人、听音乐的日常，也进入了他后来的小说。书中的这些人，都把原有经历带进了新的方向。\n\n| 书中人物 | 原先的投入 | 后来发挥的作用 |\n| --- | --- | --- |\n| 约翰尼·德普 | 乐队与音乐 | 人际联系带来演艺机会 |\n| 格里森姆 | 法律实践 | 案件经历触发小说写作 |\n| 村上春树 | 酒吧经营 | 观察与音乐积累创作材料 |\n| 桑德斯 | 多种职业与烹饪 | 服务站里的烹鸡发展成业务 |\n\n这里的踏脚石包含技能、经验和接触过的人。它们在积累时有自己的理由，后来才显出新的用途。作者用这些案例鼓励人重新理解偏离计划的经历。\n\n不过，这张表选取的是成功者。它能说明转向可能发生，无法统计转向的人有多少成功，也无法告诉你应该何时辞职。评价自己的选择，还需要看具体机会、已有能力和能承担的损失。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "greatness-c02-p02-q01",
+              "text": "格里森姆的法律经历和村上春树的酒吧经历，分别给写作带来了什么？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c02-p02-q02",
+              "text": "只列成功者的转向故事，为什么无法估计一次转行的成功率？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c02-p02-q03",
+              "text": "我已有的工程经历，可能怎样被另一种研究或创作方式重新使用？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-innovation"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-serendipity",
+            "greatness-goals"
+          ],
+          "source": {
+            "label": "原书第2章",
+            "startLine": 862,
+            "endLine": 1155
+          }
+        },
+        {
+          "id": "greatness-c02-p03",
+          "title": "留住意外的入口",
+          "markdown": "兴趣常先带来体验，后来才出现用途。书中写到，业余洞穴探索与古物知识，使索图拉能辨认女儿发现的洞顶绘画的重要性。他没有为了找到某一幅史前画而安排全部生活，但已有的知识让偶然看见的东西成为发现。\n\n商业转向也呈现类似过程。Flickr 最初的照片分享功能依附于另一款游戏，后来这个小功能获得了独立发展的机会。原计划之外的价值已经出现，团队需要愿意看见它，再决定是否调整方向。\n\n本章引用的职业研究提到，参加俱乐部、志愿服务等常规接触，可能增加意外职业经历的机会。这样的活动让人接触更多人和任务，无需先证明每次接触都通向同一个岗位。机会仍要有人识别，也需要后续投入才能展开。\n\n作者提倡的开放，包含持续做事、观察结果和允许转向。兴趣没有立即变成收入，也可以构成值得保留的经验。该保留多久、是否改变主要投入，要看手上的线索与现实负担。生活允许意外出现，决定仍由人来做。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "greatness-c02-p03-q01",
+              "text": "偶然看见洞穴绘画与识别它的价值，分别依赖什么条件？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-serendipity",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c02-p03-q02",
+              "text": "怎样判断一个附带功能值得独立发展，而非只是短暂的新鲜感？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c02-p03-q03",
+              "text": "俱乐部和志愿服务为何可能提供职业测试没有列出的机会？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-diversity",
+                "greatness-serendipity",
+                "greatness-goals"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-serendipity",
+            "greatness-stepping-stones",
+            "greatness-innovation",
+            "greatness-diversity"
+          ],
+          "source": {
+            "label": "原书第2章",
+            "startLine": 862,
+            "endLine": 1155
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c02-reflect01",
+          "text": "我有没有因为一项经历不符合职业计划，过早忽略它已经带来的价值？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-c02-reflect02",
+          "text": "什么新线索足以让我调整方向，什么只是让我暂时分心？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-serendipity",
+            "greatness-goals"
+          ]
+        },
+        {
+          "id": "greatness-c02-reflect03",
+          "text": "要比较坚持原计划与主动转向，需要观察哪些失败者和中间结果？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-diversity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c03",
+      "number": 3,
+      "title": "第三章 繁育艺术的艺术",
+      "overview": "Picbreeder 让普通用户选择图片的变异后代，并接着别人的成果继续繁育。共享支化突破了个人注意力的限制，也保存了原本没有统一用途的中间图片。外星人脸演化成汽车，与按目标相似度重新搜索的失败，促使作者重新思考目标的作用。",
+      "pages": [
+        {
+          "id": "greatness-c03-p01",
+          "title": "图片怎样繁育",
+          "markdown": "Picbreeder 被译作图片孵化器。它给图片保存一份可以变异的人工 DNA，屏幕上的样子由这份编码生成。用户选中喜欢的图片，系统便生成一组带着相似特征、又略有变化的后代。选择一张方形图片，下一代就可能出现不同的方形结构。\n\n操作很简单：看一组图片，挑选其中有趣的一张，再看它的后代。用户反复做选择，便能让最初的随机斑点逐渐长出可辨认的形状。人不必亲手绘制每根线条，也不必先掌握专业绘画技巧。人的偏好参与筛选，程序提供变异。\n\n每一步都需要判断。你可能想得到人脸，也可能只觉得某条弧线值得继续看。后代继承亲本的部分特征，偶尔又出现让人改变主意的新结构。探索因此会记录用户不断变化的兴趣。\n\n这个系统给作者一个具体场景：在相同的生成机制里，人既能追逐预定图像，也能沿着当下有趣的变化走。图像怎样出现、哪些亲本被选择，都能留下路径，供研究者回看发现的过程。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "greatness-c03-p01-q01",
+              "text": "Picbreeder 中，用户和程序分别控制图片繁育的哪一部分？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c03-p01-q02",
+              "text": "为什么不断挑选有趣的变化，可能改变用户起初想得到的图像？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-serendipity",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c03-p01-q03",
+              "text": "如果把图片改成机械结构，怎样保留人工选择与自动变异各自的作用？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-innovation",
+                "greatness-search-space"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-picbreeder",
+            "greatness-diversity",
+            "greatness-goals",
+            "greatness-search-space"
+          ],
+          "source": {
+            "label": "原书第3章",
+            "startLine": 1156,
+            "endLine": 1417
+          }
+        },
+        {
+          "id": "greatness-c03-p02",
+          "title": "接力保存中间成果",
+          "markdown": "单个人愿意连续看多少轮图片？作者观察到，多数用户繁育约二十代就难以继续集中注意。图片要经历更多变异才能出现丰富结构，单次游戏很容易在这之前停下。研究小组于是把成果放到网上，让别人接着繁育。\n\n这种接力叫支化。新用户能选择一张已发布的图片，沿它的后代展开自己的分支。有人从随机斑点开始，有人接手三角形，有人发现它还能变成别的轮廓。各人的兴趣不同，共同延长了演化历史。\n\n| 操作 | 对后续探索的作用 |\n| --- | --- |\n| 保存并发布图片 | 中间结果不会随离开而消失 |\n| 接着旧图片繁育 | 继承此前积累的结构 |\n| 展开不同分支 | 同一成果可接受多种尝试 |\n| 允许重新开始 | 继续引入新的起点 |\n\n书中的骷髅头图片，从最初斑点算起经历了七十四代。最后的发现者借用了前人的成果，整条路径却不由任何一个人事先安排。共享系统积累的，既有令人满意的作品，也有可以支持下一次发现的踏脚石。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "greatness-c03-p02-q01",
+              "text": "支化怎样绕过单个用户只能集中注意约二十代的限制？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c03-p02-q02",
+              "text": "保留多个分支与只发布一张最佳图片，会给后来用户不同的什么选择？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-diversity",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c03-p02-q03",
+              "text": "一个工程项目怎样保存中间成果，才能让别的团队接着探索？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-innovation"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-picbreeder",
+            "greatness-stepping-stones",
+            "greatness-diversity",
+            "greatness-search-space"
+          ],
+          "source": {
+            "label": "原书第3章",
+            "startLine": 1156,
+            "endLine": 1417
+          }
+        },
+        {
+          "id": "greatness-c03-p03",
+          "title": "外星人脸变成汽车",
+          "markdown": "肯尼斯·斯坦利接手了一张酷似外星人脸的图片，起初想继续繁育外星人脸。几轮变异后，两只眼睛的位置下移，竟像两只车轮。看到这个变化，他改了方向，最终得到一张汽车图片。此前发布外星人脸的用户，也没有在准备未来的汽车。\n\n关键中间结果看起来离汽车很远。若每一轮都只保留更像汽车的图片，外星人脸很可能会被丢掉。可这条实际留下的路径表明，它拥有生成汽车的潜力，外观相似度没有把这种潜力显示出来。\n\n研究小组还从网站上选取目标图片，让程序反复选择与目标更相似的亲本。经过上千次迭代，仍未重现相应目标。这里失败的是书中采用的目标相似度搜索方式，已有图像却确实曾通过开放选择出现。\n\n作者据此认为，当前结果有多像终点，未必能衡量它对未来发现有多大帮助。网站观察支持了对这种筛选方式的质疑。把这个机制用于解释职业、科学或整个创新过程，是作者随后展开的更广泛推论。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "greatness-c03-p03-q01",
+              "text": "为什么外星人脸可能拥有生成汽车的潜力，却得到很低的汽车相似度？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-objective-deception",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c03-p03-q02",
+              "text": "按相似度搜索失败，能否证明任何有目标的算法都无法生成汽车图片？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-goals",
+                "greatness-objective-deception"
+              ]
+            },
+            {
+              "id": "greatness-c03-p03-q03",
+              "text": "我怎样发现一个低分中间方案具有指标没有记录的新用途？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-objective-deception",
+                "greatness-stepping-stones",
+                "greatness-serendipity"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-picbreeder",
+            "greatness-stanley",
+            "greatness-objective-deception",
+            "greatness-stepping-stones",
+            "greatness-serendipity"
+          ],
+          "source": {
+            "label": "原书第3章",
+            "startLine": 1156,
+            "endLine": 1417
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c03-reflect01",
+          "text": "我做过的哪些中间结果，因为不符合最初要求而没有留下？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-goals"
+          ]
+        },
+        {
+          "id": "greatness-c03-reflect02",
+          "text": "允许其他人接手成果，需要保留哪些信息，才能让接力真正发生？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-picbreeder",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-c03-reflect03",
+          "text": "怎样设计对照实验，区分目标相似度的缺陷与算法本身的能力限制？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-picbreeder",
+            "greatness-objective-deception",
+            "greatness-goals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c04",
+      "number": 4,
+      "title": "第四章 目标是错误的指南针",
+      "overview": "目标函数给当前状态打分，但真正有用的步骤可能先让分数下降。作者借指铐说明欺骗，用进化智力和史前制造计算机的思维实验讨论缺失的前提，再把自然进化与人类创新看作踏脚石积累。近在眼前、路径明确的目标仍可指导行动。",
+      "pages": [
+        {
+          "id": "greatness-c04-p01",
+          "title": "分数会指向错误方向",
+          "markdown": "目标函数是一种给当前状态打分的方法，用它估计目标完成了多少。人常把更高的分数理解成更接近成功，于是每一步都选择得分提高的方向。但要抵达某些终点，必须先经过得分更低的中间状态。作者称这种误导为欺骗。\n\n指铐玩具提供了直观例子。两根手指伸入编织管的两端后，向外用力拉，管子反而收得更紧。先把手指向内推，才有机会松开。拿手指拔出了多少来衡量进展，就会奖励错误动作。\n\n| 场景 | 直觉指标 | 可能被排除的必要步骤 |\n| --- | --- | --- |\n| 指铐 | 手指向外移了多远 | 先向内推使管子放松 |\n| 汽车图片 | 当前图像多像汽车 | 保留酷似外星人脸的亲本 |\n| 国际象棋 | 眼前吃掉多少棋子 | 为后续局面放弃即时收益 |\n\n这些例子的共同问题是，指标只看见某种眼前关系，实际路径还受后续变化影响。判断指南针是否可靠，需要了解它在哪些条件下会误导。路径已经清楚的近目标，仍可以使用合适的指标。",
+          "layout": "comparison",
+          "questions": [
+            {
+              "id": "greatness-c04-p01-q01",
+              "text": "目标函数的欺骗，与单纯测量不够精确有什么区别？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-objective-deception",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c04-p01-q02",
+              "text": "为什么指铐的正确解法会让常用的进度指标先变差？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-objective-deception",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c04-p01-q03",
+              "text": "优化机器人性能时，怎样识别必须暂时牺牲单项分数的中间方案？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-objective-deception",
+                "greatness-goals",
+                "greatness-innovation"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-objective-deception",
+            "greatness-goals",
+            "greatness-stepping-stones",
+            "greatness-picbreeder"
+          ],
+          "source": {
+            "label": "原书第4章",
+            "startLine": 1418,
+            "endLine": 1915
+          }
+        },
+        {
+          "id": "greatness-c04-p02",
+          "title": "进化没有预先画好人类",
+          "markdown": "作者设想了一个地球大小的培养皿：从单细胞生物出发，人为挑选亲本，最终希望得到人类智能。如果每次都用智力测验选择下一代，最初的生物根本没有可供测验的智能，分数无法帮助我们识别关键变化。这个场景是思维实验，并非实际育种试验。\n\n多细胞化、身体结构的变化，可以为后来的复杂能力提供条件。但在刚出现时，它们不会直接表现为人类智力。用终点特征给早期步骤打分，容易忽略尚未显出终点用途的成果。\n\n| 项目 | 对过程的要求 |\n| --- | --- |\n| 预定终点 | 最后必须出现某种指定产物 |\n| 开放约束 | 每一步需满足继续存在的条件 |\n| 自然进化中的繁衍 | 后代延续，使变化能被保留下来 |\n\n作者建议把生存与繁衍理解为进化的约束，避免给自然安排一个最终产品。不同生物在自己的环境中延续，生命树便能保留多种分支。人类是其中出现的结果，早期生物无需为未来的人类做准备。这个视角把注意力放在当时有效的条件与后来发生的变化上。",
+          "layout": "concept",
+          "questions": [
+            {
+              "id": "greatness-c04-p02-q01",
+              "text": "为什么对单细胞生物做智力测验，无法判断它是否具有通向复杂能力的潜力？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-objective-deception",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c04-p02-q02",
+              "text": "生存繁衍作为开放约束，与把人类智能作为终点有什么区别？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-goals",
+                "greatness-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c04-p02-q03",
+              "text": "这个进化思维实验能说明什么，又需要哪些实际研究来补充？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-objective-deception"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-natural-evolution",
+            "greatness-objective-deception",
+            "greatness-goals",
+            "greatness-stepping-stones",
+            "greatness-diversity"
+          ],
+          "source": {
+            "label": "原书第4章",
+            "startLine": 1418,
+            "endLine": 1915
+          }
+        },
+        {
+          "id": "greatness-c04-p03",
+          "title": "终点要等前提出现",
+          "markdown": "再做一个思维实验：把制造计算机的任务交给五千年前最聪明的人。即使告诉他们最终产品是什么，电学、可用的电子器件以及相关制造条件也没有随命令一起出现。目标再明确，仍得有人先探索这些前提。\n\n本章用飞机说明同样的问题。莱特兄弟能辨认已有条件的组合价值，但飞机需要的发动机，还承接着此前面向其他用途的技术。最终发明者的洞察与前人积累共同发挥作用。只把故事写成某个人坚定追梦，会让这条长链消失。\n\n作者由此把创新看作一种踏脚石收集过程。有人研究当前有趣的问题，有人把成果用于新场景，后来的人再组合和改进。整个群体保留多种方向，可能发现此前连名称都没有的产品。\n\n距离目标只剩一个可辨认步骤时，集中完成它很合理。距离很远、前提未知时，以终点相似度淘汰所有尝试可能过早关闭道路。工程项目仍需满足预算、交付和安全要求，探索部分则可以保留多个有根据的方向，让具体成果逐步显示下一步。",
+          "layout": "prose",
+          "questions": [
+            {
+              "id": "greatness-c04-p03-q01",
+              "text": "告诉史前研究者计算机的功能，为什么不能同时提供发明计算机的路径？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-innovation",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c04-p03-q02",
+              "text": "莱特兄弟的个人洞察，与多人积累技术条件分别贡献了什么？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-stepping-stones",
+                "greatness-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c04-p03-q03",
+              "text": "在一个有交付期限的工程项目里，哪些部分适合固定目标，哪些部分适合保留多个方向？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-innovation",
+                "greatness-diversity"
+              ]
+            }
+          ],
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-innovation",
+            "greatness-goals",
+            "greatness-diversity",
+            "greatness-search-space"
+          ],
+          "source": {
+            "label": "原书第4章",
+            "startLine": 1418,
+            "endLine": 1915
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c04-reflect01",
+          "text": "我现在使用的进度指标，会奖励哪些动作，又可能排除哪些必要步骤？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-objective-deception",
+            "greatness-goals"
+          ]
+        },
+        {
+          "id": "greatness-c04-reflect02",
+          "text": "一个研究方向必须守住哪些约束，才有条件持续开放地探索？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-diversity",
+            "greatness-search-space"
+          ]
+        },
+        {
+          "id": "greatness-c04-reflect03",
+          "text": "什么证据能说明目标已经足够近，可以收拢探索并按目标推进？",
+          "kind": "理解",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-stepping-stones",
+            "greatness-innovation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c05",
+      "number": 5,
+      "title": "第五章 有趣的和新奇的探索",
+      "overview": "新奇性搜索把当前位置与已有发现比较，保留不同的行为，再沿着它们继续探索。作者用迷宫和双足机器人模拟，说明接近目标的评分可能删掉关键踏脚石。新奇性在这些任务中更有效，复杂迷宫的失败也限定了它的能力。",
+      "pages": [
+        {
+          "id": "greatness-c05-p01",
+          "title": "新奇需要参照物",
+          "markdown": "新奇性要拿当前发现与过去比较。同一张图片第一次出现时可能令人意外，类似图片积累得多了，它就失去新奇感。目标搜索则拿当前结果与预先指定的终点比较：哪一个看起来更接近终点，哪一个就优先得到后续探索。两者使用了不同的信息。\n\n图片孵化器里，用户选择外星人脸，因为眼前这张图片有趣。他无需先判断它能否变成汽车。选择留下了一个可继续繁育的起点，后来的用户才有机会发现汽车。踏脚石的价值常常要等下一段探索发生后才能看见。\n\n这里的兴趣也需要积累。作者谈到偶然发现时，强调发现者具备知识，能看出异常值得追问。眼前同样的现象，有人忽略，有人会继续研究。把兴趣当成探索依据，需要观察、尝试和学习。随意更换活动，只会产生表面的变化，未必留下能让后来工作继续发展的材料。新奇性的判断因此离不开搜索历史，也离不开所处领域。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-goals",
+            "greatness-picbreeder",
+            "greatness-stepping-stones",
+            "greatness-serendipity"
+          ],
+          "source": {
+            "label": "原书第五章",
+            "startLine": 1916,
+            "endLine": 2623
+          },
+          "questions": [
+            {
+              "id": "greatness-c05-p01-q01",
+              "text": "同一个发现为什么会随着探索历史变长而失去新奇性？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-search-space"
+              ]
+            },
+            {
+              "id": "greatness-c05-p01-q02",
+              "text": "图片孵化器里的外星人脸怎样成为汽车图片的踏脚石？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c05-p01-q03",
+              "text": "怎样区分能留下研究材料的兴趣与只求刺激的猎奇？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-serendipity",
+                "greatness-innovation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c05-p02",
+          "title": "机器人怎样积累新行为",
+          "markdown": "设想机器人在走廊里探索。最初，无论撞上哪一面墙，它都做出了未曾出现的行为。类似撞墙结果逐渐积累后，继续撞同样的位置就不再新奇。能够绕开墙、进入另一片区域的行为，开始提供更多差异，搜索便沿着这些行为继续变化。\n\n| 选择依据 | 后续优先探索什么 | 可能漏掉什么 |\n| --- | --- | --- |\n| 接近目标 | 离出口更近的行为 | 先远离出口的绕行 |\n| 行为新奇 | 与已发现行为不同的结果 | 重复但仍有实用价值的动作 |\n\n新奇性搜索会对已有行为作微调，继续测试其变化，也会忽略大量重复结果。它利用已发现的材料组织下一步，因而与无差别尝试所有动作的穷举有所区别。\n\n作者据此提出，搜索可能在简单行为被充分探索后发展出更复杂的行为。绕墙需要感知环境，稳定行走需要利用重力和运动的关系，这些行为携带了关于世界的信息。这是本章解释复杂性增长的思路。增长仍受行为描述、环境和计算资源影响，不能仅凭一个动作新奇就断定它更聪明。物理约束也会把许多想象中的动作压成同一种失败结果。",
+          "layout": "comparison",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-goals",
+            "greatness-stepping-stones",
+            "greatness-search-space",
+            "greatness-objective-deception"
+          ],
+          "source": {
+            "label": "原书第五章",
+            "startLine": 1916,
+            "endLine": 2623
+          },
+          "questions": [
+            {
+              "id": "greatness-c05-p02-q01",
+              "text": "搜索为什么会逐渐减少重复撞墙，又如何沿已有行为产生变化？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-search-space"
+              ]
+            },
+            {
+              "id": "greatness-c05-p02-q02",
+              "text": "如果只用机器人的最终位置表示行为，会漏掉哪些有意义的差异？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-artificial-intelligence"
+              ]
+            },
+            {
+              "id": "greatness-c05-p02-q03",
+              "text": "为什么新奇性搜索不能直接等同于穷举所有动作？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-stepping-stones",
+                "greatness-search-space"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c05-p03",
+          "title": "迷宫里的两种评分",
+          "markdown": "本章把两种搜索放进同一个机器人迷宫模拟。目标搜索奖励离终点更近的行为，新奇性搜索奖励与既有行为不同的结果。迷宫中有看似接近终点的死胡同，正确路线需要先远离终点。前一种评分容易把绕路判成退步，过早停止沿它探索。\n\n书中报告，这组迷宫实验各重复四十次，新奇性搜索三十九次找到终点，目标搜索三次找到终点。数字对应特定迷宫与算法设置。它直接展示的是这套距离评分在欺骗性环境中的弱点，不能直接代表所有导航方法的表现。\n\n另一项双足机器人模拟也出现类似结果：追求新奇行为的机器人学会了行走，走得比以行走距离为目标的机器人更远。摔倒和踢腿可能留下摆动的踏脚石，过早惩罚它们会截断学习路径。\n\n作者随后写到数百个随机迷宫的测试。难度继续增加时，两种搜索都可能失败，目标搜索的能力下降更快。这让本章留下两个相连的结论：目标评分会遗漏有用路径，新奇性能够避开某些陷阱。它们都没有给出攻克任意复杂问题的保证。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-goals",
+            "greatness-objective-deception",
+            "greatness-stepping-stones",
+            "greatness-artificial-intelligence"
+          ],
+          "source": {
+            "label": "原书第五章",
+            "startLine": 1916,
+            "endLine": 2623
+          },
+          "questions": [
+            {
+              "id": "greatness-c05-p03-q01",
+              "text": "迷宫中的死胡同怎样把距离更近与路线更好分开？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-objective-deception"
+              ]
+            },
+            {
+              "id": "greatness-c05-p03-q02",
+              "text": "双足机器人探索中，摔倒怎样可能成为学习行走的踏脚石？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c05-p03-q03",
+              "text": "怎样设计新迷宫对照，检验三十九比三的优势能否延续？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-search-space",
+                "greatness-objective-deception"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c05-reflect01",
+          "text": "我的项目用什么记录探索历史，才能判断一次尝试究竟增加了什么？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-c05-reflect02",
+          "text": "在机器人学习中，行为更不同与行为更复杂何时会分离？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-artificial-intelligence",
+            "greatness-search-space"
+          ]
+        },
+        {
+          "id": "greatness-c05-reflect03",
+          "text": "任务路径已经清楚时，目标评分还会遇到本章的迷宫陷阱吗？",
+          "kind": "比较",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-objective-deception"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c06",
+      "number": 6,
+      "title": "第六章 寻宝者万岁",
+      "overview": "新奇性搜索能发现某些目标搜索漏掉的成果，却不能承诺抵达指定终点。本章进一步讨论如何把个人的分散兴趣组织成踏脚石网络，并用可演变的家具目录作设想。系统保留和传播发现，让不同人的探索相互接续。",
+      "pages": [
+        {
+          "id": "greatness-c06-p01",
+          "title": "搜索不能承诺目的地",
+          "markdown": "新奇性搜索在迷宫里赢了，并不表示它能替人找到任何指定结果。如果迷宫向各个方向无限延伸，指定地点可能始终没有被访问。探索范围越大，有限时间里实际走过的部分越小。发现有用的东西与找到预先点名的东西，提出了不同的要求。\n\n有人因此建议，把目标与新奇性混合，既保持方向，也保留备选路径。作者反对把这当成通用补救：在有欺骗性的任务中，错误评分仍会让关键绕路受到惩罚。增加一点多样性，未必足以抵消持续施加的选择压力。真正的问题是评分是否能识别必要的踏脚石。\n\n本章也承认混合方法能解决一些问题。它批评的承诺是，只要方法恰当，任何宏大目标都能可靠实现。无论选择目标搜索、新奇性搜索，还是两者结合，都要面对有限资源和未知路径。\n\n寻宝者接受这种限制，继续寻找眼前有价值、有潜力的发现。成果可以带来惊喜，但结束时得到的东西可能与出发时的愿望不同。这里的乐观来自持续增加可用材料，而不靠许诺某个结局一定发生。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-goals",
+            "greatness-diversity",
+            "greatness-objective-deception",
+            "greatness-search-space",
+            "greatness-stepping-stones"
+          ],
+          "source": {
+            "label": "原书第六章",
+            "startLine": 2624,
+            "endLine": 3007
+          },
+          "questions": [
+            {
+              "id": "greatness-c06-p01-q01",
+              "text": "无限迷宫为什么能说明新奇性搜索不能保证找到指定地点？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-search-space"
+              ]
+            },
+            {
+              "id": "greatness-c06-p01-q02",
+              "text": "保留多个候选方案为什么仍可能受同一错误评分牵引？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-diversity",
+                "greatness-objective-deception",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c06-p01-q03",
+              "text": "有明确交付期限的任务怎样保留探索，同时约束时间成本？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-novelty",
+                "greatness-stepping-stones"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c06-p02",
+          "title": "把发现留给后来的人",
+          "markdown": "一个人对某张图片有兴趣，其他人可能毫无感觉。若每一步都要投票选出大家最满意的结果，那张图片就可能消失。图片孵化器允许个人保存选择，下一位用户可以取它作起点。两个人不需要拥有同一个终点，也能接续一段创造过程。\n\n| 组织方式 | 保留的材料 | 后来者怎样参与 |\n| --- | --- | --- |\n| 每步先达成共识 | 多数人认可的一条路径 | 沿集体选出的方向继续 |\n| 独立探索并共享 | 各人觉得有趣的不同路径 | 选择某个已有成果再发展 |\n\n这里的协作依靠可继承的成果。个人的目标可以不同，整个系统仍积累越来越多的踏脚石。合作不必要求所有人对每次选择给出相同判断，也无需把所有偏好压成一个排行榜。\n\n这种结构还改变了失败的含义。一段探索没有得到原计划的成果，只要留下可理解、可继续变化的东西，另一段探索仍可能用得上它。作者据此强调，要考察整个发现网络怎样增长，不能只盯着某个人是否抵达预定终点。系统若只保存眼前最受欢迎的产物，许多用途尚未显现的分支会被提前删掉。",
+          "layout": "comparison",
+          "entityIds": [
+            "greatness-picbreeder",
+            "greatness-stepping-stones",
+            "greatness-diversity",
+            "greatness-innovation",
+            "greatness-goals"
+          ],
+          "source": {
+            "label": "原书第六章",
+            "startLine": 2624,
+            "endLine": 3007
+          },
+          "questions": [
+            {
+              "id": "greatness-c06-p02-q01",
+              "text": "没有共同终点的用户怎样通过图片孵化器形成协作？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c06-p02-q02",
+              "text": "每一步投票与各人独立保存分支，会怎样改变探索范围？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-diversity",
+                "greatness-search-space",
+                "greatness-innovation"
+              ]
+            },
+            {
+              "id": "greatness-c06-p02-q03",
+              "text": "课程项目没有成功时，应该保存哪些材料才能让下一组接着做？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-innovation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c06-p03",
+          "title": "会演变的家具目录",
+          "markdown": "本章设想一家家具网站。顾客先选一把椅子，再让系统生成变体：改变表面图案，调整腿的形状，继续选择和修改，直到找到愿意购买的款式。顾客的成品又进入目录，成为新顾客下一轮探索的起点。目录随着选择不断生长。\n\n这一设想保留了每个人的偏好。有人偏爱细腿，有人喜欢弯曲的结构，系统无需先决定唯一的理想椅子。购买记录还能帮助目录辨认哪些发现对人有吸引力，随后继续围绕它们生成变化。\n\n专业知识仍然决定探索空间怎样建立。系统需要一种可修改的数字表示，需要生成变体，也要处理真实制造的成本和工艺。椅子必须可用，变形不能无限任意。专家可以把经验投入这些条件，使普通人的选择有机会成为可实现的设计。\n\n这段家具故事是用来展示寻宝系统的思维实验。图片孵化器提供了可接续探索的实例，家具场景还增加了承重、生产与交付问题。二者可以共享保存分支的组织方式，家具目录的质量仍要靠这些具体条件来判断。读者因此应关注系统让哪些变化成为可能，也关注哪些发现能被继续使用。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-search-space",
+            "greatness-innovation",
+            "greatness-picbreeder",
+            "greatness-artificial-intelligence",
+            "greatness-diversity"
+          ],
+          "source": {
+            "label": "原书第六章",
+            "startLine": 2624,
+            "endLine": 3007
+          },
+          "questions": [
+            {
+              "id": "greatness-c06-p03-q01",
+              "text": "可演变家具目录怎样让顾客从挑选成品转为提供新设计？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c06-p03-q02",
+              "text": "家具设计中哪些约束必须在生成变体时就发挥作用？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-search-space",
+                "greatness-innovation"
+              ]
+            },
+            {
+              "id": "greatness-c06-p03-q03",
+              "text": "购买次数能否完整代表一把椅子作为踏脚石的潜力？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-diversity",
+                "greatness-goals"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c06-reflect01",
+          "text": "团队能否共享可继续使用的成果，同时允许成员追求不同方向？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-diversity",
+            "greatness-stepping-stones",
+            "greatness-innovation"
+          ]
+        },
+        {
+          "id": "greatness-c06-reflect02",
+          "text": "当保存所有分支成本过高，怎样选择仍值得保留的踏脚石？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-search-space",
+            "greatness-novelty"
+          ]
+        },
+        {
+          "id": "greatness-c06-reflect03",
+          "text": "寻宝系统的整体收获应怎样衡量，才能避免重新制造单一目标？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-innovation",
+            "greatness-diversity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c07",
+      "number": 7,
+      "title": "第七章 解开禁锢教育的枷锁",
+      "overview": "考试成绩成为奖惩依据后，课堂可能转向专门提高分数，教育的丰富目的随之收窄。作者进一步质疑更精确、更统一的评估能否解决这一问题，并提出教师自主探索与同行交流的方案，让教学成果成为可共享的踏脚石。",
+      "pages": [
+        {
+          "id": "greatness-c07-p01",
+          "title": "分数怎样改变课堂",
+          "markdown": "考试可以帮助教师发现学生哪里不会。一旦考试成绩又决定学校排名、教师奖惩，参与者便会围绕分数调整行为。花时间练习题型、记住解题格式，可能比组织讨论或探索陌生问题更容易在下一次测试里得到回报。\n\n本章用坎贝尔定律描述这种压力：量化指标越深地参与社会决策，越容易受到操纵，并扭曲它原本要观察的过程。操纵可以是作弊，也可以是完全合规地压缩课堂，把一切活动集中到被评分的部分。数字继续上升，教学范围却可能变窄。\n\n作者引用美国《不让一个孩子掉队》框架下的年度指标，说明教育如何被安排成成绩比例逐年提高的路径。这个安排隐含着一个判断：每年更接近理想分数，就会更接近理想教育。深度理解、创造力和长远发展未必沿着同一条路径变化。\n\n本章由此把目标欺骗问题引入教育。它针对复杂教育过程被单一指标驱动的情形。日常练习可以设定明确要求，课程也需要检查学生掌握了什么。问题出现于这些局部结果被当成整个教育事业的充分尺度，并持续决定所有资源和行动。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-education",
+            "greatness-goals",
+            "greatness-objective-deception",
+            "greatness-innovation"
+          ],
+          "source": {
+            "label": "原书第七章",
+            "startLine": 3008,
+            "endLine": 3573
+          },
+          "questions": [
+            {
+              "id": "greatness-c07-p01-q01",
+              "text": "同一场考试用于诊断学习与用于教师奖惩，会产生哪些不同压力？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-education",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c07-p01-q02",
+              "text": "不作弊也可能发生指标扭曲吗，课堂里有哪些具体做法？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-education",
+                "greatness-objective-deception"
+              ]
+            },
+            {
+              "id": "greatness-c07-p01-q03",
+              "text": "课程实验成绩提高时，怎样判断学生的迁移能力是否也提高了？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-education",
+                "greatness-goals"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c07-p02",
+          "title": "量得更准仍可能选错",
+          "markdown": "图片孵化器的一张骷髅头，曾经过月牙、甜甜圈和盘子形状的前身。假设评分器能极精确地测量每张图片有多像骷髅头，它仍可能删掉这些不像目标的前身。测量误差减小了，选择原则的错误却留下来。\n\n| 改进评估的办法 | 能帮助什么 | 尚未解决什么 |\n| --- | --- | --- |\n| 测量更精确 | 减少同一指标的读数误差 | 指标能否辨认未来的踏脚石 |\n| 全国采用相同标准 | 方便横向比较表现 | 被排除的教学路径是否有价值 |\n\n作者把这个区别用于教育。如果眼前的测试表现与长期深度学习之间关系复杂，就不能认定评分越准，教学选择必然越好。统一标准又会让不同学校受到同样的选择压力，教师能够尝试的方向随之减少。局部试错的材料也更难进入整个系统。\n\n统一教育标准有促进公平、保证共同知识基础的理由。本章着重追问的是，把所有学习经历和改进路径都推向同一尺度，会失去多少多样性。这是一种由搜索逻辑引出的制度批评。判断具体政策时，还要区分基本学习保障与探索空间，不能把允许差异直接等同于放弃对学生的责任。",
+          "layout": "comparison",
+          "entityIds": [
+            "greatness-education",
+            "greatness-picbreeder",
+            "greatness-stepping-stones",
+            "greatness-objective-deception",
+            "greatness-diversity",
+            "greatness-goals"
+          ],
+          "source": {
+            "label": "原书第七章",
+            "startLine": 3008,
+            "endLine": 3573
+          },
+          "questions": [
+            {
+              "id": "greatness-c07-p02-q01",
+              "text": "骷髅头的前身为什么说明评分精度与选择原则需要分别判断？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-picbreeder",
+                "greatness-objective-deception",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c07-p02-q02",
+              "text": "共同知识底线与所有课堂使用相同教学路径，有什么区别？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-education",
+                "greatness-diversity",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c07-p02-q03",
+              "text": "教师想尝试新教学方法时，怎样避免只因短期分数下降就被停止？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-education",
+                "greatness-innovation",
+                "greatness-stepping-stones"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c07-p03",
+          "title": "教师之间交换踏脚石",
+          "markdown": "本章给出一种同行评估设想。教师每年整理作业、测试、教学大纲、教学方法和学生作品，组成一份教学合集，再匿名交给来自不同学校的五位教师。评审者从课程完整性、创新性和学生表现等方面给出分数与书面意见。\n\n不同评审者可以带着不同经验阅读材料。接受评审的教师会看到几种判断，担任评审的教师也会接触别人的课堂方法。一个有意思的项目、一份引出讨论的作业，可以成为下一学年尝试的起点。系统通过传播具体做法，积累新的教学踏脚石。\n\n作者还保留了保障机制：合集的平均评价不及格时，学生下一年可能需要参加标准化测试，检查学习状况。评估仍然存在，只是材料更丰富，评判不再完全依赖同一场考试。教师的自主探索与学生的基本学习要求需要同时被照顾。\n\n这套方案是本章提出的替代组织思路。匿名、五人评审与学习保障并不能自动解决所有教育问题，执行时仍要处理评审负担、评价分歧和资源差异。它真正打开的问题是，教育系统能否让有价值的方法被看见、被继承，并允许教师在此基础上继续变化。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-education",
+            "greatness-stepping-stones",
+            "greatness-diversity",
+            "greatness-innovation",
+            "greatness-goals"
+          ],
+          "source": {
+            "label": "原书第七章",
+            "startLine": 3008,
+            "endLine": 3573
+          },
+          "questions": [
+            {
+              "id": "greatness-c07-p03-q01",
+              "text": "教学合集比单次考试多提供了哪些能继续使用的材料？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-education",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c07-p03-q02",
+              "text": "五位同行的平均分会不会再次压掉少数人支持的新方法？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-education",
+                "greatness-diversity",
+                "greatness-objective-deception"
+              ]
+            },
+            {
+              "id": "greatness-c07-p03-q03",
+              "text": "在一门大学课程里试用教学合集，怎样控制教师与评审的工作量？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-education",
+                "greatness-innovation"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c07-reflect01",
+          "text": "我的学习中，哪些活动增加理解却不会立即增加考试分数？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-education",
+            "greatness-goals",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-c07-reflect02",
+          "text": "教育评价怎样保住基本学习要求，同时让不同教学方法继续发展？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-education",
+            "greatness-diversity",
+            "greatness-innovation"
+          ]
+        },
+        {
+          "id": "greatness-c07-reflect03",
+          "text": "从机器人迷宫推到教育制度，中间还缺哪些关于人的证据？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-education",
+            "greatness-objective-deception",
+            "greatness-artificial-intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c08",
+      "number": 8,
+      "title": "第八章 解开禁锢创新的枷锁",
+      "overview": "科研资助怎样选择尚未发生的发现，是本章的中心问题。作者质疑共识、预期影响和成功概率作为单一尺度，主张为有趣的分歧与探索留下资源。商业和艺术的例子进一步区分遥远愿景、眼前可用的踏脚石及必须满足的条件。",
+      "pages": [
+        {
+          "id": "greatness-c08-p01",
+          "title": "资助意见分歧的项目",
+          "markdown": "科研申请常交给多位同行评分，平均评价高的项目更容易获得资助。这个安排能筛掉明显薄弱的提案，也偏爱大家都能理解和接受的方向。申请者于是有理由把新想法写得稳妥，减少让评审产生分歧的部分。\n\n作者把它与图片孵化器比较。网站允许某个人保留别人不感兴趣的图片，科研评审若每次都先寻求共识，类似的独特分支可能没有机会留下。重要发现的前身尚未显出用途时，少数人的兴趣可能先于普遍认可。\n\n本章因此建议，把部分资源留给评价明显分歧的提案。这里需要分开三种情形：大家认可、有人强烈支持同时有人反对、全员认为很差。分歧可以提示方向仍处于知识边界，全员差评则没有提供同样的积极理由。争议本身也不能代替严谨的研究设计。\n\n这是一项关于资助结构的主张。它试图让多个探索链同时存在，减少所有人被平均分推向一条路线的压力。研究者仍可以合作，团队内部也可以共同解决问题。作者希望减少的是整个领域在开展探索前必须同意同一个方向的要求。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-innovation",
+            "greatness-diversity",
+            "greatness-picbreeder",
+            "greatness-stepping-stones",
+            "greatness-goals"
+          ],
+          "source": {
+            "label": "原书第八章",
+            "startLine": 3574,
+            "endLine": 4159
+          },
+          "questions": [
+            {
+              "id": "greatness-c08-p01-q01",
+              "text": "按平均评价资助科研，为什么会鼓励申请者写出稳妥的提案？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-goals",
+                "greatness-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c08-p01-q02",
+              "text": "意见两极分化与全员差评，在支持探索的理由上有什么不同？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c08-p01-q03",
+              "text": "怎样区分有科学根据的研究分歧与仅靠夸张叙述制造的争议？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-novelty",
+                "greatness-stepping-stones"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c08-p02",
+          "title": "预期影响看漏了什么",
+          "markdown": "科研作为整体可以追求重要发现，但单个项目不必在出发时就显得足以改变社会。群论曾由抽象的数学问题推动，后来进入物理与化学。计算复杂性和单向函数的研究，也成为公钥密码学与线上交易安全的材料。后来的用途，常常超出了最初的问题。\n\n如果资助只奖励可预测的直接影响，尚未连上应用的材料就容易被排除。作者认为，能引出更有趣问题的研究，也值得占据探索空间。眼前影响很小的工作可能被其他领域接走，成为长链条里关键的一步。\n\n本章并未说大型目标项目绝无成功可能。它用登月与更遥远的技术愿景比较，强调已有基础的差别：当必要技术已经积累到可实施范围，明确目标能组织工程工作。没有这些材料时，更多意愿和资金不能自动补出未知的路径。\n\n因此，评价项目需要问清楚处于哪种阶段。已知路线上的工程集成，可以讨论具体进度。寻找新原理的探索，应给意外发现留空间。作者据此提出，资助曾经留下有趣成果的人，也是支持未知探索的一种办法。它容许目的地暂时不明，同时仍能考察已有工作留下了什么。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-innovation",
+            "greatness-stepping-stones",
+            "greatness-serendipity",
+            "greatness-goals",
+            "greatness-search-space"
+          ],
+          "source": {
+            "label": "原书第八章",
+            "startLine": 3574,
+            "endLine": 4159
+          },
+          "questions": [
+            {
+              "id": "greatness-c08-p02-q01",
+              "text": "纯数学怎样说明项目的初始用途与后来的社会影响可能分离？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-stepping-stones",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c08-p02-q02",
+              "text": "登月工程与尚缺基础原理的技术愿景，适合采用相同进度评估吗？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-stepping-stones",
+                "greatness-innovation"
+              ]
+            },
+            {
+              "id": "greatness-c08-p02-q03",
+              "text": "支持有过有趣发现的人时，怎样兼顾新研究者获得机会？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-diversity"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "greatness-c08-p03",
+          "title": "商业与艺术的近处",
+          "markdown": "本章比较两家设想中的电视公司。一家许诺完全沉浸的全息电视，另一家利用已有显示技术改善画质。前一家还缺许多必要发现，后一家的下一步较清楚。愿景听起来更宏大，并不自动让它成为更可实施的投入。\n\n| 工作情形 | 眼前要判断什么 | 需要保留什么 |\n| --- | --- | --- |\n| 商业创新 | 近处的技术能否形成产品 | 可实现的下一块踏脚石 |\n| 科学探索 | 附近的问题是否值得追问 | 未知用途的发现与分支 |\n| 艺术设计 | 作品怎样继续发展 | 兴趣与功能条件内的变化 |\n\n商业创新也会发现意外连接。作者举电动跑车为例，消费电子积累的电池技术，让一种新产品进入了可实现范围。创业者需要识别和理解眼前可用的材料，随后才能把它们组织成方案。\n\n艺术里的探索更容许目的暂时不明。敲打金属、让它生锈，可能引出新的材料感和作品。但设计还要满足具体条件，建筑要防雨，地基要稳固。条件划定可工作的范围，范围内仍可以有许多不同方向。作者借此提醒，保留探索不等于取消功能要求，明确任务也不需要替所有创作提前指定最终样子。",
+          "layout": "comparison",
+          "entityIds": [
+            "greatness-innovation",
+            "greatness-stepping-stones",
+            "greatness-goals",
+            "greatness-search-space",
+            "greatness-serendipity",
+            "greatness-diversity"
+          ],
+          "source": {
+            "label": "原书第八章",
+            "startLine": 3574,
+            "endLine": 4159
+          },
+          "questions": [
+            {
+              "id": "greatness-c08-p03-q01",
+              "text": "已有电池技术怎样使电动跑车成为可以实施的下一步？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-innovation",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c08-p03-q02",
+              "text": "建筑的防雨与稳定要求，和规定唯一设计样式有什么不同？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-search-space",
+                "greatness-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c08-p03-q03",
+              "text": "机器人创业方案怎样说明眼前可用的技术，而不只描述遥远愿景？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-stepping-stones",
+                "greatness-goals"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c08-reflect01",
+          "text": "有限研究经费怎样兼顾已知方向的推进与分歧较大的探索？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-innovation",
+            "greatness-diversity",
+            "greatness-goals"
+          ]
+        },
+        {
+          "id": "greatness-c08-reflect02",
+          "text": "一项暂时看不到应用的研究，应留下什么成果供其他领域接续？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-innovation",
+            "greatness-serendipity"
+          ]
+        },
+        {
+          "id": "greatness-c08-reflect03",
+          "text": "我的项目有哪些必须满足的条件，又有哪些终点仍可保持开放？",
+          "kind": "比较",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-search-space",
+            "greatness-innovation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c09",
+      "number": 9,
+      "title": "第九章 彻底告别对目标的幻想",
+      "overview": "前八章留下一个生活问题：没有远大目标，该怎样决定下一步？本章先保留图纸、食谱等路线清楚的目标，再把未知领域交给兴趣、经验和当下可用的能力。判断一个发现的价值，要看它能否打开新的探索，而不用急着证明它通往哪一个终点。个人的转向与社会的分歧，也因此有了不同的意义。",
+      "pages": [
+        {
+          "id": "greatness-c09-p01",
+          "title": "哪些目标仍然好用",
+          "markdown": "房屋按图纸施工，程序满足既定规范，晚餐照着食谱做。这些工作可以把目标写得很清楚，因为手里已有办法把要求转成行动。第九章特意保留了这类目标，讨论的焦点落在路线尚未出现的探索上。\n\n如果想发现一种新理论，或创造一种从未见过的机器，困难就变了。你能描述期待的结果，却不知道下一步需要哪种知识。此时把每次尝试都按“更像最终成品了吗”来打分，可能提前丢掉必要的踏脚石。远大愿望可以存在，问题在于它是否被拿来裁剪每一步。\n\n| 手里的任务 | 有用的判断 |\n| --- | --- |\n| 按已知规范完成产品 | 是否达到明确要求 |\n| 探索陌生的技术路线 | 是否获得新的能力和线索 |\n| 把发现接入实际产品 | 是否满足使用条件 |\n\n同一个项目可以在这些状态之间切换。认识到路线已成熟后，目标会重新变得有用。书里的建议要求你判断自己站在哪里，无法靠一句“放弃目标”替你做完判断。",
+          "layout": "comparison",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-stepping-stones",
+            "greatness-objective-deception"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c09-p01-q01",
+              "text": "机械设计中，满足图纸要求和探索新机构各应怎样评价进展？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c09-p01-q02",
+              "text": "怎样识别一个远大目标已经进入可执行的范围？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-goals",
+                "greatness-search-space"
+              ]
+            },
+            {
+              "id": "greatness-c09-p01-q03",
+              "text": "如果目标可以随发现调整，还会出现本书说的目标欺骗吗？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-objective-deception",
+                "greatness-goals"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 9 章",
+            "startLine": 4160,
+            "endLine": 4243
+          }
+        },
+        {
+          "id": "greatness-c09-p02",
+          "title": "兴趣需要知识作底",
+          "markdown": "沿着一条未知河流找到古物，既有偶然，也有主动探索的功劳。出发时没有指定要找到哪件文物，沿途仍需辨认线索、检查地形、投入时间。寻宝者放下的是对最后收获的预言，工作本身并没有消失。\n\n新奇性搜索让机器人尝试不同的行为，人则能利用已有的经验判断什么值得继续。你觉得某个问题有趣，可能因为它与熟悉的难题相连，也可能因为一个看似简单的变化带来了新的能力。这个感觉包含知识和经验，不能直接等同于追逐刺激。\n\n本章借《我的世界》说明这种就近寻找的过程。马库斯·泊松把已有游戏中的建造、模拟与方块世界等想法重新组合，做出一个可实际游玩的新方向。作者看重的是当时已经能够迈出的那一步。由成功回看，组合关系显得清楚，当时的结果却无法提前保证。\n\n个人也可以这样选择：先做一个能摸到结果的小探索，看看它长出什么。兴趣会改变，死胡同也会出现。保留作品、技能与发现的联系，才有东西支持下一次转向。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-serendipity",
+            "greatness-novelty",
+            "greatness-stepping-stones",
+            "greatness-innovation"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c09-p02-q01",
+              "text": "怎样区分有探索价值的兴趣和只提供即时刺激的兴趣？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-serendipity"
+              ]
+            },
+            {
+              "id": "greatness-c09-p02-q02",
+              "text": "《我的世界》的组合创新与预先规划一款爆款游戏有什么差别？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c09-p02-q03",
+              "text": "一个课程项目偏离最初题目后，怎样判断新路线值得继续？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-goals"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 9 章",
+            "startLine": 4244,
+            "endLine": 4420
+          }
+        },
+        {
+          "id": "greatness-c09-p03",
+          "title": "留住分支的价值",
+          "markdown": "一块踏脚石的价值，可以表现为它让后来的项目变得可做。写过的小工具、收集过的异常数据、在另一门课里学到的方法，都可能让你问出原来问不出的新问题。仅看当前成品够不够漂亮，很容易漏掉这种作用。\n\n把这点放到整个社会，探索便需要许多方向同时存在。在 Picbreeder 上，假如所有人都只培育蝴蝶，其他图像分支会迅速消失。偏偏后来通向蝴蝶的路径，也可能经过一张眼下毫不像蝴蝶的图。不同用户保留不同偏好，才使共享的图像库拥有更大的后续空间。\n\n作者因此主张给分歧留位置。别人无法看见某条路线的意义，并不足以说明那条路线毫无价值。它也可能尚未连接到大家熟悉的问题，或者最终带来一种完全不同的收获。\n\n这种判断要面对资源有限的现实。一个方向若始终没有留下可复用的东西，也没有打开新问题，就有理由重新审视投入。把“还能接出什么”作为一项评价，能让偏离计划的工作获得解释，同时也让探索有可讨论的依据。",
+          "layout": "concept",
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-diversity",
+            "greatness-picbreeder",
+            "greatness-innovation"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c09-p03-q01",
+              "text": "怎样衡量一个项目产生后续项目的能力，而不重新制造单一指标？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c09-p03-q02",
+              "text": "多人探索同一个问题时，为什么保持分歧可能扩大共同收获？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-diversity",
+                "greatness-search-space"
+              ]
+            },
+            {
+              "id": "greatness-c09-p03-q03",
+              "text": "资金有限时，该在保留新方向和停止死胡同之间怎样取舍？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-stepping-stones"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 9 章",
+            "startLine": 4421,
+            "endLine": 4511
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c09-reflect01",
+          "text": "你目前哪个目标已有清楚路线，哪个目标仍缺少关键踏脚石？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-c09-reflect02",
+          "text": "过去一次看似绕路的经历，具体留下了什么可复用的能力？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-serendipity",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-c09-reflect03",
+          "text": "兴趣能成为选择的依据，但谁应承担探索失败的代价？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-innovation",
+            "greatness-diversity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c10",
+      "number": 10,
+      "title": "第十章 案例研究1：重新诠释自然进化",
+      "overview": "自然进化没有预先指定人类这个终点，仍产生了丰富的生命形态。本章把生存和繁殖视为约束，关注新生态位、遗传漂变和旧结构的新用途。作者借这一视角设计新奇性搜索的变体。理解这次抽象的用途，也要区分真实生物机制、假想行星和计算机算法各自在解释什么。",
+      "pages": [
+        {
+          "id": "greatness-c10-p01",
+          "title": "生命没有统一终点",
+          "markdown": "复制会保留已有的生命特征，变异又使后代略有不同。自然选择改变不同变体留下后代的机会。如此代代延续，能产生复杂的适应，却无须预先知道将来会出现什么物种。\n\n把人类摆到进化树最高处，会误读这棵树。分支各自在不同环境中延续，人类并非所有生命共同奔向的终点。繁殖数量也不能把细菌、猫和人排进一张全局成绩表。生物学中的适合度依赖环境与比较条件，单看谁产仔多，解释不了整个生命世界。\n\n本章选择另一种抽象：把能否继续生存和繁殖看作留下谱系的约束，然后询问满足约束的不同生活方式如何出现。作者关心的是生命的创造性，所以把视线移向分支的积累。\n\n| 问法 | 看见的内容 |\n| --- | --- |\n| 谁在某个环境中更适应 | 变体之间的选择差异 |\n| 新生活方式怎样出现 | 新结构、新生态位与历史机会 |\n\n这两种问题可以同时研究。承认自然选择的作用，也可以继续问：哪些变化打开了以前不存在的可能性？选择对已有差异的筛选，与差异如何产生，分别需要解释。",
+          "layout": "comparison",
+          "entityIds": [
+            "greatness-natural-evolution",
+            "greatness-diversity",
+            "greatness-search-space"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c10-p01-q01",
+              "text": "为什么不能用后代数量给细菌、猫和人排一个进化总榜？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-natural-evolution"
+              ]
+            },
+            {
+              "id": "greatness-c10-p01-q02",
+              "text": "把繁殖看作最低约束，与研究自然选择的适合度有什么差别？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-goals"
+              ]
+            },
+            {
+              "id": "greatness-c10-p01-q03",
+              "text": "一个搜索算法只要求候选方案存活，会失去哪类生物学信息？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-search-space"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 10 章",
+            "startLine": 4512,
+            "endLine": 4808
+          }
+        },
+        {
+          "id": "greatness-c10-p02",
+          "title": "新用途打开新生态位",
+          "markdown": "一种生物开始利用以前吃不了的食物，就可能进入新的生态位，减少与原有对手的直接竞争。新生态位还能支持其他生态位：植物提供食物，食草动物留下排泄物，排泄物又成了某些昆虫的资源。后来的生活方式依靠前面已经存在的条件。\n\n```mermaid\nflowchart LR\n  A[植物资源] --> B[食草动物]\n  B --> C[排泄物]\n  C --> D[利用粪便的昆虫]\n```\n\n机会还来自旧结构的新用途。书里以羽毛为例：一种原来承担保温等作用的结构，可以在后来的演化中参与飞行。作者用“扩展适应”描述这种功能转用。一个结构能够成为踏脚石，并不要求它一开始就朝最后的用途发展。\n\n遗传漂变则说明，遗传变化的命运也会受到随机抽样影响。作者特别关注那些没有立即带来明显优势或劣势的变化，因为它们也可能留存并与后来的变化连接。漂变与选择各有适用的解释，不能把所有变化都归给同一种力量。\n\n这些机制让生命史拥有许多支路。研究哪条支路后来打开了新可能性，要看当时的环境和结构，单凭今天的成果倒推“它早就为了这个用途”会漏掉历史。",
+          "layout": "relations",
+          "entityIds": [
+            "greatness-natural-evolution",
+            "greatness-stepping-stones",
+            "greatness-serendipity",
+            "greatness-diversity"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c10-p02-q01",
+              "text": "羽毛的功能转用，为什么与 Picbreeder 中眼睛变成车轮相似？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-picbreeder",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c10-p02-q02",
+              "text": "新生态位如何为别的物种继续创造生态位？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c10-p02-q03",
+              "text": "遗传漂变和自然选择各怎样改变一个变体留下来的机会？",
+              "kind": "背景",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-serendipity"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 10 章",
+            "startLine": 4851,
+            "endLine": 4950
+          }
+        },
+        {
+          "id": "greatness-c10-p03",
+          "title": "把解释变成搜索方法",
+          "markdown": "假想的“和谐之星”能容纳每一种变体，连无法自行繁殖的生物也会获得帮助。作者用它追问：如果筛选不再剪掉分支，哪些可能性会多出来？这个行星刻意移除了有限资源的难题，用来分离筛选与创造两个作用。\n\n回到算法，作者设计了最低标准新奇性搜索。候选行为先满足一个最低条件，满足之后便按新奇程度继续探索。书中报告，这种变体解决了原先新奇性搜索也遇到困难的迷宫。最低门槛限制了明显无效的区域，又让多种不同路径有机会保留。\n\n另一种变体加入局部竞争。某个候选只与邻近的行为比较，不需要参加所有方案共同争一个冠军的比赛。这样可以在不同区域保留表现较好的代表，兼顾局部改进与整体多样性。书中展示的虚拟生物实验属于这种计算机探索。\n\n自然界里的选择和竞争远比门槛判断复杂。这次抽象的成果，是给算法提供可测试的新结构。它让我们比较两种资源分配：把资源集中给统一排行榜的领先者，或在许多不同区域维持能继续发展的代表。",
+          "layout": "concept",
+          "entityIds": [
+            "greatness-natural-evolution",
+            "greatness-novelty",
+            "greatness-diversity",
+            "greatness-quality-diversity"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c10-p03-q01",
+              "text": "最低标准新奇性搜索怎样避免把资源花在始终无效的行为上？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-search-space"
+              ]
+            },
+            {
+              "id": "greatness-c10-p03-q02",
+              "text": "局部竞争为何比全局冠军制更容易保留不同的行为？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-diversity",
+                "greatness-quality-diversity"
+              ]
+            },
+            {
+              "id": "greatness-c10-p03-q03",
+              "text": "“和谐之星”移除了哪些现实条件，这会怎样限制它的解释？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-natural-evolution",
+                "greatness-diversity"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 10 章",
+            "startLine": 4809,
+            "endLine": 5259
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c10-reflect01",
+          "text": "机器人探索中，哪些条件该设为硬门槛，哪些表现该保留为局部比较？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-novelty",
+            "greatness-quality-diversity"
+          ]
+        },
+        {
+          "id": "greatness-c10-reflect02",
+          "text": "一个结构今天的新用途，能否说明它最初就是为此形成的？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-natural-evolution",
+            "greatness-stepping-stones"
+          ]
+        },
+        {
+          "id": "greatness-c10-reflect03",
+          "text": "生物进化的抽象解释转成算法后，应该用什么实验检验它的价值？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-natural-evolution",
+            "greatness-novelty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greatness-c11",
+      "number": 11,
+      "title": "第十一章 案例研究2：目标和人工智能领域的探索",
+      "overview": "人工智能研究既设计搜索算法，也在搜索新的算法。本章把这种嵌套称为元搜索，追问基准成绩和理论保证能否单独决定未来的路线。当前问题的解法选择，与新思想的探索有不同需求。作者最后设想一种评审方式，让专家具体讨论新方法为何能成为后续工作的踏脚石。",
+      "pages": [
+        {
+          "id": "greatness-c11-p01",
+          "title": "选工具与找新路线",
+          "markdown": "机器学习算法搜索参数，研究者又在搜索更好的算法。书里把第二层叫作元搜索。一个算法在眼前任务上表现出色，能帮人选工具，但它是否能继续衍生新方法，还需要另一层判断。\n\n本章虚构了“老靠谱”和“超自然”两种算法。后者很新颖，在标准任务上却差了百分之五。如果因此拒绝它，其他研究者可能连这种方法都见不到，更无法尝试它附近尚未探索的变化。眼下的差距变成了限制未来路线的门槛。\n\n| 要做的事 | 比较所回答的问题 |\n| --- | --- |\n| 解决当前部署需求 | 哪种现有方法更适合实际条件 |\n| 探索新算法 | 这个构造打开了哪些新问题 |\n\n本章以发条玩具和人形机器人赛跑说明差别。玩具更快，并不能决定人形机器人的研究价值。它可能具有尚未成熟的适应能力，值得在相应任务中研究。\n\n基准测试仍能揭示当前能力和代价。问题发生在评审只问有没有赢，却没有讨论新方法提供了什么不同的结构。部署可优先选择可靠方案，探索可以同时给尚不占优的路线留位置。",
+          "layout": "comparison",
+          "entityIds": [
+            "greatness-artificial-intelligence",
+            "greatness-search-space",
+            "greatness-stepping-stones",
+            "greatness-objective-deception"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c11-p01-q01",
+              "text": "搜索控制参数和搜索新的控制算法，分别处在哪一层？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-artificial-intelligence",
+                "greatness-search-space"
+              ]
+            },
+            {
+              "id": "greatness-c11-p01-q02",
+              "text": "一个新算法差百分之五，应怎样分别判断部署价值和研究价值？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-artificial-intelligence",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c11-p01-q03",
+              "text": "如果不以赢过基准为必要条件，怎样防止研究只剩新颖的包装？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-novelty",
+                "greatness-artificial-intelligence"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 11 章",
+            "startLine": 5260,
+            "endLine": 5744
+          }
+        },
+        {
+          "id": "greatness-c11-p02",
+          "title": "定理保证了哪一层",
+          "markdown": "假设一个定理证明：某算法在指定条件下能较快得到可接受的结果。这个保证有明确意义，使用者可以核对条件，决定方法是否适合自己的任务。作者质疑的焦点，是另一个接在后面的推断：有更多保证的算法，一定更值得沿着它探索未来。\n\n这一步已经越出了原来的定理。关于当前算法的证明，通常没有同时证明它会催生更有潜力的新算法。后续变化甚至可能打破原来的假设，走入另一个需要重新研究的区域。\n\n因此，“定理派启发式方法”这个名称包含两个层次。定理在它的前提内提供保证，把有保证的算法优先选作下一块踏脚石，却仍是一种选择路线的经验判断。可靠的数学结论，不会自动替整门学科画好未来地图。\n\n如果所有研究都要求继承同一组假设，探索会在这组假设内部越来越细，也可能让打破假设的新方向长期得不到关注。书里的建议是同时讨论证明本身的内容与新构造的潜力。理论工作可以成为重要发现，但“有证明”也需要说明证明了什么，以及这一结果为什么能帮助后续研究。",
+          "layout": "concept",
+          "entityIds": [
+            "greatness-artificial-intelligence",
+            "greatness-stepping-stones",
+            "greatness-goals",
+            "greatness-search-space"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c11-p02-q01",
+              "text": "关于单个算法的收敛保证，为什么不能直接保证它会带来更好的后续算法？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-artificial-intelligence",
+                "greatness-stepping-stones"
+              ]
+            },
+            {
+              "id": "greatness-c11-p02-q02",
+              "text": "控制方法改变原定理的假设后，原来的保证还能怎样使用？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-artificial-intelligence"
+              ]
+            },
+            {
+              "id": "greatness-c11-p02-q03",
+              "text": "在资源有限时，优先研究理论较完整的方法会有哪些收益和机会成本？",
+              "kind": "比较",
+              "entityIds": [
+                "greatness-search-space",
+                "greatness-stepping-stones"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 11 章",
+            "startLine": 5745,
+            "endLine": 5894
+          }
+        },
+        {
+          "id": "greatness-c11-p03",
+          "title": "评审需要讨论思想",
+          "markdown": "同行评审决定哪些想法能进入共同的知识库。编辑邀请专家检查论文，作者修改，再接受或被拒。这个过程既帮助纠错，也会改变整个学科能看到的踏脚石。评审标准因而会影响后续探索。\n\n书里设想一本《人工智能发现期刊》。作者可以报告实验和定理，但审稿人不能仅用成绩较差或缺少理论保证来否定论文。他们必须解释新想法的核心，讨论它是否优雅、是否改变已有问题的问法、能否引出别的算法。\n\n这是一个迫使专家重新判断的思想实验。分数容易比较，理解一种陌生构造更费力。把评语写成“你还没赢”，可能掩盖评审并未说明为何这条路线没有继续研究的价值。\n\n面向实际研究，可以把问题问得更具体：新方法保留了哪些旧能力？增加了什么操作？哪里出现了反常结果？别人拿到它后能做哪一种原来做不了的实验？这样讨论，数据仍然有用，数据与主张的联系也必须说清。\n\n本书初版发表于二〇一五年，章中对人工智能阶段的描述属于当时背景。今天读它，可继续用这组问题检查研究选择，具体方法的能力则应按当前任务来比较。",
+          "layout": "prose",
+          "entityIds": [
+            "greatness-artificial-intelligence",
+            "greatness-innovation",
+            "greatness-stepping-stones",
+            "greatness-diversity"
+          ],
+          "questions": [
+            {
+              "id": "greatness-c11-p03-q01",
+              "text": "《人工智能发现期刊》的评审设想最想改变哪一种判断习惯？",
+              "kind": "理解",
+              "entityIds": [
+                "greatness-artificial-intelligence",
+                "greatness-innovation"
+              ]
+            },
+            {
+              "id": "greatness-c11-p03-q02",
+              "text": "怎样为一个尚未赢过基准的新方法写出有内容的研究价值说明？",
+              "kind": "应用",
+              "entityIds": [
+                "greatness-stepping-stones",
+                "greatness-artificial-intelligence"
+              ]
+            },
+            {
+              "id": "greatness-c11-p03-q03",
+              "text": "只谈思想潜力的评审，可能产生哪些新的偏见与纠错难题？",
+              "kind": "反驳",
+              "entityIds": [
+                "greatness-innovation",
+                "greatness-diversity"
+              ]
+            }
+          ],
+          "source": {
+            "label": "《为什么伟大不能被计划》第 11 章",
+            "startLine": 5895,
+            "endLine": 6102
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "greatness-c11-reflect01",
+          "text": "你正在用的评分指标，是判断当前工具，还是在替未来路线做决定？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-goals",
+            "greatness-artificial-intelligence"
+          ]
+        },
+        {
+          "id": "greatness-c11-reflect02",
+          "text": "一个方法让你想到新的方法，这种价值应怎样公开说明和检查？",
+          "kind": "应用",
+          "entityIds": [
+            "greatness-stepping-stones",
+            "greatness-innovation"
+          ]
+        },
+        {
+          "id": "greatness-c11-reflect03",
+          "text": "怎样同时保护科学的纠错能力与新思想的生存空间？",
+          "kind": "反驳",
+          "entityIds": [
+            "greatness-innovation",
+            "greatness-diversity"
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "greatness-goals",
+      "name": "目标",
+      "kind": "concept",
+      "description": "用于指定想要实现的结果。路线清楚时可指导执行，未知探索中还需检查它会筛掉哪些路径。",
+      "aliases": [
+        "目标导向"
+      ],
+      "question": "目标在什么条件下能可靠地指导下一步？"
+    },
+    {
+      "id": "greatness-novelty",
+      "name": "新奇性搜索",
+      "kind": "concept",
+      "description": "按行为与以往行为的差异选择候选，探索尚未覆盖的区域，不直接按距离最终任务有多近来筛选。",
+      "aliases": [
+        "新奇性",
+        "新奇"
+      ],
+      "question": "新奇性怎样定义，才会带来有用的行为差异？"
+    },
+    {
+      "id": "greatness-stepping-stones",
+      "name": "踏脚石",
+      "kind": "concept",
+      "description": "让后续发现成为可能的中间成果。它可能与最后的成果外观不同，价值体现在可接出的能力和路径。",
+      "aliases": [
+        "踏脚石原则",
+        "踏脚石链"
+      ],
+      "question": "怎样判断一个当前结果能成为后续工作的踏脚石？"
+    },
+    {
+      "id": "greatness-picbreeder",
+      "name": "Picbreeder",
+      "kind": "concept",
+      "description": "书中的交互式图像演化系统。用户挑选感兴趣的图像、产生变化，也能接着他人保存的图像继续探索。",
+      "aliases": [
+        "图片孵化器",
+        "图片孵化器网站"
+      ],
+      "question": "共享图像分支为什么能让单个人找不到的图像出现？"
+    },
+    {
+      "id": "greatness-objective-deception",
+      "name": "目标欺骗",
+      "kind": "concept",
+      "description": "当前更接近目标的方案未必通向最终结果，必要的中间步骤反而可能暂时得分更差。",
+      "aliases": [
+        "目标的欺骗性",
+        "欺骗性",
+        "失灵的指南针"
+      ],
+      "question": "目标得分上升，为什么可能把搜索带进死胡同？"
+    },
+    {
+      "id": "greatness-education",
+      "name": "教育",
+      "kind": "concept",
+      "description": "本书关注统一标准如何影响教师创新、学生兴趣和可保留的学习路径，并提出更重视专业判断的设想。",
+      "aliases": [
+        "标准化考试",
+        "教育评价"
+      ],
+      "question": "怎样保留共同的学习基础，又不给每个学生规定同一条路径？"
+    },
+    {
+      "id": "greatness-innovation",
+      "name": "创新",
+      "kind": "concept",
+      "description": "借已有知识、工具和发现打开新可能性。本书讨论研究资助和评审怎样影响新路线能否留下来。",
+      "aliases": [
+        "科研创新",
+        "科研资助",
+        "同行评审"
+      ],
+      "question": "哪些评价会帮助新想法生长，哪些会过早剪掉分支？"
+    },
+    {
+      "id": "greatness-natural-evolution",
+      "name": "自然进化",
+      "kind": "concept",
+      "description": "遗传、变异、选择和漂变等机制共同改变生物谱系。第十章从开放探索的角度讨论生命多样性。",
+      "aliases": [
+        "进化",
+        "自然选择",
+        "生态位",
+        "扩展适应",
+        "遗传漂变"
+      ],
+      "question": "进化的多样性怎样帮助我们理解开放式搜索？"
+    },
+    {
+      "id": "greatness-artificial-intelligence",
+      "name": "人工智能",
+      "kind": "concept",
+      "description": "本书由人工智能搜索实验出发，第十一章进一步讨论研究者如何选择值得继续探索的算法。",
+      "aliases": [
+        "AI",
+        "元搜索",
+        "人工智能研究"
+      ],
+      "question": "选择当前最好用的算法，与发现未来的新算法有什么差别？"
+    },
+    {
+      "id": "greatness-search-space",
+      "name": "搜索空间",
+      "kind": "concept",
+      "description": "所有候选方案组成的空间。一次修改能到达哪些邻近方案，决定探索路径有哪些可能。",
+      "aliases": [
+        "可能性空间",
+        "大房间"
+      ],
+      "question": "搜索空间的邻接关系怎样影响目标是否会误导探索？"
+    },
+    {
+      "id": "greatness-serendipity",
+      "name": "意外发现",
+      "kind": "concept",
+      "description": "探索中出现的未预定收获，能否认出并利用它，依赖已有知识、经验和持续行动。",
+      "aliases": [
+        "偶然性",
+        "偶然发现",
+        "趣味性"
+      ],
+      "question": "意外出现之后，什么使人有能力看出它的价值？"
+    },
+    {
+      "id": "greatness-diversity",
+      "name": "多样性",
+      "kind": "concept",
+      "description": "同时保留不同的候选、偏好与路径，使后来探索拥有更多可接入的中间成果。",
+      "aliases": [
+        "分歧",
+        "局部竞争"
+      ],
+      "question": "有限资源下，应怎样保留真正不同的探索方向？"
+    },
+    {
+      "id": "greatness-quality-diversity",
+      "name": "质量多样性",
+      "kind": "concept",
+      "description": "在不同的行为区域保留较好的代表，兼顾局部改进与整体多样性。可与书中的局部竞争新奇性搜索比较。",
+      "aliases": [
+        "最低标准新奇性搜索",
+        "局部竞争新奇性搜索"
+      ],
+      "question": "保持不同的好方案，与只保留一个全局最优有什么差别？"
+    },
+    {
+      "id": "greatness-reinforcement-learning",
+      "name": "强化学习",
+      "kind": "concept",
+      "description": "智能体通过与环境交互学习行为，通常使用奖励反馈。可用来讨论任务奖励和行为探索的关系。",
+      "aliases": [
+        "奖励函数"
+      ],
+      "question": "奖励函数怎样影响机器人愿意尝试哪些行为？"
+    },
+    {
+      "id": "greatness-neural-networks",
+      "name": "神经网络",
+      "kind": "concept",
+      "description": "由连接与参数构成的计算模型，书中的图像编码与机器人控制实验利用了可演化的网络结构。",
+      "aliases": [
+        "神经进化",
+        "CPPN"
+      ],
+      "question": "网络的表示方式怎样影响哪些变化容易被搜索到？"
+    },
+    {
+      "id": "greatness-book",
+      "name": "为什么伟大不能被计划",
+      "kind": "book",
+      "description": "肯尼斯·斯坦利与乔尔·雷曼合著，借新奇性搜索讨论未知探索、创新与目标评价。英文初版发表于二〇一五年。",
+      "bookId": "greatness",
+      "aliases": [
+        "目标神话"
+      ],
+      "question": "本书反对目标的论证，在哪些工作里适用？"
+    },
+    {
+      "id": "greatness-stanley",
+      "name": "肯尼斯·斯坦利",
+      "kind": "author",
+      "description": "人工智能研究者，研究神经进化、开放式探索与新奇性搜索。",
+      "authorId": "stanley"
+    },
+    {
+      "id": "greatness-lehman",
+      "name": "乔尔·雷曼",
+      "kind": "author",
+      "description": "人工智能研究者，与斯坦利共同提出新奇性搜索，合著本书。",
+      "authorId": "lehman"
+    },
+    {
+      "id": "greatness-arendt",
+      "name": "汉娜·阿伦特",
+      "kind": "author",
+      "description": "政治思想家，著有《人的境况》，研究行动、公共世界与政治判断。",
+      "authorId": "arendt"
+    },
+    {
+      "id": "greatness-marquez",
+      "name": "加西亚·马尔克斯",
+      "kind": "author",
+      "description": "哥伦比亚作家，著有《百年孤独》，一九八二年获诺贝尔文学奖。",
+      "authorId": "marquez"
+    },
+    {
+      "id": "greatness-borges",
+      "name": "豪尔赫·路易斯·博尔赫斯",
+      "kind": "author",
+      "description": "阿根廷作家，以迷宫、无限、图书馆与虚构文本为小说主题。",
+      "authorId": "borges"
+    },
+    {
+      "id": "greatness-nietzsche",
+      "name": "弗里德里希·尼采",
+      "kind": "author",
+      "description": "德国哲学家，研究价值、道德与文化，著有《查拉图斯特拉如是说》。",
+      "authorId": "nietzsche"
+    },
+    {
+      "id": "greatness-montaigne",
+      "name": "米歇尔·德·蒙田",
+      "kind": "author",
+      "description": "法国作家与思想家，以《随笔集》探索经验、判断和自我。",
+      "authorId": "montaigne"
+    },
+    {
+      "id": "greatness-wangweigan",
+      "name": "万维钢",
+      "kind": "author",
+      "description": "科学作家，撰写本书中文版推荐序。",
+      "authorId": "wangweigan"
+    },
+    {
+      "id": "greatness-papadimitriou",
+      "name": "克里斯托斯·帕帕迪米特里乌",
+      "kind": "author",
+      "description": "理论计算机科学家，《Logicomix》合著者，出版社收录其对本书的评价。",
+      "authorId": "papadimitriou"
+    },
+    {
+      "id": "greatness-bongard",
+      "name": "乔什·邦加德",
+      "kind": "author",
+      "description": "研究进化机器人与具身智能的科学家，出版社收录其对本书的评价。",
+      "authorId": "bongard"
+    }
+  ],
+  "comments": [
+    {
+      "id": "greatness-comment01",
+      "authorId": "stanley",
+      "body": "只保存分数最高的机器人，可能把第一次敢踢腿的那个删掉。先看它学会了什么，再看它今天摔得多难看。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "greatness-comment02",
+      "authorId": "lehman",
+      "body": "给“新奇”打分前，我想先问：你到底在比较轨迹、姿态，还是一句听起来很新的自我介绍？行为描述选错了，求新也会原地绕圈。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "greatness-comment03",
+      "authorId": "arendt",
+      "body": "行动常常开启自己无法控制的后果。若把每一步都交给预定结果裁决，还能给新的开端留下多少空间？公共判断也不能只剩计分。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "greatness-comment04",
+      "authorId": "borges",
+      "body": "这座迷宫最狡猾的地方，是每堵墙上都写着“离出口又近了一步”。我建议先保存地图，尤其保存那些走起来很不体面的弯路。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "greatness-comment05",
+      "authorId": "nietzsche",
+      "body": "你把目标放下了，却还等着别人给你的兴趣打分。先检查一下，究竟是谁规定了什么值得追求，谁又从这张榜单里得到权力。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    },
+    {
+      "id": "greatness-comment06",
+      "authorId": "marquez",
+      "body": "如果马孔多先开会确定了百年后的结局，每个人恐怕都会删掉眼前的小事。可后来改变故事的，常常就是那件没人列入计划的小事。",
+      "constructive": 0,
+      "mischief": 0,
+      "likes": 0,
+      "ai": true
+    }
+  ]
+}
