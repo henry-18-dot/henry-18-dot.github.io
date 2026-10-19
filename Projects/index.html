@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f5fa">
+  <meta name="description" content="作品：TokTok 刷书、mentor 学习工作台、听记录音笔记、塔罗牌，各自的在线入口与源代码。">
+  <title>作品 · 做出来的东西</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow">栏目 · 作品 · 2026-10-19</p>
+      <h1>做出来的东西</h1>
+      <p class="lead">四个自己先用起来的小工具。能在线打开的可以直接点进去；只有源码的，写清了用什么做的、跑到哪一步。</p>
+      <div class="hero-actions">
+        <a class="download-link" href="../index.html">回到首页</a>
+        <p class="online-note">在线入口都能直接访问；源码都在 GitHub 上。</p>
+      </div>
+    </div>
+  </header>
+  <main class="page-shell">
+    <section class="work-grid" aria-label="作品列表">
+
+      <article class="work-card">
+        <p class="work-kind">阅读工具</p>
+        <h2>TokTok · 刷书</h2>
+        <p class="work-lead">像刷短视频一样刷书：点开一页，往下就是下一页。公开阅读；实时 AI 走个人访问码，不对所有人开放。</p>
+        <p class="work-stack">React + TypeScript；AI 后端单独部署</p>
+        <p class="work-links">
+          <a class="work-link primary" href="../TokTok/">在线使用</a>
+          <a class="work-link" href="https://github.com/henry-18-dot/henry-18-dot.github.io/tree/main/TokTok-source">源代码</a>
+        </p>
+      </article>
+
+      <article class="work-card">
+        <p class="work-kind">学习工作台</p>
+        <h2>mentor</h2>
+        <p class="work-lead">对标 NotebookLM 的本地优先学习工作台：回答是可核对的界面描述，每个结论都能跳回原文那一行。</p>
+        <p class="work-stack">本地优先 · RAG 检索；目前只有源码</p>
+        <p class="work-links">
+          <a class="work-link" href="https://github.com/henry-18-dot/mentor">源代码</a>
+        </p>
+      </article>
+
+      <article class="work-card">
+        <p class="work-kind">录音笔记</p>
+        <h2>听记</h2>
+        <p class="work-lead">上传课堂录音，云端转写，再用大模型整理成可下载的笔记。网页确认任务进队列后可以关掉电脑。</p>
+        <p class="work-stack">火山引擎 ASR + DeepSeek；服务跑在云服务器上</p>
+        <p class="work-links">
+          <a class="work-link primary" href="https://tingji-henry.vercel.app">在线使用</a>
+        </p>
+      </article>
+
+      <article class="work-card">
+        <p class="work-kind">小应用</p>
+        <h2>塔罗牌</h2>
+        <p class="work-lead">单张、三牌阵、凯尔特十字三种牌阵；翻开牌之后，由 AI 塔罗师接着解读。</p>
+        <p class="work-stack">纯前端页面；牌面与释义随页面一起加载</p>
+        <p class="work-links">
+          <a class="work-link primary" href="https://tarot-tawny-phi.vercel.app">在线使用</a>
+          <a class="work-link" href="https://github.com/henry-18-dot/tarot">源代码</a>
+        </p>
+      </article>
+
+    </section>
+    <footer class="page-footer">内容按 2026-10-19 的实际状态整理；链接失效时以 GitHub 仓库里的最新代码为准。<a href="#top">回到顶部 ↑</a></footer>
+  </main>
+</body>
+</html>
