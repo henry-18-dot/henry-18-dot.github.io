@@ -80,6 +80,24 @@
       font-size: 12.5px;
       line-height: 1.7;
     }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 0; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 7px 15px;
+      border: 1px solid #b9ab97;
+      border-radius: 9px;
+      background: transparent;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 650;
+      text-decoration: none;
+    }
+    .btn:hover { background: rgba(255, 255, 255, .5); }
+    .btn.primary { border-color: var(--accent); background: var(--accent); color: #fff; box-shadow: 2px 3px 0 rgba(90, 40, 30, .18); }
+    .btn.primary:hover { background: #8a3225; }
+    .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     .player-note a, .links a { color: var(--accent); text-underline-offset: 3px; }
     .links { margin: 10px 0 0; padding: 0; list-style: none; font-size: 13px; line-height: 1.9; }
     h2 {
@@ -127,7 +145,12 @@
         frameborder="no" border="0" marginwidth="0" marginheight="0"
         allow="autoplay"
         src="https://music.163.com/outchain/player?type=2&id=409060836&auto=1&height=66"></iframe>
-      <p class="player-note">没自动响，就按播放键。录音来自群星《中国近现代音乐史代表歌曲》专辑；另有一个演唱版：<a href="https://music.163.com/#/song?id=2705405188" target="_blank" rel="noopener noreferrer">曾鼎《百年赞歌》</a>。</p>
+      <p class="player-note">播放器首次加载要等几秒。没有自动响，就按播放键；加载不出来，走下面两个入口。</p>
+      <p class="actions">
+        <a class="btn primary" href="https://music.163.com/#/song?id=409060836" target="_blank" rel="noopener noreferrer">在网易云打开</a>
+        <a class="btn" href="https://www.bilibili.com/video/BV1NS4y1d79G/" target="_blank" rel="noopener noreferrer">看带曲谱的影像</a>
+      </p>
+      <p class="player-note">录音来自群星《中国近现代音乐史代表歌曲》专辑；另有一个演唱版：<a href="https://music.163.com/#/song?id=2705405188" target="_blank" rel="noopener noreferrer">曾鼎《百年赞歌》</a>。</p>
     </section>
 
     <h2>歌词</h2>
