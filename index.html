@@ -108,5 +108,17 @@
     </nav>
     <footer>henry-18-dot.github.io</footer>
   </main>
+  <script>
+    /* 预热农会歌播放器：页面加载完再悄悄拉一次播放器，点进栏目时能更快出声 */
+    window.addEventListener("load", function () {
+      var f = document.createElement("iframe");
+      f.src = "https://music.163.com/outchain/player?type=2&id=409060836&auto=0&height=66";
+      f.title = "农会歌播放器预热";
+      f.setAttribute("aria-hidden", "true");
+      f.tabIndex = -1;
+      f.style.cssText = "position:fixed;left:-9999px;top:0;width:330px;height:86px;border:0;pointer-events:none";
+      document.body.appendChild(f);
+    });
+  </script>
 </body>
 </html>
